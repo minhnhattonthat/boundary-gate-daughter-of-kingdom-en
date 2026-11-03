@@ -19,10 +19,19 @@ def test_layout_wraps_and_pages():
 
 
 def test_overflow_pages_are_balanced():
-    sizes = lambda n, first: [len(p) for p in W._balance(list(range(n)), first)]  # noqa: E731
+    sizes = lambda n, first: [len(p) for p in W._balance([f'row{i}' for i in range(n)], first)]  # noqa: E731
     assert sizes(4, 3) == [2, 2] and sizes(7, 3) == [2, 3, 2] and sizes(3, 3) == [3]
     assert sizes(4, 2) == [2, 2] and sizes(5, 2) == [2, 3] and sizes(3, 2) == [1, 2]  # under a speaker
     assert W._balance([], 3) == [[]]
+
+
+def test_overflow_pages_end_at_sentences():
+    """A page ends where a sentence (or a JP button wait) does when the page count allows it (phase 8 QA:
+    'Keep your weapons and / armour properly equipped.' was cut across pages)."""
+    rows = ['"Dangerous times, these.\x10', ' Keep your weapons and', ' armour properly', ' equipped."']
+    assert [len(p) for p in W._balance(rows, 3)] == [1, 3]
+    rows = ['One two three.', 'Four five', 'six seven.', 'Eight.']
+    assert [len(p) for p in W._balance(rows, 3)] == [1, 3]
 
 
 def test_continuation_indent():

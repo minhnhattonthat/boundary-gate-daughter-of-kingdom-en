@@ -225,24 +225,25 @@ def en_exe(entry):
     return en
 
 
-def en_script(entry, prev_op):
+def en_script(entry, prev_op, page=wrap.PAGE):
     """English for a script S operand: dialogue (0x22) gets the window layout (wrap.layout)."""
     en = entry['en']
     if not en:
         return entry['jp']
     if entry['op'] == '22':
-        return wrap.layout(en, wrap.rows_budget(prev_op), quote=wrap.continues_quote(entry['jp']))[0]
+        return wrap.layout(en, wrap.rows_budget(prev_op), quote=wrap.continues_quote(entry['jp']), page=page)[0]
     return en
 
 
-def text_for(entry, mode, prev_op=None):
-    """The replacement text for one entry in `mode` = marker|torture|ruler|en|jp."""
+def text_for(entry, mode, prev_op=None, page=wrap.PAGE):
+    """The replacement text for one entry in `mode` = marker|torture|ruler|en|jp. `page`: the break the layout
+    adds when English overflows a page (wrap.TIMED_PAGE in files that never wait for a button)."""
     if mode == 'en' and entry['id'] in FORMAT_EN:
         return FORMAT_EN[entry['id']]
     if mode == 'jp' or entry['kind'] != 'text':
         return entry['jp']
     if mode == 'en':
-        return en_exe(entry) if entry['id'].startswith('exe:') else en_script(entry, prev_op)
+        return en_exe(entry) if entry['id'].startswith('exe:') else en_script(entry, prev_op, page)
     if mode == 'ruler':
         if entry['id'].startswith('exe:'):
             return ruler_exe(entry['id'], entry['jp'])
@@ -268,6 +269,28 @@ def encode_text(text, ascii_text):
 
 # ---------------------------------------------------------------- script writer
 
+def _vtime(b):
+    """Op 0x4a operand (minutes, seconds, 1/100 s: the voice position the script waits for) -> centiseconds."""
+    return (b[0] * 60 + b[1]) * 100 + b[2]
+
+
+def _voiced_pages(text, t0, t1, ascii_text):
+    """Operand bytes for an op-0x22 text split at wrap.TIMED_PAGE in a voiced event, where the window only shows
+    once the print op returns (an in-text wait would hide every page but the last): page 1, then for each next
+    page `0x4a time` (voice position, interpolated by text length between the previous 0x4a and the next),
+    `0x22 clear`, `0x22 page`. The op byte of the first page is already written by the caller."""
+    pages = text.split(wrap.TIMED_PAGE)
+    weight = [max(1, len(p)) for p in pages]
+    out, done = bytearray(), 0
+    for j, p in enumerate(pages):
+        if j:
+            done += weight[j - 1]
+            t = t0 + (t1 - t0) * done // sum(weight)
+            out += bytes([0x4a, t // 6000, t // 100 % 60, t % 100, 0x22, 0x08, 0, 0x22])
+        out += encode_text(p, ascii_text) + b'\0'
+    return bytes(out)
+
+
 def rebuild_script(data, stem, texts, ascii_text=False, grow=0):
     """New file bytes with section 7 rebuilt from `texts` ({id: str}); `grow` appends no-op padding.
 
@@ -280,15 +303,23 @@ def rebuild_script(data, stem, texts, ascii_text=False, grow=0):
     new_off = {}
     patches = []                                     # (new offset of J operand, target old offset)
     rout = []                                        # (index, new offset)
-    for at, op, args in ins:
+    voice_t = 0                                      # last op 0x4a time in the voiced events
+    for k, (at, op, args) in enumerate(ins):
         new_off[at] = len(new)
         new.append(op)
+        if op == 0x4a:
+            voice_t = _vtime(args[0][2])
         i = 0
         for kind, aoff, val in args:
             if kind == 'S':
                 eid = f'{stem}:{so + aoff:05x}'
-                raw = encode_text(texts.get(eid, sjis.decode(val)), ascii_text)
-                new += raw + b'\0'
+                text = texts.get(eid, sjis.decode(val))
+                nxt = ins[k + 1] if k + 1 < len(ins) else None
+                if op == 0x22 and wrap.TIMED_PAGE in text and nxt and nxt[1] == 0x4a \
+                        and _vtime(nxt[2][0][2]) > voice_t:
+                    new += _voiced_pages(text, voice_t, _vtime(nxt[2][0][2]), ascii_text)
+                else:
+                    new += encode_text(text, ascii_text) + b'\0'
             elif kind == 'J':
                 patches.append((len(new), aoff + 2 + val))
                 new += b'\0\0'
@@ -333,8 +364,10 @@ def write_script(rel, data, mode='marker', ascii_text=False, grow=0):
     """Rebuild one *MES file from its script/*.json entries."""
     stem = Path(rel).stem
     texts, prev = {}, None
-    for e in entries_of(rel):
-        texts[e['id']] = text_for(e, mode, prev)
+    entries = entries_of(rel)
+    page = wrap.PAGE if any(wrap.WAIT in e['jp'] for e in entries) else wrap.TIMED_PAGE
+    for e in entries:
+        texts[e['id']] = text_for(e, mode, prev, page)
         if e['kind'] == 'text':          # same rule as lint.units(): op of the previous text entry
             prev = e['op']
     return rebuild_script(data, stem, texts, ascii_text, grow)

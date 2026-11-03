@@ -120,6 +120,22 @@ def test_english_scripts_build_and_parse():
     assert not bad, bad[:5]
 
 
+def test_voiced_event_extra_pages_are_timed_ops():
+    """Voiced events (no button wait in the JP) show a page only when the print op returns: an English page that
+    overflows becomes `22 page / 4a time / 22 clear / 22 page`, the new voice time between its neighbours, and no
+    text keeps a button wait or an in-text timed wait (phase 8, EVENT68)."""
+    rel, path = next((r, p) for r, p in insert.script_files() if str(r).endswith('EVENT68.BIN'))
+    data = path.read_bytes()
+    old = [op for _, op, _ in E.parse(data[E.sections(data)[-1][0]:])]
+    new = insert.write_script(rel, data, 'en', ascii_text=True)
+    so, sl = E.sections(new)[-1]
+    ins = list(E.parse(new[so:so + sl]))
+    times = [insert._vtime(a[0][2]) for _, op, a in ins if op == 0x4a]
+    assert len(times) > old.count(0x4a) and times == sorted(times)
+    texts = [a[0][2] for _, op, a in ins if op == 0x22]
+    assert not any(b'\x10' in t or b'\x17' in t for t in texts)
+
+
 def test_english_exe_relocation():
     """English exe: every moved string is reached through all its rewritten references, nothing else
     still points at a vacated head, and every changed byte has a logged write over the right original."""
@@ -167,6 +183,13 @@ def test_save_slot_row_fits():
     row = lambda m: sum(wrap.fmt_cells(insert.text_for(by[i], m).replace('::', ':').rstrip('\n'))  # noqa: E731
                         for i in ('exe:03374', 'exe:0339c'))
     assert row('jp') == 34 and row('en') <= 34
+
+
+def test_healer_menu_fits_its_stack_copy():
+    """The healer menu (exe:032ac) is copied by inline lwl/lwr into a 21-byte stack buffer and printed from there:
+    anything past 20 bytes + NUL is cut and the window prints stack garbage ('Can ~~~', phase 8)."""
+    e = {x['id']: x for x in insert.entries_of(insert.EXE)}['exe:032ac']
+    assert e['len'] == 20 and len(insert.text_for(e, 'en').encode('ascii')) <= 20
 
 
 def test_field_party_rows_fit():

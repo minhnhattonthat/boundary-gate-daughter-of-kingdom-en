@@ -7135,7 +7135,7 @@
    "ram": "0x80012921",
    "group": "spells",
    "jp": "%sは",
-   "en": "%s",
+   "en": "%s ",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -7486,13 +7486,13 @@
    "ram": "0x80012aac",
    "group": "shop",
    "jp": "  回復\n  状態\n  取消",
-   "en": "  Heal\n  Status\n  Cancel",
+   "en": "  Heal\n  Info\n  Exit",
    "kind": "text",
    "refs": [
     "0x1e198"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: the healer copies this string into a 21-byte stack buffer (0x8002d99c, lwl/lwr), so 20 bytes + NUL at most; Status/Cancel do not fit"
   },
   {
    "id": "exe:032c4",
@@ -12330,7 +12330,7 @@
    "ram": "0x80014034",
    "group": "battle",
    "jp": "%s%sは",
-   "en": "%s%s",
+   "en": "%s%s ",
    "kind": "text",
    "refs": [
     "0x240f4"
@@ -12345,7 +12345,7 @@
    "ram": "0x8001403c",
    "group": "battle",
    "jp": "%sで攻撃した",
-   "en": "attacked with %s.",
+   "en": "attacked\nwith %s.",
    "kind": "text",
    "refs": [
     "0x24140"
@@ -14430,7 +14430,7 @@
    "ram": "0x800144cc",
    "group": "ending",
    "jp": "常に外の世界へ広がっていこうとする…",
-   "en": "ever spreading toward the outer world...",
+   "en": "ever spreading to the outer world...",
    "kind": "text",
    "refs": [
     "0xb4870"
@@ -14520,7 +14520,7 @@
    "ram": "0x800145a0",
    "group": "ending",
    "jp": "　　  『王国の娘』が立っていた",
-   "en": "stood--the \"Daughter of the Kingdom.\"",
+   "en": "stood the \"Daughter of the Kingdom.\"",
    "kind": "text",
    "refs": [
     "0xb4880"
@@ -14704,7 +14704,7 @@
    "ram": "0x800145c4",
    "group": "ending",
    "jp": "　　大聖堂の祭壇に銀色の髪の娘が…",
-   "en": "At the Cathedral altar, a silver-haired girl...",
+   "en": "At the Cathedral altar, silver-haired,",
    "kind": "text",
    "refs": [
     "0xb4878"
@@ -14824,7 +14824,7 @@
    "ram": "0x800146dc",
    "group": "ending",
    "jp": " リスプの銀色の髪が 一瞬 黒く見えた…",
-   "en": "Risp's silver hair looked black for a moment...",
+   "en": "Risp's silver hair flashed black...",
    "kind": "text",
    "refs": [
     "0xb48e8"
@@ -15290,7 +15290,7 @@
    "ram": "0x8001492c",
    "group": "credits",
    "jp": "人物アニメ原画",
-   "en": "Character Key Animation",
+   "en": "Char. Key Animation",
    "kind": "text",
    "refs": [
     "0xb4b14"
@@ -15561,13 +15561,13 @@
    "ram": "0x80014a54",
    "group": "credits",
    "jp": "魔導聖堂長",
-   "en": "High Priest of Sorcery",
+   "en": "Sorcery H. Priest",
    "kind": "text",
    "refs": [
     "0xb4a1c"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: cast-list label column is 20 cells (phase 8)"
   },
   {
    "id": "exe:05260",
@@ -15621,13 +15621,13 @@
    "ram": "0x80014a8c",
    "group": "credits",
    "jp": "知識聖堂長",
-   "en": "High Priest of Knowledge",
+   "en": "Knowledge H. Priest",
    "kind": "text",
    "refs": [
     "0xb4a04"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: cast-list label column is 20 cells (phase 8)"
   },
   {
    "id": "exe:05298",
@@ -15696,13 +15696,13 @@
    "ram": "0x80014ad8",
    "group": "credits",
    "jp": "医療聖堂長",
-   "en": "High Priest of Medicine",
+   "en": "Medicine H. Priest",
    "kind": "text",
    "refs": [
     "0xb49e0"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: cast-list label column is 20 cells (phase 8)"
   },
   {
    "id": "exe:052e4",

@@ -18,6 +18,9 @@ import re
 COLS, ROWS = 26, 3
 CLR, WAIT = '\x08', '\x10'
 PAGE = WAIT + CLR
+# Voiced events advance on their own and never wait for a button; a button wait there stalls the scene before its
+# window shows (phase 8, EVENT68). Their extra pages wait 3 x 60 frames (printer byte 0x17) instead.
+TIMED_PAGE = '\x17\x17\x17' + CLR
 
 # script fields: op -> (cells, hard). hard = measured; soft = guess until phase 8 measures it.
 FIELD = {'21': (26, True), '23': (26, True), '25': (24, True),
@@ -115,20 +118,38 @@ def _rows_of(seg, cols, quote):
 
 def _balance(rows, first_max, rows_max=ROWS):
     """Cut rows into the fewest pages (the first holds <= first_max rows: 2 under a speaker line; later pages
-    rows_max, the clear wipes the name row too), as even as possible: 4 rows -> 2+2, 7 -> 3+2+2, so an overflow
-    rarely leaves a one-row fragment page ("moves.") after a full one."""
+    rows_max, the clear wipes the name row too). Of those cuts, pages end at a sentence end (or an existing button
+    wait) where they can, then as even as possible: 4 rows -> 2+2, 7 -> 3+2+2, so an overflow rarely leaves a
+    one-row fragment page ("moves.") after a full one or splits "weapons and / armour" across pages."""
     n = len(rows)
     if n <= first_max:
         return [rows]
     m = -(-(n - first_max) // rows_max)          # pages after the first
+
+    def cut(row):                                # how badly a page ending on this row cuts the text
+        row = row.rstrip()
+        return 0 if re.search(r'([.!?]|\.\.\.|' + WAIT + ')["\')]*$', row) else 1 if re.search(r'[,;:-]$', row) else 2
+
+    def splits(left, k, cap):                    # every way to cut `left` rows into k pages of <= cap rows
+        if k == 1:
+            yield [left] if 1 <= left <= cap else None
+            return
+        for s in range(1, min(cap, left - k + 1) + 1):
+            for t in splits(left - s, k - 1, cap):
+                if t:
+                    yield [s] + t
+
     best = None
     for f in range(1, first_max + 1):
-        rest = n - f
-        if not m <= rest <= m * rows_max:
-            continue
-        sizes = [f] + [rest // m + (i < rest % m) for i in range(m)]
-        score = (sizes.count(1), max(sizes) - min(sizes), f)   # a lone row reads better first (under the name)
-        best = min(best or (score, sizes), (score, sizes))
+        for rest in splits(n - f, m, rows_max) if n - f >= m else ():
+            if not rest:
+                continue
+            sizes = [f] + rest
+            ends = [sum(sizes[:i + 1]) - 1 for i in range(len(sizes) - 1)]
+            # page ends at sentence ends first, then no lone-row pages, then even; a lone row reads better first
+            score = (sum(cut(rows[e]) for e in ends), sizes.count(1), max(sizes) - min(sizes), f,
+                     [-s for s in rest])         # then fuller pages first
+            best = min(best or (score, sizes), (score, sizes))
     sizes = best[1]
     out, at = [], 0
     for n in sizes:
@@ -142,7 +163,7 @@ def continues_quote(jp):
     return jp.startswith(('  ', '　'))
 
 
-def layout(en, rows_max=ROWS, cols=COLS, quote=False):
+def layout(en, rows_max=ROWS, cols=COLS, quote=False, page=PAGE):
     """Paragraph-form English -> (game string, pages). pages = list of row lists (for checks/fit).
 
     Splits at clear (\\x08); a wait (\\x10) not followed by clear stays inside the page. Overflowing
@@ -165,7 +186,7 @@ def layout(en, rows_max=ROWS, cols=COLS, quote=False):
             rows.pop()
         chunks = _balance(rows, rows_max if i == 0 else ROWS)   # a clear wipes the speaker row too
         pages.extend(chunks)
-        out.append(PAGE.join('\r'.join(c) for c in chunks) + tail)
+        out.append(page.join('\r'.join(c) for c in chunks) + tail)
     return ''.join(out), pages
 
 
@@ -176,8 +197,7 @@ def rows_budget(prev_op):
 
 # ---------------------------------------------------------------- exe budgets
 
-EXE_ROW = {'battle': 26, 'shop': 26, 'save': 26, 'monsters': 26, 'ending': 38, 'prologue': 38,
-           'credits': 18}
+EXE_ROW = {'battle': 26, 'shop': 26, 'save': 26, 'monsters': 26, 'prologue': 38}
 
 
 def exe_budget(e):
@@ -193,6 +213,10 @@ def exe_budget(e):
         return (30, False) if e['len'] == 30 else (20, True)
     if g == 'spells':
         return (30, False) if e['len'] == 30 else (22, True)
+    if g == 'ending':
+        return 38, True       # centred in a 256 px band: a longer line runs off both edges (phase 8)
+    if g == 'credits':        # cast/staff labels sit in a 20-cell column; the JP's longer rows are narration
+        return (20, True) if max(cells(r) for r in jp.split('\n')) <= 20 else (38, False)
     if g in EXE_ROW:
         return EXE_ROW[g], False
     return max(cells(r) for r in re.split('[\r\n]', jp)), False
