@@ -26,7 +26,8 @@ An `issue` is any of:
 - Japanese still visible (the debug menu `menu_debug` excepted: it stays Japanese by design);
 - text overflowing a box, clipped by a frame, or running off screen;
 - garbage tiles, wrong or missing glyphs, a strike or stray pixels across letters;
-- broken line breaks: a word split mid-line, a page ending mid-sentence, a one-word last page;
+- broken line breaks: a word split mid-line; a page ending inside a name or on a dangling little word (of, the,
+  and, to, a) when the page could have broken elsewhere; a one- or two-word page that is not in the original;
 - an empty box where text belongs;
 - a name that differs from `glossary.md`;
 - English that reads wrong for the picture (a speaker label on the wrong person, a menu label that lies).
@@ -40,6 +41,11 @@ Standing non-bugs, `ok`:
 - the first page of a talk keeps its 1-space hanging indent inside a quote, later pages lose it: the printer drops
   leading spaces after a page clear (the original does the same);
 - `::` never shows: it is the printer's escape for one ':';
+- English is longer than Japanese: an extra page, or a long sentence that runs on to the next page at a phrase
+  boundary (after a clause or a content word), is expected; so is a page break the original makes at the same
+  place, even mid-sentence (the translation keeps every original page break);
+- voiced story events turn their pages with the voice, not the button: their sheets are shot without presses,
+  every changed frame, so a page there may also show half-typed;
 - the title screen's white bar under BOUNDARY GATE is empty on purpose (the katakana reading was removed, D13).
 
 ## Verdicts

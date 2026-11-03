@@ -113,11 +113,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Menus/battle/shop/save/healer/game over/ending shots: `work/qa/p7c`, `p7d`, `p7e`, `p7f` (all clean).
   - **All 220 warp scenes pass** on the English build from a cold boot (`warp.py --all`, shots
     `work/qa/en_all/`, not yet reviewed shot by shot: phase 8).
-- **Next (phase 8):** QA tour of the English build with visual-QA verdicts (`qa_gate.py`); scenes: all 220
-  (`warp.py --all`), plus a status-effect shot (no warp sets the status byte 0x80126c21+0x3c*n yet: add a `VARS`-like
-  poke), the room destination lists 0x28/0x4e (`moves_13`/`moves_62` land in entry dialogue; find a room state
-  that shows them), the BIOS memory-card screen (does the ASCII location name in the save title render?), the
-  auto-advancing EVENT00 prologue timing with English pages, title-screen katakana line (graphics.md G1).
+- **Phase 8 (QA in the emulator)** — in progress; details `docs/re/windows.md` §Measured in phase 8:
+  - Tour: `python -X utf8 tools/tour.py [--jp]` plays every warp scene (events without presses, NUDGE only where the
+    script waits for a button; rooms talk to each NPC; maps, menus, shop, healer, save, battle, ending) into
+    `work/qa/tour[_jp]/sheets/`; `tools/vqa.py work/qa/chunks/chunk_*.txt` gets a `codex exec` read-only verdict per
+    chunk (brief `docs/visual-qa-brief.md`) into `work/qa/verdicts/`; gate `qa_gate.py init|todo|check
+    work/qa/manifest.tsv work/qa/tour/sheets`. Warp vars added: `STATUS`, `SPELLS`, `PRESHOT`, `NUDGE`.
+  - Fixed from the first verdict pass (455 sheets, ~120 issues): voiced events stalled on English page breaks
+    (60 entries / 36 events: now split into timed ops); field/items/magic top-box rows overflowed and scrolled row 1
+    away; healer menu garbage (21-byte stack copy); 'Finnattacked' and mid-word battle wraps; ending narration
+    and cast labels off screen; destination list entry with `\r`; Yes/No row; save-slot LV row and card-title
+    prefix; title katakana blanked (D13); page breaks now cut at sentences (D16). Rulings D14-D16.
 - **Open questions (non-blocking):** events are voiced (the credits list a voice cast; CDDA `EVnnX.WAV`, `XA/`):
   English text runs over Japanese voice, so page breaks added by the layout must not desync timed pages (check the
   auto-advancing EVENT00 prologue in phase 8); title katakana line plan

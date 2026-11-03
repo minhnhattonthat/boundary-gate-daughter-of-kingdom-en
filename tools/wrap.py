@@ -136,7 +136,8 @@ def _paginate(seg, cols, quote, first_max, rows_max=ROWS, choice=False):
     """Word-wrap one segment into pages: the first holds <= first_max rows (2 under a speaker line), later ones
     rows_max (the clear wipes the name row too). Text that fits stays one page. Otherwise each page is wrapped on
     its own and the cut points are chosen (DP over words) to cost least: 2 a page, _cut() at each page end, 1 a
-    lone-row page (except a first page under a speaker line); so pages start at sentences where they can.
+    lone-row page (except a first page under a speaker line), 3 more a later page of <= 2 words; so pages start at
+    sentences where they can.
     Returns (pages, quote_after)."""
     rows, quote_end = _rows_of(seg, cols, quote)
     rows = [r.rstrip() for r in rows]
@@ -169,7 +170,8 @@ def _paginate(seg, cols, quote, first_max, rows_max=ROWS, choice=False):
                 break
             if j == n and len(r) > cap - last:
                 continue
-            cost = 2 + (_cut(toks[j - 1][0]) if j < n else 0) + (len(r) == 1 and (i > 0 or cap == rows_max))
+            cost = 2 + (_cut(toks[j - 1][0]) if j < n else 0) + (len(r) == 1 and (i > 0 or cap == rows_max)) \
+                + 3 * (i > 0 and j - i <= 2)            # a 'mister.' / 'to Rio.' fragment page
             cand = (cost + best[j][0], [r] + best[j][1])
             if i not in best or (cand[0], len(cand[1])) < (best[i][0], len(best[i][1])):
                 best[i] = cand

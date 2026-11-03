@@ -77,7 +77,28 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
   party member, status or not). MP digits line up under the HP digits (cells 32-38). The items-menu party box is 19 cells and the JP itself abbreviates to one
   kanji there (毒/眠/黙): English uses Psn/Slp/Sil (flagged abbreviation, D12); `insert.EXTRA_STRINGS` gives that
   box its own short copy of 毒.
-- Not yet seen with a status active (no warp sets the status byte 0x80126c21 + 0x3c*member): phase 8.
+- Seen with every status set (`menu_field_fx`, `menu_items_fx`: warp var `STATUS`).
+
+## Measured in phase 8 (QA tour)
+
+- **Top box rows (39 cells x 2 rows)**: every row of the field-menu party box, the items header
+  (`:%c%-20s %-9s  x%2d` / `%-30s Equip%2d`) and the magic header (`%-22s %-9s MP%3d`) must stay <= 38-39 cells
+  and 2 lines: one cell or line more scrolls row 1 away (`test_field_party_rows_fit`). Use labels (常時/戦闘中/
+  移動時) reach 9 cells ('In Battle'). Spells: warp var `SPELLS` (count u16 0x80126C22, ids s8 from 0x80126C30).
+- **Healer menu** (exe:032ac): copied by inline lwl/lwr into a 21-byte stack buffer, so 20 bytes + NUL at most
+  ('  Heal\n  Info\n  Exit'); longer text printed stack garbage ('Can ~~~').
+- **Battle messages**: the window cuts at 26 cells mid-word. Player attack = `%s%s ` + `attacked\nwith %s.`;
+  monster actions that can overflow behind the longest name using them start on their own row
+  (`insert._wrapped_actions`, monster records 0x84 bytes from exe 0x66e58).
+- **Destination lists 0x28/0x4e** (`room_62`): text from cell 2 (cursor in 0-1), 24 cells, one row an entry; a
+  `\r` inside an entry puts the cursor on the wrong row.
+- **Inline choice 0x19**: draws on the row after the text, so its page holds rows-1 text rows (`room_46`).
+- **Ending narration**: centred in a 256 px band, 38 cells (longer runs off both edges); **cast/staff labels**:
+  20-cell column (lint budgets hard).
+- **Voiced events** (no 0x10 anywhere in the JP file, 94 files): pages turn on op `0x4a mm ss cc` (wait for the
+  voice position) and the window is only shown once a print op returns, so a page break inside one op-22 text
+  shows only its last page. Extra English pages become separate ops: `22 page / 4a t / 22 08 / 22 page`, `t`
+  interpolated by text length between the neighbouring 0x4a (`insert._voiced_pages`).
 
 ## Measured in phase 7
 
@@ -87,10 +108,8 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
 - **Choice (0x27)**: drawn inline in the message window row ("Save   Don't save", scene `save`); 10 cells per
   choice holds.
 
-## Still to measure (phase 8)
+## Still to measure
 
-- 0x28/0x4e room destination lists (see above); the status-effect rows with a status active.
-- The ending / credits narration wrapping limit (the window is wider than the message box).
 - Name entry (if the game has one): the party names at exe 0x800 are defaults only; confirm.
 
 ## Field-width cross-check (phase 5)
