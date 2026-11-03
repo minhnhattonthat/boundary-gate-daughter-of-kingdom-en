@@ -68,3 +68,13 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
 The item list screen (`work/qa/ruler/menu_items/final.png`, `work/qa/marker/warp/menu_items/`) shows the
 name column starting ~25 px into the row and the next column (count / `x%d`) at ~145 px: 120 px = 20 cells,
 which matches `% -20s`. The shop, equip and magic screens use the same row builder.
+
+## Marker-build evidence (phase 5)
+
+- `tools/build.py --marker` cold-boots and passes **all 216 warp scenes** (`tools/debug/warp.py --all
+  --rom build/boundary-gate-marker.cue --jobs 6`): no scene hangs, crashes or draws Japanese where marked
+  text was drawn.
+- `jp_left.py --sjis` on the marker build attributes every remaining Japanese run through a
+  `mkpsxiso -noisogen -lba` file map: **0 hits inside any *MES script section**, 0 in the exe; the rest are
+  map wall-texture bytes (MAPMES00-05, a few ROOMES), TIM pixels and VAB audio. That is the coverage proof:
+  what still looks like text-like bytes is not text, and the extractor has every displayed string.

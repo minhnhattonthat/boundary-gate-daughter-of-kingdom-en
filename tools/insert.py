@@ -19,7 +19,6 @@ usage: python -X utf8 tools/insert.py roundtrip [--only GLOB]
 """
 import argparse
 import fnmatch
-import json
 import re
 import struct
 import sys
@@ -114,11 +113,6 @@ def marker_field(eid, jp):
     return f'[{short_id(eid)}]'
 
 
-def marker_field(eid, jp):
-    """Marker for a single-line field (name, label, choice, menu item): the id, no filler."""
-    return f'[{short_id(eid)}]'
-
-
 def marker_exe(eid, jp, maxlen=None):
     """Marker for an exe string: keep ASCII (and printf specifiers) so rows keep their layout, put
     the id in place of the first run of Japanese characters, '#' in place of later runs.
@@ -160,9 +154,6 @@ def torture_page(eid, jp):
     glyphs = (TORTURE * 3)[:2 * COLS]
     row1 = tag + FILLER[:COLS - _cells(tag)]
     return '\r'.join([row1, glyphs[:COLS], glyphs[COLS:]])
-
-
-FIELD_OPS = {'1c', '25', '27', '28', '4e'}
 
 
 def ruler_page(eid, jp):

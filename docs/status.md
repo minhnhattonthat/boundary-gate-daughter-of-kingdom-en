@@ -58,9 +58,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - `tools/build.py --marker` (id + full-width filler in every line; `[M00.abb77]` tags), `--ruler` (width gate),
     `--torture` (every printable ASCII glyph at full width), `--grow FILE=N` (appends N no-op bytes to a script).
     Outputs `build/boundary-gate-<tag>.bin/.cue`; warp with `--rom build/boundary-gate-<tag>.cue`.
-  - Marker build boots and shows its id in every dialogue box, menu row and status line that can fit one; narrow
-    exe fields (<= 8 bytes) show a short offset tag or `#` fill instead. Touched scenes: prologue/event, room, battle,
-    items, magic, equip, status, map, settings, shop, healer, save, game over, ending (shots `work/qa/marker/`).
+  - Marker build boots and **all 216 warp scenes pass** from a cold boot with it (`--all --rom
+    build/boundary-gate-marker.cue`; one shot per scene in `work/qa/marker/all/`): no scene hangs or crashes on
+    marked text. Every dialogue box, menu row and status line shows an id; narrow exe fields (<= 8 bytes) show a
+    short offset tag or `#` fill instead.
+  - **Leftover-Japanese scan on the marker build** (`jp_left.py --sjis`, hits attributed to disc files through a
+    `mkpsxiso -lba` log): 1,109 Japanese runs vs 4,749 in the original build, and **0 of them inside any *MES
+    script section** — every remaining run is in map wall-texture data (MAPMES00-05, ROOMES13-50 pixel data),
+    graphics TIMs (TITLE_BG, PIV_LOGO, S_CHR_C) or VAB audio. The exe has none left. So the extractor covers every
+    displayed string, and the non-text byte runs are the 14 already listed in `script/data_runs.txt` plus graphics.
   - **Width gate measured** (`docs/re/windows.md`): message window 26 cells x 3 rows, wrap at exactly 26, row 4
     scrolls, page arrow sits below row 3 and costs no cells; exe list fields item/shop 20, equipped 30, spell 22,
     party name 14, current location 24; battle command block 3 rows of 6; narration band 38. Choice window (0x27) and
