@@ -210,7 +210,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ケガをしたなら\r  医療聖堂の治療院に\u0010\b  行きなさい\u0010\b",
-   "en": "\"If you've been hurt, there's the Temple of Medicine's clinic.\u0010\bGo there.\u0010\b",
+   "en": "\"If you've been hurt, the Temple of Medicine's clinic\u0010\bis where you want to go.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -562,7 +562,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「増 税 反 対 ！」\u0010",
-   "en": "There's graffiti on the wall.\u0010 \"NO MORE TAXES!\"\u0010",
+   "en": "There's graffiti on the wall.\u0010 \"NO TAX HIKES!\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -705,7 +705,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「乱暴だなあ…」\u0010\b",
-   "en": "\"Pushy lot...\"\u0010\b",
+   "en": "\"Rough bunch...\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -727,7 +727,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "見たこともない化け物の\r死体が横たわっていた…\u0017\u0010\b",
-   "en": "The corpse of a creature I'd never seen before lay there...\u0017\u0010\b",
+   "en": "The corpse of an unfamiliar creature lay there...\u0017\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -782,7 +782,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "きっと､今の化け物に\rおびえて隠れていた\rんだろう\u0010\b",
-   "en": "Probably someone who'd been hiding, scared of that monster.\u0010\b",
+   "en": "Someone who'd been hiding from that monster in fear, most likely.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

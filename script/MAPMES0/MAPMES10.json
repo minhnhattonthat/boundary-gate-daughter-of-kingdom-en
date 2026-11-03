@@ -45,7 +45,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂のお嬢さん\r  すまんかったのう\u0010\b",
-   "en": "Sorry for the trouble, young lady from the Temple of Knowledge.\u0010\b",
+   "en": "I've put you to a deal of trouble, young lady from the Temple of Knowledge, eh?\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -67,7 +67,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  何も言わないで\r  そっとしといて\r  やってくれ」\u0010\u0017\b",
-   "en": "don't say anything. Just leave 'em be, would ya.\"\u0010\u0017\b",
+   "en": "don't say anything. Just leave her be, would ya.\"\u0010\u0017\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

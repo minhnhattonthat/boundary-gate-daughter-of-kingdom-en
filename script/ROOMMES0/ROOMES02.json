@@ -89,7 +89,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "あやしげな酒場に\rおりていった\u0010\b店の主人は陰気な顔で\r黙っている\u0010",
-   "en": "I headed down into a shady-looking tavern.\u0010\bThe owner said nothing, his face sullen.\u0010",
+   "en": "We headed down into a shady-looking tavern.\u0010\bThe owner said nothing, his face sullen.\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -221,7 +221,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何か用か？\u0010\b  大聖堂に行きたい？\r  ムチャいうな\u0010\b",
-   "en": "\"What d'ya want?\u0010\bThe Cathedral? Don't make me laugh.\u0010\b",
+   "en": "\"What d'ya want?\u0010\bThe Cathedral? Don't be daft.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -232,7 +232,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  魔導聖堂が城の実権を\r  握って以来､\r  掘の内側には\u0010\b  ネコの仔一匹入れねえよ」\u0010",
-   "en": "Ever since the Temple of Sorcery got its hands on the castle,\u0010\bnot even a kitten gets past that moat.\"\u0010",
+   "en": "Ever since the Temple of Sorcery seized control of the castle,\u0010\bnot even a kitten gets past that moat.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -276,7 +276,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「まず トールマンの話を\r  教えてもらおう」\u0010",
-   "en": "\"First, let's hear about Tallman.\"\u0010",
+   "en": "\"Tell me about Tallman first.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

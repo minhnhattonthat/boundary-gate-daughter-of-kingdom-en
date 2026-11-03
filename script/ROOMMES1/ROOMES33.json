@@ -45,7 +45,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオの手当ては我々に\r  まかせてくれ」\u0010",
-   "en": "\"Leave Rio's care to us.\"\u0010",
+   "en": "\"Leave Rio's treatment to us.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -177,7 +177,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオは２階の部屋で\r  安静にしているよ\u0010\b  手当ては私に任せて\r  おくれ\u0010\b",
-   "en": "\"Rio's resting in a room upstairs.\u0010\bLeave his care to me.\"\u0010\b",
+   "en": "\"Rio's resting in a room upstairs.\u0010\bLeave his treatment to me.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -199,7 +199,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 宿を開いている\r  状況ではないけど\u0010\b  私には ここしかいる\r  場所がないの」\u0010\b",
-   "en": "\"It's hardly the time to be running an inn,\u0010\bbut this is the only place I have.\"\u0010\b",
+   "en": "\"It's hardly the time to be running an inn,\u0010\bbut I've nowhere else to go.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -221,7 +221,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「魔導 知識 そして\r  医療聖堂には\r  それぞれ 司祭長がいる\u0010\b  魔導聖堂の司祭長は\r  とても 人望の厚い人\r  なんだが…」\u0010",
-   "en": "\"The Temple of Sorcery, the Temple of Knowledge and the Temple of Medicine each have a High Priest.\u0010\bThe High Priest of the Temple of Sorcery is a man the people truly trust, but...\"\u0010",
+   "en": "\"The Temple of Sorcery, the Temple of Knowledge and the Temple of Medicine each have a High Priest.\u0010\bThe High Priest of the Temple of Sorcery is someone the people truly trust, but...\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

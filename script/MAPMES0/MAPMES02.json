@@ -298,7 +298,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ずいぶん高くついたがね\r  この国の医療聖堂とやらの\r  力は 本物だぜ」\u0010",
-   "en": "Cost me a pretty penny, though. This country's Temple of Medicine is the real deal, I'll tell ya.\"\u0010",
+   "en": "Cost me a pretty penny, though. This country's Temple of Medicine lives up to its name, I'll tell ya.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -507,7 +507,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「増 税 反 対 ！」\u0010",
-   "en": "There's graffiti on the wall.\u0010 \"NO MORE TAXES!\"\u0010",
+   "en": "There's graffiti on the wall.\u0010 \"NO TAX HIKES!\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

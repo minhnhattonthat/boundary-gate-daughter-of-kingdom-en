@@ -34,7 +34,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…何かしゃべっているわ」\u0010\b",
-   "en": "\"...Something is speaking.\"\u0010\b",
+   "en": "\"...It's saying something.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

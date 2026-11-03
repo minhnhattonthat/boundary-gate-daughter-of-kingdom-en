@@ -144,7 +144,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "おや？\u0017何かが落ちている\u0010",
-   "en": "Hm?\u0017 Something's lying here.\u0010",
+   "en": "Hm?\u0017 Something's lying on the ground.\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -221,7 +221,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "…無残だな\rここも民家の跡地らしい\u0010",
-   "en": "...Terrible. This too was once a house, it seems.\u0010",
+   "en": "...What a sorry sight. This too was once a house, it seems.\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

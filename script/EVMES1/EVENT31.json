@@ -100,7 +100,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今後 全聖堂 および軍は\r  魔導聖堂の指揮下に\r  入り…ま…",
-   "en": "Henceforth, all temples and the army shall come under the command of the Temple of Sorcery... and... I...",
+   "en": "Henceforth, all temples and the army shall come under the command of the Temple of Sorcery... sh... shall...",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -188,7 +188,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  出ていきなさい！",
-   "en": "Get out!",
+   "en": "Leave me!",
    "kind": "text",
    "status": "tl",
    "notes": ""

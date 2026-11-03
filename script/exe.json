@@ -3296,7 +3296,7 @@
    "ram": "0x80011234",
    "group": "map",
    "jp": "ロードダール　坑夫廃家　",
-   "en": "Rhodedahl Miner's Ruin",
+   "en": "Rhodedahl Miners' Ruins",
    "kind": "text",
    "refs": [
     "0x65750"
@@ -7501,7 +7501,7 @@
    "ram": "0x80012ac4",
    "group": "shop",
    "jp": "皆、元気なようだが…",
-   "en": "Everyone seems well...",
+   "en": "You all look hale, eh...?",
    "kind": "text",
    "refs": [
     "0x1e340"
@@ -7531,7 +7531,7 @@
    "ram": "0x80012b00",
    "group": "shop",
    "jp": "回復には%5dＧ\nかかるがよろしいか？",
-   "en": "Healing costs %5dG.\nWill that do?",
+   "en": "Healing costs %5dG.\nIs that acceptable?",
    "kind": "text",
    "refs": [
     "0x1e39c"
@@ -8194,7 +8194,7 @@
    "ram": "0x80013034",
    "group": "items",
    "jp": "お泊まりでしたら %-4dＧに\n",
-   "en": "A night is %-4dG.\n",
+   "en": "A night's stay is %-4dG.\n",
    "kind": "text",
    "refs": [
     "0x1fed0"
@@ -8209,7 +8209,7 @@
    "ram": "0x80013050",
    "group": "items",
    "jp": "なりますがよろしいですか？",
-   "en": "Is that all right?",
+   "en": "Is that acceptable?",
    "kind": "text",
    "refs": [
     "0x1fef4"
@@ -8302,7 +8302,7 @@
    "ram": "0x800130fd",
    "group": "items",
    "jp": "それぞれHPが全回復した",
-   "en": "Everyone's HP restored.",
+   "en": "Everyone regained full HP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -9194,7 +9194,7 @@
    "ram": "0x800134ec",
    "group": "monsters",
    "jp": "鋭い爪を振り回した！",
-   "en": "swung its sharp claws!",
+   "en": "flailed its sharp claws!",
    "kind": "text",
    "refs": [
     "0x6a29c",
@@ -9563,7 +9563,7 @@
    "ram": "0x80013624",
    "group": "monsters",
    "jp": "アレイジョン",
-   "en": "Arrayjohn",
+   "en": "Areijon",
    "kind": "text",
    "refs": [
     "0x69798"
@@ -9713,7 +9713,7 @@
    "ram": "0x800136bc",
    "group": "monsters",
    "jp": "マドマッセル",
-   "en": "Madmoiselle",
+   "en": "Madmaselle",
    "kind": "text",
    "refs": [
     "0x69480"
@@ -10303,7 +10303,7 @@
    "ram": "0x800138bc",
    "group": "monsters",
    "jp": "オアトゥード",
-   "en": "Oretude",
+   "en": "Oatood",
    "kind": "text",
    "refs": [
     "0x68718"
@@ -11614,7 +11614,7 @@
    "ram": "0x80013cdc",
    "group": "monsters",
    "jp": "毒の息を吐いた！",
-   "en": "let out a poison breath!",
+   "en": "exhaled poisonous breath!",
    "kind": "text",
    "refs": [
     "0x670b0",
@@ -14430,7 +14430,7 @@
    "ram": "0x800144cc",
    "group": "ending",
    "jp": "常に外の世界へ広がっていこうとする…",
-   "en": "ever spreading to the outer world...",
+   "en": "ever seeking to spread outwards...",
    "kind": "text",
    "refs": [
     "0xb4870"
@@ -14809,7 +14809,7 @@
    "ram": "0x800146b8",
    "group": "ending",
    "jp": " 「我々の祖先は 生まれた世界を捨て",
-   "en": "\"Our ancestors left their native world",
+   "en": "\"Our ancestors forsook their homeworld",
    "kind": "text",
    "refs": [
     "0xb48a4"
@@ -14824,7 +14824,7 @@
    "ram": "0x800146dc",
    "group": "ending",
    "jp": " リスプの銀色の髪が 一瞬 黒く見えた…",
-   "en": "Risp's silver hair flashed black...",
+   "en": "Risp's silver hair seemed black...",
    "kind": "text",
    "refs": [
     "0xb48e8"
@@ -14839,7 +14839,7 @@
    "ram": "0x80014704",
    "group": "ending",
    "jp": "　　　　振り向いたフィンの目に",
-   "en": "        To Finn, as he turned,",
+   "en": "As Finn turned, for an instant,",
    "kind": "text",
    "refs": [
     "0xb48e0"
@@ -15199,7 +15199,7 @@
    "ram": "0x800148c8",
    "group": "credits",
    "jp": "       佐藤 真一郎",
-   "en": "   Shinichiro Sato",
+   "en": "   Shin'ichiro Sato",
    "kind": "text",
    "refs": [
     "0xb4b5c"
@@ -15259,7 +15259,7 @@
    "ram": "0x80014910",
    "group": "credits",
    "jp": "協力",
-   "en": "Cooperation",
+   "en": "Special Thanks",
    "kind": "text",
    "refs": [
     "0xb4b24",
@@ -15335,7 +15335,7 @@
    "ram": "0x8001495c",
    "group": "credits",
    "jp": "         松元 文一",
-   "en": " Bunichi Matsumoto",
+   "en": " Bun'ichi Matsumoto",
    "kind": "text",
    "refs": [
     "0xb4af8"
@@ -15456,7 +15456,7 @@
    "ram": "0x800149f4",
    "group": "credits",
    "jp": "         藤川 純一",
-   "en": "  Junichi Fujikawa",
+   "en": "  Jun'ichi Fujikawa",
    "kind": "text",
    "refs": [
     "0xb4a80"
@@ -16236,7 +16236,7 @@
    "ram": "0x80014da4",
    "group": "prologue",
    "jp": "         五芒星の紋章は伝える",
-   "en": "      The Pentagram Crest tells",
+   "en": "      The Pentagram Crest tells us",
    "kind": "text",
    "refs": [
     "0xb4d4c"
@@ -16251,7 +16251,7 @@
    "ram": "0x80014dc4",
    "group": "prologue",
    "jp": "   門の鍵を持つもの世界を握る、と…",
-   "en": "the Gate's keyholder holds the world",
+   "en": "who holds the Gate's key rules all...",
    "kind": "text",
    "refs": [
     "0xb4d48"
@@ -16266,7 +16266,7 @@
    "ram": "0x80014de8",
    "group": "prologue",
    "jp": "           瞳の紋章は伝える",
-   "en": "         The Iris Crest tells",
+   "en": "         The Iris Crest tells us",
    "kind": "text",
    "refs": [
     "0xb4d44"
@@ -16296,7 +16296,7 @@
    "ram": "0x80014e2c",
    "group": "prologue",
    "jp": "          心臓の紋章は伝える",
-   "en": "        The Heart Crest tells",
+   "en": "        The Heart Crest tells us",
    "kind": "text",
    "refs": [
     "0xb4d3c"
@@ -16326,7 +16326,7 @@
    "ram": "0x80014e74",
    "group": "prologue",
    "jp": "           牙の紋章は伝える",
-   "en": "         The Fang Crest tells",
+   "en": "         The Fang Crest tells us",
    "kind": "text",
    "refs": [
     "0xb4d34"

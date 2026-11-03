@@ -56,7 +56,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「え？」",
-   "en": "Risp\r\"Huh?\"",
+   "en": "Risp\r\"Oh?\"",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -188,7 +188,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「な､なんだよ！」",
-   "en": "Finn\r\"Wh-what?!\"",
+   "en": "Finn\r\"W-what is it?!\"",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -232,7 +232,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「わかったよ！\r  …ったく…」",
-   "en": "Finn\r\"All right, all right! ...Honestly...\"",
+   "en": "Finn\r\"All right, all right! ...Tch...\"",
    "kind": "text",
    "status": "tl",
    "notes": ""

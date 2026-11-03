@@ -34,7 +34,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの晩 なんであんな\r  ところをうろついていた\r  んだ？",
-   "en": "What were you doing wandering around a place like that, that night?",
+   "en": "What were you doing wandering around there that night, anyway?",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -122,7 +122,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「あたし 一人で\r  ワイズブルームの外に",
-   "en": "Risp\r\"I have never been outside Wisebloom",
+   "en": "Risp\r\"I've never been outside Wisebloom",
    "kind": "text",
    "status": "tl",
    "notes": ""

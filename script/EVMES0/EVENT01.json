@@ -12,7 +12,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "娘                        \r「ありがとう…            \r  私の名前はリスプ        ",
-   "en": "Girl\r\"Thank you... My name is Risp.",
+   "en": "Girl\r\"Thank you... I am Risp.",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -122,7 +122,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お金は…\r  お金は 知識聖堂が\r  保証しますから」",
-   "en": "The money... The Temple of Knowledge will guarantee the money.\"",
+   "en": "The money... The Temple of Knowledge will guarantee your payment.\"",
    "kind": "text",
    "status": "tl",
    "notes": ""

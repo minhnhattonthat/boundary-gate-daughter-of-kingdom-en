@@ -243,7 +243,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「どうせ寝るところが\r  ないんだったら\r  化け物を探しに行くって\u0010\b  いう手もあるな」\u0010",
-   "en": "\"If you've got nowhere to sleep anyway, you could always go looking for the monster...\u0010\bThat's one idea.\"\u0010",
+   "en": "\"If you've got nowhere to sleep anyway,\u0010\byou could always go looking for monsters.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

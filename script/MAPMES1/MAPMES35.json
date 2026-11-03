@@ -34,7 +34,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いくらグレイストーンが\r  力持ちだからって\u0010\b  いつまでもリオを抱えて\r  いられないわ\r  早く西地区の宿屋に…」\u0010",
-   "en": "\"Strong as Greystone is,\u0010\bhe can't carry Rio around forever. Hurry, to the inn in the West District...\"\u0010",
+   "en": "\"Strong as Greystone is,\u0010\bhe can't carry Rio around forever. Come on, we have to get him to the inn in the West District...\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -133,7 +133,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「！\u0017 フィン！\r  近づいちゃだめよ！\u0010\b  魔物が！」\u0010\b",
-   "en": "\"Ah!\u0017 Finn! Don't go near him!\u0010\bThere's a monster!\"\u0010\b",
+   "en": "\"Ah!\u0017 Finn! Don't get close!\u0010\bThere's a monster!\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

@@ -78,7 +78,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「医療聖堂長が\r  言っておった\u0010\b  王国の娘に身体は\r  不要だと…\u0010\b  そのほうが いにしえの\r  知識とはなじむのだと」\u0010",
-   "en": "\"The High Priest of Medicine said as much...\u0010\bThat the Daughter of the Kingdom has no need of a body...\u0010\bThat she blends better with the Ancient Knowledge that way.\"\u0010",
+   "en": "\"The High Priest of Medicine told me...\u0010\bThat the Daughter of the Kingdom has no need of a body...\u0010\bThat she blends better with the Ancient Knowledge that way.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -133,7 +133,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオが意識を\r  取り戻したぞ！\u0010\b  城に入る地下水道の入口が\r  東地区にあるそうだ\u0010\b  これが入り口の鍵だ」\u0010\b",
-   "en": "\"Rio has come to!\u0010\bHe says the waterway into the castle has an entrance in the East District.\u0010\bThis is the key to that entrance.\"\u0010\b",
+   "en": "\"Rio has come to!\u0010\bHe says the underground waterway into the castle has an entrance in the East District.\u0010\bThis is the key to that entrance.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -155,7 +155,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「城に入る地下水道の入口が\r  東地区にあるそうだ」\u0010",
-   "en": "\"He says the waterway into the castle has an entrance in the East District.\"\u0010",
+   "en": "\"He says the underground waterway into the castle has an entrance in the East District.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -188,7 +188,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 宿を開いている状況\r  では ないんだけど…\u0010\b  私には ここしか いる\r  場所がないのよ」\u0010\b",
-   "en": "\"This is no time to be running an inn, really...\u0010\bBut this is the only place I have to be.\"\u0010\b",
+   "en": "\"This is no time to be running an inn, really...\u0010\bBut I have nowhere else to go.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

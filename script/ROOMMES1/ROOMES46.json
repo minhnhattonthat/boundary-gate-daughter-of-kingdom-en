@@ -89,7 +89,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港が再開して､ひとまず\r  ホッとしたよ」\u0010\b",
-   "en": "\"With the harbour open again, what a relief.\"\u0010\b",
+   "en": "\"With the harbour open again, I can breathe easy, for now at least.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -133,7 +133,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港に御用がおありですか？\r\u0017  ご相談したいことが\r  あるのですが…\u0010\b",
-   "en": "\"Have you business at the harbour? \u0017There is something I would like to discuss with you...\u0010\b",
+   "en": "\"Do you have business at the harbour? \u0017There is something I would like to discuss with you...\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

@@ -23,7 +23,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢番の死体が転がっている\r忠実に役目を果たしてきたら\rしい\u0010\bフィンが死体の腰から\r牢の鍵をはずした\u0010\b",
-   "en": "The jailer's body lies here. He seems to have done his duty faithfully to the end.\u0010\bFinn took the Cell Key from the dead man's belt.\u0010\b",
+   "en": "The jailer's body lies here. He seems to have faithfully done his duty.\u0010\bFinn took the Cell Key from the dead man's belt.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

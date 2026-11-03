@@ -23,7 +23,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "狭い牢の中で 女が鉄格子\rを蹴飛ばしている\u0010\b",
-   "en": "In a cramped cell, a woman is kicking at the bars.\u0010\b",
+   "en": "In a cramped cell, a woman was kicking at the bars.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -100,7 +100,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも鉄格子を\rねじ曲げてしまった\u0010\b",
-   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
+   "en": "With a roar, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -320,7 +320,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
+   "en": "With a roar, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -419,7 +419,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
+   "en": "With a roar, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -573,7 +573,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
+   "en": "With a roar, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -672,7 +672,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
+   "en": "With a roar, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

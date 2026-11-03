@@ -111,7 +111,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  店でとがめられたら\r  このプレートを見せろ」\u0010\b",
-   "en": "If they give you trouble at the place, show 'em this plate.\"\u0010\b",
+   "en": "If they give you trouble at the tavern, show 'em this plate.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -276,7 +276,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは 二人が戻ってくる\rまでに きっと大聖堂に\r入る方法を探しておくと\u0010\b約束した\u0010\b",
-   "en": "By the time they got back, he'd surely have found a way into the Cathedral...\u0010\bThat much, Rio promised.\u0010\b",
+   "en": "Rio promised he'd find a way into the Cathedral\u0010\bby the time they got back.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -397,7 +397,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは 二人が戻ってくる\rまでに きっと大聖堂に\r入る方法を探しておくと\u0010\b約束した\u0010\b",
-   "en": "By the time they got back, he'd surely have found a way into the Cathedral...\u0010\bThat much, Rio promised.\u0010\b",
+   "en": "Rio promised he'd find a way into the Cathedral\u0010\bby the time they got back.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

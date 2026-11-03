@@ -166,7 +166,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まだ､良い連絡は\r  届かない…」\u0010\b",
-   "en": "but no good news has come back yet...\"\u0010\b",
+   "en": "No good news has come back yet...\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -199,7 +199,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  もしや､あのデミウスに\r  連れ去られたのでは…」\u0010\b",
-   "en": "Could that Demius have carried him off...?\"\u0010\b",
+   "en": "Could it be that Demius took him...?\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -210,7 +210,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「これからは国王とともに\r  アンブローズの復興に\r  励みたいと思います」\u0010\b",
-   "en": "\"From now on, I hope to work alongside the King to rebuild Ambrose.\"\u0010\b",
+   "en": "\"From now on, I hope to devote myself to rebuilding Ambrose alongside the King.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

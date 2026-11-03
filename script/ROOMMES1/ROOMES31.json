@@ -78,7 +78,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは 黙って女性を\rソファーに 座らせ\rしばらく 肩を抱いていた\u0010\b",
-   "en": "Without a word, Risp sat the woman down on the sofa and held her by the shoulders for a while.\u0010\b",
+   "en": "Without a word, Risp sat the woman down on the sofa and kept an arm around her shoulders for a while.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -111,7 +111,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「でも 私は信じています\u0010\b  地の底であろうと\r  あの人は きっと\r  生きています\u0010\b",
-   "en": "\"But I believe it.\u0010\bEven in the depths of the earth, I know he is still alive.\u0010\b",
+   "en": "\"But I believe.\u0010\bEven in the depths of the earth, I know he is still alive.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

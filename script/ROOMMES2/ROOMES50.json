@@ -78,7 +78,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
-   "en": "\"A boy. Huddled in the corner.\"\u0010\b",
+   "en": "\"Boy. Warehouse corner. Huddled.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -133,7 +133,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「う‥‥ん？\r  ば、化け物は！？\u0010\b  化け物を倒してくれた\r  んですか？\u0010\b",
-   "en": "\"Nngh...? Wh-where's the monster?!\u0010\bDid you beat it for me?\u0010\b",
+   "en": "\"Nngh...? Wh-where's the monster?!\u0010\bDid you defeat the monster?\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

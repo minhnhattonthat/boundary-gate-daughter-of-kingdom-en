@@ -89,7 +89,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何をしている！\u0010\b  傭兵なら 軍の連絡所へ\r  行け」\u0010\b",
-   "en": "\"What are you doing?!\u0010\bIf you're a mercenary, report to the army liaison office.\"\u0010\b",
+   "en": "\"What are you doing?!\u0010\bIf you're a mercenary, report to the army post.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -111,7 +111,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「軍の連絡所はここだ\u0010\b",
-   "en": "\"This is the army liaison office.\u0010\b",
+   "en": "\"This is the army post.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -210,7 +210,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お嬢さん､\u0017問題は自分で\r  解決するもんですよ」\u0010\b",
-   "en": "\"Young lady,\u0017 a body ought to solve her own problems, y'know.\"\u0010\b",
+   "en": "\"Young lady,\u0017 you ought to solve your own problems, y'know.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -265,7 +265,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「城の横にそびえるのは\r  アンブローズの\u0010\b  大聖堂だよ\r\u0017  王国の娘の権威を\r  表すものだ\u0010\b  立派なもんだろ？」\u0010\b",
-   "en": "\"That tower by the castle?\u0010\bIt's Ambrose's Cathedral, dearie.\u0017\u0010\bIt stands for the authority of the Daughter of the Kingdom.\u0010\bQuite something, isn't it?\"\u0010\b",
+   "en": "\"That tower by the castle?\u0010\bIt's Ambrose's Cathedral, love.\u0017\u0010\bIt stands for the authority of the Daughter of the Kingdom.\u0010\bQuite something, isn't it?\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

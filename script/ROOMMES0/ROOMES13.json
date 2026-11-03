@@ -45,7 +45,7 @@
    "op": "28",
    "group": "menu",
    "jp": "堤防にもどる",
-   "en": "To the levee",
+   "en": "Back to the levee",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -78,7 +78,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「きなすったな\r  よし！出発じゃ」\u0010",
-   "en": "\"There ye are. Right! Off we go, then.\"\u0010",
+   "en": "\"There ye are, eh? Right, off we go, then!\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

@@ -56,7 +56,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「え？」",
-   "en": "Risp\r\"Huh?\"",
+   "en": "Risp\r\"Oh?\"",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -144,7 +144,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "二人が ロードダールに\r着いた時には\r雪が舞い始めていた",
-   "en": "By the time we reached Rhodedahl, snow had begun to fall.",
+   "en": "By the time the two reached Rhodedahl, snow had begun to fall.",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -166,7 +166,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "町にはいると\r地の底からうなるような\r音が響いている",
-   "en": "As we entered the town, a sound like a groan from deep underground was echoing all around.",
+   "en": "As they entered the town, a low groaning sound echoed from deep underground.",
    "kind": "text",
    "status": "tl",
    "notes": ""

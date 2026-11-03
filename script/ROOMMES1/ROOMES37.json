@@ -89,7 +89,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンはリオから預かった\rプレートを見せた\u0010\b",
-   "en": "Finn showed the plate Rio had given him.\u0010\b",
+   "en": "Finn showed the plate Rio had entrusted to him.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -166,7 +166,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いくら 王国の娘の決定\r  とはいえ 納得できん！」\u0010",
-   "en": "Daughter of the Kingdom's decision or not, I can't accept it!\"\u0010",
+   "en": "Even if it's the Daughter of the Kingdom's decision, I can't accept it!\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

@@ -243,7 +243,7 @@
    "op": "21",
    "group": "speaker",
    "jp": "掲示板の前の人\r",
-   "en": "Person at the Board\r",
+   "en": "Person at the Notice Board\r",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -298,7 +298,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「頼む\u0010\b  エルシノア湖の要塞へ\r  行って アッシュ達を\r  助けてくれ」\u0010",
-   "en": "\"I'm beggin' ya...\u0010\bGet to that fortress on Lake Elsinore and help Ash and his people.\"\u0010",
+   "en": "\"I'm beggin' ya...\u0010\bGo to the fortress on Lake Elsinore and help Ash and his people.\"\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

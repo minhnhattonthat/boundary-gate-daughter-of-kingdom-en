@@ -67,7 +67,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「遺伝子コード確認\r  パスワードは？」\u0010\bリスプが何か合言葉のよう\rなものを言っている\u0010\b",
-   "en": "\"Genetic code confirmed. Password?\"\u0010\bRisp is saying something that sounds like a passphrase.\u0010\b",
+   "en": "\"Genetic code confirmed. Password?\"\u0010\bRisp said something that sounded like a passphrase.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
