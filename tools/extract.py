@@ -60,7 +60,7 @@ EXE_GROUPS = [
     (0x3a00, 0x3a30, 'gameover'),
     (0x3a30, 0x45ab, 'monsters'),   # monster names and their attack lines
     (0x45ab, 0x494b, 'battle'),
-    (0x494b, 0x4ca9, 'engine'),     # sound/asset name tables between battle and ending
+    (0x494b, 0x4ca8, 'engine'),     # sound/asset name tables between battle and ending
     (0x4ca8, 0x4f5c, 'ending'),     # ending narration
     (0x4f5c, 0x54a0, 'credits'),    # English END/CAST block and the staff credits
     (0x54a0, 0x5700, 'prologue'),   # opening lore

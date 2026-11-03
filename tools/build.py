@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import check_rom  # noqa: E402
 import insert  # noqa: E402
+import romdiff  # noqa: E402
 
 ROM_CUE = ROOT / 'rom' / 'Boundary Gate - Daughter of Kingdom (Japan).cue'
 DISC = ROOT / 'work' / 'disc'
@@ -75,6 +76,12 @@ def main(argv):
     tag = mode + ('-grow' if a.grow else '')
     lp, files = insert.stage(tag, mode, grow=grow, ascii_text=(mode == 'en'))
     print(f'staged {len(files)} files ({mode}) under {lp.parent}')
+    # every changed exe byte must come from a logged write over the expected original bytes
+    exe_new = lp.parent / 'tree' / insert.EXE
+    errs, _ = romdiff.check((DISC / 'tree' / insert.EXE).read_bytes(), exe_new.read_bytes(), [],
+                            romdiff.load_writes(lp.parent / 'exe_writes.txt'))
+    if errs:
+        sys.exit('romdiff (exe):\n' + '\n'.join(errs[:20]))
     out = OUT if tag == 'en' else ROOT / 'build' / f'boundary-gate-{tag}'
     data = repack(out, lp)
     print(f'built {data} + {data.with_suffix(".cue").name}')

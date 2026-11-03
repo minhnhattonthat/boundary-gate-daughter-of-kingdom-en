@@ -103,6 +103,23 @@ def test_stage_writes_changed_files_and_layout(tmp_path):
                 p.unlink()
 
 
+def test_english_scripts_build_and_parse():
+    """Every script rebuilt from its English (laid out, printer-encoded) keeps valid jumps and has no
+    Japanese left in its script section."""
+    import re
+    bad = []
+    for rel, path in insert.script_files():
+        data = path.read_bytes()
+        new = insert.write_script(rel, data, 'en', ascii_text=True)
+        so, sl = E.sections(new)[-1]
+        scr = new[so:so + sl]
+        if _jump_ok(scr):
+            bad.append((rel, 'jump'))
+        if re.search(r'[぀-ヿ一-鿿]{2,}', scr.decode('cp932', 'replace')):
+            bad.append((rel, 'japanese'))
+    assert not bad, bad[:5]
+
+
 def test_english_exe_relocation():
     """English exe: every moved string is reached through all its rewritten references, nothing else
     still points at a vacated head, and every changed byte has a logged write over the right original."""
@@ -113,8 +130,11 @@ def test_english_exe_relocation():
     new, wrote, moved = insert.write_exe(exe, 'en', log)
     assert moved and len(new) == len(exe)
     refs = X.refs(exe)
+    own = {o for _, _, sites in insert.EXTRA_STRINGS for o in sites}
     for eid, h, at in moved:
         for kind, o in refs[X.ram(h)]:
+            if o in own:
+                continue
             word = struct.unpack_from('<I', new, o)[0]
             got = word if kind == 'table' else (X.ram(h) & 0xFFFF0000) | (word & 0xFFFF)
             assert got == X.ram(at), (eid, hex(o))

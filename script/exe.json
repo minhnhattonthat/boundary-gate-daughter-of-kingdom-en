@@ -576,7 +576,7 @@
    "ram": "0x800102c0",
    "group": "menu",
    "jp": "瀕死",
-   "en": "Critical",
+   "en": "Weak",
    "kind": "text",
    "refs": [
     "0x19794",
@@ -670,7 +670,7 @@
    "ram": "0x8001030c",
    "group": "menu",
    "jp": "%-30s 装備中 %2d",
-   "en": "%-30s Equipped %2d",
+   "en": "%-30s\nEquipped %2d",
    "kind": "text",
    "refs": [
     "0x151c8"
@@ -685,7 +685,7 @@
    "ram": "0x80010320",
    "group": "menu",
    "jp": "眠",
-   "en": "Sleep",
+   "en": "Slp",
    "kind": "text",
    "refs": [
     "0x15288"
@@ -700,7 +700,7 @@
    "ram": "0x80010324",
    "group": "menu",
    "jp": "黙",
-   "en": "Silence",
+   "en": "Sil",
    "kind": "text",
    "refs": [
     "0x152a8"
@@ -1797,7 +1797,7 @@
    "ram": "0x800107a4",
    "group": "menu",
    "jp": "%-14s      ＬＶ %2d  ＨＰ %3d/%3d\n",
-   "en": "%-14s      LV %2d  HP %3d/%3d\n",
+   "en": "%-14s        LV %2d  HP %3d/%3d\n",
    "kind": "text",
    "refs": [
     "0x196e0"
@@ -1812,7 +1812,7 @@
    "ram": "0x800107c8",
    "group": "menu",
    "jp": "%4s%4s%4s%4s%2s          ＭＰ %3d/%3d",
-   "en": "%4s%4s%4s%4s%2s          MP %3d/%3d",
+   "en": "%-3s%-6s%-8s%-5s%-7sMP %3d/%3d",
    "kind": "text",
    "refs": [
     "0x1981c"
@@ -7272,7 +7272,7 @@
    "ram": "0x800129c0",
    "group": "shop",
    "jp": ":%c%-20s    %6ldＧ\f1",
-   "en": ":%c%-20s    %6ldG\f1",
+   "en": ":%c%-20s    %6ldG \f1",
    "kind": "text",
    "refs": [
     "0x1d5a4",
@@ -14413,14 +14413,14 @@
    "off": 19624,
    "len": 35,
    "ram": "0x800144a8",
-   "group": "engine",
+   "group": "ending",
    "jp": " それが混沌の本能なのかもしれない…",
-   "en": "",
+   "en": " Perhaps that is chaos's instinct...",
    "kind": "text",
    "refs": [
     "0xb4874"
    ],
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

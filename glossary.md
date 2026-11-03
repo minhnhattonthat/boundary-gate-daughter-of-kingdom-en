@@ -116,7 +116,7 @@ Rows marked `nocheck` in notes are guidance only.
 | 魔法 | Magic | nocheck | | |
 | 装備 | Equip | nocheck | | |
 | 状態 | Status | nocheck | | |
-| 設定 | Settings | nocheck | | |
+| 設定 | Config | nocheck | field-menu label: the 6-cell column (D12) | |
 | ＨＰ | HP | | | |
 | ＭＰ | MP | | | |
 | 経験値 | EXP/experience | | | |
@@ -124,7 +124,7 @@ Rows marked `nocheck` in notes are guidance only.
 | 沈黙 | Silence | nocheck | status | |
 | 睡眠 | Sleep | nocheck | status | |
 | 気絶 | KO | nocheck | status (fainted) | |
-| 瀕死 | Critical | nocheck | status (near death) | |
+| 瀕死 | Weak | nocheck | status (near death); 'Weak' fits the field-menu status row (phase 7) | |
 
 ## Spells (exe; name 22 cells)
 | JP | EN | max | notes | Avoid |

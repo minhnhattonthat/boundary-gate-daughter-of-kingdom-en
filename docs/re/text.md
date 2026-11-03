@@ -118,8 +118,23 @@ disc (also in `tests/test_insert.py`). That is the proof that the writer and bot
   so they follow automatically.
 - **Growth test hook**: `--grow FILE=N` appends N bytes of opcode 0x14 (a one-byte no-op) after the bytecode: the
   script stays parseable, the padding is unreachable, and the file (hence the malloc) really is N bytes bigger.
-- **Exe**: each string is overwritten in place and NUL-padded to its original length. A longer string raises until
-  phase 7 adds relocation, so a build cannot silently spill into the next field/string.
+- **Exe** (phase 7, `insert.rebuild_exe`): a string is written in place when it fits its slot (its bytes plus
+  the NUL padding to the next 4-byte boundary); otherwise it moves **inside the text region** into space the
+  English frees (tails of shorter strings, whole slots of moved ones). When the free space is too fragmented,
+  small in-place strings that sit between two free spans move too (~175 strings move in all). Targets stay in
+  0x80010000-0x80014F00, so each `lui 0x8001`/`addiu lo` reference only changes its low half and pointer words
+  are rewritten whole. Leading `\n` bytes before a string (`'\n%s...'`, battle lines) move with it. A string
+  with no reference at its head (e.g. the stat-compare block reached through a table) must fit in place or the
+  build fails. Checks: `stale_refs()` (any `lui 0x8001` + immediate use of a vacated head within 16
+  instructions, the build fails on one it did not rewrite), every write is logged with its original bytes
+  (`work/stage/en/exe_writes.txt`, checked by `romdiff.py --writes` inside `build.py`), moves listed in
+  `work/stage/en/exe_moved.txt`; `tests/test_insert.py::test_english_exe_relocation`.
+- **Exe special cases**: the memory-card title (exe 0x1f2c0 builds the BIOS save title; 03618 is copied as a fixed
+  29-byte literal and then overwritten) keeps the JP pieces 03618/03658/0365c and writes 03638 in full-width
+  (`insert.fullwidth`); JP fields padded with spaces (24-cell location names) keep the padding in ASCII spaces;
+  layout-only formats (`insert.FORMAT_EN`) and short copies for one reader (`insert.EXTRA_STRINGS`).
+- **Dialogue (0x22)**: `en` is paragraph form; `insert.en_script` lays it out with `wrap.layout(en,
+  wrap.rows_budget(prev_op), quote=wrap.continues_quote(jp))` and encodes it with `sjis.encode_en`.
 - **Staging**: `build.py` never edits `work/disc/tree` (the identity test repacks it). Changed files are written to
   `work/stage/<tag>/tree/...` and a generated `layout.xml` (absolute paths; mkpsxiso resolves relative paths against
   the XML's own directory) redirects just those files. Output: `build/boundary-gate-<tag>.bin/.cue`.

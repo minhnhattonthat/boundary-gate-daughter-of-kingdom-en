@@ -21,7 +21,8 @@ PAGE = WAIT + CLR
 
 # script fields: op -> (cells, hard). hard = measured; soft = guess until phase 8 measures it.
 FIELD = {'21': (26, True), '23': (26, True), '25': (24, True),
-         '1c': (16, False), '27': (10, False), '28': (12, False), '4e': (22, False)}
+         # 0x1c NPC list: drawn in the 26-cell message window after a 1-cell cursor (phase 7, npcs_53)
+         '1c': (25, True), '27': (10, False), '28': (25, False), '4e': (25, False)}
 
 # printf conversions: worst-case cells drawn (used for exe budget checks)
 PRINTF = re.compile(r'%[-+ 0#]*(\d*)(l?)([sdcx])')

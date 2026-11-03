@@ -15,7 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 EXE = ROOT / 'work' / 'disc' / 'tree' / 'SLPS_009.07'
 OPENWINDOW = 0x80021530
 BASE = 0x80010000 - 0x800          # RAM of file offset 0
-REG = {4: 'a1', 5: 'a1', 6: 'a2', 7: 'a3'}
+ARGS = (4, 5, 6, 7)
+WINDOW2 = 0x80021414    # openwindow variant: (x px, y px, w cells, h rows, ...) in a0-a3
 
 
 def calls(data, target=OPENWINDOW):
@@ -34,31 +35,34 @@ def calls(data, target=OPENWINDOW):
                 li[rt] = imm << 16
             elif op == 0x09 and rs == rt and isinstance(li.get(rt), int) and li[rt] >= 0x10000:
                 li[rt] = (li[rt] + simm) & 0xFFFFFFFF
+                if rt in ARGS:
+                    regs[rt] = (li[rt], p)
+                continue
             if op == 0x09 and rs == 0:                   # addiu rt, $zero, imm
                 li[rt] = simm
-                if rt in (5, 6, 7):
+                if rt in ARGS:
                     regs[rt] = (simm, p)
             elif op == 0x2B and rs == 29 and imm in (0x10, 0x14, 0x18, 0x1c):   # sw rt, imm($sp)
                 stack[imm] = (li.get(rt, '?') if rt else 0, p)
-            elif ins & 0xFC00003F == 0x00000021 and ((ins >> 16) & 31) == 0 or ins & 0xFC1F07FF == 0x00000025:
-                pass
-            elif rt in (5, 6, 7) and op not in (0x2B, 0x28, 0x29):   # a1-a3 written some other way
+            elif rt in ARGS and op not in (0x2B, 0x28, 0x29, 0x0F) and op:      # a0-a3 written another way
                 regs[rt] = ('?', p)
                 li.pop(rt, None)
-            elif op == 0 and ((ins >> 11) & 31) in (5, 6, 7):          # R-type into a1-a3 (move...)
+            elif op == 0 and ((ins >> 11) & 31) in ARGS:                       # R-type into a0-a3 (move...)
                 regs[(ins >> 11) & 31] = ('?', p)
         out.append((o, {k: v[0] for k, v in regs.items()}, {k: v[0] for k, v in stack.items()},
                     {**{f'a{k - 4}': v[1] for k, v in regs.items()}, **{f'sp{k:x}': v[1] for k, v in stack.items()}}))
     return out
 
 
-SPRITE = 0x8001A280     # background sprite from a TIM: (img, x px, y px, ?, ?, ?, rect*) rect = {?, w, h, ?}
+SPRITE = 0x8001A280     # background sprite from a TIM: (img, x px, y px, ?, ?, ?, rect*) rect = {u, v, w, h}
+SPRITE2 = 0x8001A4C0    # the same with the rect in a3: (img, x, y, rect*)
 
 
 def sprites(data):
     """[(call offset, x, y, rect address, (rect halfwords) or None)] for every background sprite call."""
     out = []
-    for o, regs, stack, where in calls(data, SPRITE):
+    for o, regs, stack, where in calls(data, SPRITE) + [(o, r, {0x18: r.get(7)}, w)
+                                                       for o, r, s, w in calls(data, SPRITE2)]:
         r = stack.get(0x18)
         rect = None
         if isinstance(r, int) and 0x80010000 <= r < 0x80200000:
@@ -73,6 +77,9 @@ def main(argv):
     for o, x, y, r, rect, where in sprites(data):
         rs = f'{r:08x}' if isinstance(r, int) else r
         print(f'sprite {o:06x}  x={x!s:>4} y={y!s:>4} rect@{rs} {rect}  at x:{where.get("a1", 0):06x}')
+    for o, regs, stack, where in calls(data, WINDOW2):
+        print(f'win2   {o:06x}  x={regs.get(4, "?")!s:>4} y={regs.get(5, "?")!s:>4} w={regs.get(6, "?")!s:>4} '
+              f'h={regs.get(7, "?")!s:>4}  at x:{where.get("a0", 0):06x} w:{where.get("a2", 0):06x}')
     for o, regs, stack, where in calls(data):
         print(f'{o:06x} {BASE + o:08x}  x={regs.get(5, "?")!s:>4} y={regs.get(6, "?")!s:>4} '
               f'w={regs.get(7, "?")!s:>4} h={stack.get(0x10, "?")!s:>4} s14={stack.get(0x14, "?")!s:>3} '

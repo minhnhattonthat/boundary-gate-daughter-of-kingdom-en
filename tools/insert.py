@@ -197,9 +197,22 @@ def fullwidth(text):
     return ''.join(out)
 
 
+# Layout-only formats (kind 'keep', no Japanese) that change for English.
+FORMAT_EN = {
+    # items-menu party box (19 cells): the JP's one-kanji statuses 毒/眠/黙 (%2s) become Psn/Slp/Sil
+    'exe:00b28': '%-10s  %3d/%3d\n%-4s%-4s%-4s%3d/%3d',
+}
+# Short copies of a shared string for one reader: (text, id of the string it replaces there, addiu
+# offsets whose low half pointed at it). The items-menu party box reads 毒 through 0x152c8 while the
+# field menu and battle read the same string as 'Poison'.
+EXTRA_STRINGS = [('Psn', 'exe:00abc', [0x152c8])]
+
+
 def en_exe(entry):
     """English for an exe string as the build writes it."""
     eid, jp, en = entry['id'], entry['jp'], entry['en']
+    if eid in FORMAT_EN:
+        return FORMAT_EN[eid]
     if not en or eid in CARD_KEEP:
         return jp
     if eid in CARD_FULLWIDTH:
@@ -223,6 +236,8 @@ def en_script(entry, prev_op):
 
 def text_for(entry, mode, prev_op=None):
     """The replacement text for one entry in `mode` = marker|torture|ruler|en|jp."""
+    if mode == 'en' and entry['id'] in FORMAT_EN:
+        return FORMAT_EN[entry['id']]
     if mode == 'jp' or entry['kind'] != 'text':
         return entry['jp']
     if mode == 'en':
@@ -380,7 +395,7 @@ def _place(data, slots):
     return placed, [tuple(sp) for sp in spans]
 
 
-def rebuild_exe(data, texts, log=None):
+def rebuild_exe(data, texts, log=None, extras=None):
     """Write each text string in place when it fits its slot, else relocate it inside the text region.
 
     A slot is the string's bytes plus the NUL padding up to the next 4-byte boundary (never past the
@@ -434,6 +449,19 @@ def rebuild_exe(data, texts, log=None):
         eid, s, e, h, end, raw, where, move = sl
         if not move and raw != data[s:e]:
             _put(out, s, raw + (b'\0' if len(raw) < end - s else b''), eid, data, log)
+    spans = [list(sp) for sp in spans]
+    own = {o for _, _, sites in (extras or []) for o in sites}
+    for text, of, sites in (extras or []):              # short copies for one reader (EXTRA_STRINGS)
+        blob = sjis.encode(text) + b'\0'
+        sp = min((sp for sp in spans if sp[1] - sp[0] >= len(blob)), key=lambda x: x[1] - x[0])
+        at, sp[0] = sp[0], sp[0] + len(blob)
+        _put(out, at, blob, f'{of} short copy', data, log)
+        old = X.ram(int(of[4:], 16))
+        for o in sites:
+            ins = struct.unpack_from('<I', data, o)[0]
+            assert ins >> 26 == 0x09 and ins & 0xFFFF == old & 0xFFFF, (of, hex(o))
+            _put(out, o, struct.pack('<I', (ins & 0xFFFF0000) | (X.ram(at) & 0xFFFF)), f'{of} short lo16',
+                 data, log)
     for a, b in spans:                                   # what is left of the freed space: zeros
         for k in range(a, b):
             if data[k]:
@@ -443,6 +471,8 @@ def rebuild_exe(data, texts, log=None):
         new = X.ram(at)
         assert new >> 16 == X.ram(h) >> 16 == 0x8001 and new & 0x8000 == 0
         for kind, o in where:
+            if o in own:
+                continue                                  # this reader gets its EXTRA_STRINGS copy
             if kind == 'table':
                 assert struct.unpack_from('<I', data, o)[0] == X.ram(h)
                 _put(out, o, struct.pack('<I', new), f'{eid} ptr', data, log)
@@ -462,18 +492,46 @@ EXE_PATCHES = [
     *[(o, 58, 70, _TOP) for o in (0x15ac0, 0x166dc, 0x174f8, 0x19c64, 0x1a2bc)],
     *[(o, 41, 39, _TOP) for o in (0x15ac8, 0x166e4, 0x17500, 0x19c6c, 0x1a2c4)],
     (0x18c00, 56, 68, _TOP), (0x18c08, 42, 40, _TOP), (0x190e0, 56, 68, _TOP), (0x190e8, 42, 40, _TOP),
+    (0x17ccc, 4, 6, _COL), (0x17d24, 56, 68, _TOP), (0x17d2c, 41, 39, _TOP),    # status (0x80021414)
+    # columns drawn over a top box keep their distance from its (moved) labels
+    (0x1752c, 108, 120, 'equip: equipped-item column right of Weapon:/Armour:/Shield:/Extra:'),
+    (0x17538, 30, 28, 'equip: equipped-item column, same right edge'),
+    (0x18c38, 140, 152, 'config: value column right of "Battle Scenes" (13 cells)'),
+    (0x18c40, 28, 26, 'config: value column, same right edge'),
+    # equip: stat-compare box 13 -> 15 cells ('Defence::%3d>%3d'), the list box left of it 2 cells less
+    (0x175b4, 226, 214, 'equip compare box: 12 px left'), (0x175c0, 13, 15, 'equip compare box: 13 -> 15 cells'),
+    (0x1759c, 218, 206, 'equip compare box (background)'),
+    (0x1757c, 32, 30, 'equip list box: 2 cells less, room for the compare box'),
     *[(o, 6, 8, _CMD) for o in (0x0fa20, 0x1c46c, 0x1dd38, 0x1fd7c, 0x22dac)],
     *[(o, 12, 6, _CMD + ', 6 px further left') for o in (0x0fa18, 0x1c464, 0x1dd30, 0x1fd74, 0x22d7c)],
+    # window backgrounds (ITA_1.TIM sprites, tools/windows.py `sprite`): x of the top-row boxes
+    *[(o, 50, 62, _TOP + ' (background)') for o in (0x15a98, 0x166c0, 0x174e4, 0x1a28c, 0x19c3c)],
+    *[(o, 48, 60, _TOP + ' (background)') for o in (0x17d10, 0x18be8, 0x190c8)],
+]
+_BG = 'window background rect {u, v, w, h}'
+# Data halfwords: (file offset, old, new, why). Background rects live in the text region's data gaps
+# (relocation never moves those) and in .data (0x80074cb8: the field menu's top box, copied at run time).
+HALF_PATCHES = [
+    *[(o, 40, 52, f'{_BG}: {_COL}') for o in (0x0b78, 0x1024, 0x102c)],
+    *[(o, 262, 250, f'{_BG}: {_TOP}') for o in (0x0b80, 0x0cbc, 0x0dc8, 0x654bc, 0x654c4)],
+    *[(o, 268, 256, f'{_BG}: {_TOP}') for o in (0x0e78, 0x0edc)],
+    *[(o, 48, 60, f'{_BG}: {_TOP} (u follows x)') for o in (0x0e74, 0x0ed8)],
+    (0x0cc4, 208, 196, f'{_BG}: equip list box'), (0x0ccc, 94, 106, f'{_BG}: equip compare box'),
 ]
 
 
-def patch_exe(out, orig, log=None, patches=EXE_PATCHES):
-    """Apply EXE_PATCHES: each must be `addiu rX, $zero, old` in the original, or the build fails."""
+def patch_exe(out, orig, log=None, patches=EXE_PATCHES, halves=HALF_PATCHES):
+    """Apply EXE_PATCHES (each must be `addiu rX, $zero, old` in the original) and HALF_PATCHES (each
+    must hold `old`), or the build fails."""
     for o, old, new, why in patches:
         ins = struct.unpack_from('<I', orig, o)[0]
         if ins >> 26 != 0x09 or (ins >> 21) & 31 or (ins & 0xFFFF) != old & 0xFFFF:
             raise ValueError(f'exe patch at {o:#x}: {ins:08x} is not addiu rX, $zero, {old} ({why})')
         _put(out, o, struct.pack('<I', (ins & 0xFFFF0000) | (new & 0xFFFF)), f'patch {why}', orig, log)
+    for o, old, new, why in halves:
+        if struct.unpack_from('<H', orig, o)[0] != old:
+            raise ValueError(f'exe data patch at {o:#x}: not {old} ({why})')
+        _put(out, o, struct.pack('<H', new), f'patch {why}', orig, log)
 
 
 def stale_refs(data, moved, window=16):
@@ -500,7 +558,7 @@ def stale_refs(data, moved, window=16):
 
 def write_exe(data, mode='marker', log=None):
     texts = {e['id']: text_for(e, mode) for e in entries_of(EXE)}
-    new, wrote, moved = rebuild_exe(data, texts, log)
+    new, wrote, moved = rebuild_exe(data, texts, log, EXTRA_STRINGS if mode == 'en' else None)
     if mode == 'en':
         out = bytearray(new)
         patch_exe(out, data, log)

@@ -148,8 +148,8 @@ def check_unit(u, en_tsv, terms):
         err.append(f'control codes {W.to_tsv("".join(W.controls(jp)))} != '
                    f'{W.to_tsv("".join(W.controls(game)))}')
     if u['exe']:
-        if PRINTF.findall(game) != PRINTF.findall(jp) or \
-                game.count(':%c') != jp.count(':%c'):
+        conv = lambda s: [re.sub(r'%[-+ 0#]*\d*', '%', x) for x in PRINTF.findall(s)]  # noqa: E731
+        if conv(game) != conv(jp) or game.count(':%c') != jp.count(':%c'):   # widths are layout
             err.append(f'printf/icon specifiers differ: {PRINTF.findall(jp)} vs {PRINTF.findall(game)}')
         if game.endswith(('\r', '\n')) != jp.endswith(('\r', '\n')) or \
                 game.startswith(('\r', '\n')) != jp.startswith(('\r', '\n')):
@@ -165,12 +165,9 @@ def check_unit(u, en_tsv, terms):
             if w > n:
                 (err if hard else warn).append(f'row {w} cells > {n}: {row!r}')
         try:
-            nbytes = len(sjis.encode(game))
+            sjis.encode(game)      # a string longer than its slot is relocated by insert.rebuild_exe
         except Exception as x:     # noqa: BLE001
             err.append(f'unencodable: {x}')
-            nbytes = 0
-        if nbytes > e['len']:
-            warn.append(f'{nbytes} bytes > {e["len"]}-byte slot: needs phase-7 relocation')
     else:
         e = u['entries'][0]
         try:
@@ -239,6 +236,11 @@ def lint(show_warn=False):
                     print(f'warn  {u["ids"][0]}: {x}')
             n_err += len(err)
             n_warn += len(warn)
+    covered = {i for u in units() for i in u['ids']}
+    for e in extract.load(extract.out_path(extract.EXE))['entries']:   # a group units() skips
+        if e['kind'] == 'text' and 'debug menu' not in e['notes'] and e['id'] not in covered:
+            print(f'ERROR {e["id"]}: exe text in group {e["group"]!r}, which the lint never reads')
+            n_err += 1
     print(f'lint: {n_done}/{total} units translated, {n_err} errors, {n_warn} warnings')
     return 1 if n_err else 0
 

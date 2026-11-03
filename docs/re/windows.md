@@ -43,7 +43,7 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
 | Field | Screen | Budget | How |
 |---|---|---|---|
 | item / shop / equip name | items, shop, equip | **20 cells** | formats `:%c%-20s %-6s  所持数 %2d`, `:%c%-20s`, `:%c%-20s    %6ldＧ`, `%-20s ` |
-| equipped item name | equip screen | 30 | `%-30s 装備中 %2d` |
+| equipped item name | equip screen | 30 | `%-30s 装備中 %2d` (English: `%-30s\nEquipped %2d`, the count on row 2) |
 | spell name | magic, battle spell list | 22 | `:%c%-22s`, `%-22s  %6s  消費MP %2d`, `%-22s  %2d` |
 | party member name | menu rows, battle | 14 | `%-14s      ＬＶ %2d  ＨＰ %3d/%3d` |
 | current location | map screen | 24 | `現在地：  %24s` |
@@ -55,11 +55,39 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
 | save / memory-card text | message window | 26 x 3 | JP max 35 cells, wraps into the 3 rows |
 | ending / credits / prologue narration | full-width band at the bottom | **38 cells** | conservative: the band is full screen (320 px), the longest JP narration line is 38 cells; keep English lines at or under the original's |
 
-## Still to measure (phase 6/8)
+## Window engine (phase 7) — `tools/windows.py` lists every call
 
-- The choice window (0x27) and the room list (0x1c/0x28/0x4e) need a warp scene that leaves the room's
-  entry dialogue: add `EXTRA` scenes to `tools/debug/mkscenes.py` that press the room-menu button, then
-  read the field width off the ruler build.
+- **Text windows**: `openwindow 0x80021530(owner, x px, y px, w cells, h rows, ...)` and the variant
+  `0x80021414(x, y, w, h, ...)` (status screen, message windows). A window wraps at exactly `w` cells and
+  scrolls past `h` rows. Some JP rows rely on that wrap (the shop list row is exactly the window width), so an
+  English row must keep the same cell count (`'G '` for `Ｇ`).
+- **Backgrounds** are separate sprites cut from `\GRP\ITA_1.TIM`: `0x8001A280(img, x, y, ?, ?, ?, rect*)` and
+  `0x8001A4C0(img, x, y, rect*)`, `rect = {u, v, w, h}` in the text region's data gaps (0xb74.., 0xcb8.., 0xdc4,
+  0xe74, 0xed8, 0x1020/0x1028) or in `.data` (0x80074cb8/0x80074cc0, the field menu's top box, copied at run
+  time). Moving or widening a text window without its background leaves a stone strip outside the frame.
+- **English changes** (`insert.EXE_PATCHES` / `HALF_PATCHES`, en build only, every one asserts the original):
+  field-menu column and submenu title box 4 -> 6 cells (Items/Magic/Equip/Status/Map/Config); the top-row box
+  right of it 12 px right and 2 cells narrower (same right edge), backgrounds to match; equip item column and
+  config value column follow their labels; equip compare box 13 -> 15 cells (list box 32 -> 30); command
+  windows (Talk/Move/Status, battle Fight/Run/Status/Weapon/Magic/Items, Buy/Sell/Items) 6 -> 8 cells, 6 px
+  further left (the room/battle backgrounds already cover it).
+- **Status effects**: field-menu row `%-3s%-6s%-8s%-5s%-7sMP %3d/%3d` (KO, Sleep, Silence, Weak, Poison; HP/MP
+  columns aligned at cell 29 of 39). The items-menu party box is 19 cells and the JP itself abbreviates to one
+  kanji there (毒/眠/黙): English uses Psn/Slp/Sil (flagged abbreviation, D12); `insert.EXTRA_STRINGS` gives that
+  box its own short copy of 毒.
+- Not yet seen with a status active (no warp sets the status byte 0x80126c21 + 0x3c*member): phase 8.
+
+## Measured in phase 7
+
+- **NPC list (0x1c)**: drawn in the 26-cell message window after a 1-cell cursor: **25 cells** (scene
+  `npcs_53`, "High Priest of Sorcery" = 22 fits). 0x28/0x4e (room destination lists) are presumably the same
+  list routine: budget 25, soft until a scene shows one (`moves_13`/`moves_62` land in entry dialogue).
+- **Choice (0x27)**: drawn inline in the message window row ("Save   Don't save", scene `save`); 10 cells per
+  choice holds.
+
+## Still to measure (phase 8)
+
+- 0x28/0x4e room destination lists (see above); the status-effect rows with a status active.
 - The ending / credits narration wrapping limit (the window is wider than the message box).
 - Name entry (if the game has one): the party names at exe 0x800 are defaults only; confirm.
 

@@ -2,11 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit, check) in progress 2026-11-04. Done so far: `build.py` (no flag) = English build
-  (`wrap.layout` for 0x22, `encode_en`, exe relocation inside 0x800-0x5700 with lo16/pointer rewrites + stale-ref
-  scan + write log `work/stage/en/exe_writes.txt`, card title full-width, `insert.EXE_PATCHES` window sizes),
-  smoke ok. In progress: window background sprites (ITA_1.TIM rects, `tools/windows.py`) must follow the text
-  windows widened by EXE_PATCHES (column 4->6, command 6->8, top box shifted 12 px): see p7 notes below.
+- **Phase:** 7 (insert, fit, check) done 2026-11-04. Next: phase 8 (QA in the emulator).
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
@@ -96,22 +92,32 @@ Updated at the end of every session. Keep it to what the next session needs; his
     build must lay out 0x22 entries with `wrap.layout(en, wrap.rows_budget(prev_op), quote=wrap.continues_quote(jp))`
     — `insert.py text_for('en')` does not call it yet (phase 7).
   - exe:00974 (`原\x01`) reclassified as data (`extract.NOT_TEXT`).
-- **Next (phase 7):** insert, fit, check:
-  - wire `wrap.layout` into `insert.py` for op 0x22 (see above) and `sjis.encode_en` for script text; exe text keeps
-    `::`/`:%c` as stored (encode with `sjis.encode`).
-  - **exe relocation**: 173 exe strings are longer than their byte slot (`lint.py --warn | grep relocation`): item,
-    spell, monster, map and menu names, battle/shop/save messages, prologue/ending/credits. Pointers are in each
-    entry's `refs` (data words and lui/addiu pairs). Candidate space: zero runs listed in `docs/re/text.md` §Free space
-    (trap-fill first), the debug-menu/debug-room strings.
-  - **tight fixed fields that need engine work, not text**: status-effect slots `%2s`/`%4s` (exe:00b28, 00fc8: 毒/眠/黙
-    -> Poison/Sleep/Silence), the field-menu column (exe:01000, 4 cells per label), equip label `%8s` (exe:00c8c),
-    battle command block 6 cells (exe:04680-046a4: Fight/Run/Weapon/Status/Magic/Items).
-  - **memory-card title** pieces (exe:03618/03638/03658/0365c) are shown by the BIOS card manager, which expects
-    Shift-JIS: convert the English to full-width at insert time, or keep them.
-  - measure the still-guessed widths in-game: choice 0x27 (10), npc 0x1c (16), room menu 0x28 (12)/0x4e (22);
-    5 lines exceed those guesses (`lint.py --warn | grep -v exe`), e.g. "East Watchtower" (15 > 12). Needs `EXTRA`
-    warp scenes past a room's entry dialogue (`tools/debug/mkscenes.py`).
-  - then `build.py` English build + smoke + `romdiff.py` ranges.
+- **Done (phase 7)** — English build green (details `docs/re/text.md` §Insertion, `docs/re/windows.md` §Window
+  engine):
+  - `python -X utf8 tools/build.py` (no flag) = English build `build/boundary-gate-en.bin/.cue`; smoke ok.
+    Dialogue laid out by `wrap.layout` + `sjis.encode_en`; exe strings that outgrow their slot are **relocated
+    inside the text region** (~175 moves, lo16/pointer rewrites, `stale_refs` scan); every exe write is logged
+    with its original bytes and `romdiff.py --writes` runs inside the build (all 15,101 changed bytes covered).
+  - Engine/layout (`insert.EXE_PATCHES`/`HALF_PATCHES`/`FORMAT_EN`/`EXTRA_STRINGS`): field-menu column and
+    submenu title boxes 4 -> 6 cells, top-row boxes shifted, window background sprites (ITA_1.TIM rects) moved
+    to match, equip item/compare columns, config value column, command windows 6 -> 8 cells, status-effect
+    rows, items header count on row 2, shop row exact width. Labels: Config, Extra, Weak, Psn/Slp/Sil (D12).
+  - Extractor fixes found by the tour: half-width-kana shop names (exe 0x31d8-0x31f4) and the field menu's
+    `現在地` location label were not text; prologue line exe:04ca8 sat in the `engine` group the lint never read
+    (lint now errors on any exe text it skips). Memory-card title: 03638 full-width, 03618/03658/0365c kept.
+  - Measured: NPC list (0x1c) = 25 cells in the message window (`npcs_53`); choice 0x27 inline, 10 holds.
+  - Checks: `lint.py` 0 errors (90 soft warnings: exe message rows counted with worst-case `%s`, and room lists
+    0x28/0x4e still soft), `tests/` incl. `test_english_scripts_build_and_parse` and
+    `test_english_exe_relocation`; `jp_left.py --sjis --halfwidth` on the English exe: only the 3 debug-menu runs;
+    0 Japanese in any staged script section.
+  - Menus/battle/shop/save/healer/game over/ending shots: `work/qa/p7c`, `p7d`, `p7e`, `p7f` (all clean).
+  - **All 220 warp scenes pass** on the English build from a cold boot (`warp.py --all`, shots
+    `work/qa/en_all/`, not yet reviewed shot by shot: phase 8).
+- **Next (phase 8):** QA tour of the English build with visual-QA verdicts (`qa_gate.py`); scenes: all 220
+  (`warp.py --all`), plus a status-effect shot (no warp sets the status byte 0x80126c21+0x3c*n yet: add a `VARS`-like
+  poke), the room destination lists 0x28/0x4e (`moves_13`/`moves_62` land in entry dialogue; find a room state
+  that shows them), the BIOS memory-card screen (does the ASCII location name in the save title render?), the
+  auto-advancing EVENT00 prologue timing with English pages, title-screen katakana line (graphics.md G1).
 - **Open questions (non-blocking):** events are voiced (the credits list a voice cast; CDDA `EVnnX.WAV`, `XA/`):
   English text runs over Japanese voice, so page breaks added by the layout must not desync timed pages (check the
   auto-advancing EVENT00 prologue in phase 8); title katakana line plan
