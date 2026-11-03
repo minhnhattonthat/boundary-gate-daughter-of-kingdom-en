@@ -20,7 +20,7 @@ unique after dedupe (`work/gfx/uniq/{grp,pic,small,big}`, sheets `work/gfx/sheet
 
 | # | Screen | Source | Japanese | Plan |
 |---|---|---|---|---|
-| G1 | Title screen | `GRP/TITLE2.TIM` (16bpp 256x240, file offset 0x14 pixels) | katakana reading `バウンダリーゲート` on the white bar under the English `BOUNDARY GATE` logo | The logo is already English (D5). Default: blank the katakana line (repaint the bar) or set `BOUNDARY GATE` small in it; non-blocking, decided in phase 8. |
+| G1 | Title screen | `GRP/TITLE2.TIM` (16bpp 256x240, file offset 0x14 pixels) | katakana reading `バウンダリーゲート` on the white bar under the English `BOUNDARY GATE` logo | **Blanked** in the English build (D13): `tools/gfx.py` refills the text area (x 78-178, y 68-81) with the bar's own texture; staged by `insert.stage` in `en` mode. |
 
 Everything else on screen so far is font-drawn text (exe or script strings): title menu, field menu
 (`work/qa/btn_square/zoom.png`), dialogue, names, location bar. `LV HP MP` and `G` are full-width SJIS strings.

@@ -200,7 +200,9 @@ def check_unit(u, en_tsv, terms):
                 if W.cells(r) > n:
                     (err if hard else warn).append(f'{W.cells(r)} cells > {n}: {r!r}')
     low = en_tsv.lower()
-    for tjp, ten, avoid in terms_in(jp, terms):
+    # an entry noted 'no-glossary: <why>' is exempt (exe:03638: a 20-byte card-title prefix cannot hold the term)
+    exempt = any('no-glossary' in (e.get('notes') or '') for e in u['entries'])
+    for tjp, ten, avoid in [] if exempt else terms_in(jp, terms):
         if ten and not any(t.lower() in low for t in ten):
             err.append(f'glossary: {tjp} -> {" / ".join(ten)} missing')
         for a in avoid:

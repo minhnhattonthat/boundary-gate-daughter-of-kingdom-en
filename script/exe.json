@@ -7911,13 +7911,13 @@
    "ram": "0x80012e38",
    "group": "save",
    "jp": "バウンダリーゲート　%s　　",
-   "en": "Boundary Gate %s",
+   "en": "Boundary  %s  ",
    "kind": "text",
    "refs": [
     "0x1f34c"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: card title; the in-game save list reads the location from title byte 20, so the full-width prefix must be exactly 10 characters like the JP"
   },
   {
    "id": "exe:03658",

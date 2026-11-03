@@ -148,3 +148,12 @@ def test_english_exe_relocation():
         assert exe[off:off + len(old) // 2].hex() == old
         covered.update(range(off, off + len(old) // 2))
     assert {i for i in range(len(exe)) if exe[i] != new[i]} <= covered
+
+
+def test_card_title_prefix_matches_jp():
+    """The in-game save list reads the location from byte 20 of the card title (exe 0x1f2c0 sprintf of
+    exe:03638): the English full-width prefix before %s must be as long as the JP one."""
+    e = next(x for x in insert.entries_of(insert.EXE) if x['id'] == 'exe:03638')
+    en = insert.text_for(e, 'en')
+    assert len(en.split('%s')[0].encode('cp932')) == len(e['jp'].split('%s')[0].encode('cp932')) == 20
+    assert all(ord(c) > 0x7E for c in en.replace('%s', ''))   # full-width only, as SCE asks of titles

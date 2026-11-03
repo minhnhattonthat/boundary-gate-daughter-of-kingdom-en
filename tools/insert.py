@@ -29,6 +29,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import evscript as E  # noqa: E402
 import exestr as X  # noqa: E402
 import extract  # noqa: E402
+import gfx  # noqa: E402
 import sjis  # noqa: E402
 import wrap  # noqa: E402
 
@@ -619,6 +620,8 @@ def stage(tag, mode, only=None, grow=None, ascii_text=False):
         raise SystemExit('moved exe strings keep unrewritten readers: '
                          + ', '.join(f'{eid} at {o:#x} ({ins:08x})' for eid, o, ins in stale[:20]))
     files.append((EXE, new))
+    if mode == 'en':
+        files.append((gfx.TITLE, gfx.title_en((TREE / gfx.TITLE).read_bytes())))
     dest_root = STAGE / tag
     if dest_root.exists():
         for p in dest_root.rglob('*'):

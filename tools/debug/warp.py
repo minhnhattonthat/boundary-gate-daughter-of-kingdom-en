@@ -49,7 +49,8 @@ def run(scene, a):
         if old.endswith(('.png', '.psx')):
             os.remove(os.path.join(out, old))
     hold = int(a.hold if a.hold is not None else scene['hold'])
-    after = [s.strip() for s in scene['after'].split(';') if s.strip()]
+    after = next((v[7:-1] for v in a.var if v.startswith("AFTER='")), scene['after'])   # --var AFTER= overrides
+    after = [s.strip() for s in after.split(';') if s.strip()]
     # warp.lua ends the run itself after arrival + after + hold; --frames is only the upper bound
     frames = route_frames(open(BOOT, encoding='utf-8').read().splitlines()) + 3000 + route_frames(after) + hold
     cmd = [sys.executable, '-X', 'utf8', os.path.join(SKILL, 'scripts', 'emu.py'), a.rom, '--out', out,
@@ -60,6 +61,8 @@ def run(scene, a):
     mash = a.mash if a.mash is not None else int(scene['mash'])
     if mash:
         cmd += ['--mash', str(mash), '--mash-key', 'circle']
+    if a.sav:   # a private memory card copy: in-game saves land in <out>/<scene>/memcard1.mcd
+        cmd += ['--sav', a.sav]
     state = os.path.join(ROOT, 'work', 'states', scene['name'] + '.sstate')
     if a.state:
         cmd += ['--state-out', state]
@@ -90,6 +93,7 @@ def main(argv):
     p.add_argument('--mash', type=int, help='press circle every N frames once the route is done (0 = off)')
     p.add_argument('--shot-every', type=int, default=300)
     p.add_argument('--var', action='append', default=[])
+    p.add_argument('--sav', help='memory card (.mcd) copied into the run, never written back')
     a = p.parse_args(argv)
     rows = load_scenes()
     if a.list:

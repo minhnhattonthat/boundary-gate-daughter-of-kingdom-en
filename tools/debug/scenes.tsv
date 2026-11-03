@@ -210,6 +210,8 @@ menu_status	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down
 menu_map	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;60 -	30	0	field menu > map
 menu_settings	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;60 -	30	0	field menu > settings
 menu_debug	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2;DEBUG=1	6 square;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;60 -	30	0	leftover debug window (debug flag on): map number, position, battle; debug builds only
+menu_field_fx	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2;STATUS='31'	6 square;45 -	30	0	field menu, Finn with every status effect set
+menu_items_fx	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2;STATUS='30'	6 square;45 -;6 circle;60 -;6 circle;60 -	30	0	items menu party box, every effect but KO
 battle	KIND='battle';BATTLE=1		900	0	battle by formation id 1-140 (override with --var BATTLE=n), via the debug window
 shop	KIND='loc';LOC=0x206;RET=0x100;X=12;Y=5;DIR=2	300 -;6 circle;90 -;6 circle;90 -;6 circle;90 -;6 circle;90 -;6 circle;90 -;6 circle;90 -	240	0	item shop (room 6) buy list
 healer	KIND='loc';LOC=0x204;RET=0x100;X=12;Y=5;DIR=2	6 circle;90 -;6 circle;90 -;6 circle;90 -;6 circle;90 -;6 circle;90 -	60	0	healer (room 4) service window

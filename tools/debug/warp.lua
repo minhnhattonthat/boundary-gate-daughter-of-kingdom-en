@@ -12,9 +12,11 @@
 --   DEBUG 1 = keep the debug flag on (DEB in the field menu) for the whole run.
 --   GOD   1 = no party member's HP may drop below its value at arrival (for --mash routes through fights).
 --   HP    n = set every party member's HP to n on arrival (HP=1 + a battle + mash = game over).
+--   STATUS '1,2,4' status byte of each party slot in order, set on arrival (status-effect rows).
 --   WIPE_HOLD n = with HP: end the run n frames after every member's HP hits 0 (Game Over banner ~230-530 later).
 --   AFTER '600 -;6 square;45 -' route steps (frames buttons) pressed after arrival (menus, shops).
 --   HOLD  frames to run after arrival and AFTER, then the run ends here: final.png (+ --state-out) is that frame.
+--   PRESHOT 1 = a shot f<frame>.png on the frame each AFTER press starts (a finished text page before it moves on).
 -- Log lines "warp: ..." record each step; warp.py requires "warp: arrived". A FAILED line ends the run at once.
 local M = PCSX.getMemPtr()
 local function r8(a) return M[a % 0x200000] end
@@ -34,6 +36,7 @@ local function set_vars()
   if not VARS or VARS == '' then return end
   for k, v in VARS:gmatch('(%x+)=(%d+)') do w32(VARBASE + 4 * tonumber(k, 16), tonumber(v)) end
 end
+local preshot = {}   -- frame -> true: PRESHOT shots, one per AFTER press
 local function log(s) L.log(string.format('warp: %s (frame %d)', s, L.frame)) end
 local function finish()
   L.shot('final.png'); L.log('final frame ' .. L.frame)
@@ -75,19 +78,27 @@ local godhp = {}
 
 local function arrived(what)
   log('arrived ' .. what)
-  for _, a in ipairs(members()) do
+  local st = {}
+  for v in (STATUS or ''):gmatch('%d+') do st[#st + 1] = tonumber(v) end
+  for k, a in ipairs(members()) do
     if HP then w16(a, HP) end
+    if st[k] then w8(a + 0x0B, st[k]) end   -- status byte 0x80126C21 + 0x3C*member (HP is at +2)
     godhp[a] = r16(a)
   end
+  local at = L.frame
   for step in (AFTER or ''):gmatch('[^;]+') do
     local n, keys = step:match('^%s*(%d+)%s+(%S+)')
-    if n then L.press(keys, tonumber(n)) end
+    if n then
+      if PRESHOT == 1 and keys ~= '-' then preshot[at] = true end   -- the screen just before this press
+      L.press(keys, tonumber(n)); at = at + tonumber(n)
+    end
   end
   stage = 'after'
 end
 local function failed(why) log('FAILED: ' .. why); finish() end
 
 L.on_frame(function(f)
+  if preshot[f] then L.shot(string.format('f%06d.png', f)); preshot[f] = nil end
   if DEBUG == 1 or stage == 'field' or stage == 'deb' then w16(DBGFLAG, 1) end
   if GOD == 1 then
     for a, hp in pairs(godhp) do if r16(a) < hp or r16(a) >= 0x8000 then w16(a, hp) end end

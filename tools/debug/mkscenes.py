@@ -39,6 +39,9 @@ EXTRA = [
     ('menu_settings', FIELD, MENU + ';6 down;45 -' * 5 + ';6 circle;60 -', 30, 0, 'field menu > settings'),
     ('menu_debug', FIELD + ';DEBUG=1', MENU + ';6 down;45 -' * 6 + ';6 circle;60 -', 30, 0,
      'leftover debug window (debug flag on): map number, position, battle; debug builds only'),
+    # status byte bits (1 KO, 2-8 sleep/silence/weak, 16 poison): every effect at once in each status row
+    ('menu_field_fx', FIELD + ";STATUS='31'", MENU, 30, 0, 'field menu, Finn with every status effect set'),
+    ('menu_items_fx', FIELD + ";STATUS='30'", MENU + WHO, 30, 0, 'items menu party box, every effect but KO'),
     ('battle', "KIND='battle';BATTLE=1", '', 900, 0,
      'battle by formation id 1-140 (override with --var BATTLE=n), via the debug window'),
     # rooms: 会話 > keeper > talk pages > the room's own window. More presses go on to buy / save: stop here.
