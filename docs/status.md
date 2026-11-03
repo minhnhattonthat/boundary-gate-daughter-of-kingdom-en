@@ -2,8 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (QA in the emulator) done 2026-11-04. Next: phase 9 (release: story pass per chapter,
-  `docs/polish.md`, release script, jp_left on the release build, debug tool off, xdelta + README + zip).
+- **Phase:** 9 (release) in progress 2026-11-04. Phase-7 review (`../.harness/reviews/...-phase7.md`) fixed:
+  per-entry empty-English lint (#1), measured hard exe budgets + worst-case `%s` rows (#2, `wrap.EXE_FIELD`,
+  `msg_args`), independent write gate `tools/gate.py` in build + `tests/test_gate.py` (#3); Minor #4 (stub last
+  rows) -> polish. Found by #2: title-attract lore rows ran off screen (exe:0564c 52 cells; printer draws `\n`
+  as a blank, rows must fit 38), battle/item messages cut words at 26 with long names (reworded / row breaks).
+  Phase-9 steps: [x] tour covers the title attract (`tour.py --group attract`, sheet `title_attract_sheet*`);
+  [x] `tools/story.py chapters|review` (codex story reviewer, `docs/story-reviewer-brief.md`) -> 12 chapter files
+  `work/qa/story/`; [x] `tools/release.py` + `docs/release-readme.txt` + `tools/jp_known.txt`;
+  [ ] story verdicts, Important fixes, Minors to polish.md; [ ] polish pass (142+ lines); [ ] re-tour changed
+  scenes + vqa; [ ] final story re-review; [ ] `release.py` -> `release/v1.0/` zip; [ ] repo README status table.
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every

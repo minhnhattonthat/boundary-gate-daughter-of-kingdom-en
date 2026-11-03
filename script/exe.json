@@ -16311,13 +16311,13 @@
    "ram": "0x80014e4c",
    "group": "prologue",
    "jp": "始まりの母、王国の娘を産みたまう、と…",
-   "en": "the Mother bore the Kingdom's Daughter",
+   "en": "she bore the Daughter of the Kingdom",
    "kind": "text",
    "refs": [
     "0xb4d38"
    ],
    "status": "tl",
-   "notes": "no-glossary: title-attract lore row, 38 cells and no row breaks (the printer draws \\n as a blank): 'First Mother' and 'Daughter of the Kingdom' cannot both fit; the earlier rows name the First Mother"
+   "notes": "no-glossary: title-attract lore row, 38 cells and no row breaks (the printer draws \\n as a blank): 'First Mother' and 'Daughter of the Kingdom' cannot both fit; 'she' is the Mother of the rows just before"
   },
   {
    "id": "exe:05674",

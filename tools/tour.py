@@ -12,6 +12,7 @@ finished page. Periodic shots (shot-every) catch what moves on by itself.
 import argparse
 import os
 import re
+import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -70,14 +71,23 @@ def main(argv):
     p.add_argument('--rom')
     p.add_argument('--out')
     p.add_argument('--jobs', type=int, default=6)
-    p.add_argument('--group', action='append', choices=list(GROUPS))
+    p.add_argument('--group', action='append', choices=list(GROUPS) + ['attract'])
     p.add_argument('--sheets-only', action='store_true', help='rebuild sheets from existing frames')
     a = p.parse_args(argv)
     rom = a.rom or (warp.ORIG if a.jp else warp.BUILT)
     out = a.out or os.path.join(ROOT, 'work', 'qa', 'tour_jp' if a.jp else 'tour')
     names = list(warp.load_scenes())
     bad = 0
-    for g in a.group or list(GROUPS):
+    if 'attract' in (a.group or ['attract']) and (not a.scenes or 'title_attract' in a.scenes):
+        # the title screen left alone plays the lore attract (exe 0x5494-0x567f); not a warp scene: a plain cold boot
+        d = os.path.join(out, 'misc', 'title_attract')
+        if not a.sheets_only:
+            bad += subprocess.call([sys.executable, '-X', 'utf8', os.path.join(warp.SKILL, 'scripts', 'emu.py'), rom,
+                                    '--out', d, '--route', os.path.join(ROOT, 'tools', 'routes', 'title_idle.txt'),
+                                    '--shot-every', '150']) != 0
+        warp.sheet.make(d, cols=4, div=1, limit=12, changed=0.003, lo=1500,
+                        out=os.path.join(out, 'sheets', 'title_attract_sheet.png'))
+    for g in [g for g in a.group or list(GROUPS) if g != 'attract']:
         pick, after, hold, every, extra = GROUPS[g]
         todo = [n for n in names if pick(n) and (not a.scenes or n in a.scenes)]
         if not todo:

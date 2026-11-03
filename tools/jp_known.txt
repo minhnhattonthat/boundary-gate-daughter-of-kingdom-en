@@ -1,0 +1,5 @@
+# Japanese kept on purpose in the English exe (jp_left.py --known): the leftover debug window, reachable only with the
+# debug flag (BSS 0x8012B408) set by tools/debug (docs/re/debug.md, script/exe.json notes "debug menu").
+0xEE0 マップ構造 (debug window: map structure)
+0xF1C マップ番号 (debug window: map number)
+0xF7C 戦闘に入る (debug window: enter battle)
