@@ -78,7 +78,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
-   "en": "\"Boy. Warehouse corner. Huddled.\"\u0010\b",
+   "en": "\"Boy huddled in the warehouse corner.\"\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""

@@ -23,7 +23,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地下水道の鉄格子に\rサビついた錠がおりている\rマイヨールは肩をすくめた\u0010\b",
-   "en": "A rusted lock hangs on the iron grate of the underground waterway. Maillol shrugged.\u0010\b",
+   "en": "A rusted lock hung on the iron grate of the underground waterway. Maillol shrugged.\u0010\b",
    "kind": "text",
    "status": "tl",
    "notes": ""
@@ -56,7 +56,7 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地下水道の鉄格子に\rサビついた錠がおりている\u0010\bリスプが死体の持っていた\rカギを差し込んでみた\u0010\b力を込めて回すと錠が開いた\u0010",
-   "en": "A rusted lock hangs on the iron grate of the underground waterway.\u0010\bRisp tried the key the dead soldier had carried.\u0010\bShe turned it hard, and the lock opened.\u0010",
+   "en": "A rusted lock hung on the iron grate of the underground waterway.\u0010\bRisp tried the key the dead soldier had carried.\u0010\bShe turned it hard, and the lock opened.\u0010",
    "kind": "text",
    "status": "tl",
    "notes": ""

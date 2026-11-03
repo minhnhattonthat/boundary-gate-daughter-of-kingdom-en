@@ -196,3 +196,15 @@ Minor review findings, deferred to one polish pass (phase 9). Each line gets tic
 - [x] ROOMES04:10890 - "How hard for you" stiff -> "Out so late? You must have had a difficult night." -- fixed
 - [x] ROOMES53:17ffa - "the only place I have to be" -> "But this is the only place I have." -- fixed
 - [x] ROOMES62:4fb24 - "Pentagram Labyrinth" -> "Pentagram Crest Labyrinth" (destination-list row, 24 cells) -- waived: Pentagram Crest Labyrinth is 25 cells, exceeding the hard 24-cell destination row; the existing exception is documented in this entry's notes
+
+## Story pass round 2 (after the polish pass)
+- [x] EVENT35:32787 - IMPORTANT: after Risp's "Hadn't I been smiling before that?", Finn's まあな "Well... pretty much." reads as agreeing she had -> "Not that I'd seen." -- fixed
+- [x] ROOMES29:110d0 - IMPORTANT: 生きていてくれたら "If only Grissom were still alive..." implies he is dead -> "I can only hope Grissom is still alive..." -- fixed
+- [x] EVENT17:21a6c - Finn's mock-formal "Say, young lady from the Temple of Knowledge" stiff -> "Well now, milady of the Temple of Knowledge." -- fixed
+- [x] EVENT70:11eb4 - "A pitiful child, that one..." may sound dismissive -> "That poor girl..." -- fixed
+- [x] exe:04d58 - "Nothingness gives being its being" cumbersome -> "Non-being makes being possible..." (38-cell ending row) -- fixed
+- [x] MAPMES00:ab149 - "hasn't shown her face" reproachful for a reverent townsman -> "But this past year or so, she's stayed shut away in the Cathedral. We haven't seen her..." -- fixed
+- [x] MAPMES10:52ed0 - Hansen's apology mannered ("eh?" twice) -> "I'm sorry for all the trouble, young lady of the Temple of Knowledge." -- fixed
+- [x] MAPMES29:92909/9299f, MAPMES35:99ea7 - present "hangs"/"seems" before past actions -> past tense, unless the translator brief's present-tense scene-description rule applies (as for the ROOMES descriptions above) -- fixed
+- [x] ROOMES30:1a171 - "Good for him" dismissive -> "Heard old Hansen made it out alive? Glad to hear it." -- fixed
+- [x] ROOMES50:0c380 - Greystone "Boy. Warehouse corner. Huddled." too fragmented -> "Boy huddled in the corner." -- fixed
