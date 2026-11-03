@@ -15,6 +15,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `files.md` | disc layout, which files hold text, *MES container, dir = n // 25, leftover files | verified |
 | `script.md` | event-script interpreter, opcode operand table, jumps and routine table (the pointers) | verified (parser test) |
 | `text.md` | Shift-JIS, printer control codes, window 26x3, native ASCII, exe string regions, free space | encoding/printer verified; exe pointers and free space guesses |
+| `windows.md` | width gate: per-variant cell/row budgets, field widths from the printf formats, shots | message window + list fields measured; room list/choice/ending still to measure |
 | `debug.md` | location word, main loop, leftover DEB window, cold-boot warp design | verified (warp runs) |
 | `graphics.md` | graphics-text survey (static sweep done; runtime screens listed for phase 2) | static verified |
 

@@ -3,7 +3,9 @@
 Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its SKILL.md before ROM, text or QA work. `"$(python tools/skill.py)"` works in bash and PowerShell; never paste a `plugins/cache/<hash>` path. Platform notes: its `references/platform-ps1.md`.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py` -> build/boundary-gate-en.bin (data track) + .cue (audio from `../rom/`); checks `rom.sha1`, unpacks to `work/disc` once, repacks with mkpsxiso. Identity test: `tests/test_build.py`
+- Build:    `python -X utf8 tools/build.py` -> build/boundary-gate-en.bin (data track) + .cue (audio from `../rom/`); checks `rom.sha1`, unpacks to `work/disc` once, stages changed files (never edits `work/disc/tree`), repacks with mkpsxiso. Identity test: `tests/test_build.py`
+- QA builds: `tools/build.py --marker` (id in every line), `--ruler` (width gate), `--torture` (glyph page), `--grow FILE=N` (heap spike) -> build/boundary-gate-<tag>.bin/.cue; warp with `--rom build/boundary-gate-<tag>.cue`
+- Insert:   `python -X utf8 tools/insert.py roundtrip` (rebuild every file from its own jp; must be byte-identical), `insert.py stage TAG marker|ruler|torture|en [--grow FILE=N]`
 - Check:    `python -X utf8 tools/check.py` (pytest over tests/ + extraction lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
 - Extract:  `python -X utf8 tools/extract.py dump|check|scan` (`script/` JSON per file; `--force` re-dumps and keeps English)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/boundary-gate-en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the `rom/...cue` until a build exists). Title ~f1500; first dialogue ~f2500. Japanese game: confirm = circle.
@@ -15,7 +17,7 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Original disc: `rom/Boundary Gate - Daughter of Kingdom (Japan).cue` + Track 01 (data, MODE2/2352) + Tracks 02-90 (CD audio, untouched). Gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`. Exe `SLPS_009.07` (Pack-In-Video / Victor Interactive, 1997; port of the PC-FX game).
 - Emulator: PCSX-Redux nightly 30246.20261103 (`fetch_emu.py pcsx`, distrib.app dev-win-x64 manifest) in `tools/pcsx/`; BIOS SCPH-5500 `tools/bios/` (`fetch_emu.py psx-bios`). Disc tools: mkpsxiso/dumpsxiso 2.30 `tools/mkpsxiso/mkpsxiso-2.30-win64/` (github Lameguy64/mkpsxiso); armips 0.11.0 `tools/armips/` (github Kingcom/armips). xdelta3 on PATH (scoop). All gitignored. Savestates: `work/states/`.
 - Unpacked disc: `work/disc/tree` + `layout.xml` (dumpsxiso). Text candidates: `EVMES*/`, `MAPMES*/`, `ROOMMES*/`, the exe.
-- Text: `script/` (format set in phase 4). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (format set in phase 4). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Window/field budgets (the width gate): `docs/re/windows.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

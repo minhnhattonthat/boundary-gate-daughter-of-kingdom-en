@@ -1,9 +1,12 @@
 """Build the English disc: build/boundary-gate-en.bin (data track) + .cue (audio tracks 02-90 from rom/).
 
-Usage: python -X utf8 tools/build.py
-Steps: check the dump (rom.sha1), unpack it once with dumpsxiso into work/disc (tree + layout.xml), repack with
-mkpsxiso, cut the data track off the single image mkpsxiso writes, and write a cue that points the audio tracks
-at the untouched rom/ bins. With no edits the data track is byte-identical to Track 01 (tests/test_build.py)."""
+Usage: python -X utf8 tools/build.py [--marker|--torture] [--grow FILE=N]
+Steps: check the dump (rom.sha1), unpack it once with dumpsxiso into work/disc (tree + layout.xml),
+stage the changed files (tools/insert.py) into work/stage/<tag>/ with a layout that points at them,
+repack with mkpsxiso, cut the data track off the single image mkpsxiso writes, and write a cue that
+points the audio tracks at the untouched rom/ bins. With no edits the data track is byte-identical to
+Track 01 (tests/test_build.py); `--marker` builds build/boundary-gate-marker instead (phase 5 QA)."""
+import argparse
 import re
 import subprocess
 import sys
@@ -12,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import check_rom  # noqa: E402
+import insert  # noqa: E402
 
 ROM_CUE = ROOT / 'rom' / 'Boundary Gate - Daughter of Kingdom (Japan).cue'
 DISC = ROOT / 'work' / 'disc'
@@ -28,12 +32,12 @@ def unpack():
                    cwd=DISC, check=True, stdout=subprocess.DEVNULL)
 
 
-def repack(out):
+def repack(out, layout=None):
     """mkpsxiso the layout into out.bin (data track only) + out.cue. Returns the data track path."""
     out.parent.mkdir(parents=True, exist_ok=True)
     full, full_cue = out.with_suffix('.full.bin'), out.with_suffix('.full.cue')
-    subprocess.run([str(MKPSXISO / 'mkpsxiso.exe'), '-q', '-y', '-o', str(full), '-c', str(full_cue), 'layout.xml'],
-                   cwd=DISC, check=True)
+    subprocess.run([str(MKPSXISO / 'mkpsxiso.exe'), '-q', '-y', '-o', str(full), '-c', str(full_cue),
+                    str(layout or DISC / 'layout.xml')], cwd=DISC, check=True)
     # Track 02 INDEX 00 = end of the data track (the Redump split keeps each pregap with its audio track)
     m, s, f = map(int, re.search(r'TRACK 02 AUDIO\s+INDEX 00 (\d+):(\d+):(\d+)', full_cue.read_text()).groups())
     size = ((m * 60 + s) * 75 + f) * 2352
@@ -54,14 +58,32 @@ def repack(out):
     return data
 
 
-def main():
+def main(argv):
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument('--marker', action='store_true', help='replace every text entry with its id (QA build)')
+    p.add_argument('--torture', action='store_true', help='glyph torture line in every dialogue page')
+    p.add_argument('--ruler', action='store_true', help='digit rulers for the in-game width gate')
+    p.add_argument('--grow', action='append', default=[], metavar='FILE=N',
+                   help='append N no-op bytes to a script (heap-headroom spike), e.g. MAPMES00.BIN=4096')
+    a = p.parse_args(argv)
     check_rom.check()
     if not (MKPSXISO / 'mkpsxiso.exe').is_file():
         sys.exit(f'missing {MKPSXISO}: see AGENTS.md Paths')
     unpack()
-    data = repack(OUT)
-    print(f'built {data} + {OUT.with_suffix(".cue").name}')
+    mode = 'torture' if a.torture else 'ruler' if a.ruler else 'marker' if a.marker else 'en'
+    if a.marker or a.torture or a.ruler or a.grow:
+        grow = {Path(kv.split('=')[0]).name: int(kv.split('=')[1]) for kv in a.grow}
+        tag = mode if mode != 'en' else 'grow'
+        if a.grow:
+            tag += '-grow'
+        lp, files = insert.stage(tag, mode, grow=grow, ascii_text=(mode == 'en'))
+        print(f'staged {len(files)} files ({mode}) under {lp.parent}')
+        out = OUT if mode == 'en' else ROOT / 'build' / f'boundary-gate-{tag}'
+        data = repack(out, lp)
+    else:
+        data = repack(OUT)
+    print(f'built {data} + {data.with_suffix(".cue").name}')
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

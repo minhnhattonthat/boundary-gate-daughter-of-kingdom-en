@@ -92,14 +92,41 @@ re-runs it, so every extracted string re-encodes to exactly the ROM bytes and th
   is flagged `notes: debug menu` in `script/exe.json`: the release build never opens it (docs/status.md).
 - The **title-logo katakana line** is graphics, not text: phase 8 (graphics.md G1).
 
-## Free space (all guesses until tested)
+## Free space (measured phase 5)
 
 - **Scripts**: section 7 is last in each file, so text can grow in place. Files are loaded whole into a malloc heap
   (EVENT00 at 0x8013067C; MAPMES00, the largest file at 0xABC32, at 0x800DF7DC-0x8018B40E with other allocations
-  right after it, and the top ~56 KB below the stack mostly zero in that town). Growth of a few KB per file is
-  probably fine; **test in phase 5** by growing MAPMES00's script by 4 KB and touring a town, battle and menu.
+  right after it). **Measured**: MAPMES00's script grown by 4 KB and by **64 KB** still boots and runs a town map,
+  a room, a battle and the field menu (`tools/build.py --marker --grow MAPMES00.BIN=65536`, shots
+  `work/qa/grow64/`). Scripts are all < 4.2 KB originally, so per-file growth is not a constraint; the heap has
+  64 KB+ of headroom on the largest allocation.
 - **Exe**: data ends at 0x800CA958 (BSS starts there, cleared at boot), so nothing can be appended in place. English
   names are usually shorter in bytes than the SJIS (1 byte per half-width letter), so most exe strings fit in place.
   Zero runs inside the data (RAM 0x80070F6F +0x79C, 0x80071E85 +0x6EB, 0x800725AF +0x69F, 0x80073670 +0x540,
   0x800C8E9C +0x1070) are candidates only: trap-fill and tour before using any. Debug-only strings (room names, debug
   menu) can be reused if the debug menu is dropped from the release.
+
+## Insertion (phase 5) — `tools/insert.py`
+
+**Verified**: `insert.py roundtrip` rebuilds all 204 files from their own `jp` and they are **byte-identical** to the
+disc (also in `tests/test_insert.py`). That is the proof that the writer and both offset fixups are neutral.
+
+- **Scripts**: section 7 is rewritten in place; sections 0-6 and the whole bytecode except the S operands are copied
+  byte for byte. Two kinds of stored offset are recomputed: the `s16` relative jumps (ops 00-05, 08) and the 32
+  routine-table `s16` offsets. `size[7]` and the file length follow the new section 7. A jump that does not land on
+  an instruction boundary or does not fit `s16` raises at build time. Ops 0x37/0x39 store `ptr - base` at run time,
+  so they follow automatically.
+- **Growth test hook**: `--grow FILE=N` appends N bytes of opcode 0x14 (a one-byte no-op) after the bytecode: the
+  script stays parseable, the padding is unreachable, and the file (hence the malloc) really is N bytes bigger.
+- **Exe**: each string is overwritten in place and NUL-padded to its original length. A longer string raises until
+  phase 7 adds relocation, so a build cannot silently spill into the next field/string.
+- **Staging**: `build.py` never edits `work/disc/tree` (the identity test repacks it). Changed files are written to
+  `work/stage/<tag>/tree/...` and a generated `layout.xml` (absolute paths; mkpsxiso resolves relative paths against
+  the XML's own directory) redirects just those files. Output: `build/boundary-gate-<tag>.bin/.cue`.
+- **Marker build** (`build.py --marker`): every text entry becomes its id (`[M00.abb77]`) plus filler. Dialogue pages
+  keep their paging and row count and fill every row to 26 cells; fields get `[id]`; exe strings keep their ASCII and
+  printf specifiers with the id in place of the first Japanese run and `#` for later ones (shorter tag forms for
+  narrow fields, down to `*`). Anything still Japanese on screen is text the extractor missed.
+- **Ruler build** (`--ruler`): width gate — 78 digits per dialogue page (3 x 26), 20 digits per field, exe strings
+  with Japanese replaced by `8` of the same length.
+- **Torture build** (`--torture`): every allowed printable ASCII character at full width, one page per dialogue entry.

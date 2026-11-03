@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3 (identity build) done 2026-11-04. Next: phase 4 (extract).
+- **Phase:** 5 (engine spike + marker build) done 2026-11-04. Next: phase 6 (translate in batches).
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
@@ -10,7 +10,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     parser test over all 203 reachable files). Pointers to fix when text grows: s16 relative jumps (ops 00-05, 08)
     and the 32-entry routine table per script.
   - **ASCII renders natively** in the dialogue box (6 px half-width font, 26 cols x 3 rows). No font work needed for
-    English; VWF optional. Text must write `::` for ':' and avoid `@` and `\`.
+    English; VWF rejected (docs/decisions.md D9). Text must write `::` for ':' and avoid `@` and `\`.
   - Exe text at file 0x800-0x5700 (menus, items, spells, monsters, battle, shops, memory card, ending, credits,
     lore); referenced by data pointer tables, lui/addiu pairs and printf chains (phase 4 sweeps them by xref).
   - Graphics: only Japanese graphic = katakana reading line on the title logo (`GRP/TITLE2.TIM`). Game Over banner
@@ -33,33 +33,47 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Gotcha: under `emu.py --debugger` (interpreter) the ending jumps to 0x00010004 and freezes; the warp avoids exec
     hooks for this reason.
 - **Done (phase 3)** — `tools/build.py`: `check_rom`, dumpsxiso into `work/disc` (once; a fresh dump equals the
-  existing tree + layout), `mkpsxiso -y -o/-c layout.xml` with cwd `work/disc` (layout paths are `tree/...`), cut the
-  single image at Track 02 INDEX 00 (= Redump's Track 01 split), cue = original cue with Track 01 renamed and audio
-  FILEs pointing at `..\rom\` (no 430 MB copy). The full repacked image (data + all 89 audio tracks) equals
-  `cat rom/*.bin` byte for byte. `tests/test_build.py` repacks into `work/idtest/` and checks Track 01's sha1 (~1 s).
-  Build `build/boundary-gate-en.bin` sha1 f63989d3 (= original), smoke ok (prologue text at final frame).
-  Phase 5 hook point: write changed files to a staging dir and point their `<file source=...>` in a copied layout,
-  never edit `work/disc/tree` (the identity test repacks it).
+  existing tree + layout), `mkpsxiso -y -o/-c layout.xml`, cut the single image at Track 02 INDEX 00 (= Redump's
+  Track 01 split), cue = original cue with Track 01 renamed and audio FILEs pointing at `..\rom\` (no 430 MB copy).
+  `tests/test_build.py` repacks into `work/idtest/` and checks Track 01's sha1 (~1 s). Build
+  `build/boundary-gate-en.bin` sha1 f63989d3 (= original), smoke ok.
 - **Done (phase 4)** — extraction lives in `script/` (details `docs/re/text.md` §Extraction):
   - `python -X utf8 tools/extract.py dump` writes `script/<DIR>/<FILE>.json` for the 203 reachable *MES files
     plus `script/exe.json`; `check` proves the roundtrip and the coverage; `scan` lists data byte pairs that
     decode as a glyph outside the text (14, all MAPMES, in `script/data_runs.txt`). `tools/check.py` runs check.
   - Codec `tools/sjis.py`: byte-exact Shift-JIS decode/encode + `encode_en()` for the printer (':' -> '::',
-    '@' and '\' banned). `tests/test_extract.py` (8 tests): roundtrip of all 2,752 text entries, exe tiling,
-    no text outside entries, dump never clobbers English.
-  - **All S operands are display text**: 0x1c (NPC name in the talk list: 店主/町長/衛兵A) and 0x25 (map
-    location list: 武器屋/道具屋/宿屋) were missing from phase 1's list. 2,349 script entries (1,904 text +
-    445 control-only 0x08/0x10 commands, `kind: data`), 848 exe text + 202 engine strings (`kind: keep`).
-  - Exe region 0x800-0x5700 is fully tiled by 1,050 strings + 1,050 data gaps (3,775 bytes, `nul`/`data`):
-    no unexplained gap. `exestr.refs()` finds pointer-table and `lui`+`addiu`/`lw` references per string.
-  - Debug-menu strings (exe 0xE90-0xF7C) are extracted but flagged `notes: debug menu` (keep Japanese, release
-    never opens it).
-- **Next (phase 5):** engine spike + marker build: width gate (measure every box variant in-game), grow
-  MAPMES00's script by 4 KB and tour town/battle/menu, decide VWF (half-width ASCII works, optional polish),
-  break the `[id] marker text` build hook where build.py stages changed files into a copied layout.
-- **Open questions for later phases (non-blocking):** heap headroom for grown scripts (test in phase 5: grow
-  MAPMES00's script by 4 KB, then warp town/battle/menu); whether events are voiced (CDDA `EVnnX.WAV`, `XA/`);
-  title katakana line plan (graphics.md G1). The DEB window strings (exe 0xE90-0xF7C) stay Japanese: debug-only,
-  the release never sets the flag.
+    '@' and '\' banned). `tests/test_extract.py`: roundtrip of all 2,752 text entries, exe tiling, coverage.
+  - **All S operands are display text**: 0x1c (NPC name in the talk list) and 0x25 (map location list) included.
+    2,349 script entries (1,904 text + 445 control-only 0x08/0x10 commands), 848 exe text + 202 engine strings.
+  - Exe region 0x800-0x5700 is fully tiled by 1,050 strings + 1,050 data gaps (3,775 bytes, `nul`/`data`).
+  - Debug-menu strings (exe 0xE90-0xF7C) are extracted but flagged `notes: debug menu` (keep Japanese).
+- **Done (phase 5)** — insertion + marker build + width gate + engine spike (details `docs/re/text.md`
+  §Insertion, `docs/re/windows.md`):
+  - `tools/insert.py`: rewrites section 7 of a *MES file from `script/*.json`, copying sections 0-6 and the bytecode
+    byte for byte and recomputing the only two things a length change moves (s16 relative jumps, 32 routine
+    offsets); `size[7]` and the file length follow. Exe strings are overwritten in place, NUL-padded, and a longer
+    string raises (relocation is phase 7). `insert.py roundtrip` rebuilds all 204 files from their own `jp` and they
+    are **byte-identical** (`tests/test_insert.py`). Build is staged: `work/stage/<tag>/tree/...` + a generated
+    layout with absolute paths, so `work/disc/tree` (the identity test) is never edited.
+  - `tools/build.py --marker` (id + full-width filler in every line; `[M00.abb77]` tags), `--ruler` (width gate),
+    `--torture` (every printable ASCII glyph at full width), `--grow FILE=N` (appends N no-op bytes to a script).
+    Outputs `build/boundary-gate-<tag>.bin/.cue`; warp with `--rom build/boundary-gate-<tag>.cue`.
+  - Marker build boots and shows its id in every dialogue box, menu row and status line that can fit one; narrow
+    exe fields (<= 8 bytes) show a short offset tag or `#` fill instead. Touched scenes: prologue/event, room, battle,
+    items, magic, equip, status, map, settings, shop, healer, save, game over, ending (shots `work/qa/marker/`).
+  - **Width gate measured** (`docs/re/windows.md`): message window 26 cells x 3 rows, wrap at exactly 26, row 4
+    scrolls, page arrow sits below row 3 and costs no cells; exe list fields item/shop 20, equipped 30, spell 22,
+    party name 14, current location 24; battle command block 3 rows of 6; narration band 38. Choice window (0x27) and
+    the room list (0x1c/0x28/0x4e) still need a scene that gets past the room's entry dialogue.
+  - **Heap headroom**: MAPMES00's script grown by 4 KB and by **64 KB** still boots a town map, a room, a battle and
+    the field menu (shots `work/qa/grow*/`). Scripts are all < 4.2 KB originally, so English growth is safe.
+  - VWF rejected: fixed-pitch half-width ASCII, every printable glyph present (docs/decisions.md D9).
+- **Next (phase 6):** translate in batches. Before dispatch: add `max`/`box` to the JSON entries from
+  `docs/re/windows.md` and write the lint (row cells, rows per page, control-code multiset JP==EN, glossary terms,
+  `::`/`@`/`\`, leftover Japanese, stub last lines). Batches by `group`; glossary in `glossary.md`.
+- **Next (phase 7):** exe relocation for strings longer than their field; then the real insert (mode `en`).
+- **Open questions (non-blocking):** whether events are voiced (CDDA `EVnnX.WAV`, `XA/`); title katakana line plan
+  (graphics.md G1). The DEB window strings (exe 0xE90-0xF7C) stay Japanese: debug-only, the release never sets the
+  flag.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
