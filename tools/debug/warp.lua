@@ -16,6 +16,7 @@
 --   WIPE_HOLD n = with HP: end the run n frames after every member's HP hits 0 (Game Over banner ~230-530 later).
 --   AFTER '600 -;6 square;45 -' route steps (frames buttons) pressed after arrival (menus, shops).
 --   HOLD  frames to run after arrival and AFTER, then the run ends here: final.png (+ --state-out) is that frame.
+--   NUDGE n = after arrival, press circle (shot first) whenever the script pointer has not moved for n frames.
 --   PRESHOT 1 = a shot f<frame>.png on the frame each AFTER press starts (a finished text page before it moves on).
 -- Log lines "warp: ..." record each step; warp.py requires "warp: arrived". A FAILED line ends the run at once.
 local M = PCSX.getMemPtr()
@@ -37,6 +38,7 @@ local function set_vars()
   for k, v in VARS:gmatch('(%x+)=(%d+)') do w32(VARBASE + 4 * tonumber(k, 16), tonumber(v)) end
 end
 local preshot = {}   -- frame -> true: PRESHOT shots, one per AFTER press
+local nudge_ptr, nudge_n = nil, 0
 local function log(s) L.log(string.format('warp: %s (frame %d)', s, L.frame)) end
 local function finish()
   L.shot('final.png'); L.log('final frame ' .. L.frame)
@@ -99,6 +101,14 @@ local function failed(why) log('FAILED: ' .. why); finish() end
 
 L.on_frame(function(f)
   if preshot[f] then L.shot(string.format('f%06d.png', f)); preshot[f] = nil end
+  if NUDGE and (stage == 'after' or stage == 'hold') then
+    -- event pages advance on their own; press only when the script has stood still NUDGE frames (a real wait)
+    local p = r32(SCRPTR)
+    if p == nudge_ptr then nudge_n = nudge_n + 1 else nudge_ptr, nudge_n = p, 0 end
+    if nudge_n >= NUDGE then
+      L.shot(string.format('f%06d.png', f)); L.press('circle', 6); nudge_n = 0
+    end
+  end
   if DEBUG == 1 or stage == 'field' or stage == 'deb' then w16(DBGFLAG, 1) end
   if GOD == 1 then
     for a, hp in pairs(godhp) do if r16(a) < hp or r16(a) >= 0x8000 then w16(a, hp) end end

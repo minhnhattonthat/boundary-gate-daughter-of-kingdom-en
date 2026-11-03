@@ -12,9 +12,17 @@ def test_layout_wraps_and_pages():
     assert all(W.cells(r) <= W.COLS for p in pages for r in p)
     assert all(len(p) <= 3 for p in pages)
     assert pages[0][0] == 'Risp' and pages[0][1].startswith('"')
-    assert pages[0][2].startswith(' ')                 # hanging indent inside the quote
+    assert [len(p) for p in pages] == [2, 2]           # 4 rows: balanced, not 3 + 1
+    assert pages[1][0].startswith(' ')                 # hanging indent inside the quote
     assert game.endswith('\x10') and W.PAGE in game     # auto page break, trailing wait kept
     assert W.controls(game) == ['\x10']
+
+
+def test_overflow_pages_are_balanced():
+    sizes = lambda n, first: [len(p) for p in W._balance(list(range(n)), first)]  # noqa: E731
+    assert sizes(4, 3) == [2, 2] and sizes(7, 3) == [2, 3, 2] and sizes(3, 3) == [3]
+    assert sizes(4, 2) == [2, 2] and sizes(5, 2) == [2, 3] and sizes(3, 2) == [1, 2]  # under a speaker
+    assert W._balance([], 3) == [[]]
 
 
 def test_continuation_indent():

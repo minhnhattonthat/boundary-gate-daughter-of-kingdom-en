@@ -32,13 +32,15 @@ def room_after(k_max=5):
     return ';'.join(steps)
 
 
-# group: (scene filter, AFTER route or None (the scene's own), hold, shot-every)
+# group: (scene filter, AFTER route or None (the scene's own), hold, shot-every, extra warp vars)
+# Event pages advance on a timer (~200 frames a page) and a press skips the page on screen, so events get no
+# presses, dense shots, and a press only where the script stalls on a real button wait (NUDGE).
 GROUPS = {
-    'ev': (lambda n: n.startswith('ev_') or n == 'new_game', ';'.join(['300 -'] + [PAGE] * 50), 300, 1500),
-    'ending': (lambda n: n == 'ending', None, 15000, 150),
-    'room': (lambda n: n.startswith('room_'), room_after(), 300, 3000),
-    'map': (lambda n: n.startswith('map_'), ';'.join(['300 -'] + [PAGE] * 6), 300, 600),
-    'misc': (lambda n: not re.match(r'(ev|room|map)_|new_game$|ending$', n), None, None, 30),
+    'ev': (lambda n: n.startswith('ev_') or n == 'new_game', None, 15000, 30, ['NUDGE=1200']),
+    'ending': (lambda n: n == 'ending', None, 15000, 150, []),
+    'room': (lambda n: n.startswith('room_'), room_after(), 300, 3000, []),
+    'map': (lambda n: n.startswith('map_'), None, 3000, 60, ['NUDGE=600']),
+    'misc': (lambda n: not re.match(r'(ev|room|map)_|new_game$|ending$', n), None, None, 30, []),
 }
 
 
@@ -76,7 +78,7 @@ def main(argv):
     names = list(warp.load_scenes())
     bad = 0
     for g in a.group or list(GROUPS):
-        pick, after, hold, every = GROUPS[g]
+        pick, after, hold, every, extra = GROUPS[g]
         todo = [n for n in names if pick(n) and (not a.scenes or n in a.scenes)]
         if not todo:
             continue
@@ -85,6 +87,7 @@ def main(argv):
                            '--shot-every', str(every)]
             args += ['--hold', str(hold)] if hold is not None else []
             args += ['--mash', '0', '--var', f"AFTER='{after}'", '--var', 'PRESHOT=1'] if after else []
+            args += ['--mash', '0'] * bool(extra) + [x for v in extra for x in ('--var', v)]
             bad += warp.main(args)
         for n in todo:
             d = os.path.join(out, g, n)

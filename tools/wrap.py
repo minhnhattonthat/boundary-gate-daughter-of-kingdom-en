@@ -113,6 +113,30 @@ def _rows_of(seg, cols, quote):
     return rows, quote
 
 
+def _balance(rows, first_max, rows_max=ROWS):
+    """Cut rows into the fewest pages (the first holds <= first_max rows: 2 under a speaker line; later pages
+    rows_max, the clear wipes the name row too), as even as possible: 4 rows -> 2+2, 7 -> 3+2+2, so an overflow
+    rarely leaves a one-row fragment page ("moves.") after a full one."""
+    n = len(rows)
+    if n <= first_max:
+        return [rows]
+    m = -(-(n - first_max) // rows_max)          # pages after the first
+    best = None
+    for f in range(1, first_max + 1):
+        rest = n - f
+        if not m <= rest <= m * rows_max:
+            continue
+        sizes = [f] + [rest // m + (i < rest % m) for i in range(m)]
+        score = (sizes.count(1), max(sizes) - min(sizes), f)   # a lone row reads better first (under the name)
+        best = min(best or (score, sizes), (score, sizes))
+    sizes = best[1]
+    out, at = [], 0
+    for n in sizes:
+        out.append(rows[at:at + n])
+        at += n
+    return out
+
+
 def continues_quote(jp):
     """A JP dialogue entry that starts indented continues a quote opened by the entry before it."""
     return jp.startswith(('  ', '　'))
@@ -139,7 +163,7 @@ def layout(en, rows_max=ROWS, cols=COLS, quote=False):
         rows = [r.rstrip() for r in rows]
         while rows and not rows[-1].strip():
             rows.pop()
-        chunks = [rows[k:k + rows_max] for k in range(0, len(rows), rows_max)]
+        chunks = _balance(rows, rows_max if i == 0 else ROWS)   # a clear wipes the speaker row too
         pages.extend(chunks)
         out.append(PAGE.join('\r'.join(c) for c in chunks) + tail)
     return ''.join(out), pages

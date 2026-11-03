@@ -157,3 +157,13 @@ def test_card_title_prefix_matches_jp():
     en = insert.text_for(e, 'en')
     assert len(en.split('%s')[0].encode('cp932')) == len(e['jp'].split('%s')[0].encode('cp932')) == 20
     assert all(ord(c) > 0x7E for c in en.replace('%s', ''))   # full-width only, as SCE asks of titles
+
+
+def test_save_slot_row_fits():
+    """A used save slot's first row is exe:03374 (slot label) + exe:0339c (level, play time) in a one-row window
+    that the JP fills to 34 cells; a longer row wraps and scrolls, leaving only ': 1' (phase 8)."""
+    import wrap
+    by = {x['id']: x for x in insert.entries_of(insert.EXE)}
+    row = lambda m: sum(wrap.fmt_cells(insert.text_for(by[i], m).replace('::', ':').rstrip('\n'))  # noqa: E731
+                        for i in ('exe:03374', 'exe:0339c'))
+    assert row('jp') == 34 and row('en') <= 34

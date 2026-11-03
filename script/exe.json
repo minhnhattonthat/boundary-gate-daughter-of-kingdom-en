@@ -7605,7 +7605,7 @@
    "ram": "0x80012b9c",
    "group": "save",
    "jp": "     ＬＶ：%2d  %4d::%2d\n",
-   "en": "     LV::   %2d  %4d::%2d\n",
+   "en": "  LV:: %2d  %4d::%2d\n",
    "kind": "text",
    "refs": [
     "0x1e620",
