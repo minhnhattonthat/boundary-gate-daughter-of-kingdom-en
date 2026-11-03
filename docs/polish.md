@@ -215,3 +215,8 @@ Minor review findings, deferred to one polish pass (phase 9). Each line gets tic
 - [x] ROOMES05:14c4e - apprentice "I just follow my master" -> "I'll stick with my master." -- fixed
 - [x] ROOMES13:5002f - present-tense watchtower description -- waived: room descriptions stay present tense (translator brief), as ruled above
 - [x] ROOMES62:4fb24 - "Pentagram Crest Labyrinth" -- waived: 25 cells, the destination row holds 24 (see above)
+
+## Story pass round 4 (all 12 chapters ok; Minors deferred to v1.1, editing them would reopen the chapters' verdicts)
+- [x] EVENT67:21bd8 - "so that the two of them..." -> "to save both their lives..." -- waived: deferred to v1.1
+- [x] EVENT69:23acf - "I'm sorry I hid that I left" -> "I'm sorry I never told you..." -- waived: deferred to v1.1
+- [x] MAPMES37:9425a - "seemed to know her" -> "seemed to recognise her" -- waived: deferred to v1.1
