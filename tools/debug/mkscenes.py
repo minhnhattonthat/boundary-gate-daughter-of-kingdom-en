@@ -33,6 +33,8 @@ EXTRA = [
     ('menu_field', FIELD, MENU, 30, 0, 'field menu (map 0)'),
     ('menu_items', FIELD, MENU + WHO, 30, 0, 'field menu > items'),
     ('menu_magic', FIELD, MENU + ';6 down;45 -' + WHO, 30, 0, 'field menu > magic'),
+    ('menu_magic_sp', FIELD + ";SPELLS='14,19,12,0,24'", MENU + ';6 down;45 -' + WHO + ';6 down;45 -', 30, 0,
+     'magic menu with spells (header row: name, use, MP cost)'),
     ('menu_equip', FIELD, MENU + ';6 down;45 -' * 2 + WHO, 30, 0, 'field menu > equip'),
     ('menu_status', FIELD, MENU + ';6 down;45 -' * 3 + WHO, 30, 0, 'field menu > status'),
     ('menu_map', FIELD, MENU + ';6 down;45 -' * 4 + ';6 circle;60 -', 30, 0, 'field menu > map'),

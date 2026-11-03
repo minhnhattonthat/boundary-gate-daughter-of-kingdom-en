@@ -167,3 +167,21 @@ def test_save_slot_row_fits():
     row = lambda m: sum(wrap.fmt_cells(insert.text_for(by[i], m).replace('::', ':').rstrip('\n'))  # noqa: E731
                         for i in ('exe:03374', 'exe:0339c'))
     assert row('jp') == 34 and row('en') <= 34
+
+
+def test_field_party_rows_fit():
+    """Field-menu party box (2 rows, JP 41 cells, English 39 after EXE_PATCHES): row 1 is exe:00fa4 (name/LV/HP),
+    row 2 exe:00fc8 (status labels, MP) starts at column 1. One cell over wraps and scrolls row 1 away (phase 8)."""
+    import wrap
+    by = {x['id']: x for x in insert.entries_of(insert.EXE)}
+    cells = lambda i, m: wrap.fmt_cells(insert.text_for(by[i], m).replace('::', ':').rstrip('\n'))  # noqa: E731
+    assert (cells('exe:00fa4', 'jp'), 1 + cells('exe:00fc8', 'jp')) == (41, 41)
+    assert cells('exe:00fa4', 'en') <= 39 and 1 + cells('exe:00fc8', 'en') <= 39
+    # items-menu header, same box: icon/name/use/count, then description/equipped; no third line, and the use
+    # label (%s from exe:00ba4..00bb4, up to 'In Battle') and a 30-cell description must fit their fields
+    en = {i: insert.text_for(by[i], 'en') for i in ('exe:00af0', 'exe:00b0c')}
+    assert '%-9s' in en['exe:00af0'] and '%-30s' in en['exe:00b0c'] and '\n' not in en['exe:00b0c']
+    assert max(len(insert.text_for(by[i], 'en')) for i in ('exe:00ba4', 'exe:00bac', 'exe:00bb4')) <= 9
+    assert cells('exe:00af0', 'en') <= 38 and cells('exe:00b0c', 'en') <= 38
+    # magic-menu header, same box: spell, use label, MP cost
+    assert '%-9s' in insert.text_for(by['exe:00bc0'], 'en') and cells('exe:00bc0', 'en') <= 38

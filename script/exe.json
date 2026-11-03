@@ -655,7 +655,7 @@
    "ram": "0x800102f0",
    "group": "menu",
    "jp": ":%c%-20s %-6s  所持数 %2d\n",
-   "en": ":%c%-20s %-6s  Owned %2d\n",
+   "en": ":%c%-20s %-9s  x%2d\n",
    "kind": "text",
    "refs": [
     "0x1518c"
@@ -670,7 +670,7 @@
    "ram": "0x8001030c",
    "group": "menu",
    "jp": "%-30s 装備中 %2d",
-   "en": "%-30s\nEquipped %2d",
+   "en": "%-30s Equip%2d",
    "kind": "text",
    "refs": [
     "0x151c8"
@@ -868,7 +868,7 @@
    "ram": "0x800103c0",
    "group": "menu",
    "jp": "%-22s  %6s  消費MP %2d\n",
-   "en": "%-22s  %6s  MP Cost %2d\n",
+   "en": "%-22s %-9s MP%3d\n",
    "kind": "text",
    "refs": [
     "0x16114"
@@ -1812,7 +1812,7 @@
    "ram": "0x800107c8",
    "group": "menu",
    "jp": "%4s%4s%4s%4s%2s          ＭＰ %3d/%3d",
-   "en": "%-3s%-6s%-8s%-5s%-7sMP %3d/%3d",
+   "en": "%-3s%-6s%-8s%-5s%-7sMP%3d/%3d",
    "kind": "text",
    "refs": [
     "0x1981c"

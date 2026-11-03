@@ -13,6 +13,7 @@
 --   GOD   1 = no party member's HP may drop below its value at arrival (for --mash routes through fights).
 --   HP    n = set every party member's HP to n on arrival (HP=1 + a battle + mash = game over).
 --   STATUS '1,2,4' status byte of each party slot in order, set on arrival (status-effect rows).
+--   SPELLS '0,5,9' spell ids the first party member knows, set on arrival (magic menu rows).
 --   WIPE_HOLD n = with HP: end the run n frames after every member's HP hits 0 (Game Over banner ~230-530 later).
 --   AFTER '600 -;6 square;45 -' route steps (frames buttons) pressed after arrival (menus, shops).
 --   HOLD  frames to run after arrival and AFTER, then the run ends here: final.png (+ --state-out) is that frame.
@@ -86,6 +87,13 @@ local function arrived(what)
     if HP then w16(a, HP) end
     if st[k] then w8(a + 0x0B, st[k]) end   -- status byte 0x80126C21 + 0x3C*member (HP is at +2)
     godhp[a] = r16(a)
+  end
+  local sp = {}
+  for v in (SPELLS or ''):gmatch('%d+') do sp[#sp + 1] = tonumber(v) end
+  local a = members()[1]
+  if a and #sp > 0 then   -- spell count u16 0x80126C22, ids s8 from 0x80126C30 (magic menu 0x800258ac)
+    w16(a + 0x0C, #sp)
+    for i, v in ipairs(sp) do w8(a + 0x1A + i - 1, v) end
   end
   local at = L.frame
   for step in (AFTER or ''):gmatch('[^;]+') do

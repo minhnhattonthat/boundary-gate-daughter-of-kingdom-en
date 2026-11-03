@@ -205,6 +205,7 @@ ev_83	KIND='event';EVENT=83		300	0	called from MAPMES3/MAPMES83.BIN
 menu_field	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -	30	0	field menu (map 0)
 menu_items	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 circle;60 -;6 circle;60 -	30	0	field menu > items
 menu_magic	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 circle;60 -;6 circle;60 -	30	0	field menu > magic
+menu_magic_sp	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2;SPELLS='14,19,12,0,24'	6 square;45 -;6 down;45 -;6 circle;60 -;6 circle;60 -;6 down;45 -	30	0	magic menu with spells (header row: name, use, MP cost)
 menu_equip	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down;45 -;6 circle;60 -;6 circle;60 -	30	0	field menu > equip
 menu_status	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;60 -;6 circle;60 -	30	0	field menu > status
 menu_map	KIND='loc';LOC=0x100;X=12;Y=5;DIR=2	6 square;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;60 -	30	0	field menu > map

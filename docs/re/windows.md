@@ -71,8 +71,10 @@ needs more room, the build can add pages (duplicate the `0x22` + clear op) rathe
   config value column follow their labels; equip compare box 13 -> 15 cells (list box 32 -> 30); command
   windows (Talk/Move/Status, battle Fight/Run/Status/Weapon/Magic/Items, Buy/Sell/Items) 6 -> 8 cells, 6 px
   further left (the room/battle backgrounds already cover it).
-- **Status effects**: field-menu row `%-3s%-6s%-8s%-5s%-7sMP %3d/%3d` (KO, Sleep, Silence, Weak, Poison; HP/MP
-  columns aligned at cell 29 of 39). The items-menu party box is 19 cells and the JP itself abbreviates to one
+- **Status effects**: field-menu row `%-3s%-6s%-8s%-5s%-7sMP%3d/%3d` (KO, Sleep, Silence, Weak, Poison). The game
+  starts this row at column 1 (`0x80021f80(win, 1, ..)` before the printf), so it has 38 of the box's 39 cells;
+  one cell more wraps the last digit and scrolls the name/LV/HP row out of the 2-row box (phase 8, every
+  party member, status or not). MP digits line up under the HP digits (cells 32-38). The items-menu party box is 19 cells and the JP itself abbreviates to one
   kanji there (毒/眠/黙): English uses Psn/Slp/Sil (flagged abbreviation, D12); `insert.EXTRA_STRINGS` gives that
   box its own short copy of 毒.
 - Not yet seen with a status active (no warp sets the status byte 0x80126c21 + 0x3c*member): phase 8.
