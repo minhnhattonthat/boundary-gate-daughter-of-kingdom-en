@@ -2,7 +2,13 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) in progress 2026-11-04. Phase-7 review (`../.harness/reviews/...-phase7.md`) fixed:
+- **Phase:** 9 (release) done 2026-11-04: `release/v1.0/Boundary_Gate_Daughter_of_Kingdom_EN_v1.0.zip` (gitignored)
+  built and verified; publishing is the owner's call (`gh release create` not run). Patch sha1 d98f6b83, patched
+  Track 01 sha1 cded83f6 crc32 1C2DA008. Verified: `release.py` gates all green (245 tests, lint 0/0, smoke, exe
+  jp_left only known debug runs, 486/486 sheets, 12/12 chapters, polish ticked, debug off), zip extracted, patch
+  applied to a clean Track 01 = same sha1 as `build/`, and map_00, map_32, new_game warp ok from that patched disc.
+  v1.1 candidates: Minors at EVENT67:21bd8, EVENT69:23acf, MAPMES37:9425a, "Pentagram Crest Labyrinth" repeat at
+  ROOMES62:4fb24 (25 cells, row limit 24). Phase-7 review (`../.harness/reviews/...-phase7.md`) fixed:
   per-entry empty-English lint (#1), measured hard exe budgets + worst-case `%s` rows (#2, `wrap.EXE_FIELD`,
   `msg_args`), independent write gate `tools/gate.py` in build + `tests/test_gate.py` (#3); Minor #4 (stub last
   rows) -> polish. Found by #2: title-attract lore rows ran off screen (exe:0564c 52 cells; printer draws `\n`
@@ -11,8 +17,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   [x] `tools/story.py chapters|review` (codex story reviewer, `docs/story-reviewer-brief.md`) -> 12 chapter files
   `work/qa/story/`; [x] `tools/release.py` + `docs/release-readme.txt` + `tools/jp_known.txt`;
   [x] story verdicts, Important fixes, Minors to polish.md; [x] polish pass (all ticked); [x] final story re-review
-  (12/12 ok, last Minors deferred to v1.1); [x] repo README status table; [ ] re-tour + vqa; [ ] `release.py` ->
-  `release/v1.0/` zip.
+  (12/12 ok, last Minors deferred to v1.1); [x] repo README status table; [x] full re-tour (223/223 ok) + vqa of
+  the 125 changed sheets (`work/qa/verdicts/r5_*`); [x] `release.py` -> `release/v1.0/` zip.
   **Bug found by the re-tour (map_32 froze after a one-byte text change):** `insert.py` only moved routines with
   flags 0x00FF; the 451 tile-trigger routines (doors, shops; flags = `x | y << 8`, `docs/re/script.md`) kept stale
   offsets in every English build, so walking onto them ran the wrong bytecode. Fixed in insert + gate + test;
@@ -157,6 +163,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
   build they were made on (the warp cold-boots, so this only matters for state reuse).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing blocking. Non-blocking: name spellings chosen without an official source
+- **Waiting on the user:** nothing blocking. Non-blocking: publish v1.0 when ready (`gh release create`, zip above);
+  a full playthrough has not been done, the tour warps to scenes (tile triggers: static gate + map_00 doors only).
+  Name spellings chosen without an official source
   (D10: Risp, Kiral, Modalglow, Rhodedahl, Prairial, Sheeda...); swap any in `glossary.md` and the lint flags every
   line to change.
