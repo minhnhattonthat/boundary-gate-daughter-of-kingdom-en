@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2 (debug tool) done 2026-11-04. Next: phase 3 (identity build). No build yet.
+- **Phase:** 3 (identity build) done 2026-11-04. Next: phase 4 (extract).
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
@@ -32,8 +32,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     can show leftover VRAM (title logo) where the previous scene's picture would be (ev_59-61 area); text is fine.
   - Gotcha: under `emu.py --debugger` (interpreter) the ending jumps to 0x00010004 and freezes; the warp avoids exec
     hooks for this reason.
-- **Next (phase 3):** identity build: `tools/build.py` = dumpsxiso tree + `mkpsxiso -y layout.xml` (cwd `tree/`),
-  byte-identical to Track 01 as a test; writes `build/boundary-gate-en.bin/.cue` (cue copies audio tracks 02-90).
+- **Done (phase 3)** — `tools/build.py`: `check_rom`, dumpsxiso into `work/disc` (once; a fresh dump equals the
+  existing tree + layout), `mkpsxiso -y -o/-c layout.xml` with cwd `work/disc` (layout paths are `tree/...`), cut the
+  single image at Track 02 INDEX 00 (= Redump's Track 01 split), cue = original cue with Track 01 renamed and audio
+  FILEs pointing at `..\rom\` (no 430 MB copy). The full repacked image (data + all 89 audio tracks) equals
+  `cat rom/*.bin` byte for byte. `tests/test_build.py` repacks into `work/idtest/` and checks Track 01's sha1 (~1 s).
+  Build `build/boundary-gate-en.bin` sha1 f63989d3 (= original), smoke ok (prologue text at final frame).
+  Phase 5 hook point: write changed files to a staging dir and point their `<file source=...>` in a copied layout,
+  never edit `work/disc/tree` (the identity test repacks it).
+- **Next (phase 4):** extract the text to `script/` (JSON per file, `jp`/`en`/`id`), roundtrip test re-encoding every
+  string to the original bytes, coverage test over the script sections and exe 0x800-0x5700 (`docs/re/text.md`,
+  `docs/re/script.md`, `tools/evscript.py`).
 - **Open questions for later phases (non-blocking):** heap headroom for grown scripts (test in phase 5: grow
   MAPMES00's script by 4 KB, then warp town/battle/menu); whether events are voiced (CDDA `EVnnX.WAV`, `XA/`);
   title katakana line plan (graphics.md G1). The DEB window strings (exe 0xE90-0xF7C) stay Japanese: debug-only,
