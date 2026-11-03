@@ -1,2 +1,3 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump (Redump), sha1sum format. Track 01 is the data track; audio tracks are unchanged by the patch.
+f63989d3c28aae49588e5cf402e9bb061d4b947b *rom/Boundary Gate - Daughter of Kingdom (Japan) (Track 01).bin
+5ca2f99b7d283a1a9ee9ad12430bad2559b2ebdb *rom/Boundary Gate - Daughter of Kingdom (Japan).cue

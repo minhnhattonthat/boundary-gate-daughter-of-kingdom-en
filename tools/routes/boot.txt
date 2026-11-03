@@ -1,0 +1,6 @@
+# Cold boot -> logos -> title (~f1500) -> Start -> title menu -> circle (New Game) -> first dialogue box (~f2500)
+1600 -
+6 start
+300 -
+6 circle
+600 -
