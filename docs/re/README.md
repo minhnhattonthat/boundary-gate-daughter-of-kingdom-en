@@ -15,6 +15,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `files.md` | disc layout, which files hold text, *MES container, dir = n // 25, leftover files | verified |
 | `script.md` | event-script interpreter, opcode operand table, jumps and routine table (the pointers) | verified (parser test) |
 | `text.md` | Shift-JIS, printer control codes, window 26x3, native ASCII, exe string regions, free space | encoding/printer verified; exe pointers and free space guesses |
+| `debug.md` | location word, main loop, leftover DEB window, cold-boot warp design | verified (warp runs) |
 | `graphics.md` | graphics-text survey (static sweep done; runtime screens listed for phase 2) | static verified |
 
 Prior work: none found (web search 2026-11-03: no English or other fan patch for the PS1 or PC-FX version).

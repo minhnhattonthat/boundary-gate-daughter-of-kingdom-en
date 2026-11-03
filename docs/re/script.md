@@ -18,7 +18,8 @@ under unicorn with a real RAM dump (`tools/re_ops.py`) plus disassembly of the h
 1. **Relative jumps** `J` = s16, relative to the end of the instruction: ops 0x00-0x05 (`B var, D const, J`:
    compare var[B] with const: ==, !=, <, >... and jump), 0x08 (`J`, goto).
 2. **Routine table offsets** (s16 from script base), 32 per file.
-3. Ops 0x37 (save) and 0x39 store `ptr - base` at run time (save files / battle return): consistent within a build,
+3. Ops 0x37 (run event: keeps `ptr - base` while the event replaces the script, verified in `debug.md`) and 0x39
+   store `ptr - base` at run time (save files / battle return): consistent within a build,
    but a **save made on another build resumes at a stale offset** (same as any script-layout change). Old saves of the
    Japanese game are not expected to carry over.
 
@@ -35,7 +36,8 @@ B = u8, W = 2 bytes, D = u32, J = s16 jump, S = zero-terminated string, Nn = n b
 | 06 07 | B D | set/add var |
 | 08 | J | goto |
 | 09 12 | B | call routine B |
-| 0a 0b 0d 15 1b 1e 1f 20 29 2f 30 36 37 40 41 43 45 4f 51 54 | B | various; 37 stores the script offset (save, guess) |
+| 0a 0b 0d 15 1b 1e 1f 20 29 2f 30 36 37 40 41 43 45 4f 51 54 | B | various; 36 enter room B, 37 run event B (`debug.md`) |
+| 19 | - | end script; 35 (D) = goto map [map, x, y, dir]; 48 = ending (`debug.md`) |
 | 0c 18 2c 2d 2e 39 46 47 | W | |
 | 0e 16 33 35 38 49 | D | 16 uses 3 of its 4 bytes |
 | 0f 10 11 | B W | |

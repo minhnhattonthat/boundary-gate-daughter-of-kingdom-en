@@ -29,3 +29,7 @@ Everything else on screen so far is font-drawn text (exe or script strings): tit
 
 Battle (commands, damage, enemy names), shop/inn/healer, save/load (memory card), settings and debug menus,
 level-up, game over (`ゲームオーバー`), ending and credits. Add a row above for any Japanese that is not a string.
+
+Seen so far through the warp (phase 2, `work/qa/warp/<scene>/`): battle commands, messages and the room menu
+(会話 移動 状態) are font text; the game-over banner is an English "Game Over" graphic already; ending pictures carry no
+text. Still to look at closely in phase 8: battle effects (ANI), level-up, save screens, credits.

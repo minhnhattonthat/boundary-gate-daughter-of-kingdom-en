@@ -6,7 +6,7 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Build:    `python -X utf8 tools/build.py` -> build/boundary-gate-en.bin/.cue (checks `rom.sha1` first; written in phase 3, not yet present)
 - Check:    `python -X utf8 tools/check.py` (pytest over tests/ + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/boundary-gate-en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the `rom/...cue` until a build exists). Title ~f1500; first dialogue ~f2500. Japanese game: confirm = circle.
-- Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/boundary-gate-en.cue --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.*`, phase 2; never ask the user to play to a scene)
+- Warp:     `python -X utf8 tools/debug/warp.py <scene>.. [--var BATTLE=n] [--hold N]` -> `work/qa/warp/<scene>/` (cold boot, no debugger; `--list`; `--all --state --jobs 6` regenerates `work/states/<scene>.sstate`; build if present else rom). Scenes: `tools/debug/scenes.tsv` (from `mkscenes.py`); design `docs/re/debug.md`. Never ask the user to play to a scene.
 - Release:  `python -X utf8 tools/release.py` (xdelta vs Track 01 .bin + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
