@@ -74,12 +74,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - **Heap headroom**: MAPMES00's script grown by 4 KB and by **64 KB** still boots a town map, a room, a battle and
     the field menu (shots `work/qa/grow*/`). Scripts are all < 4.2 KB originally, so English growth is safe.
   - VWF rejected: fixed-pitch half-width ASCII, every printable glyph present (docs/decisions.md D9).
-- **Next (phase 6):** translate in batches. Before dispatch: add `max`/`box` to the JSON entries from
-  `docs/re/windows.md` and write the lint (row cells, rows per page, control-code multiset JP==EN, glossary terms,
-  `::`/`@`/`\`, leftover Japanese, stub last lines). Batches by `group`; glossary in `glossary.md`.
+- **Next (phase 6):** translate in batches. Before dispatch:
+  - add `box`/`max` to the JSON entries from `docs/re/windows.md` (message pages 26x3; item/shop name 20, spell 22,
+    equipped 30, party name 14, location 24) so the lint can check each line against its own budget;
+  - write the lint (`tools/lint.py`, wired into `tools/check.py`): row cells vs budget, rows per page, control-code
+    multiset JP==EN, glossary terms, `::` for ':', no `@`/`\`, leftover Japanese, stub last lines, leading/trailing
+    blanks;
+  - add `EXTRA` warp scenes (`tools/debug/mkscenes.py`) that get past a room's entry dialogue, to measure the choice
+    window (0x27) and the room list (0x1c/0x28/0x4e) — the last guesses in the width gate;
+  - batches by `group`; glossary in `glossary.md`.
 - **Next (phase 7):** exe relocation for strings longer than their field; then the real insert (mode `en`).
 - **Open questions (non-blocking):** whether events are voiced (CDDA `EVnnX.WAV`, `XA/`); title katakana line plan
-  (graphics.md G1). The DEB window strings (exe 0xE90-0xF7C) stay Japanese: debug-only, the release never sets the
-  flag.
+  (graphics.md G1); the title-screen menu labels are exe `boot` strings (marked in the marker build: 10/4/4 digits),
+  the katakana subtitle under the logo is the one known graphic. QA builds (`--marker`/`--ruler`/`--torture`/
+  `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
+  build they were made on (the warp cold-boots, so this only matters for state reuse).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
