@@ -25,7 +25,8 @@ TIMED_PAGE = '\x17\x17\x17' + CLR
 # script fields: op -> (cells, hard). hard = measured; soft = guess until phase 8 measures it.
 FIELD = {'21': (26, True), '23': (26, True), '25': (24, True),
          # 0x1c NPC list: drawn in the 26-cell message window after a 1-cell cursor (phase 7, npcs_53)
-         '1c': (25, True), '27': (10, False),
+         # 0x27 choice: drawn inline in the message window row, 10 cells a choice (phase 7, scene save)
+         '1c': (25, True), '27': (10, True),
          # 0x28/0x4e destination lists: text from cell 2 (cursor in 0-1), one row an entry (phase 8, room_62)
          '28': (24, True), '4e': (24, True)}
 
@@ -40,13 +41,18 @@ def cells(text):
                for c in text if ord(c) >= 0x20)
 
 
-def fmt_cells(text):
-    """Cells of an exe printf format: each conversion counted at its width or a worst-case guess."""
-    n, pos = 0, 0
+def fmt_cells(text, args=None):
+    """Cells of an exe printf format: each conversion counted at its width or a worst-case guess.
+    `args`: worst-case cells of each %s in order (a field width still wins when it is larger)."""
+    n, pos, k = 0, 0, 0
+    args = list(args or [])
     for m in PRINTF.finditer(text):
         n += cells(text[pos:m.start()])
-        w = int(m.group(1)) if m.group(1) else 0
-        n += max(w, PRINTF_CELLS[m.group(3)] if not w else 0)
+        w = int(m.group(1) or 0)
+        if m.group(3) == 's' and k < len(args):
+            n, k = n + max(w, args[k]), k + 1
+        else:
+            n += w or (6 if m.group(2) else PRINTF_CELLS[m.group(3)])    # %ld: gold, EXP (the game's %6ld)
         pos = m.end()
     return n + cells(text[pos:])
 
@@ -231,36 +237,137 @@ def rows_budget(prev_op):
 
 # ---------------------------------------------------------------- exe budgets
 
-EXE_ROW = {'battle': 26, 'shop': 26, 'save': 26, 'monsters': 26, 'prologue': 38}
+# Message-window groups: 26 cells a row, the window wraps by itself but mid-word ('Finnattacked', phase 8), so
+# every row with its arguments at their worst case must fit. Prologue: the title-attract lore rows, drawn from
+# x=16 with no wrap and no row breaks (a 0x0A draws as a blank cell): 38 keeps them inside the JP's own extent.
+# Save: the save/load window, 0x80021530 w=35 at x=23 (calls 0x1ee38, 0x1fa04 inside the save code).
+EXE_ROW = {'battle': 26, 'shop': 26, 'save': 35, 'monsters': 26, 'prologue': 38}
+
+# Exe fields the group rules do not cover: id -> (cells, where). Post-patch widths (insert.EXE_PATCHES) or the
+# reader's printf field; docs/re/windows.md. All hard.
+_TITLE = 'field-menu column / submenu title box, 6 cells after the 4 -> 6 patch'
+_USE = "use label in the items/magic header's %-9s field"
+_STAT = 'status screen right column (window 0x80021414 w=16 at x=208)'
+EXE_FIELD = {
+    **{i: (6, _TITLE) for i in ('exe:00b9c', 'exe:00c08', 'exe:00cb0', 'exe:00dbc', 'exe:00e6c', 'exe:01000',
+                                'exe:01031')},
+    **{i: (9, _USE) for i in ('exe:00ba4', 'exe:00bac', 'exe:00bb4', 'exe:01038', 'exe:01040', 'exe:01048',
+                              'exe:01050')},
+    # status names in the field-menu row %-3s%-6s%-8s%-5s%-7s (KO, Sleep, Silence, Weak, Poison), 1 cell gap kept
+    'exe:00ad8': (2, 'status %-3s'), 'exe:00ad0': (5, 'status %-6s'), 'exe:00ac8': (7, 'status %-8s'),
+    'exe:00ac0': (4, 'status %-5s'), 'exe:00abc': (6, 'status %-7s'),
+    'exe:00b20': (3, 'items-menu party box %-4s (insert.FORMAT_EN exe:00b28)'),
+    'exe:00b24': (3, 'items-menu party box %-4s (insert.FORMAT_EN exe:00b28)'),
+    # top box, 39 cells x 2 rows after the patch: 38 + the cursor/icon column; one more scrolls row 1 away (phase 8)
+    **{i: (38, 'top box row (field menu / items / magic header)') for i in
+       ('exe:00af0', 'exe:00b0c', 'exe:00bc0', 'exe:00be8', 'exe:00fc8')},
+    'exe:00fa4': (39, 'field-menu party name row: starts at column 0, the full 39 cells (test_field_party_rows_fit)'),
+    'exe:01f58': (24, 'location name (current-location field %24s), stored just before the item names'),
+    **{i: (15, 'equip compare box, 15 cells after the 13 -> 15 patch') for i in
+       ('exe:00c14', 'exe:00c24', 'exe:00c34', 'exe:00c44', 'exe:00c54')},
+    **{i: (8, 'equip slot label: the item column starts 50 px (8 cells) right of it (patch 0x1752c)') for i in
+       ('exe:00c68', 'exe:00c74', 'exe:00c80', 'exe:00c8c')},
+    **{i: (16, _STAT) for i in ('exe:00ce0', 'exe:00cec', 'exe:00d00', 'exe:00d14', 'exe:00d24', 'exe:00d40',
+                                'exe:00d48', 'exe:00d5c', 'exe:00d70', 'exe:00d84', 'exe:00d98', 'exe:00dac')},
+    **{i: (26, 'config value column, 26 cells after the patch') for i in
+       ('exe:00e38', 'exe:00e40', 'exe:00e48', 'exe:00e50', 'exe:00e58')},
+    'exe:00e7c': (13, 'config labels: the value column starts right of 13 cells (patch 0x18c38)'),
+    'exe:00f8c': (34, 'map screen bottom window (w=34 at x=16)'),
+    'exe:008b8': (20, 'boot prompt window (0x80021414 w=20 h=1)'),
+    'exe:008d0': (8, 'boot New Game / Continue window (w=8 h=2)'),
+    'exe:00a40': (6, 'Yes/No choice: the narrowest choice window is 8 cells, 2 kept for the cursor'),
+    'exe:00a48': (6, 'Yes/No choice: the narrowest choice window is 8 cells, 2 kept for the cursor'),
+    **{i: (8, 'command window, 8 cells after the 6 -> 8 patch (rows start with 2 cursor spaces)') for i in
+       ('exe:03150', 'exe:03214', 'exe:0322c', 'exe:032ac', 'exe:04680', 'exe:0468c', 'exe:0469c', 'exe:046a4')},
+    'exe:031c0': (35, 'shop list row: shop window 0x80021530 w=35 at x=23 (call 0x1db5c)'),
+    **{i: (64, 'memory-card title, 64 bytes of Shift-JIS; prefix checked by test_card_title_prefix_matches_jp')
+       for i in ('exe:03618', 'exe:03638')},
+}
+# Strings never drawn as text (the Game Over banner is a graphic; these labels sit in .data tables 0x6b580-0x6b628
+# that no screen in the phase-8 tour reads): no width check, the build relocates them like any other string.
+UNSEEN = {'exe:03a00', 'exe:03a14', 'exe:03a20'}
+
+
+def is_msg(e):
+    """Printed into the 26-cell message window (battle log, shop/inn/save prompts, item-use results)."""
+    g, jp = e['group'], e['jp']
+    return e['id'] not in EXE_FIELD and (g in ('battle', 'shop', 'save', 'monsters') or (
+        g in ('items', 'spells') and ('%' in jp or '\n' in jp or not 0x1f58 <= e['off'] < 0x3128)))
 
 
 def exe_budget(e):
-    """(cells per row, hard) for one exe string, from its group and field (docs/re/windows.md)."""
+    """(cells per row, hard) for one exe string, from its group and field (docs/re/windows.md).
+    Raises KeyError for a string with no measured budget (the lint reports it)."""
     g, jp = e['group'], e['jp']
-    if g in ('items', 'spells') and ('%' in jp or '\n' in jp or not 0x1f58 <= e['off'] < 0x3128):
-        return 26, False      # item-use / result messages (exe 0x37ec+): message window
+    if e['id'] in EXE_FIELD:
+        return EXE_FIELD[e['id']][0], True
+    if is_msg(e):
+        return EXE_ROW.get(g, 26), True
     if g == 'party':
         return 14, True
     if g == 'map':
         return 24, True
     if g == 'items':
-        return (30, False) if e['len'] == 30 else (20, True)
-    if g == 'spells':
-        return (30, False) if e['len'] == 30 else (22, True)
+        return (30, True) if e['len'] == 30 else (20, True)
+    if g == 'spells':         # 30-byte descriptions: the help box is 48 cells (w=48 at x=16); 30 keeps them in place
+        return (30, True) if e['len'] == 30 else (22, True)
     if g == 'ending':
         return 38, True       # centred in a 256 px band: a longer line runs off both edges (phase 8)
     if g == 'credits':        # cast/staff labels sit in a 20-cell column; the JP's longer rows are narration
-        return (20, True) if max(cells(r) for r in jp.split('\n')) <= 20 else (38, False)
+        return (20, True) if max(cells(r) for r in jp.split('\n')) <= 20 else (38, True)
     if g in EXE_ROW:
-        return EXE_ROW[g], False
-    return max(cells(r) for r in re.split('[\r\n]', jp)), False
+        return EXE_ROW[g], True
+    if e['id'] in UNSEEN:
+        return None, True
+    raise KeyError(f'{e["id"]}: no measured budget (add it to wrap.EXE_FIELD)')
+
+
+def msg_args(e, fmt):
+    """Worst-case cells of each %s in a message-window format: an actor (the longest party or monster name), the
+    'A'/'B' suffix after it ('%s%s', 2 cells), then item or spell names; ARG_KIND overrides."""
+    n = fmt.count('%s')
+    if e['id'] in ARG_KIND:
+        kinds = ARG_KIND[e['id']]
+    elif e['group'] in ('items', 'spells'):          # field item/spell use: the target is a party member
+        kinds = ['party'] * n
+    else:
+        kinds = ['actor'] + (['suffix'] if '%s%s' in fmt else []) + ['thing'] * n
+    w = _name_cells()
+    return [w[k] for k in kinds[:n]]
+
+
+# %s kinds where the default (actor first) is wrong. 04774 '%s%s %s': the third is a monster action, which starts
+# its own row when it could overflow (insert._wrapped_actions), so it adds nothing to the row checked here.
+ARG_KIND = {'exe:03130': ['thing'], 'exe:03244': ['thing'], 'exe:0483c': ['thing'], 'exe:048f9': ['thing'],
+            'exe:04949': ['thing'], 'exe:04774': ['actor', 'suffix', 'none'],
+            # healer, level-up and the attack/defence-raising spells (player spells): party members only
+            'exe:03328': ['party'], 'exe:04909': ['party'], 'exe:04619': ['party'], 'exe:04631': ['party']}
+_NAMES = None
+
+
+def _name_cells():
+    """Longest English party/monster name (actor) and item/spell name (thing), from script/exe.json."""
+    global _NAMES
+    if _NAMES is None:
+        import extract
+        ents = [e for e in extract.load(extract.out_path(extract.EXE))['entries'] if e['kind'] == 'text']
+        mon = 0x66e58, 0x84                       # monster records (insert.MONSTERS): name pointer at +0
+        names = [e for e in ents if e['group'] == 'party' or (e['group'] == 'monsters' and any(
+            int(r, 16) >= mon[0] and (int(r, 16) - mon[0]) % mon[1] == 0 for r in e['refs']))]
+        things = [e for e in ents if e['group'] in ('items', 'spells') and 0x1f58 <= e['off'] < 0x3128
+                  and e['len'] != 30 and '%' not in e['jp'] and e['id'] not in EXE_FIELD]
+        # party names are the defaults at exe 0x800 (no name entry seen in the game)
+        _NAMES = {'actor': max(cells(e['en'] or e['jp']) for e in names),
+                  'party': max(cells(e['en'] or e['jp']) for e in names if e['group'] == 'party'),
+                  'thing': max(cells(e['en'] or e['jp']) for e in things), 'suffix': 2, 'none': 0}
+    return _NAMES
 
 
 def budget(e, prev_op=None):
     """Human-readable limit for a batch line: '26x3', '26x2', '20', '24~' (~ = soft)."""
     if e['id'].startswith('exe:'):
         n, hard = exe_budget(e)
-        return f'{n}' + ('' if hard else '~')
+        return '-' if n is None else f'{n}' + ('' if hard else '~')
     if e['op'] == '22':
         return f'{COLS}x{rows_budget(prev_op)}'
     n, hard = FIELD[e['op']]

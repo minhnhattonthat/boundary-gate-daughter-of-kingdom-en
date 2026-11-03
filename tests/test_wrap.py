@@ -55,8 +55,8 @@ def test_tsv_roundtrip_exe():
 def test_check_unit_catches_printf_order_and_controls():
     u = {'jp': '%sに%dのダメージ', 'exe': True, 'prev': [None],
          'entries': [{'id': 'exe:045b5', 'group': 'battle', 'len': 16, 'jp': '%sに%dのダメージ'}]}
-    assert not L.check_unit(u, '%s takes %d damage', [])[0]
-    assert L.check_unit(u, '%d damage to %s', [])[0]
+    assert not L.check_unit(u, '%s lost %d HP.', [])[0]
+    assert L.check_unit(u, '%d HP lost by %s', [])[0]
     d = {'jp': 'リスプ\r「はい\x10', 'exe': False, 'prev': [None],
          'entries': [{'id': 'X:1', 'op': '22', 'group': 'dialogue', 'jp': 'リスプ\r「はい\x10'}]}
     terms = [('リスプ', ['Risp'], [])]
@@ -73,6 +73,31 @@ def test_check_unit_keeps_original_page_breaks():
     assert not L.check_unit(d, '"Yes."<wait><clr>"No."<wait>', [])[0]
     assert not L.check_unit(d, '"Yes."<wait><clr>"Well."<wait><clr>"No."<wait>', [])[0]  # added page ok
     assert L.check_unit(d, '"Yes." "No."<wait>', [])[0]                                   # dropped page
+
+
+def test_missing_english_is_caught_per_entry():
+    """A wholly blank unit and one blank duplicate inside a translated unit both fail (phase-7 review #1)."""
+    e = lambda i, en, notes='': {'id': i, 'jp': '設定', 'en': en, 'notes': notes}  # noqa: E731
+    assert L.missing({'entries': [e('exe:00e6c', '')]}) == ['exe:00e6c']
+    assert L.missing({'entries': [e('A:1', 'Config'), e('A:2', '')]}) == ['A:2']
+    assert not L.missing({'entries': [e('A:1', 'Config'), e('A:2', '', 'keep: shown in Japanese')]})
+    assert not L.missing({'entries': [{'id': 'exe:03658', 'jp': '　', 'en': '', 'notes': ''}]})  # blank JP
+
+
+def test_exe_budgets_are_measured_and_hard():
+    """Menu labels fail past their post-patch field (Config column: 6 cells), message-window rows fail when the
+    longest argument would cut a word at 26, and every exe text string has a budget (phase-7 review #2)."""
+    import extract
+    by = {e['id']: e for e in extract.load(extract.out_path(extract.EXE))['entries']}
+    unit = lambda i: {'jp': by[i]['jp'], 'exe': True, 'prev': [None], 'entries': [by[i]]}  # noqa: E731
+    assert not L.check_unit(unit('exe:00e6c'), 'Config', [])[0]
+    assert L.check_unit(unit('exe:00e6c'), 'Configuration', [])[0]
+    assert L.check_unit(unit('exe:04909'), '%s reached Level %d.', [])[0]       # 'Greystone reached Level 1/2'
+    assert not L.check_unit(unit('exe:04909'), '%s reached LV %d.', [])[0]
+    for e in by.values():
+        if e['kind'] == 'text' and 'debug menu' not in e['notes']:
+            n, hard = W.exe_budget(e)
+            assert hard, e['id']
 
 
 def test_npc_labels_are_per_room():

@@ -7163,7 +7163,7 @@
    "ram": "0x80012930",
    "group": "shop",
    "jp": "壊れて%sに",
-   "en": "broke and became %s",
+   "en": "broke and\nbecame %s",
    "kind": "text",
    "refs": [
     "0x1bbe8"
@@ -8224,7 +8224,7 @@
    "ram": "0x8001306d",
    "group": "items",
    "jp": "%sのＭＰは全回復した",
-   "en": "%s's MP was fully restored.",
+   "en": "%s's MP was\nfully restored.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -8237,7 +8237,7 @@
    "ram": "0x80013085",
    "group": "items",
    "jp": "%sのＭＰは%d回復した",
-   "en": "%s recovered %d MP.",
+   "en": "%s regained %d MP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -8250,7 +8250,7 @@
    "ram": "0x8001309d",
    "group": "items",
    "jp": "%sに効果はなかった",
-   "en": "It had no effect on %s.",
+   "en": "No effect on %s.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -8263,7 +8263,7 @@
    "ram": "0x800130b1",
    "group": "items",
    "jp": "%sはＨＰが%d回復した",
-   "en": "%s recovered %d HP.",
+   "en": "%s regained %d HP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -8276,7 +8276,7 @@
    "ram": "0x800130c9",
    "group": "items",
    "jp": "%sのＨＰが全回復した",
-   "en": "%s's HP was fully restored.",
+   "en": "%s's HP was\nfully restored.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -8354,7 +8354,7 @@
    "ram": "0x8001314d",
    "group": "items",
    "jp": "%sは毒が解けた",
-   "en": "%s was cured of poison.",
+   "en": "%s was cured\nof poison.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -11888,7 +11888,7 @@
    "ram": "0x80013db5",
    "group": "battle",
    "jp": "%sに%dのダメージ",
-   "en": "%s took %d damage.",
+   "en": "%s lost %d HP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -11914,7 +11914,7 @@
    "ram": "0x80013dd9",
    "group": "battle",
    "jp": "%sには効果はなかった",
-   "en": "It had no effect on %s.",
+   "en": "It had no effect\non %s.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -11940,7 +11940,7 @@
    "ram": "0x80013e01",
    "group": "battle",
    "jp": "%sには何もおきなかった",
-   "en": "Nothing happened to %s.",
+   "en": "Nothing happened\nto %s.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -11992,7 +11992,7 @@
    "ram": "0x80013e55",
    "group": "battle",
    "jp": "%sには何も効果がなかった",
-   "en": "%s was completely unaffected.",
+   "en": "It had no effect\nat all on %s.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12108,7 +12108,7 @@
    "ram": "0x80013ed9",
    "group": "battle",
    "jp": "%sは毒のため\nＨＰが１０下がった",
-   "en": "%s was hurt by poison\nand lost 10 HP.",
+   "en": "%s lost 10 HP\nto poison.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12220,7 +12220,7 @@
    "ram": "0x80013f95",
    "group": "battle",
    "jp": "%sは%dのダメージ",
-   "en": "%s took %d damage.",
+   "en": "%s lost %d HP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12246,7 +12246,7 @@
    "ram": "0x80013fb9",
    "group": "battle",
    "jp": "%sはＨＰが%d回復した",
-   "en": "%s recovered %d HP.",
+   "en": "%s regained\n%d HP.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12259,7 +12259,7 @@
    "ram": "0x80013fd1",
    "group": "battle",
    "jp": "%sは死神にとりつかれた",
-   "en": "%s was seized by Death.",
+   "en": "%s was seized\nby Death.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12272,7 +12272,7 @@
    "ram": "0x80013fe9",
    "group": "battle",
    "jp": "%sは沈黙させられた",
-   "en": "%s was silenced.",
+   "en": "%s is silenced.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12285,7 +12285,7 @@
    "ram": "0x80013ffd",
    "group": "battle",
    "jp": "%sは眠らされた",
-   "en": "%s was put to sleep.",
+   "en": "%s fell asleep.",
    "kind": "text",
    "refs": [
     "0x4a238"
@@ -12300,7 +12300,7 @@
    "ram": "0x8001400d",
    "group": "battle",
    "jp": "%sは毒を受けた",
-   "en": "%s was poisoned.",
+   "en": "%s is poisoned.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12313,7 +12313,7 @@
    "ram": "0x8001401c",
    "group": "battle",
    "jp": "%s%sは眠らされている",
-   "en": "%s%s has been put to sleep.",
+   "en": "%s%s is asleep.",
    "kind": "text",
    "refs": [
     "0x24078",
@@ -12360,7 +12360,7 @@
    "ram": "0x8001404c",
    "group": "battle",
    "jp": "%s%sは沈黙させられている",
-   "en": "%s%s has been silenced.",
+   "en": "%s%s is silent.",
    "kind": "text",
    "refs": [
     "0x2433c"
@@ -12375,7 +12375,7 @@
    "ram": "0x80014068",
    "group": "battle",
    "jp": "%s%sは%sを唱えた",
-   "en": "%s%s cast %s.",
+   "en": "%s%s cast\n%s.",
    "kind": "text",
    "refs": [
     "0x24384"
@@ -12390,7 +12390,7 @@
    "ram": "0x8001407c",
    "group": "battle",
    "jp": "%s%sは%sを使おうとしたが、すでになかった",
-   "en": "%s%s tried to use %s, but it was all gone.",
+   "en": "%s%s tried\nto use %s,\nbut none was left.",
    "kind": "text",
    "refs": [
     "0x245a0",
@@ -12406,7 +12406,7 @@
    "ram": "0x800140a8",
    "group": "battle",
    "jp": "%s%sは%sを使った",
-   "en": "%s%s used %s.",
+   "en": "%s%s used\n%s.",
    "kind": "text",
    "refs": [
     "0x245f8"
@@ -12475,7 +12475,7 @@
    "ram": "0x800140f9",
    "group": "battle",
    "jp": "%sを手に入れた",
-   "en": "Obtained %s.",
+   "en": "Gained %s.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -12488,7 +12488,7 @@
    "ram": "0x80014109",
    "group": "battle",
    "jp": "%sはレベル%dになった",
-   "en": "%s reached Level %d.",
+   "en": "%s reached LV %d.",
    "kind": "text",
    "refs": [],
    "status": "tl",
@@ -16191,7 +16191,7 @@
    "ram": "0x80014d3c",
    "group": "prologue",
    "jp": " 最後の紋章が王国より失われて久しい…",
-   "en": "The kingdom's last Crest is long lost...",
+   "en": "The kingdom's last Crest, long lost...",
    "kind": "text",
    "refs": [
     "0xb4d58"
@@ -16221,7 +16221,7 @@
    "ram": "0x80014d7c",
    "group": "prologue",
    "jp": "  門より来たる者に悪しき者あり、と…",
-   "en": "some who come from the Gate are evil...",
+   "en": "some from beyond the Gate are evil...",
    "kind": "text",
    "refs": [
     "0xb4d50"
@@ -16251,7 +16251,7 @@
    "ram": "0x80014dc4",
    "group": "prologue",
    "jp": "   門の鍵を持つもの世界を握る、と…",
-   "en": "the Gate's keyholder holds the world...",
+   "en": "the Gate's keyholder holds the world",
    "kind": "text",
    "refs": [
     "0xb4d48"
@@ -16281,7 +16281,7 @@
    "ram": "0x80014e04",
    "group": "prologue",
    "jp": " 地の底深く、門の傍らに母は眠る、と…",
-   "en": "the Mother sleeps deep below, by the Gate...",
+   "en": "the Mother sleeps by the Gate below...",
    "kind": "text",
    "refs": [
     "0xb4d40"
@@ -16311,13 +16311,13 @@
    "ram": "0x80014e4c",
    "group": "prologue",
    "jp": "始まりの母、王国の娘を産みたまう、と…",
-   "en": "the First Mother bore the Daughter of the Kingdom...",
+   "en": "the Mother bore the Kingdom's Daughter",
    "kind": "text",
    "refs": [
     "0xb4d38"
    ],
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: title-attract lore row, 38 cells and no row breaks (the printer draws \\n as a blank): 'First Mother' and 'Daughter of the Kingdom' cannot both fit; the earlier rows name the First Mother"
   },
   {
    "id": "exe:05674",

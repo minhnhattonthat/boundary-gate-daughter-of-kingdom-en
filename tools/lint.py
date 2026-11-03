@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'tools'))
 import extract  # noqa: E402
+import insert  # noqa: E402
 import sjis  # noqa: E402
 import wrap as W  # noqa: E402
 
@@ -159,16 +160,26 @@ def check_unit(u, en_tsv, terms):
         if game.endswith(('\r', '\n')) != jp.endswith(('\r', '\n')) or \
                 game.startswith(('\r', '\n')) != jp.startswith(('\r', '\n')):
             err.append('leading/trailing row break differs from the JP (printf chains rely on it)')
-        if len(re.findall('[\r\n]', game)) != len(re.findall('[\r\n]', jp)):
-            warn.append('row count differs from the JP')
+        # message-window strings may take extra rows (the window scrolls; a row break beats a mid-word cut);
+        # a field's rows are fixed by its screen
+        if len(re.findall('[\r\n]', game)) != len(re.findall('[\r\n]', jp)) and not W.is_msg(u['entries'][0]):
+            err.append('row count differs from the JP (a fixed-layout field)')
         if re.search(r'%[-\d]*l?d(st|nd|rd|th)\b', game):
             err.append('ordinal suffix glued to a number')
         e = u['entries'][0]
-        n, hard = W.exe_budget(e)
-        for row in re.split('[\r\n]', game.replace('::', ':')):
-            w = W.fmt_cells(row)
+        try:
+            n, hard = W.exe_budget(e)
+        except KeyError as x:
+            err.append(str(x))
+            n = None
+        built = insert.en_exe({**e, 'en': game}).replace('::', ':')      # as the build writes it
+        args = W.msg_args(e, built) if W.is_msg(e) else []
+        for row in re.split('[\r\n]', built) if n is not None else []:
+            w = W.fmt_cells(row, args)
+            args = args[row.count('%s'):]
             if w > n:
-                (err if hard else warn).append(f'row {w} cells > {n}: {row!r}')
+                (err if hard else warn).append(f'row {w} cells > {n}' + (' (arguments at their longest)' if
+                                                                         W.is_msg(e) else '') + f': {row!r}')
         try:
             sjis.encode(game)      # a string longer than its slot is relocated by insert.rebuild_exe
         except Exception as x:     # noqa: BLE001
@@ -221,12 +232,23 @@ def check_unit(u, en_tsv, terms):
 
 # ---------------------------------------------------------------- lint over script/*.json
 
+def missing(u):
+    """Ids of entries in a unit with Japanese but no English (insert would fall back to the JP). Checked per
+    entry, before translations are deduplicated, so one blank duplicate cannot hide behind its siblings.
+    An entry noted 'keep: <why>' stays Japanese on purpose (debug-menu strings never reach units())."""
+    return [e['id'] for e in u['entries']
+            if not e['en'] and e['jp'].strip(' 　') and 'keep:' not in (e.get('notes') or '')]
+
+
 def lint(show_warn=False):
     terms = glossary()
     n_err = n_warn = n_done = 0
     total = 0
     for u in units():
         total += 1
+        for i in missing(u):
+            print(f'ERROR {i}: no English (the build would keep the Japanese)')
+            n_err += 1
         ens = {e['en'] for e in u['entries'] if e['en']}
         if not ens:
             continue
