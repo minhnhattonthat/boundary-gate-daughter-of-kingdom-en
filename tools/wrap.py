@@ -118,25 +118,32 @@ def _rows_of(seg, cols, quote):
     return rows, quote
 
 
-_FUNC = set('a an the of to and or in on at with for by from into is are was were be as that this these my your '
-            'our their his her its we i you he she it they but if so not no'.split())
+_FUNC = set('a an the of to and or in on at with for by from into is are was were be been being as that this these '
+            'those my your our their his her its we i you he she it they but if so not no who whom which whose what '
+            'when where while because than there will would can could shall should may might must has have had do '
+            'does did ever just very only'.split())
 
 
-def _cut(word):
-    """How badly ending a page after this word cuts the text: sentence end (or a JP button wait) 0, clause 1,
-    content word 4, function word 6 ('Temple of / Knowledge', 'weapons and / armour')."""
+def _cut(word, nxt=''):
+    """How badly ending a page after `word` (next word `nxt`) cuts the text: sentence end (or a JP button wait) 0,
+    clause 1, content word 4, function word 6 ('weapons and / armour'), inside a name 8 ('Temple / of Sorcery',
+    'Ancient / Knowledge')."""
     if re.search(r'([.!?]|\.\.\.|' + WAIT + ')["\')]*$', word):
         return 0
     if re.search(r'([,;:]|--)["\')]*$', word):
         return 1
-    return 6 if word.strip('"\'(').lower() in _FUNC else 4
+    w, n = word.strip('"\'(.'), nxt.strip('"\'(')
+    if w[:1].isupper() and (n == 'of' or n[:1].isupper()) and w.lower() not in _FUNC or \
+            w.lower() in ('of', 'the') and (n[:1].isupper() or n == 'the'):
+        return 8
+    return 6 if w.lower() in _FUNC else 4
 
 
 def _paginate(seg, cols, quote, first_max, rows_max=ROWS, choice=False):
     """Word-wrap one segment into pages: the first holds <= first_max rows (2 under a speaker line), later ones
     rows_max (the clear wipes the name row too). Text that fits stays one page. Otherwise each page is wrapped on
     its own and the cut points are chosen (DP over words) to cost least: 2 a page, _cut() at each page end, 1 a
-    lone-row page (except a first page under a speaker line), 3 more a later page of <= 2 words; so pages start at
+    lone-row page (except a first page under a speaker line), 5 more a page of <= 2 words; so pages start at
     sentences where they can.
     Returns (pages, quote_after)."""
     rows, quote_end = _rows_of(seg, cols, quote)
@@ -170,8 +177,10 @@ def _paginate(seg, cols, quote, first_max, rows_max=ROWS, choice=False):
                 break
             if j == n and len(r) > cap - last:
                 continue
-            cost = 2 + (_cut(toks[j - 1][0]) if j < n else 0) + (len(r) == 1 and (i > 0 or cap == rows_max)) \
-                + 3 * (i > 0 and j - i <= 2)            # a 'mister.' / 'to Rio.' fragment page
+            cost = 2 + (_cut(toks[j - 1][0], toks[j][0]) if j < n else 0) \
+                + (len(r) == 1 and (i > 0 or cap == rows_max)) \
+                + 5 * (j - max([t for t in range(i, j) if toks[t][1]] + [i]) <= 2)   # 'Kiral' / 'to Rio.' page
+            # (words counted from the page's last forced row: a 'Rio' name row does not hide a 'A girl' fragment)
             cand = (cost + best[j][0], [r] + best[j][1])
             if i not in best or (cand[0], len(cand[1])) < (best[i][0], len(best[i][1])):
                 best[i] = cand
