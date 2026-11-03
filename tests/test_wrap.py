@@ -41,3 +41,17 @@ def test_check_unit_catches_printf_order_and_controls():
     assert L.check_unit(d, 'Risp / "Yes."', terms)[0]          # lost the wait
     assert L.check_unit(d, '"Yes," said Risp.<wait>', terms)[0]  # lost the name row
     assert L.check_unit(d, 'Lisp / "Yes."<wait>', terms)[0]     # glossary
+
+
+def test_check_unit_keeps_original_page_breaks():
+    jp = '「はい」\x10\x08「いいえ」\x10'
+    d = {'jp': jp, 'exe': False, 'prev': [None],
+         'entries': [{'id': 'X:2', 'op': '22', 'group': 'dialogue', 'jp': jp}]}
+    assert not L.check_unit(d, '"Yes."<wait><clr>"No."<wait>', [])[0]
+    assert not L.check_unit(d, '"Yes."<wait><clr>"Well."<wait><clr>"No."<wait>', [])[0]  # added page ok
+    assert L.check_unit(d, '"Yes." "No."<wait>', [])[0]                                   # dropped page
+
+
+def test_npc_labels_are_per_room():
+    keeper = {u['src']: u for u in L.units() if u['jp'] == '主人'}
+    assert len(keeper) > 1      # one unit per room, so each room may name its own proprietor

@@ -191,7 +191,7 @@ Plain English equipment names: ショートソード Short Sword, レイピア R
 | 医師 | Doctor | nocheck | | |
 | 番兵 | Guard | nocheck | Guard A/B | |
 | 町人Ａ | Townsman A | nocheck | | |
-| 主人 | Innkeeper / Barkeep / Shopkeeper | nocheck | by the room | |
+| 主人 | Innkeeper / Barkeep / Shopkeeper / Blacksmith | nocheck | by the room: 宿屋 Innkeeper, 酒場 Barkeep, 武具屋/武器屋/道具屋 Shopkeeper, 鍛冶屋 Blacksmith; 女主人 Landlady (tavern) / Shopkeeper (道具屋). NPC/speaker labels are linted per room | |
 | 生体端末 | living terminal | nocheck | 端末 terminal | |
 | 多重人格型人工知能システム | multi-personality AI system | nocheck | | |
 | 山羊のカギ | Goat Key | | 山羊の印 goat crest (Melissa: 山羊の紋章) | |

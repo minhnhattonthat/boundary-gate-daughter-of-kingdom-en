@@ -33,7 +33,8 @@ def units():
         for e in extract.load(extract.out_path(rel))['entries']:
             if e['kind'] == 'text':
                 spk = W.to_tsv(prev_text).strip(' /') if prev == '21' and e['op'] == '22' else ''
-                key = ('s', e['jp'])
+                # NPC-list (0x1c) and speaker (0x21) labels are per room: 主人 is Innkeeper, Barkeep or Shopkeeper
+                key = ('s', e['jp'], rel) if e['op'] in ('1c', '21') else ('s', e['jp'])
                 if key not in seen:
                     seen[key] = {'jp': e['jp'], 'ids': [], 'entries': [], 'prev': [], 'speaker': spk,
                                  'src': rel, 'exe': False}
@@ -147,6 +148,8 @@ def check_unit(u, en_tsv, terms):
     if W.controls(game) != W.controls(jp):
         err.append(f'control codes {W.to_tsv("".join(W.controls(jp)))} != '
                    f'{W.to_tsv("".join(W.controls(game)))}')
+    if game.count(W.PAGE) < jp.count(W.PAGE):      # extra English pages are fine; the JP's own must stay
+        err.append(f'{jp.count(W.PAGE) - game.count(W.PAGE)} original <wait><clr> page break(s) dropped')
     if u['exe']:
         conv = lambda s: [re.sub(r'%[-+ 0#]*\d*', '%', x) for x in PRINTF.findall(s)]  # noqa: E731
         if conv(game) != conv(jp) or game.count(':%c') != jp.count(':%c'):   # widths are layout

@@ -85,7 +85,8 @@ def from_tsv(t, exe=False, nl='\r'):
 
 
 def controls(s):
-    """Control chars of a game string, with every wait+clear pair (a page break) removed."""
+    """Control chars of a game string, with every wait+clear pair (a page break) removed.
+    Callers comparing JP and EN must also check pages(en) >= pages(jp): English may add pages, never drop them."""
     return sorted(c for c in s.replace(PAGE, '') if ord(c) < 0x20 and c not in '\r\n')
 
 
