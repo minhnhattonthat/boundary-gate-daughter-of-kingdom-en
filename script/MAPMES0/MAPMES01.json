@@ -12,9 +12,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "大門の番兵\r",
-   "en": "",
+   "en": "Great Gate Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「大門の通行は 日中に\r  制限されている\u0010\b  今日は もう閉鎖した\r  から 宿を探すことだな」\u0010",
-   "en": "",
+   "en": "\"Passage through the Great Gate is only allowed by day.\u0010\bIt's closed for today, so you'd best find an inn.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この辺に怪物が現れた\r  という通報があった\u0010\b",
-   "en": "",
+   "en": "\"We've had a report of a monster around here.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  とりあえず､調査が\r  終わるまでここは封鎖だ\u0010\b",
-   "en": "",
+   "en": "This area's sealed off until the investigation's over.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お前さんには\r  気の毒だが…」\u0010\b",
-   "en": "",
+   "en": "Sorry for your trouble, but there it is...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「まいったな…\u0010\b  こんな夜更けに\r  どうしろってんだ？」\u0010\b",
-   "en": "",
+   "en": "\"Great...\u0010\bWhat am I supposed to do this late at night?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「貴族のおこぼれでも\r  頂戴しようと思って\u0010\b  さっき､東地区に行って\r  きたんですがね\u0010\b",
-   "en": "",
+   "en": "\"Thought I'd go scrounge some scraps off the nobles,\u0010\bso I popped over to the East District just now.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  幸い番兵どもは例に\r  よって酔いつぶれて\r  眠っているし…\u0010\b",
-   "en": "",
+   "en": "Luckily, the guards were dead drunk and asleep, as usual...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  丁度､門を通る時に\r  銀色の髪の娘に\r  ぶつかっちまってね\u0010\b",
-   "en": "",
+   "en": "And right as I went through the gate, I bumped into a girl with silver hair.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  番兵が目を覚ます\r  んじゃないかって\r  ヒヤヒヤしたよ\u0010\b",
-   "en": "",
+   "en": "Had me sweatin' the guards'd wake up.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  えらい勢いで東地区へ\r  すっとんでいったが\r  大丈夫かね？」\u0010\b",
-   "en": "",
+   "en": "She went flyin' off into the East District like a shot. Hope she's all right.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「東地区はぶっそうだから\r  娘一人で大丈夫かね？」\u0010\b",
-   "en": "",
+   "en": "\"The East District's a rough place. Will a girl on her own be all right?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いま 反逆者の狩り出し\r  を行っている\u0010\b  この地区から移動しては\r  いかん！」\u0010",
-   "en": "",
+   "en": "\"We're rounding up rebels right now.\u0010\bYou may not leave this district!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「夜は宿へ帰って\r  出歩かないことだな」\u0010",
-   "en": "",
+   "en": "\"At night, you'd best get back to your inn and stay off the streets.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "この酒場は 閉まっている\u0010",
-   "en": "",
+   "en": "This tavern is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "武器屋は 閉まっている\u0010",
-   "en": "",
+   "en": "The weapon shop is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "鍛冶屋は 閉まっている\u0010",
-   "en": "",
+   "en": "The blacksmith is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "道具屋は 閉まっている\u0010",
-   "en": "",
+   "en": "The item shop is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "大門は 閉ざされている\u0010",
-   "en": "",
+   "en": "The Great Gate is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "西地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the West District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アンブローズ城が見える\u0010",
-   "en": "",
+   "en": "Ambrose Castle is in view.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "番兵が居眠りしている\rようだ\u0010",
-   "en": "",
+   "en": "The guard seems to be dozing.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ東地区",
-   "en": "",
+   "en": "Ambrose East District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "カギが かかっている\u0010",
-   "en": "",
+   "en": "It's locked.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "倉庫の床に蓋がしてある\u0010",
-   "en": "",
+   "en": "There's a hatch in the warehouse floor.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

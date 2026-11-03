@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "迎えてくれたのは\r美しい中年女性だった\u0010\b",
-   "en": "",
+   "en": "We were greeted by a beautiful middle-aged woman.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さっきまで 泣いていた\rらしい\u0010\b",
-   "en": "",
+   "en": "She seemed to have been crying until a moment before.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グリソムに会いに来たこと\rを告げると 泣き出して\rしまった\u0010",
-   "en": "",
+   "en": "When we said we had come to see Grissom, she burst into tears.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "23",
    "group": "location",
    "jp": "グリソムの家",
-   "en": "",
+   "en": "Grissom's House",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "グリソムの妻",
-   "en": "",
+   "en": "Grissom's Wife",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは 黙って女性を\rソファーに 座らせ\rしばらく 肩を抱いていた\u0010\b",
-   "en": "",
+   "en": "Without a word, Risp sat the woman down on the sofa and held her by the shoulders for a while.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地震で見つかった 縦穴に\r入っていった 調査隊には\rグリソムも加わって\u0010\bいたらしい\u0010\bやがて\r彼女も落ち着いたらしく\r涙にぬれた顔をあげた\u0010\b",
-   "en": "",
+   "en": "Grissom, it seemed, had joined the survey team\u0010\bthat went down the shaft the earthquake had uncovered.\u0010\bAt length she calmed a little and raised her tear-stained face.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グリソムの妻\r",
-   "en": "",
+   "en": "Grissom's Wife\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「でも 私は信じています\u0010\b  地の底であろうと\r  あの人は きっと\r  生きています\u0010\b",
-   "en": "",
+   "en": "\"But I believe it.\u0010\bEven in the depths of the earth, I know he is still alive.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お願いです 鉱山長さん\r  に頼んで下さい\r  もう１度捜索隊を…」\u0010",
-   "en": "",
+   "en": "Please, ask the Mine Overseer... to send out one more search party...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「そうですか…  あの人は\r  いなかったんですね\u0010\b",
-   "en": "",
+   "en": "\"I see... So he wasn't there.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  でも 私は信じています\r  あの人は生きていると…」\u0010",
-   "en": "",
+   "en": "But I still believe... that he's alive...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「地の底であろうと\r  あの人は生きています」\u0010",
-   "en": "",
+   "en": "\"Even in the depths of the earth, he is alive.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

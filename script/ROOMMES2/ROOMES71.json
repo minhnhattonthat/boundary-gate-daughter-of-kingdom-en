@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "いらっしゃい",
-   "en": "",
+   "en": "Welcome!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

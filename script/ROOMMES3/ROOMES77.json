@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "賢者の部屋",
-   "en": "",
+   "en": "Sages' Room",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "賢者Ａ",
-   "en": "",
+   "en": "Sage A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "賢者Ｂ",
-   "en": "",
+   "en": "Sage B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "賢者Ｃ",
-   "en": "",
+   "en": "Sage C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "賢者Ｄ",
-   "en": "",
+   "en": "Sage D",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "部屋の外",
-   "en": "",
+   "en": "Leave room",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ゲートは異形の者達の\r  力の源だ\u0010\b  ゲートを閉じることが\r  できれば その力を\r  封じられる」\u0010",
-   "en": "",
+   "en": "\"The Gate is the source of those unnatural beings' power.\u0010\bIf the Gate could be closed, their power would be sealed away.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「光の渦？\u0017しょせんゲート\r  の影にすぎん\u0010\b  バウンダリーゲートを\r  閉じることなど…」\u0010",
-   "en": "",
+   "en": "\"The vortex of light?\u0017 It is merely a shadow of the Gate.\u0010\bAs for closing the Boundary Gate itself...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ゲートを操る力を持つ者は\r  自由にゲートの影を\r  産み出すことができる」\u0010",
-   "en": "",
+   "en": "\"One with the power to control the Gate can create shadows of the Gate at will.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「光の渦から現れる化け物\r  どもは\u0010\b  他の世界､他の次元から\r  やってくるのだ…」\u0010",
-   "en": "",
+   "en": "\"The monsters that emerge from the vortex of light...\u0010\bcome from other worlds, other dimensions...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

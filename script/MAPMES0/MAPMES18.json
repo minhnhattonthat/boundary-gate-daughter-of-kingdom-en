@@ -12,9 +12,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "見張り\r",
-   "en": "",
+   "en": "Lookout\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この向こうが港だ\u0010\b  幸い化け物どもは 街に\r  まで入ってきていない\r  が…」\u0010",
-   "en": "",
+   "en": "\"The harbour's past here.\u0010\bLuckily the monsters haven't got as far as the town, but...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "23",
    "group": "location",
    "jp": "倉庫街",
-   "en": "",
+   "en": "Warehouse District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "人気のない袋小路で\r宿で会った男が待っていた\u0010\b",
-   "en": "",
+   "en": "In a deserted dead end, the man I'd met at the inn was waiting.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港の倉庫に隠してある\r  包みを探して欲しいん\u0010\b  ですよ\u0010\b  私のふるい友達が 隠した\r  んですがね\u0010\b",
-   "en": "",
+   "en": "\"I'd like you to find a package hidden in a harbour warehouse,\u0010\bif you would.\u0010\bAn old friend of mine hid it, you see,\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  場所を教えずに 死んじま\r  って…\u0010\b",
-   "en": "",
+   "en": "but he went and died without telling me where...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まあ詳しい事情は 知らな\r  いほうが お互いのためで\r  しょう\u0010\b",
-   "en": "",
+   "en": "Well, it's best for both of us if you don't know the details.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  決して損はさせませんよ\r  いかがですか？",
-   "en": "",
+   "en": "You won't regret it, I promise. What do you say?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  また気が変わったら\r  ここにいらっしゃい」\u0010",
-   "en": "",
+   "en": "If you change your mind, come see me here.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  交渉成立ですな\u0010\b",
-   "en": "",
+   "en": "Then we have a deal.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  これは倉庫街に入る鍵\r  です」\u0010\b",
-   "en": "",
+   "en": "Here's the key to the warehouse district.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "倉庫のカギを手に入れた\u0010",
-   "en": "",
+   "en": "Got the Warehouse Key!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港の倉庫に隠してある\r  包みを探して欲しいん\u0010\b  ですよ\u0010\b",
-   "en": "",
+   "en": "\"I'd like you to find a package hidden in a harbour warehouse,\u0010\bif you would.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  期待してますよ」\u0010",
-   "en": "",
+   "en": "I'm counting on you.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "男は皮袋を受け取ると\rちらりと中を確かめて\r笑った\u0010\b",
-   "en": "",
+   "en": "The man took the leather pouch, glanced inside, and smiled.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「よろしいでしょう\r  これは約束のお礼です」\u0010\b",
-   "en": "",
+   "en": "\"Very good. Here is the reward I promised.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "男はフィンに\rホーリーストーンを渡した\u0010\b",
-   "en": "",
+   "en": "The man handed Finn a Holy Stone.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rホーリーストーンを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party got the Holy Stone.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\r１０００Ｇを\r手に入れた！\u0010",
-   "en": "",
+   "en": "Finn's party got 1000G!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "港は閉鎖されているようだ\u0010",
-   "en": "",
+   "en": "The harbour seems to be closed off.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "この扉は閉ざされている\u0010",
-   "en": "",
+   "en": "This door is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "この扉は閉ざされている\u0010",
-   "en": "",
+   "en": "This door is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔物が若い娘を\r襲おうとしている\u0010\b",
-   "en": "",
+   "en": "A monster was about to attack a young girl!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "こちらに向かってきた！\u0010\b",
-   "en": "",
+   "en": "It came straight at me!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプが\r仲間に加わった\u0017\u0010\b",
-   "en": "",
+   "en": "Risp joined the party!\u0017\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "二人は身仕度を整える\rために､宿屋へ向かった\u0010\b",
-   "en": "",
+   "en": "The two headed to the inn to get ready.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

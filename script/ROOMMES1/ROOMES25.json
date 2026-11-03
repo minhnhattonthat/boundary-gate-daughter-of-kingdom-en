@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "鍛冶屋",
-   "en": "",
+   "en": "Smithy",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "見習い",
-   "en": "",
+   "en": "Apprentice",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "鍛冶屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「相変らず 城から 大量の\r  注文がきてるんだ」\u0010",
-   "en": "",
+   "en": "\"The castle's still sending us huge orders.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「忙しくなるばっかりだ」\u0010",
-   "en": "",
+   "en": "\"We just keep getting busier.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

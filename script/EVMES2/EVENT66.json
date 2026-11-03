@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔導聖堂長\r「五つの紋章のうち\r  残るは失われた紋章…",
-   "en": "",
+   "en": "High Priest of Sorcery\r\"Of the five Crests, only the Lost Crest remains...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だがそれを知るのは\r  王国の娘のみ…",
-   "en": "",
+   "en": "But only the Daughter of the Kingdom knows of it...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  一度 ワイズブルームに\r  帰りなさい",
-   "en": "",
+   "en": "Return to Wisebloom for now.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ゲートの守護者よ",
-   "en": "",
+   "en": "O Guardians of the Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  リスプ キラル",
-   "en": "",
+   "en": "Risp, Kiral...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  おまえ達は 一人の娘\r  として生まれてくる\r  べきだった」",
-   "en": "",
+   "en": "you two should have been born as one girl.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

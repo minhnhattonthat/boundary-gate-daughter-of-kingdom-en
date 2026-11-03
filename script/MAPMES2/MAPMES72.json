@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城３階",
-   "en": "",
+   "en": "Ambrose Castle 3F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城２階",
-   "en": "",
+   "en": "Ambrose Castle 2F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城４階",
-   "en": "",
+   "en": "Ambrose Castle 4F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城３階",
-   "en": "",
+   "en": "Ambrose Castle 3F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城５階",
-   "en": "",
+   "en": "Ambrose Castle 5F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城４階",
-   "en": "",
+   "en": "Ambrose Castle 4F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

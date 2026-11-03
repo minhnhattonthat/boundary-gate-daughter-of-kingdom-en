@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "おや？リオがいない‥‥\u0010\bそういえば西地区へ\r行くって言ってたな\u0010\b",
-   "en": "",
+   "en": "Huh? Rio wasn't there...\u0010\bCome to think of it, he'd said he was heading to the West District.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "リオの家",
-   "en": "",
+   "en": "Rio's House",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "リオ",
-   "en": "",
+   "en": "Rio",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「西側にある 倉庫の床に\r  地下通路の入り口が\r  隠してある\u0010\b",
-   "en": "",
+   "en": "\"There's an entrance to an underground passage hidden in the floor of the warehouse on the west side.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それを使えば\r  自由に西地区に行ける\u0010\b  カリフォスとの\r  連絡がつき次第\r  俺も行く」\u0010",
-   "en": "",
+   "en": "Use it, and you can get into the West District as ya like.\u0010\bSoon as I hear from Caliphos, I'll be along too.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「実は 部下におまえ達を\r  見張らせていたんだ\u0010\b  グリソムの為に坑道にまで\r  降りていったそうだな\u0010\b",
-   "en": "",
+   "en": "\"Truth is, I had my men keepin' an eye on you two.\u0010\bHeard you went all the way down the mine shafts for Grissom's sake.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あんたらを信用できる\r  気がしてきたよ\u0010\b",
-   "en": "",
+   "en": "I'm startin' to feel like I can trust ya.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  西地区の酒場でアッシュ\r  という男に会ってくれ\u0010\b",
-   "en": "",
+   "en": "Go to the tavern in the West District and meet a man called Ash.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  店でとがめられたら\r  このプレートを見せろ」\u0010\b",
-   "en": "",
+   "en": "If they give you trouble at the place, show 'em this plate.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは フィンに古びた\rプレートを渡した\u0010\b雄羊の紋章が描かれている\u0010\b",
-   "en": "",
+   "en": "Rio handed Finn an old, worn plate.\u0010\bIt bore the crest of a ram.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リオ\r",
-   "en": "",
+   "en": "Rio\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「西側にある倉庫の床に\r  地下通路の入り口が\u0010\b  隠してある\u0010\b",
-   "en": "",
+   "en": "\"There's an entrance to an underground passage\u0010\bhidden in the floor of the warehouse on the west side.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それを使えば 自由に\r  西地区に行ける\u0010\b  カリフォスとの連絡がつき\r  次第､俺も行く」\u0010",
-   "en": "",
+   "en": "Use it, and you can get into the West District as ya like.\u0010\bSoon as I hear from Caliphos, I'll be along too.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「グリソムは\r  ロードダールの鉱山に\r  いるはずだ\u0010\b",
-   "en": "",
+   "en": "\"Grissom oughta be at the mines in Rhodedahl.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの男なら この金属片\r  について何か知って\r  いるだろう」\u0010",
-   "en": "",
+   "en": "That man'll know somethin' about these metal fragments.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この金属片を\r  ロードダールの鉱山\r  にいる\u0010\b  グリソムに\r  届けてくれないか？\u0010\b",
-   "en": "",
+   "en": "\"Could ya take these metal fragments\u0010\bto Grissom at the Rhodedahl mines?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの男なら この金属片\r  について何か知って\r  いるに違いない\u0010\b",
-   "en": "",
+   "en": "That man's bound to know somethin' about 'em.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今 俺がアンブローズを\r  離れる訳には\r  いかないんだ」\u0010\b",
-   "en": "",
+   "en": "Right now I can't afford to leave Ambrose.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "使いを引き受けますか？\u0019",
-   "en": "",
+   "en": "Take on the errand?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リオ\r",
-   "en": "",
+   "en": "Rio\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「そうか…大聖堂に入る\r  方法は あたってみる\u0010\b  また来てくれ」\u0010",
-   "en": "",
+   "en": "\"I see... I'll see about gettin' into the Cathedral.\u0010\bCome see me again.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "二人はロードダールへの\r使いを引き受けた\u0010\b",
-   "en": "",
+   "en": "The two agreed to run the errand to Rhodedahl.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは あまり気が\r進まないようだったが\u0010\b",
-   "en": "",
+   "en": "Risp didn't seem too keen on it, though.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは 二人が戻ってくる\rまでに きっと大聖堂に\r入る方法を探しておくと\u0010\b約束した\u0010\b",
-   "en": "",
+   "en": "By the time they got back, he'd surely have found a way into the Cathedral...\u0010\bThat much, Rio promised.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "家を出る時 \rフィンは リスプが\r一人つぶやくのを聞いた\u0010\b",
-   "en": "",
+   "en": "As they left the house, Finn heard Risp murmur to herself.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「キラル……\r  本当にあなたなの…？」\u0010",
-   "en": "",
+   "en": "\"Kiral... is it really you...?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは リオに 手紙と\r金属片を渡した\u0010\b手紙を読み終えるとリオは\r真剣な顔を二人に向けた\u0010",
-   "en": "",
+   "en": "Risp handed Rio the letter and the metal fragments.\u0010\bWhen he had finished the letter, Rio turned a grave face to them both.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "使いを引き受けますか？\u0019",
-   "en": "",
+   "en": "Take on the errand?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リオ\r",
-   "en": "",
+   "en": "Rio\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「そうか…\u0010\b  大聖堂に入る方法は\r  あたってみる\r  また来てくれ」\u0010",
-   "en": "",
+   "en": "\"I see...\u0010\bI'll see about gettin' into the Cathedral. Come see me again.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "二人はロードダールへの\r使いを引き受けた\u0010\b",
-   "en": "",
+   "en": "The two agreed to run the errand to Rhodedahl.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは あまり気が\r進まないようだったが\u0010\b",
-   "en": "",
+   "en": "Risp didn't seem too keen on it, though.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -397,9 +397,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは 二人が戻ってくる\rまでに きっと大聖堂に\r入る方法を探しておくと\u0010\b約束した\u0010\b",
-   "en": "",
+   "en": "By the time they got back, he'd surely have found a way into the Cathedral...\u0010\bThat much, Rio promised.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "家を出る時 \rフィンは リスプが\r一人つぶやくのを聞いた\u0010\b",
-   "en": "",
+   "en": "As they left the house, Finn heard Risp murmur to herself.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -419,9 +419,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -430,9 +430,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「キラル…\r  本当にあなたなの…？」\u0010",
-   "en": "",
+   "en": "\"Kiral... is it really you...?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

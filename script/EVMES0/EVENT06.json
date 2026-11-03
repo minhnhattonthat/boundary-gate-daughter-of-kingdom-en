@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「ところでよ",
-   "en": "",
+   "en": "Finn\r\"So, tell me.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの晩 なんであんな\r  ところをうろついていた\r  んだ？",
-   "en": "",
+   "en": "What were you doing wandering around a place like that, that night?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  恋人と 待ち合わせてた\r  わけでもないだろ？」",
-   "en": "",
+   "en": "Not waiting for some sweetheart, were you?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「あの…  あたし…\r  迷ってしまって…」",
-   "en": "",
+   "en": "Risp\r\"Um... I... I got lost...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「迷ったぁ？」",
-   "en": "",
+   "en": "Finn\r\"Lost?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「あたし 一人で\r  ワイズブルームの外に",
-   "en": "",
+   "en": "Risp\r\"I have never been outside Wisebloom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  出たの初めてなんです…」",
-   "en": "",
+   "en": "on my own before...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「とんだ世間知らずの\r  お嬢様でございましたか」",
-   "en": "",
+   "en": "Finn\r\"Well, pardon me, milady. Didn't know you were that sheltered.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「ごめんなさい」",
-   "en": "",
+   "en": "Risp\r\"I'm sorry.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「あやまることはないさ",
-   "en": "",
+   "en": "Finn\r\"No need to apologise.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だが 支払いの方は\r  しっかり頼むぜ」",
-   "en": "",
+   "en": "Just make sure that payment comes through, all right?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

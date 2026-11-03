@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "精神寄生体が断末魔の悲鳴\rをあげた",
-   "en": "",
+   "en": "The Mind Parasite let out its death scream.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "人の心に直接響いてくる\rおぞましい声だった",
-   "en": "",
+   "en": "It was a hideous voice that echoed straight into our minds.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "精神寄生体の姿が\r溶けるように崩れ",
-   "en": "",
+   "en": "The Mind Parasite's form crumbled as if melting",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "バウンダリーゲートに\r吸い込まれていく",
-   "en": "",
+   "en": "and was sucked into the Boundary Gate.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ゲートが一時輝きを増し\rやがて元に戻った…",
-   "en": "",
+   "en": "The Gate blazed brighter for a moment, then at last returned to normal...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「終わったわ…キラル…」",
-   "en": "",
+   "en": "Risp\r\"It's over... Kiral...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

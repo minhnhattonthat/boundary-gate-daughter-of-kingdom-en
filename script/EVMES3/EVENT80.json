@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「星々を渡る船…",
-   "en": "",
+   "en": "Risp\r\"A ship that sails between the stars...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  遠い昔､我々の祖先は\r  これでこの地に降り立ち\r  ました…",
-   "en": "",
+   "en": "Long, long ago, our ancestors came down to this land in it...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  カリフォスの地下にも\r  同じ船が存在し…",
-   "en": "",
+   "en": "Beneath Caliphos, there was a ship just like it...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  キラルがいにしえの知識に\r  命じて再び動かそうと\r  したけれど…",
-   "en": "",
+   "en": "Kiral ordered the Ancient Knowledge to make it move again, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  長い年月に船はたえきれず\r  爆発しました…",
-   "en": "",
+   "en": "after so many long years, the ship could not withstand it, and it exploded...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ４つの端末が停止した今…\r  もう､残る船を動かす事は\r  できません…」",
-   "en": "",
+   "en": "Now that the four terminals have stopped... the remaining ship can never be moved again...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

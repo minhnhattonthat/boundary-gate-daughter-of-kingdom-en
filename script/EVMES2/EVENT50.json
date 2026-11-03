@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「司祭長さま！\r  私です！",
-   "en": "",
+   "en": "Risp\r\"High Priest! It's me!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  妹と一緒にあなたの手術\r  を受けたリスプです！」",
-   "en": "",
+   "en": "It's Risp! You operated on me and my sister!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

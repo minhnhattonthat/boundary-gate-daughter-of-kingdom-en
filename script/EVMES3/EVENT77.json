@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「ようこそ…お姉さん…",
-   "en": "",
+   "en": "Kiral\r\"Welcome... Sister...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  われは王国の娘\r  ゲートの守護者！",
-   "en": "",
+   "en": "I am the Daughter of the Kingdom, Guardian of the Gate!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  光と闇を越えて\r  支配するは混沌",
-   "en": "",
+   "en": "Beyond light and darkness, Chaos reigns!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まこと混沌こそ\r  世のことわり！",
-   "en": "",
+   "en": "Verily, Chaos is the law of the world!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  始まりの虚無より\r  いでよ混沌の子ら！」",
-   "en": "",
+   "en": "From the primordial void, come forth, children of chaos!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

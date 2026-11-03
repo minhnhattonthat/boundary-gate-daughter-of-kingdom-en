@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑夫の家Ｃ",
-   "en": "",
+   "en": "Miner's House C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫",
-   "en": "",
+   "en": "Miner",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "子供",
-   "en": "",
+   "en": "Child",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この鉱山町も\r  おしまいか…」\u0010",
-   "en": "",
+   "en": "\"So this mining town's done for too...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「坑道の奥には きっと\r  何かがいるんだよ」\u0010",
-   "en": "",
+   "en": "\"There's something down deep in the tunnels. I just know it.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

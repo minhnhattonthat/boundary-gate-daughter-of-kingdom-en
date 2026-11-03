@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "新国王\r「よかった…",
-   "en": "",
+   "en": "New King\r\"Thank goodness...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  飢え死にする\r  かと思った」",
-   "en": "",
+   "en": "I thought I would starve to death.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

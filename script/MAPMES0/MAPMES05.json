@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "地下街廃墟",
-   "en": "",
+   "en": "Undercity Ruins",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "カリフォスの廃墟",
-   "en": "",
+   "en": "Ruins of Caliphos",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宿屋の跡地らしい\u0010",
-   "en": "",
+   "en": "Looks like this was once an inn.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "…？\r道具屋の跡地らしい\u0010",
-   "en": "",
+   "en": "...? Looks like this was once an item shop.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ひどい荒れようだ\u0010\b以前は 立派な武具屋\rだったろうに…\u0010\b",
-   "en": "",
+   "en": "What a wreck.\u0010\bIt must have been a fine arms shop once...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "？\u0017\b",
-   "en": "",
+   "en": "?\u0017\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bレイピアを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened the chest!\u0010\bFound a Rapier.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010\b",
-   "en": "",
+   "en": "But you can't carry any more.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "レイピアを\r手に入れた\u0010\b",
-   "en": "",
+   "en": "Got the Rapier!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "武具屋の跡地らしい\u0010",
-   "en": "",
+   "en": "Looks like this was once an arms shop.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ここも道具屋の跡地らしい\u0010",
-   "en": "",
+   "en": "This too looks like it was once an item shop.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "おや？\u0017何かが落ちている\u0010",
-   "en": "",
+   "en": "Hm?\u0017 Something's lying here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ラージポーションを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Found a Large Potion.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010\b",
-   "en": "",
+   "en": "But you can't carry any more.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rラージポーションを\r手に入れた！\u0010",
-   "en": "",
+   "en": "Finn's party got the Large Potion!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "道具屋の跡地らしい\u0010",
-   "en": "",
+   "en": "Looks like this was once an item shop.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ほのかに アルコールの\r臭いがする\u0010\bここは酒場だったのか？\u0010",
-   "en": "",
+   "en": "There's a faint smell of alcohol.\u0010\bWas this a tavern?\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "民家の跡地らしい\u0010",
-   "en": "",
+   "en": "Looks like this was once a house.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "…無残だな\rここも民家の跡地らしい\u0010",
-   "en": "",
+   "en": "...Terrible. This too was once a house, it seems.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ん？\r治療院の跡か…\u0010",
-   "en": "",
+   "en": "Hm? The remains of a clinic...?\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

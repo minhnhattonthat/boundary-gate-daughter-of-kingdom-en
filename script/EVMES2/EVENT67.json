@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長\r「私が知識聖堂の司祭長だ",
-   "en": "",
+   "en": "High Priest\r\"I am the High Priest of the Temple of Knowledge.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今回のリスプの行動は\r  すべてあの娘が独断で\r  おこなったこと…",
-   "en": "",
+   "en": "What Risp has done this time, she did entirely on her own...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …しかし こうなった\r  以上は",
-   "en": "",
+   "en": "...However, now that things have come to this,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  君たちにも 事情を説明\r  せねばなるまい…」",
-   "en": "",
+   "en": "I suppose I must explain the circumstances to you as well...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長\r「…１８年前 リスプと\r  キラルは",
-   "en": "",
+   "en": "High Priest\r\"...Eighteen years ago, Risp and Kiral",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  二重胎児として生まれて\r  きた",
-   "en": "",
+   "en": "were born as conjoined twins.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  その時 全聖堂の司祭長\r  がワイズブルームに\r  集まった",
-   "en": "",
+   "en": "At that time, the High Priests of all the temples gathered at Wisebloom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  二人の…",
-   "en": "",
+   "en": "so that the two of them...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いや どちらか一人でも\r  命を救うために…」",
-   "en": "",
+   "en": "No, so that even just one of them might be saved...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「それは私達が５０年ぶり\r  に生まれた",
-   "en": "",
+   "en": "Risp\r\"That was because we were the first",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  『王国の娘』\r  だったから…」",
-   "en": "",
+   "en": "'Daughters of the Kingdom' born in fifty years...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

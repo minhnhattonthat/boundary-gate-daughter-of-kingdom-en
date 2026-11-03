@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "今､一人の男が野望に\r燃える目で\r王座を見つめていた",
-   "en": "",
+   "en": "At that moment, a man was gazing at the throne, his eyes burning with ambition.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "男\r「ホムンクリの実験は\r  成功した…",
-   "en": "",
+   "en": "Man\r\"The Homunculi experiment has succeeded...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いずれ司祭長と国王の\r  始末をつけたら…",
-   "en": "",
+   "en": "Once I have disposed of the High Priest and the King...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この私がモーダルグロウ\r  を支配する…」",
-   "en": "",
+   "en": "I, and I alone, shall rule Modalglow...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

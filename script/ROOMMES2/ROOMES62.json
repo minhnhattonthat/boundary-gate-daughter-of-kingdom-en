@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "紋章の迷宮の地図",
-   "en": "",
+   "en": "Crest Labyrinth Map",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "アンブローズ北地区大門",
-   "en": "",
+   "en": "Ambrose\rNorth District Great Gate",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "心臓の紋章の迷宮",
-   "en": "",
+   "en": "Heart Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "牙の紋章の迷宮",
-   "en": "",
+   "en": "Fang Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "五芒星の紋章の迷宮",
-   "en": "",
+   "en": "Pentagram Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "瞳の紋章の迷宮",
-   "en": "",
+   "en": "Iris Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "カギが かかっている\u0010",
-   "en": "",
+   "en": "It's locked.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "23",
    "group": "location",
    "jp": "心臓の紋章の迷宮",
-   "en": "",
+   "en": "Heart Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ北地区",
-   "en": "",
+   "en": "Ambrose North District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "23",
    "group": "location",
    "jp": "心臓の紋章の迷宮",
-   "en": "",
+   "en": "Heart Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "23",
    "group": "location",
    "jp": "牙の紋章の迷宮",
-   "en": "",
+   "en": "Fang Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "23",
    "group": "location",
    "jp": "五芒星の紋章の迷宮",
-   "en": "",
+   "en": "Pentagram Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "23",
    "group": "location",
    "jp": "瞳の紋章の迷宮",
-   "en": "",
+   "en": "Iris Crest Labyrinth",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

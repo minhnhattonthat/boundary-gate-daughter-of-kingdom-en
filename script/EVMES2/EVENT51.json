@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "医療聖堂長\r「おお…",
-   "en": "",
+   "en": "High Priest of Medicine\r\"Oh...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  我々は 姉のおまえに\r  身体を与えた…",
-   "en": "",
+   "en": "We gave you, the elder sister, a body...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  皮肉なことだ…",
-   "en": "",
+   "en": "How ironic...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  身体をなくした\r  妹のほうが…",
-   "en": "",
+   "en": "that the younger sister, who lost her body...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …それゆえに王国の娘と\r  なるとは…」",
-   "en": "",
+   "en": "...should for that very reason become the Daughter of the Kingdom...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "医療聖堂長\r「その脳を直接 いにしえ\r  の知識と接続し…",
-   "en": "",
+   "en": "High Priest of Medicine\r\"Her brain linked directly to the Ancient Knowledge...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの娘は…",
-   "en": "",
+   "en": "That girl is...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  理想的な…",
-   "en": "",
+   "en": "the ideal...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …生体端末…",
-   "en": "",
+   "en": "...living terminal...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …ちがう！",
-   "en": "",
+   "en": "...No!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …あれは…",
-   "en": "",
+   "en": "...That thing...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ゲートを通って来た…」",
-   "en": "",
+   "en": "came through the Gate...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

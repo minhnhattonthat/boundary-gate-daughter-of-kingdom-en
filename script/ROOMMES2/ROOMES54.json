@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「うちの品はすべて知識聖堂\r  のお墨付きだ」\u0010\b",
-   "en": "",
+   "en": "\"Everything we sell carries the Temple of Knowledge's seal of approval.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さて､どんな御用でしょう？",
-   "en": "",
+   "en": "Now, how may I help you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「リスプ､本当に\r  いいのか？」",
-   "en": "",
+   "en": "Finn\r\"Risp, are you really sure about this?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「このままでは キラルの\r  力に刺激された",
-   "en": "",
+   "en": "Risp\r\"If this goes on, stirred up by Kiral's power,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートが\r  暴走を始めます",
-   "en": "",
+   "en": "the Boundary Gate will begin to run wild.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そうなれば\r  モーダルグロウ",
-   "en": "",
+   "en": "If that happens, Modalglow...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いいえ､この世界全体が\r  崩壊してしまう",
-   "en": "",
+   "en": "no, this entire world will be destroyed.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私はキラルを止めます…",
-   "en": "",
+   "en": "I will stop Kiral...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  どんなことをしても…」",
-   "en": "",
+   "en": "no matter what it takes...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「…よし､扉を開けるぞ」",
-   "en": "",
+   "en": "Finn\r\"...All right. I'm opening the door.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

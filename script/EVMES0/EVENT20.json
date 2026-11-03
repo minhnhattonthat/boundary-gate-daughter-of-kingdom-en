@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン\r「封印を直して下さったか\r  すまんの…",
-   "en": "",
+   "en": "Hansen\r\"You've fixed the seal, have you? Much obliged...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  足をくじいてしまった\r  ようじゃ\r  肩を貸して…",
-   "en": "",
+   "en": "Seems I've twisted my ankle. Lend me a shoulder, would ya...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いや わしはお嬢さんの\r  ほうがいいのぉ」",
-   "en": "",
+   "en": "Ah, no, no. I'd much rather lean on the young lady, heh.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

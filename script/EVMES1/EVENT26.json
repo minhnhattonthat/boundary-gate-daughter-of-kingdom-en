@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "あちこち引き回されるのには\rいいかげん うんざりだ",
-   "en": "",
+   "en": "I was getting thoroughly sick of being dragged from place to place.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "でもリスプは辛抱強く\r待つつもりらしい",
-   "en": "",
+   "en": "But Risp seemed set on waiting patiently.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "まったく頑固なお嬢様だ",
-   "en": "",
+   "en": "What a stubborn young lady.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "館に向かう途中 彼女が\rこんなことを話してくれた",
-   "en": "",
+   "en": "On the way to the manor, she told me something.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「王国すべての魔法の源は",
-   "en": "",
+   "en": "Risp\r\"The source of all magic in the kingdom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートと\r  呼ばれる 巨大な光の渦\r  なのです…",
-   "en": "",
+   "en": "is a vast vortex of light called the Boundary Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ゲートは異世界との\r  間に開いた門…",
-   "en": "",
+   "en": "The Gate is a door that opens between our world and other worlds...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ロードダールの様に…」",
-   "en": "",
+   "en": "Like the one in Rhodedahl...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "バラックＢ",
-   "en": "",
+   "en": "Shack B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "怪我人",
-   "en": "",
+   "en": "Injured Man",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "小屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「道を歩いていて 突然\r  吹っ飛ばされたんだ…\u0010\b  気がついたら ここに\r  寝かされていたよ」\u0010",
-   "en": "",
+   "en": "\"I was walking down the street when all of a sudden I got blown off my feet...\u0010\bWhen I came to, I was lying here.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

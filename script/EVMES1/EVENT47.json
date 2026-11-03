@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「なんということだ…",
-   "en": "",
+   "en": "Demius\r\"What is the meaning of this...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  なぜ我が軍の要塞を\r  襲わせる？",
-   "en": "",
+   "en": "Why attack my own army's fortress?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ！？",
-   "en": "",
+   "en": "?!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  始めからあの娘の目的は…",
-   "en": "",
+   "en": "From the very start, that girl's goal was...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …すべてを破滅させること\r  だけだったのか？！」",
-   "en": "",
+   "en": "...nothing but to bring everything to ruin?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「あなたに\r  もう用はないわ…",
-   "en": "",
+   "en": "Kiral\r\"I have no further use for you...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お戻りなさい\r  自分の王座に…",
-   "en": "",
+   "en": "Go back... to your throne...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  船は後まわし…",
-   "en": "",
+   "en": "The ship can wait...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  次はアンブローズよ…",
-   "en": "",
+   "en": "Ambrose is next...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  さあ､\r  バウンダリーゲート\r  混沌の扉を開きなさい！」",
-   "en": "",
+   "en": "Now, Boundary Gate, open the door of chaos!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

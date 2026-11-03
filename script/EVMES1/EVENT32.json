@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「戒厳令がしかれたんだ",
-   "en": "",
+   "en": "Rio\r\"They've declared martial law.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  頼む アッシュ達に\r  手を貸してくれ",
-   "en": "",
+   "en": "Please, give Ash and his people a hand.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  捕われている 娘のシーダ\r  を助けるために",
-   "en": "",
+   "en": "To rescue my daughter Sheeda, who's bein' held prisoner,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  エルシノア湖の要塞に\r  向かっているんだ」",
-   "en": "",
+   "en": "they're headin' for the fortress on Lake Elsinore.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

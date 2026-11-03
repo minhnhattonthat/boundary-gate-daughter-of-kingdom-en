@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン\r「これは昔､わしのじいさん\r  が 知識聖堂から",
-   "en": "",
+   "en": "Hansen\r\"Long ago, my granddad was given this by the Temple of Knowledge",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  預かったものじゃ",
-   "en": "",
+   "en": "to keep safe, y'see.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  どうか一刻も早く\r  封印を直してくだされ」",
-   "en": "",
+   "en": "Please, my girl, fix that seal as quick as ever you can.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アモーク要塞屋上",
-   "en": "",
+   "en": "Fort Amok Roof",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "部屋の隅に若い娘が\rうずくまっている\u0010\b",
-   "en": "",
+   "en": "A young girl is huddled in the corner of the room.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "その時 男が一人\r屋上にかけあがってきた\u0010\b",
-   "en": "",
+   "en": "Just then, a man came running up onto the roof.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bシルバーメイルを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a set of Silver Mail.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rシルバーメイルを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Silver Mail.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bフィン達は\r８５０Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFinn's party obtained 850G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

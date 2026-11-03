@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女\r「どうして 黙って\r  行かせるんです？！",
-   "en": "",
+   "en": "Woman\r\"Why are you just letting them go?!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂のスパイに\r  決まっています！」",
-   "en": "",
+   "en": "They're spies from the Temple of Knowledge, I'm certain of it!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「理由をつけて館に軟禁\r  するよう",
-   "en": "",
+   "en": "Ash\r\"I've told my father to find some pretext",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  父には伝えてある",
-   "en": "",
+   "en": "to keep them confined at the manor.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂は いにしえの\r  知識を握っている",
-   "en": "",
+   "en": "The Temple of Knowledge holds the Ancient Knowledge.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  魔導聖堂でも簡単に手の\r  出せる相手ではない",
-   "en": "",
+   "en": "Even the Temple of Sorcery can't easily lay a hand on them.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂の考えが\r  つかめないうちは\r  下手に動くな",
-   "en": "",
+   "en": "Until we know what the Temple of Knowledge is thinking, make no rash moves.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  とにかく\r  シーダの救出が先決だ」",
-   "en": "",
+   "en": "In any case, rescuing Sheeda comes first.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

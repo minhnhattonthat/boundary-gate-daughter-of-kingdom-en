@@ -12,9 +12,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おめぐみを …」\u0010\b",
-   "en": "",
+   "en": "\"Spare a coin...?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "２０Ｇをあたえますか？\u0019",
-   "en": "",
+   "en": "Give him 20G?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「それは 残念なことじゃ」\u0010",
-   "en": "",
+   "en": "\"Ah, that's a shame, that is.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「貧乏人め！」\u0010",
-   "en": "",
+   "en": "\"Penniless wretch!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  二つの世界を結ぶ\r  門の話を聞いたことが\r  ありやすか？」\u0010",
-   "en": "",
+   "en": "Ever heard tell of a gate that joins two worlds?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  地の底には\r  他の世界の化け物が\r  すんでるって…」\u0010",
-   "en": "",
+   "en": "They say monsters from other worlds live down at the bottom of the earth...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  国のどこかに\r  五つの紋章の迷宮が\r  あるんですよ」\u0010",
-   "en": "",
+   "en": "Somewhere in this land there are five Crest Labyrinths, y'know.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… 毎度ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, as always.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ですが だんな\u0017 もう\r  あっしが知っている\r  情報は ありませんぜ」\u0010",
-   "en": "",
+   "en": "But, guv,\u0017 that's all the news I've got.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この地区から移動しては\r  いかん！」\u0010",
-   "en": "",
+   "en": "\"You may not leave this district!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "25",
    "group": "building",
    "jp": "鍛冶屋",
-   "en": "",
+   "en": "Smithy",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "25",
    "group": "building",
    "jp": "リオの家",
-   "en": "",
+   "en": "Rio's House",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この地区から移動しては\r  いかん！」\u0010",
-   "en": "",
+   "en": "\"You may not leave this district!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "倉庫の床に蓋がしてある\u0010\b",
-   "en": "",
+   "en": "There's a hatch in the warehouse floor.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "倉庫の床に蓋がしてある\u0010\b",
-   "en": "",
+   "en": "There's a hatch in the warehouse floor.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは蓋を持ち上げた\u0010\b奥に通路が広がっている\u0010\b",
-   "en": "",
+   "en": "Finn lifted the hatch.\u0010\bA passage stretched away below.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "町民Ａ\r",
-   "en": "",
+   "en": "Townsman A\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「国王は我々の暮らしを\r  守ってくださる\u0010\b  王国の娘は 命と魂を\r  守ってくださる」\u0010",
-   "en": "",
+   "en": "\"The King protects our livelihoods.\u0010\bThe Daughter of the Kingdom protects our lives and souls.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "町民Ｂ\r",
-   "en": "",
+   "en": "Townsman B\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオの家なら地区の西側\r  だよ」\u0010",
-   "en": "",
+   "en": "\"Rio's house is on the west side of the district.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アンブローズ城が見える\u0010",
-   "en": "",
+   "en": "Ambrose Castle is in view.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「反逆者に関する情報には\r  賞金をあたえる」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"A reward will be paid for information on rebels.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「夜間 女性や子供は\r  出歩かないこと！」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"Women and children must not go out at night!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -397,9 +397,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「あらたな増税については\r  おって発表する」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"Details of new taxes will be announced in due course.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「増 税 反 対 ！」\u0010",
-   "en": "",
+   "en": "There's graffiti on the wall.\u0010 \"NO MORE TAXES!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -419,9 +419,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「魔導聖堂の横暴を\r  阻止しよう！」\u0010",
-   "en": "",
+   "en": "There's graffiti on the wall.\u0010 \"Stop the Temple of Sorcery's tyranny!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

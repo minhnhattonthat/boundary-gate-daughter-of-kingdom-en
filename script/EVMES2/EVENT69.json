@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「フィン！",
-   "en": "",
+   "en": "Risp\r\"Finn!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂を黙って\r  出てきたこと､隠して\r  いてごめんなさい…",
-   "en": "",
+   "en": "I'm sorry I hid that I left the Temple of Knowledge without telling anyone...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私 キラルが苦しんで\r  いるのを感じて\r  我慢できなくて",
-   "en": "",
+   "en": "I could feel Kiral suffering, and I couldn't bear it.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  でも 代金は約束通り\r  聖堂が 支払います",
-   "en": "",
+   "en": "But the Temple will still pay your fee, as promised.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今まで､本当に\r  ありがとう…」",
-   "en": "",
+   "en": "Thank you... truly, for everything...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「…おまえはこの後\r  どうするんだ？」",
-   "en": "",
+   "en": "Finn\r\"...So what are you going to do now?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「わかりません…\r  キラルに何があったのか…",
-   "en": "",
+   "en": "Risp\r\"I don't know... What happened to Kiral...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  もう一度キラルに\r  会えれば…」",
-   "en": "",
+   "en": "If only I could see Kiral once more...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「それじゃあ 会いに行く\r  とするか」",
-   "en": "",
+   "en": "Finn\r\"Well then, guess we'd better go see her.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「…え？」",
-   "en": "",
+   "en": "Risp\r\"...Huh?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「アンブローズに帰るぜ\r  支度しな",
-   "en": "",
+   "en": "Finn\r\"We're heading back to Ambrose. Pack up,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  世間知らずのお嬢さん」",
-   "en": "",
+   "en": "sheltered little miss.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「フィン！」",
-   "en": "",
+   "en": "Risp\r\"Finn!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「アッシュの命令が\r  あるしね",
-   "en": "",
+   "en": "Melissa\r\"Ash's orders still stand,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あたしも ずっと\r  くっついて行かせて\r  もらうわよ",
-   "en": "",
+   "en": "so I'm sticking with you the whole way, got it?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  グレイストーン\r  あんたも同じでしょ！」",
-   "en": "",
+   "en": "Greystone, same goes for you, right?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーン\r「うむ」",
-   "en": "",
+   "en": "Greystone\r\"Mm.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「ありがとう…",
-   "en": "",
+   "en": "Risp\r\"Thank you...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  フィン メリッサ\r  グレイストーン…",
-   "en": "",
+   "en": "Finn, Melissa, Greystone...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -430,9 +430,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ありがとう…」",
-   "en": "",
+   "en": "thank you...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

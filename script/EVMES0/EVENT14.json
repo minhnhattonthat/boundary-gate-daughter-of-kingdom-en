@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「…カリフォスが消えたって\r  ウワサは本当だったのか…",
-   "en": "",
+   "en": "Rio\r\"...So the rumour that Caliphos vanished was true...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  トールマンを救ってくれて\r  礼を言うよ",
-   "en": "",
+   "en": "Thanks for savin' Tallman.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  約束通り大聖堂に入る\r  方法をあたってみるが…",
-   "en": "",
+   "en": "Like I promised, I'll look for a way into the Cathedral, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まだ はっきりしたこと\r  は言えん」",
-   "en": "",
+   "en": "I can't tell ya anything for sure yet.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

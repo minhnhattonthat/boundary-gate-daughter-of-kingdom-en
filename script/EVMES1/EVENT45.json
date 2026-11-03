@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "シーダ\r「お父さん！」",
-   "en": "",
+   "en": "Sheeda\r\"Father!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「アッシュ！\r  無事だったんですね！」",
-   "en": "",
+   "en": "Melissa\r\"Ash! You're safe!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「私と他の仲間は\r  崖の上の牢に",
-   "en": "",
+   "en": "Ash\r\"My comrades and I were locked in a prison",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  閉じこめられていたんだが\r  騒ぎに乗じて看守を\r  倒すことができたよ",
-   "en": "",
+   "en": "up on the cliff, but in all the commotion we managed to overpower the guards.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だが おかしい…\r  何かがくるっている…",
-   "en": "",
+   "en": "But something is wrong... Something has gone awry...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  なぜ 化け物を操っている\r  はずの魔導聖堂自身が\r  攻撃をうけるんだ…？」",
-   "en": "",
+   "en": "Why would the Temple of Sorcery, who are supposed to control the monsters, come under attack themselves...?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

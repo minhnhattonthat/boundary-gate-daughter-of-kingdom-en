@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「お姉さん…",
-   "en": "",
+   "en": "Kiral\r\"Sister...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私の邪魔はさせないわ」",
-   "en": "",
+   "en": "I won't let you get in my way.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

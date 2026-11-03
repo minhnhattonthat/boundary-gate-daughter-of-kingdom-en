@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「これが\r  バウンダリーゲート…",
-   "en": "",
+   "en": "Risp\r\"This is... the Boundary Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  王国の魔力の源です…」",
-   "en": "",
+   "en": "The source of the kingdom's magic...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ／キラル\r「いにしえの知識とは",
-   "en": "",
+   "en": "Risp and Kiral\r\"The Ancient Knowledge is",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  『始まりの母』が残した\r  人工知能…",
-   "en": "",
+   "en": "an artificial intelligence left by the 'First Mother'...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そして アクセスできる\r  のは正しい遺伝子コードを  受け継いだ『王国の娘』…",
-   "en": "",
+   "en": "And the only one who can access it is a 'Daughter of the Kingdom' who has inherited the correct genetic code...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それは高度な医療技術情報  を口移しに伝える\r  巫女なのです…」",
-   "en": "",
+   "en": "She is a priestess who passes advanced medical knowledge on, mouth to mouth...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ／キラル\r「キラルは人工の体をもつが\r  ゆえに…",
-   "en": "",
+   "en": "Risp and Kiral\r\"Because Kiral has an artificial body...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  神経系を人工知能と直接\r  接続できました",
-   "en": "",
+   "en": "she could connect her nervous system directly to the artificial intelligence.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  しかし そのため人工知能\r  に寄生した者に\r  心を支配されてしまった…",
-   "en": "",
+   "en": "But because of that, her mind fell under the control of the thing that had made the AI its host...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  境界の門を越えて\r  悪しき者来たり…",
-   "en": "",
+   "en": "Across the Boundary Gate, a wicked one came...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  デミウスによこしまな\r  野望を植えつけ…",
-   "en": "",
+   "en": "It planted twisted ambition in Demius...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  人工知能を通して\r  キラルの心を支配して\r  いたのは…」",
-   "en": "",
+   "en": "and through the artificial intelligence, the one controlling Kiral's mind was...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

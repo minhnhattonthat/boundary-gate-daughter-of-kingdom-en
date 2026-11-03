@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "軍の連絡所",
-   "en": "",
+   "en": "Army Liaison Post",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "司令官",
-   "en": "",
+   "en": "Commander",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "兵士Ａ",
-   "en": "",
+   "en": "Soldier A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "兵士Ｂ",
-   "en": "",
+   "en": "Soldier B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "連絡所の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "国王の姿を見て 兵士達は\r唖然としている\u0010\bしかし すぐに直立不動で\r敬礼した\u0010\b",
-   "en": "",
+   "en": "The soldiers stared dumbfounded at the sight of the King.\u0010\bBut at once they snapped to attention and saluted.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "奥の部屋からシーダが\r出てきて 国王に抱きついた\u0010",
-   "en": "",
+   "en": "Sheeda came out of the back room and threw her arms around the King.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "国王は司令官から牙の印の鍵\rを受け取ると フィンに手渡\rした\u0010",
-   "en": "",
+   "en": "The King took the Fang Crest Key from the commander and handed it to Finn.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牙の印の鍵を手に入れた\u0010",
-   "en": "",
+   "en": "Got the Fang Crest Key!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いったい､国王は…\r\u0017  軍をあげて捜索している\r  んだが…」\u0010\b",
-   "en": "",
+   "en": "\"Where in the world could the King be... \u0017We've had the whole army searching, but...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「我々に命令を下すことが\r  出来るのは 国王陛下\r  だけだ」\u0010",
-   "en": "",
+   "en": "\"Only His Majesty the King can give us orders.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「アモーク要塞に兵士を\r  派遣しているのだが…\u0010\b",
-   "en": "",
+   "en": "\"We've sent soldiers to Fort Amok...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まだ､良い連絡は\r  届かない…」\u0010\b",
-   "en": "",
+   "en": "but no good news has come back yet...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「昨日まで 牙の紋章の\r  迷宮の警備にあたって\r  いたんだが…」\u0010",
-   "en": "",
+   "en": "\"Until yesterday, we were standing guard over the Fang Crest Labyrinth, but...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「国王陛下は\r  牙の印の鍵を持ったまま\r  行方不明に…\u0010\b",
-   "en": "",
+   "en": "\"His Majesty went missing with the Fang Crest Key still in his keeping...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  もしや､あのデミウスに\r  連れ去られたのでは…」\u0010\b",
-   "en": "",
+   "en": "Could that Demius have carried him off...?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「これからは国王とともに\r  アンブローズの復興に\r  励みたいと思います」\u0010\b",
-   "en": "",
+   "en": "\"From now on, I hope to work alongside the King to rebuild Ambrose.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "残ったモンスターも\r一掃できたらしい\u0010\bプレリアール公が\r家臣達を集めている\u0010\b",
-   "en": "",
+   "en": "It seemed the remaining monsters had been wiped out.\u0010\bDuke Prairial was gathering his retainers.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士\r",
-   "en": "",
+   "en": "Soldier\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「突然…地下室から…\r  化け物どもが…」\u0010",
-   "en": "",
+   "en": "\"Suddenly... from the cellar... monsters...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士\r",
-   "en": "",
+   "en": "Soldier\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「たのむ…閣下を…」\u0010",
-   "en": "",
+   "en": "\"Please... His Lordship...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "すでに事切れている\u0010",
-   "en": "",
+   "en": "He was already dead.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士\r",
-   "en": "",
+   "en": "Soldier\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「突然､魔物が…」\u0010",
-   "en": "",
+   "en": "\"Out of nowhere, monsters...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

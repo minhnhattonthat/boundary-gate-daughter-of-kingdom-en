@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メルク\r「やっと 都から人が\r  来たようだね",
-   "en": "",
+   "en": "Merk\r\"Well, somebody from the capital's finally come.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  五日前 あたしが森から\r  町に帰ろうとした時だった",
-   "en": "",
+   "en": "It was five days ago, when I was headin' back to town from the woods.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  突然 物凄い音がして\r  あたりが真っ暗になって\r  ね",
-   "en": "",
+   "en": "All of a sudden there was this terrible noise, and everything went black, dearie.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  もどって見たら 町が\r  なくなっているじゃないか",
-   "en": "",
+   "en": "When I came back to look, the town was just gone!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それ以来 こうして\r  怪我人の看病をしてるの\r  さ",
-   "en": "",
+   "en": "Ever since, I've been here like this, tendin' the wounded.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あたしにゃ\r  身よりもないしねぇ",
-   "en": "",
+   "en": "Got no family of my own, y'see.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  他にも怪我人をみつけた\r  ら ここにつれておいで」",
-   "en": "",
+   "en": "If you find any more wounded, bring 'em here.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

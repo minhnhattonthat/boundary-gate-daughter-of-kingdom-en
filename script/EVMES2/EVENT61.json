@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「…どうしてもやるつもり\r  なのね？ …お姉さん」",
-   "en": "",
+   "en": "Kiral\r\"...So you really mean to do it? ...Sister.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「もう やめて キラル！",
-   "en": "",
+   "en": "Risp\r\"Please stop, Kiral!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  これ以上 ゲートを\r  ねじ曲げたら 取り返しの\r  つかないことに…",
-   "en": "",
+   "en": "If you twist the Gate any further, it will lead to something that can never be undone...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル…？",
-   "en": "",
+   "en": "Kiral...?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル？！」",
-   "en": "",
+   "en": "Kiral?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「…助けて…  …お姉さん…",
-   "en": "",
+   "en": "Kiral\r\"...Help me... ...Sister...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …助けて…",
-   "en": "",
+   "en": "...Help me...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …ああっ！！…」",
-   "en": "",
+   "en": "...Aaah!!...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

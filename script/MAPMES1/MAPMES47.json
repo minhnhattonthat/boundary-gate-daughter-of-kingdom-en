@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "心臓の紋章の迷宮\r                地下５階",
-   "en": "",
+   "en": "Heart Crest Labyrinth\rB5",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "多重人格型人工知能システム\r        ［ハート］\u0010\b",
-   "en": "",
+   "en": "Multi-personality artificial intelligence system [Heart]\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "ハート\r",
-   "en": "",
+   "en": "Heart\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「手をプレートにあてて\r  ください」\u0010\bリスプが手をあてると\r再び声がした\u0010\b",
-   "en": "",
+   "en": "\"Place your hand on the plate.\"\u0010\bWhen Risp placed her hand on it, the voice spoke again.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "ハート\r",
-   "en": "",
+   "en": "Heart\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「遺伝子コード確認\r  パスワードは？」\u0010\bリスプが何か合言葉のよう\rなものを言っている\u0010\b",
-   "en": "",
+   "en": "\"Genetic code confirmed. Password?\"\u0010\bRisp is saying something that sounds like a passphrase.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "ハート\r",
-   "en": "",
+   "en": "Heart\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「コマンドアクセプト\u0010\b  端末［ハート］は\r  停止します」\u0010\b",
-   "en": "",
+   "en": "\"Command accepted.\u0010\bTerminal [Heart] shutting down.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "光の渦の上に黒髪の娘の姿\rが浮かんだ\u0010\b",
-   "en": "",
+   "en": "Above the vortex of light, the figure of a black-haired girl appeared.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…キラル…」\u0010\b",
-   "en": "",
+   "en": "\"...Kiral...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "茫然と立ち尽くすリスプの\r前で､娘の姿は光の渦と\r共に消えた\u0010\b",
-   "en": "",
+   "en": "As Risp stood there stunned, the girl's figure vanished along with the vortex of light.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

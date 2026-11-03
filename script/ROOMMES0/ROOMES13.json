@@ -12,9 +12,9 @@
    "op": "28",
    "group": "menu",
    "jp": "東の監視塔",
-   "en": "",
+   "en": "East Watchtower",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "28",
    "group": "menu",
    "jp": "南の監視塔",
-   "en": "",
+   "en": "South Watchtower",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "アモーク要塞",
-   "en": "",
+   "en": "Fort Amok",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "堤防にもどる",
-   "en": "",
+   "en": "To the levee",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "マイヨールが小舟の前で\r待っていた\u0010\b",
-   "en": "",
+   "en": "Maillol was waiting by his little boat.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "マイヨール\r",
-   "en": "",
+   "en": "Maillol\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「きなすったな\r  よし！出発じゃ」\u0010",
-   "en": "",
+   "en": "\"There ye are. Right! Off we go, then.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
-   "en": "",
+   "en": "Maillol waited for nightfall, then pushed off in the little boat.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "23",
    "group": "location",
    "jp": "東の監視塔外観",
-   "en": "",
+   "en": "East Watchtower Exterior",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "監視塔は闇に包まれて\r静まり返っている\u0010\bフィン達は マイヨールに\r舟を任せると塔の中に入って\rいった\u0010",
-   "en": "",
+   "en": "The watchtower lay wrapped in darkness and silence.\u0010\bLeaving the boat in Maillol's hands, Finn and the others went into the tower.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
-   "en": "",
+   "en": "Maillol waited for nightfall, then pushed off in the little boat.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "23",
    "group": "location",
    "jp": "南の監視塔外観",
-   "en": "",
+   "en": "South Watchtower Exterior",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "監視塔の屋上には明々と\r松明が点されている\u0010\b忍び込むのは難しそうだ\u0010",
-   "en": "",
+   "en": "Torches blaze brightly on the watchtower's roof.\u0010\bSneaking in won't be easy.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
-   "en": "",
+   "en": "Maillol waited for nightfall, then pushed off in the little boat.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "23",
    "group": "location",
    "jp": "アモーク要塞外観",
-   "en": "",
+   "en": "Fort Amok Exterior",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "マイヨール\r",
-   "en": "",
+   "en": "Maillol\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「正面から行っても\r  入れてはくれまい\u0010\b  要塞に続く階段があった\r  はずじゃが…」\u0010",
-   "en": "",
+   "en": "\"Walk up to the front, and they'll not let ye in.\u0010\bThere ought to be a stairway up to the fortress, mind ye...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "マイヨール\r",
-   "en": "",
+   "en": "Maillol\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「すっかり 明るくなって\r  しまったわい\u0010\b  舟が必要なら いつでも\r  きなさい」\u0010",
-   "en": "",
+   "en": "\"Well now, it's gone and got light on us.\u0010\bIf ye need the boat, come by any time.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "女主人",
-   "en": "",
+   "en": "Landlady",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "船員Ａ",
-   "en": "",
+   "en": "Sailor A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "船員Ｂ",
-   "en": "",
+   "en": "Sailor B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "船員Ｃ",
-   "en": "",
+   "en": "Sailor C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "漁師マイヨール",
-   "en": "",
+   "en": "Fisherman Maillol",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おととい 港の倉庫から\r  化け物がわんさか 出て\r  きてね\u0010\b  だれも港に近づけないん\r  だよ」\u0010",
-   "en": "",
+   "en": "\"Day before yesterday, a whole horde of monsters came pouring out of the harbour warehouse.\u0010\bNobody can get near the harbour now.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「マイヨールのひとり息子は\r  港のさわぎ以来､行方不明\r  なんだ」\u0010",
-   "en": "",
+   "en": "\"Maillol's only son has been missing since the trouble at the harbour.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ずっと こうしてる訳に\r  もいかねえ\r  それは解ってるんだが…」\u0010",
-   "en": "",
+   "en": "\"We can't go on sittin' around like this forever. I know that much, but...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「向こう岸の監視塔から\r  煙があがってたなあ」\u0010",
-   "en": "",
+   "en": "\"Saw smoke risin' from the watchtower across the lake.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 生きていても\r  しょうがねえ…」\u0010",
-   "en": "",
+   "en": "\"Ain't no point in livin' anymore...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

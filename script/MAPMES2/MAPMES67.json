@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "知識聖堂",
-   "en": "",
+   "en": "Temple of Knowledge",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

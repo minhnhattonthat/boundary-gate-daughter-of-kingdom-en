@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔導聖堂長\r「デミウスめ…",
-   "en": "",
+   "en": "High Priest of Sorcery\r\"Demius, the wretch...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  己の器も知らぬ\r  哀れな男よ…」",
-   "en": "",
+   "en": "A pitiful man who never knew his own limits...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

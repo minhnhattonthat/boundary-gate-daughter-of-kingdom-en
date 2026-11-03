@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ周辺地図",
-   "en": "",
+   "en": "Ambrose Region Map",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "アンブローズ北地区大門",
-   "en": "",
+   "en": "Ambrose\rNorth District Great Gate",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "カリフォス",
-   "en": "",
+   "en": "Caliphos",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "ロードダール",
-   "en": "",
+   "en": "Rhodedahl",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "プレリアール公の館",
-   "en": "",
+   "en": "Duke Prairial's Manor",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "トーナム",
-   "en": "",
+   "en": "Tornam",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "ワイズブルーム",
-   "en": "",
+   "en": "Wisebloom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "4e",
    "group": "menu",
    "jp": "４つの紋章の迷宮",
-   "en": "",
+   "en": "Four Crest Labyrinths",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "23",
    "group": "location",
    "jp": "カリフォスの廃墟",
-   "en": "",
+   "en": "Ruins of Caliphos",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "23",
    "group": "location",
    "jp": "ロードダールの鉱山町",
-   "en": "",
+   "en": "Rhodedahl Mining Town",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "23",
    "group": "location",
    "jp": "プレリアール公の館１階",
-   "en": "",
+   "en": "Duke Prairial's Manor 1F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "23",
    "group": "location",
    "jp": "港町トーナム",
-   "en": "",
+   "en": "Port Town of Tornam",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "23",
    "group": "location",
    "jp": "ワイズブルーム",
-   "en": "",
+   "en": "Wisebloom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ北地区",
-   "en": "",
+   "en": "Ambrose North District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

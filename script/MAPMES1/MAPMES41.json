@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アモーク要塞地下水路",
-   "en": "",
+   "en": "Fort Amok Waterway",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢番の死体が転がっている\r忠実に役目を果たしてきたら\rしい\u0010\bフィンが死体の腰から\r牢の鍵をはずした\u0010\b",
-   "en": "",
+   "en": "The jailer's body lies here. He seems to have done his duty faithfully to the end.\u0010\bFinn took the Cell Key from the dead man's belt.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の鍵を手に入れた\u0010",
-   "en": "",
+   "en": "Obtained the Cell Key.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰かが捕えられている\u0010",
-   "en": "",
+   "en": "Someone is being held prisoner.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいないようだ\u0010",
-   "en": "",
+   "en": "No one seems to be here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは手にした牢屋の鍵で\r扉を開けた\u0010\b",
-   "en": "",
+   "en": "Finn opened the door with the Cell Key.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢には小太りの若者が\r閉じこめられていた\u0010\b",
-   "en": "",
+   "en": "A plump young man was locked up inside.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "副司祭長デミウスに幽閉\rされた新国王だった\u0010\b",
-   "en": "",
+   "en": "It was the new King, imprisoned by Vice High Priest Demius.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "状況を聞いた新国王は\r不安そうだ\u0010\b",
-   "en": "",
+   "en": "Hearing how things stood, the new King looked uneasy.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンがメリッサ\rの口を押さえている\u0010\b",
-   "en": "",
+   "en": "Greystone had a hand clamped over Melissa's mouth.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "新国王は恥ずかしそうに\rうつ向いた\u0010",
-   "en": "",
+   "en": "The new King hung his head in embarrassment.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰かが捕えられている\u0010",
-   "en": "",
+   "en": "Someone is being held prisoner.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいないようだ\u0010",
-   "en": "",
+   "en": "No one seems to be here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは手にした牢屋の鍵で\r扉を開けた\u0010",
-   "en": "",
+   "en": "Finn opened the door with the Cell Key.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の中の老人は魔導聖堂の\r司祭長だった\u0010\b",
-   "en": "",
+   "en": "The old man in the cell was the High Priest of the Temple of Sorcery.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "副司祭長デミウスに幽閉\rされていたという\u0010\b",
-   "en": "",
+   "en": "He had been imprisoned by Vice High Priest Demius, he said.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプが老人の手を握ると\r彼は 黙って鍵を手渡した\u0010\b",
-   "en": "",
+   "en": "When Risp took the old man's hand, he silently handed her a key.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは\r五芒星の鍵を\r手に入れた\u0010",
-   "en": "",
+   "en": "Risp obtained the Pentagram Crest Key.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "死体が転がっている\u0010",
-   "en": "",
+   "en": "A body lies here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bフィン達は\r１５００Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFinn's party obtained 1500G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "シルバーリングを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Found a Silver Ring.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rシルバーリングを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Silver Ring.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bマジックストーンを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Magic Stone.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rマジックストーンを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Magic Stone.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bシルバーメイルを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a set of Silver Mail.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -397,9 +397,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rシルバーメイルを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Silver Mail.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

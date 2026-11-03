@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「医療聖堂の司祭長が…",
-   "en": "",
+   "en": "Risp\r\"The High Priest of the Temple of Medicine...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …亡くなりました…」",
-   "en": "",
+   "en": "...has passed away...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

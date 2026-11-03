@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "プレリアール公の館２階",
-   "en": "",
+   "en": "Duke Prairial's Manor 2F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "プレリアール公の館１階",
-   "en": "",
+   "en": "Duke Prairial's Manor 1F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "主人をかばって\r大男がモンスターと\r戦っている\u0010\b",
-   "en": "",
+   "en": "A huge man was fighting monsters, shielding his master.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "すぐれた戦士のようだが\rさすがに 苦戦している\rようだ\u0010\b",
-   "en": "",
+   "en": "He seemed a fine warrior, but even he was hard-pressed.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンとリスプは加勢した\u0010",
-   "en": "",
+   "en": "Finn and Risp joined the fight.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは傷ついた老人を\r助け起こした\u0010\b",
-   "en": "",
+   "en": "Finn helped the wounded old man to his feet.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "プレリアール\r",
-   "en": "",
+   "en": "Prairial\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「どなたか知らんが感謝する\u0010\b",
-   "en": "",
+   "en": "\"I know not who you are, but you have my thanks.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  突然､化け物どもが\r  地下室から…\u0010\b  グレイストーンと共に\r  地下室へいってくれ！\u0010\b",
-   "en": "",
+   "en": "Without warning, the creatures came up from the cellar...\u0010\bGo down to the cellar with Greystone, I beg of you!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私は大丈夫だ\r  生き残った部下達を\r  集めて立て直す」\u0010",
-   "en": "",
+   "en": "I shall be fine. I will gather what men survived and regroup.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

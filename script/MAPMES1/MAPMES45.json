@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "心臓の紋章の迷宮\r                地下４階",
-   "en": "",
+   "en": "Heart Crest Labyrinth\rB4",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "モンスターがあらわれた！\u0010",
-   "en": "",
+   "en": "A monster appeared!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "紋章のソードを\r手に入れた\u0010",
-   "en": "",
+   "en": "Obtained the Crest Sword.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bヒールリングⅠを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Heal Ring +1.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rヒールリングⅠを\r手に入れた\u0010\b",
-   "en": "",
+   "en": "Finn's party obtained the Heal Ring +1.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bマジックリングを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Magic Ring.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rマジックリングを\r手に入れた\u0010\b",
-   "en": "",
+   "en": "Finn's party obtained the Magic Ring.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

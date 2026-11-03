@@ -66,13 +66,14 @@ def to_tsv(s, exe=False):
     return ''.join(out)
 
 
-_TOKEN = re.compile(r'<(clr|wait|page|icon|[0-9a-f]{2})>| / ')
+# ' / ' = row break; a break at either end of the line may lose its outer space (editors strip it)
+_TOKEN = re.compile(r'<(clr|wait|page|icon|[0-9a-f]{2})>| / |^/ | /$')
 
 
 def from_tsv(t, exe=False, nl='\r'):
     """Batch-file text -> game form. Exe strings: ':' -> '::' and <icon> -> ':%c' (printer escapes)."""
     def sub(m):
-        if m.group(0) == ' / ':
+        if m.group(1) is None:
             return nl
         k = m.group(1)
         return {'clr': CLR, 'wait': WAIT, 'page': PAGE, 'icon': '\0ICON\0'}.get(k) or chr(int(k, 16))
@@ -156,6 +157,8 @@ EXE_ROW = {'battle': 26, 'shop': 26, 'save': 26, 'monsters': 26, 'ending': 38, '
 def exe_budget(e):
     """(cells per row, hard) for one exe string, from its group and field (docs/re/windows.md)."""
     g, jp = e['group'], e['jp']
+    if g in ('items', 'spells') and ('%' in jp or '\n' in jp or not 0x1f58 <= e['off'] < 0x3128):
+        return 26, False      # item-use / result messages (exe 0x37ec+): message window
     if g == 'party':
         return 14, True
     if g == 'map':

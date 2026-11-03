@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "バラックＡ",
-   "en": "",
+   "en": "Shack A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "怪我人",
-   "en": "",
+   "en": "Injured Man",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "娘",
-   "en": "",
+   "en": "Girl",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "小屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「地下街のほとんどは\r  崩れてるけど クレーター\r  に続いているらしい」\u0010",
-   "en": "",
+   "en": "\"Most of the underground town has caved in, but they say it leads to the crater.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ひとり 元気な男の人が\r  いたんですけど…\u0010\b",
-   "en": "",
+   "en": "\"There was one man who was still in good shape...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  爆発の原因を調べるって\r  穴の内側にいったきり\r  戻ってこないんです」\u0010",
-   "en": "",
+   "en": "He went into the crater to find out what caused the blast, and he never came back.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

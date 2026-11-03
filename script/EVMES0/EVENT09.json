@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "男\r「す､すまない\r  私はトールマンだ",
-   "en": "",
+   "en": "Man\r\"Th-thank you. I'm Tallman.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  きみたちは…？」",
-   "en": "",
+   "en": "And you are...?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「わたしたち リオの使い\r  なんです",
-   "en": "",
+   "en": "Risp\r\"We were sent by Rio.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  カリフォスで あなたに\r  会うようにって…」",
-   "en": "",
+   "en": "He told us to meet you in Caliphos...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "トールマン\r「そうか…ご覧の通りだよ",
-   "en": "",
+   "en": "Tallman\r\"I see... Well, you can see how things are.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  爆発の原因を調べていた\r  んだが…",
-   "en": "",
+   "en": "I was looking into the cause of the explosion, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  妙な金属片が あちこち\r  に落ちてるんだ」",
-   "en": "",
+   "en": "there are strange metal fragments scattered all over the place.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

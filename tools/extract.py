@@ -117,6 +117,11 @@ def script_entries(rel, data):
     return entries, so, sl
 
 
+# Byte runs that decode as a glyph but are data: 0x974 = 8C B4 01, same shape as its neighbour 44 B4 01
+# (keep), no reference reaches it.
+NOT_TEXT = {0x974}
+
+
 def exe_entries(data):
     strings, gaps = X.segment(data)
     refs = X.refs(data)
@@ -132,7 +137,7 @@ def exe_entries(data):
             'group': exe_group(s),
             'jp': sjis.decode(raw),
             'en': '',
-            'kind': 'text' if X.wide(raw) else 'keep',
+            'kind': 'text' if X.wide(raw) and s not in NOT_TEXT else 'keep',
             'refs': [f'0x{o:x}' for o in hits],
             'status': '',
             # the leftover debug window is Japanese on purpose: the release build never opens it

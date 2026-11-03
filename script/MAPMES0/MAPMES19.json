@@ -12,9 +12,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ城西門",
-   "en": "",
+   "en": "Ambrose Castle West Gate",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何をしている！\u0010\b  城への橋は 封鎖だ！\r  ちょっと､目を離した\r  スキにまったく…\u0010\b",
-   "en": "",
+   "en": "\"What do you think you're doing?!\u0010\bThe bridge to the castle is closed! Honestly, I take my eyes off it for one second...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士\r",
-   "en": "",
+   "en": "Soldier\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「帰った帰った！」\u0010\b",
-   "en": "",
+   "en": "\"Move along, move along!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "南地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the South District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…問題は 見かけより\r  ずっと深刻ですぜ\u0010\b  黒幕は 我々の想像を\r  越えたやつかも」\u0010\b",
-   "en": "",
+   "en": "\"...This trouble runs a lot deeper than it looks, mister.\u0010\bWhoever's pulling the strings might be beyond anything we can imagine.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "老婆\r",
-   "en": "",
+   "en": "Old Woman\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「カリフォスの次は\r  アンブローズだって\u0010\b  本当かしら」\u0010",
-   "en": "",
+   "en": "\"They say Ambrose is next, after Caliphos.\u0010\bCan that be true?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「知識聖堂は 相変らず\r  沈黙したままだ\u0010\b  密かに 工作員を送って\r  いるという噂もあるが…」\u0010",
-   "en": "",
+   "en": "\"The Temple of Knowledge is still keeping silent.\u0010\bThough there's talk they've been sending in agents on the quiet...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "老婆\r",
-   "en": "",
+   "en": "Old Woman\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「医療聖堂の力には感謝\r  しているけど…\u0010\b  治療所は 不気味な\r  雰囲気だよ」\u0010",
-   "en": "",
+   "en": "\"I'm grateful for what the Temple of Medicine can do, but...\u0010\bthat clinic of theirs gives me the creeps.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "掲示板\r「本日の正午をもって\r  全軍の指揮権は\u0010\b  魔導聖堂に移される\r      －王国の娘－」\u0010",
-   "en": "",
+   "en": "Notice board\r\"As of noon today, command of all armed forces\u0010\bpasses to the Temple of Sorcery. -- The Daughter of the Kingdom\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "掲示板の前の人\r",
-   "en": "",
+   "en": "Person at the Board\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いったい\r  どうなってるんだ？」\u0010",
-   "en": "",
+   "en": "\"What on earth is going on?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「リオ！」\u0010\b",
-   "en": "",
+   "en": "Finn\r\"Rio!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「約束を守ってくれた\r  のね！」\u0010\b",
-   "en": "",
+   "en": "Risp\r\"You kept your promise!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リオ\r",
-   "en": "",
+   "en": "Rio\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「頼む\u0010\b  エルシノア湖の要塞へ\r  行って アッシュ達を\r  助けてくれ」\u0010",
-   "en": "",
+   "en": "\"I'm beggin' ya...\u0010\bGet to that fortress on Lake Elsinore and help Ash and his people.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "若者\r",
-   "en": "",
+   "en": "Young Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「昨日､魔導聖堂の新しい\r  司祭長が エルシノア湖\u0010\b  へ向かったよ\u0010\b  おおぜい 引き連れて\r  まるで 国王きどり\r  だったな」\u0010",
-   "en": "",
+   "en": "\"Yesterday the new High Priest of the Temple of Sorcery headed off\u0010\bfor Lake Elsinore.\u0010\bHad a whole crowd in tow, too. Strutting about like he was the King himself.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「北地区への通行は\r  禁止されている」\u0010",
-   "en": "",
+   "en": "\"Passage to the North District is forbidden.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

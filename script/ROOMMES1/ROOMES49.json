@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ん‥‥？\r何かある‥‥\u0010\b",
-   "en": "",
+   "en": "Hm...? There's something here...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "包みを見つけた\u0010",
-   "en": "",
+   "en": "Found a package.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

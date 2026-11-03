@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑道地下２階",
-   "en": "",
+   "en": "Mine B2",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bフィン達は\r８００Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Opened the chest!\u0010\bFinn's party got 800G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bリバイブロールを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened the chest!\u0010\bFound a Revive Scroll.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rリバイブロールを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party got the Revive Scroll.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\r宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010 Open it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bラージポーションを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened the chest!\u0010\bFound a Large Potion.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rラージポーションを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party got the Large Potion.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

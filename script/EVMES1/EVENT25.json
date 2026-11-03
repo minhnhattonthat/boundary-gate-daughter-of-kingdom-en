@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「ほらね…",
-   "en": "",
+   "en": "Kiral\r\"You see...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートを\r  少し歪ませるだけで",
-   "en": "",
+   "en": "By bending the Boundary Gate just a little,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  自由に異次元の生き物を\r  呼び出せるのよ…」",
-   "en": "",
+   "en": "I can summon creatures from other dimensions at will...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「キラル様…",
-   "en": "",
+   "en": "Demius\r\"Kiral-sama...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  プレリアール公の\r  処分についてですが…」",
-   "en": "",
+   "en": "Regarding the disposal of Duke Prairial...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「…私がやっておきます\r  もうお下がりなさい」",
-   "en": "",
+   "en": "Kiral\r\"...I shall see to it. You may withdraw.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「…は…」",
-   "en": "",
+   "en": "Demius\r\"...As you wish...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「…王国の娘だと？\r  ふん！",
-   "en": "",
+   "en": "Demius\r\"...Daughter of the Kingdom, is it? Hmph!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いずれ私が王国の支配を\r  固めたあかつきには\r  あんな小娘ひとり…」",
-   "en": "",
+   "en": "Once I have secured my hold on the kingdom, one little chit of a girl like her...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

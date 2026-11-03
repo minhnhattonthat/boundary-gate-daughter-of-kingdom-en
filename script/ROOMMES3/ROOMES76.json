@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "図書室Ｂ",
-   "en": "",
+   "en": "Library B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ａ",
-   "en": "",
+   "en": "Scholar A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ｂ",
-   "en": "",
+   "en": "Scholar B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ｃ",
-   "en": "",
+   "en": "Scholar C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ｄ",
-   "en": "",
+   "en": "Scholar D",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "部屋の外",
-   "en": "",
+   "en": "Leave room",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「遠い昔にもゲートを操る\r  力を持つ者がいたようで\r  す\u0010\b  彼がどうなったか…\r  記録には残ってません」\u0010",
-   "en": "",
+   "en": "\"It seems that long ago, too, there was someone with the power to control the Gate.\u0010\bWhat became of him... the records do not say.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ゲートの力が この世界\r  の魔法の源なのです\u0010\b  ゲートなしでは世界は\r  成り立ちません」\u0010",
-   "en": "",
+   "en": "\"The power of the Gate is the source of this world's magic.\u0010\bWithout the Gate, the world could not exist.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「バウンダリーゲートとは\r  二つの世界を結ぶ門なの\r  です\u0010\b  その起源を知るものは\r  いません…」\u0010",
-   "en": "",
+   "en": "\"The Boundary Gate is a door that joins two worlds.\u0010\bNo one knows its origin...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いにしえの知識とは\r  何なのか…\u0010\b  始まりの母が それを\r  残したといいます」\u0010",
-   "en": "",
+   "en": "\"What is the Ancient Knowledge...?\u0010\bThey say the First Mother left it behind.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "モンスターが現れた\u0010\b",
-   "en": "",
+   "en": "A monster appeared!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「気を付けろ\r  館の時と同じだぞ！」\u0010",
-   "en": "",
+   "en": "\"Careful. Same as the manor!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "化け物は\r断末魔の叫び声を上げ\r光の渦に飛び込んだ\u0010\b",
-   "en": "",
+   "en": "The creature let out a dying scream and plunged into the vortex of light.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプの唱える呪文と共に\r渦は 小さくなって消えた\u0017\b",
-   "en": "",
+   "en": "As Risp chanted a spell, the vortex shrank and vanished.\u0017\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
-   "en": "",
+   "en": "\"A boy. Huddled in the corner.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おい！大丈夫か？」\u0010\b",
-   "en": "",
+   "en": "\"Hey! You all right?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "少年は気がついたようだ\u0010\b",
-   "en": "",
+   "en": "The boy seemed to be coming round.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "少年\r",
-   "en": "",
+   "en": "Boy\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「う‥‥ん？\r  ば、化け物は！？\u0010\b  化け物を倒してくれた\r  んですか？\u0010\b",
-   "en": "",
+   "en": "\"Nngh...? Wh-where's the monster?!\u0010\bDid you beat it for me?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ありがとうございました\r  このご恩は忘れません\u0010\b",
-   "en": "",
+   "en": "Thank you so much. I'll never forget this kindness.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あ、いけない！\r  父さんが心配している\r  と思うので先に帰ります\u0010\b",
-   "en": "",
+   "en": "Oh no! My dad must be worried about me. I'd better head home first.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お礼がしたいので\r  後で酒場に来て下さい」\u0010\b",
-   "en": "",
+   "en": "I want to thank you properly, so please come by the tavern later.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "少年は走り去っていった\u0010\b",
-   "en": "",
+   "en": "The boy ran off.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「よかったな」\u0010\b",
-   "en": "",
+   "en": "\"Good thing he's all right.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あんな子供まで巻き込まれ\r  るなんて‥‥」\u0010\b",
-   "en": "",
+   "en": "\"Even a child like that, dragged into all this...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

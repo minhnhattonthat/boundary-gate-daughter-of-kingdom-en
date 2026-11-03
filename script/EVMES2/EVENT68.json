@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「７才の時に医療聖堂長の\r  手術により",
-   "en": "",
+   "en": "Risp\r\"When I was seven, in an operation by the High Priest of Medicine,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私達の体は\r  切り離されました",
-   "en": "",
+   "en": "our bodies were separated.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  けれど… 完全な身体を\r  得たのは姉の私だけ…",
-   "en": "",
+   "en": "But... only I, the elder sister, was given a whole body...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  妹は体のほとんどを\r  失いました",
-   "en": "",
+   "en": "My younger sister lost almost all of hers.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私のこの体の半分は\r  キラルのものだった\r  のです」",
-   "en": "",
+   "en": "Half of this body of mine... once belonged to Kiral.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「もう､キラルは医療聖堂の",
-   "en": "",
+   "en": "Risp\r\"Kiral can no longer live without the Temple of Medicine's",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  装置なしには生きられま\r  せん",
-   "en": "",
+   "en": "machines.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だから…",
-   "en": "",
+   "en": "That is why...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  妹が､王国の娘として\r  人々に愛される",
-   "en": "",
+   "en": "seeing my sister loved by the people as the Daughter of the Kingdom...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それが 何よりもうれし\r  かった」",
-   "en": "",
+   "en": "made me happier than anything.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長\r「王国の娘の資格を持つ者\r  だけが",
-   "en": "",
+   "en": "High Priest\r\"Only one with the right to be Daughter of the Kingdom",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いにしえの知識を\r  世界にもたらす…",
-   "en": "",
+   "en": "can bring the Ancient Knowledge to the world...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この世界には まだ\r  王国の娘が必要なのだよ」",
-   "en": "",
+   "en": "This world still needs a Daughter of the Kingdom.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長\r「リスプとキラルの持つ\r  能力は",
-   "en": "",
+   "en": "High Priest\r\"The power that Risp and Kiral possess...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  もう 君たちも\r  知っているだろう",
-   "en": "",
+   "en": "surely you know of it by now.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートを\r  操る力…",
-   "en": "",
+   "en": "The power to control the Boundary Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  姉妹がそろえば\r  世界を自由にできる\r  ほどの力だ",
-   "en": "",
+   "en": "Together, the sisters would have power enough to bend the world to their will.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今 キラルによって\r  ねじ曲げられたゲートは\r  暴走寸前の状態にある",
-   "en": "",
+   "en": "And now, twisted by Kiral, the Gate is on the brink of running wild.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それを止められるのは…\r  リスプとキラルだけだ…」",
-   "en": "",
+   "en": "The only ones who can stop it... are Risp and Kiral...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

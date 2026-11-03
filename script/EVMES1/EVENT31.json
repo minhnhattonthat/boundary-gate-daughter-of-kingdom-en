@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "一方 アンブローズでは\r不安におののく人々の前に\r王国の娘が姿を現していた",
-   "en": "",
+   "en": "Meanwhile, in Ambrose, the Daughter of the Kingdom appeared before the frightened people.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「王国の娘の名において",
-   "en": "",
+   "en": "Kiral\r\"In the name of the Daughter of the Kingdom,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  モーダルグロウの\r  すべての民に告げます",
-   "en": "",
+   "en": "I proclaim to all the people of Modalglow:",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  これより\r  モーダルグロウ全土は\r  戒厳令下に置かれます",
-   "en": "",
+   "en": "from this moment, all of Modalglow is placed under martial law.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今後 全聖堂 および軍は\r  魔導聖堂の指揮下に\r  入り…ま…",
-   "en": "",
+   "en": "Henceforth, all temples and the army shall come under the command of the Temple of Sorcery... and... I...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …デ…デミウス･プリゴを\r  新しい魔導聖堂長に\r  命じます…」",
-   "en": "",
+   "en": "...I appoint... D-Demius Prigo... as the new High Priest of Sorcery...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "医師\r「長時間 生命維持装置から\r  離れるのは無茶です」",
-   "en": "",
+   "en": "Doctor\r\"It is madness to be away from the life-support equipment for so long.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「…もう下がって\r  よろしい…",
-   "en": "",
+   "en": "Kiral\r\"...You may go now...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  出ていきなさい！",
-   "en": "",
+   "en": "Get out!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お姉さん…\r  …たすけて…」",
-   "en": "",
+   "en": "Sister... ...help me...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

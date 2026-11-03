@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン\r「救援隊か？ありがたい…」",
-   "en": "",
+   "en": "Hansen\r\"A rescue party? Thank heavens...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン\r「わしのじいさんが\r  若かったころ",
-   "en": "",
+   "en": "Hansen\r\"Back when my granddad was a young man,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  同じようなことが\r  あったそうじゃ",
-   "en": "",
+   "en": "the same sort of thing happened, so they say, eh.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  その時は知識聖堂の力で\r  化け物を封じ込めたと\r  言っておったが…",
-   "en": "",
+   "en": "He told me the Temple of Knowledge used its power to seal the monsters away that time, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今度の地震で封印が\r  解けてしまったらしい…」",
-   "en": "",
+   "en": "looks like this latest earthquake broke the seal...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「わたしが封印を直します」",
-   "en": "",
+   "en": "Risp\r\"I will repair the seal.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン\r「ほっほっほ…",
-   "en": "",
+   "en": "Hansen\r\"Ho ho ho...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂にも\r  こんなべっぴんが\r  おったとはな」",
-   "en": "",
+   "en": "Who'd have thought the Temple of Knowledge had a beauty like you, eh?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

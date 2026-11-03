@@ -12,9 +12,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "司祭長",
-   "en": "",
+   "en": "High Priest",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リスプ ワイズブルームへ\r  帰りなさい」\u0010",
-   "en": "",
+   "en": "\"Risp, return to Wisebloom.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

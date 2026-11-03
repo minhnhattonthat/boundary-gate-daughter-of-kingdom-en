@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "バラックＣ",
-   "en": "",
+   "en": "Shack C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "怪我人",
-   "en": "",
+   "en": "Injured Man",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "小屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 家族のことは\r  あきらめたよ」\u0010",
-   "en": "",
+   "en": "\"I've given up hope for my family now.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

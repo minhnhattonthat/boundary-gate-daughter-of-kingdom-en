@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "南の監視塔１階",
-   "en": "",
+   "en": "South Watchtower 1F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "監視塔の屋上には\r明々と松明が点されている\u0010\b忍び込むのは難しそうだ\u0010\b",
-   "en": "",
+   "en": "Torches burn brightly on the roof of the watchtower.\u0010\bSneaking in looks difficult.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然 異様な叫び声と悲鳴\rが塔の中から聞こえてきた\u0010\bフィンとグレイストーンは\r顔を見合わせ 小舟を着け\rさせた\u0010",
-   "en": "",
+   "en": "Suddenly, strange cries and screams rang out from inside the tower.\u0010\bFinn and Greystone exchanged a glance and had the boat put in.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「兵士の死体が…」\u0010",
-   "en": "",
+   "en": "\"A dead soldier...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

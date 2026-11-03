@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "心臓の紋章の迷宮\r                地下１階",
-   "en": "",
+   "en": "Heart Crest Labyrinth\rB1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…声が聞こえる」\u0010\b",
-   "en": "",
+   "en": "\"...I hear a voice.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "心臓の印の鍵を持たぬもの\r立ち去れ！\u0010",
-   "en": "",
+   "en": "Those who bear not the Heart Crest Key, begone!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

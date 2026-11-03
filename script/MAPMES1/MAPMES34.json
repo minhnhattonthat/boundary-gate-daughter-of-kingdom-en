@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ東地区",
-   "en": "",
+   "en": "Ambrose East District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ西地区",
-   "en": "",
+   "en": "Ambrose West District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "23",
    "group": "location",
    "jp": "医療聖堂",
-   "en": "",
+   "en": "Temple of Medicine",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "一行の前に巨大な建物が\rそびえ立っている\u0010\b窓が無く まるで巨大な箱の\rようだ\u0010\b扉には心臓の紋章が描かれて\rいる\u0010",
-   "en": "",
+   "en": "A huge building towers before the party.\u0010\bIt has no windows, like an enormous box.\u0010\bA Heart Crest is painted on the door.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "23",
    "group": "location",
    "jp": "医療聖堂",
-   "en": "",
+   "en": "Temple of Medicine",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アンブローズ城だ\r暗雲がたちこめている\u0010",
-   "en": "",
+   "en": "Ambrose Castle. Dark clouds hang over it.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁の裏から いつかの乞食が\r顔を出した\u0010\b",
-   "en": "",
+   "en": "The beggar from before poked his head out from behind the wall.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「旦那のおかげで助かりま\r  した\u0010\b",
-   "en": "",
+   "en": "\"You saved my neck back there, sir.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  実はそちらのお嬢さんを\r  捜してたんです」\u0010\b",
-   "en": "",
+   "en": "Truth is, I've been looking for the young lady there.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "乞食は リスプに\r『瞳の印の鍵』を手渡した\u0010\b",
-   "en": "",
+   "en": "The beggar handed Risp the Iris Crest Key.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「司祭長からお預かりした\r  ものです」\u0010\b",
-   "en": "",
+   "en": "\"The High Priest entrusted it to me.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "乞食のぼろぼろのマントの\r下に瞳の紋章が見えた\u0010\b",
-   "en": "",
+   "en": "Beneath the beggar's tattered cloak, an Iris Crest could be seen.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いずれ また…」\u0010\b",
-   "en": "",
+   "en": "\"Until next time...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "驚くリスプを後に 乞食は\r笑いながら立ち去った\u0010",
-   "en": "",
+   "en": "Leaving Risp astonished, the beggar walked off, laughing.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「役に立ちましたか？」\u0010",
-   "en": "",
+   "en": "\"Did it come in handy?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑夫の家Ｂ",
-   "en": "",
+   "en": "Miner's House B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫",
-   "en": "",
+   "en": "Miner",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "女",
-   "en": "",
+   "en": "Woman",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「今じゃあ 何か知っている\r  のは 坑夫長のハンセン\r  じいさんぐらいだろう」\u0010",
-   "en": "",
+   "en": "\"These days, the only one who'd know anything is old Hansen, the head miner.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「鉱山を このまま封鎖する\r  という噂もあるんだよ\r  とんだことになったねえ」\u0010",
-   "en": "",
+   "en": "\"There's talk they'll just seal up the mine for good. What a mess this has turned into.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

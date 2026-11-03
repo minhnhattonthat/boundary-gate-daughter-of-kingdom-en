@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メルク\r「この傷では 当分ここから\r  動かす訳にはいかないよ」",
-   "en": "",
+   "en": "Merk\r\"With wounds like these, he can't be moved from here for a good while.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

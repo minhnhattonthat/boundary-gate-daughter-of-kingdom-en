@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「いらっしゃい…\r  バウンダリーゲートに…",
-   "en": "",
+   "en": "Kiral\r\"Come... to the Boundary Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  魔力の渦の中心に…」",
-   "en": "",
+   "en": "to the heart of the vortex of magic...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

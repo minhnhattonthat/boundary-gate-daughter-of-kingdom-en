@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「知識聖堂の娘と\r  その用心棒なら",
-   "en": "",
+   "en": "Rio\r\"A girl from the Temple of Knowledge and her bodyguard",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  大門を通れるだろう",
-   "en": "",
+   "en": "oughta get through the Great Gate all right.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  カリフォスに行って\r  トールマンという男に\r  会ってくれ",
-   "en": "",
+   "en": "Go to Caliphos and find a man called Tallman.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  話はその後だ」",
-   "en": "",
+   "en": "We'll talk after that.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

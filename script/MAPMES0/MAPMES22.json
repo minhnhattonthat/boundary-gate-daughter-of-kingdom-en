@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "東の監視塔２階",
-   "en": "",
+   "en": "East Watchtower 2F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "兵士の死体が転がっている\u0010\b",
-   "en": "",
+   "en": "A soldier's body lies on the floor.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「？これは…\u0017この塔の\r  当直の連絡証だ\u0010\b  これを使えば 他の\r  監視塔に入れるかも\r  しれないぞ」\u0010",
-   "en": "",
+   "en": "\"Hm? What's this...\u0017This tower's watch pass.\u0010\bWith this, we might be able to get into the other watchtower.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

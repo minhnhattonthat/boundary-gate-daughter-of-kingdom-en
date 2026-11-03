@@ -12,9 +12,9 @@
    "op": "28",
    "group": "menu",
    "jp": "東の監視塔",
-   "en": "",
+   "en": "East Watchtower",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "28",
    "group": "menu",
    "jp": "南の監視塔",
-   "en": "",
+   "en": "South Watchtower",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "アムール要塞",
-   "en": "",
+   "en": "Fort Amok",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "迷宮その１",
-   "en": "",
+   "en": "Labyrinth 1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "迷宮その２",
-   "en": "",
+   "en": "Labyrinth 2",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "迷宮その３",
-   "en": "",
+   "en": "Labyrinth 3",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  次は どこに行こうか\u0010",
-   "en": "",
+   "en": "Where to next?\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

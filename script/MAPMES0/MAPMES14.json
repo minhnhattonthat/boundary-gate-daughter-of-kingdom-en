@@ -12,9 +12,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ城西門",
-   "en": "",
+   "en": "Ambrose Castle West Gate",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何をしている！\u0010\b  傭兵なら 軍の連絡所へ\r  行け」\u0010\b",
-   "en": "",
+   "en": "\"What are you doing?!\u0010\bIf you're a mercenary, report to the army liaison office.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士\r",
-   "en": "",
+   "en": "Soldier\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「軍の連絡所はここだ\u0010\b",
-   "en": "",
+   "en": "\"This is the army liaison office.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  しかし､傭兵の募集は\r  やっておらん！\u0010\b  今はそれどころじゃ\r  ないんだ！」\u0010",
-   "en": "",
+   "en": "But we're not hiring mercenaries!\u0010\bWe've got bigger problems right now!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "南地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the South District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「旦那\u0010\b  きれいなお嬢さんと\r  ご一緒でどちらへ？\u0010\b",
-   "en": "",
+   "en": "\"Guv'nor,\u0010\bwhere might you be off to, with such a pretty young lady?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  へへへ…\r  乞食には乞食の抜け道が\r  あるんでさあ\u0010\b",
-   "en": "",
+   "en": "Heh heh heh... A beggar has his own back ways, y'see.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  一緒のお嬢さんに免じて\r  ひとつだけ情報を\r  お教えしましょう\u0010\b",
-   "en": "",
+   "en": "For the young lady's sake, I'll tell you just one thing.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  リオを信じることです\u0010\b  いずれ､この西地区に\r  あらわれるはず…\u0010\b",
-   "en": "",
+   "en": "Trust in Rio.\u0010\bHe'll turn up here in the West District sooner or later...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まあ､信じるも\r  信じないも旦那の\r  自由ですけどね」\u0010\b",
-   "en": "",
+   "en": "Mind you, whether you believe it or not is up to you, guv.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お嬢さん､\u0017問題は自分で\r  解決するもんですよ」\u0010\b",
-   "en": "",
+   "en": "\"Young lady,\u0017 a body ought to solve her own problems, y'know.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「プレリアール公の館は\r  アンブローズの北地区\u0010\b  の大門から行けるはず」\u0010",
-   "en": "",
+   "en": "\"You should be able to reach Duke Prairial's manor from the Great Gate\u0010\bin Ambrose's North District.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「マイヨールの息子が\r  行方不明らしい\u0010\b  そんな遠くには\r  行ってないじゃろう」\u0010\b",
-   "en": "",
+   "en": "\"I hear Maillol's son has gone missing.\u0010\bHe can't have gone far, I'd wager.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「うまくいったようじゃの」\u0010",
-   "en": "",
+   "en": "\"Looks like it went well, eh.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "老婆\r",
-   "en": "",
+   "en": "Old Woman\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「城の横にそびえるのは\r  アンブローズの\u0010\b  大聖堂だよ\r\u0017  王国の娘の権威を\r  表すものだ\u0010\b  立派なもんだろ？」\u0010\b",
-   "en": "",
+   "en": "\"That thing towering beside the castle is Ambrose's\u0010\bCathedral, dearie.\u0017 It stands for the authority of the Daughter of the Kingdom.\u0010\bQuite something, isn't it?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「軍のシンボルは\r  牙の紋章だ\u0010\b  軍隊を統率するのは\r  国王なのだが…」\u0010",
-   "en": "",
+   "en": "\"The army's symbol is the Fang Crest.\u0010\bThe King's meant to command the army, but...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "老婆\r",
-   "en": "",
+   "en": "Old Woman\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「検問のせいで街から\r  出るのも一苦労だよ\u0010\b  これじゃ 魔導聖堂の\r  クーデターじゃないか」\u0010",
-   "en": "",
+   "en": "\"With all these checkpoints, it's a struggle just to get out of the city.\u0010\bThis is nothing but a coup by the Temple of Sorcery!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "掲示板\r「本日の正午をもって\r  全軍の指揮権は\u0010\b  魔導聖堂に移される\r      －王国の娘－」\u0010",
-   "en": "",
+   "en": "Notice board\r\"As of noon today, command of all armed forces\u0010\bpasses to the Temple of Sorcery. -- The Daughter of the Kingdom\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "掲示板の前の人々\r",
-   "en": "",
+   "en": "Crowd at the Notice Board\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「新国王は どこかに\r  幽閉されているらしい…\u0010\b",
-   "en": "",
+   "en": "\"They say the new King's been locked away somewhere...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ワイズブルームの\r  知識聖堂は\r  なぜ黙っているんだ？」\u0010",
-   "en": "",
+   "en": "Why is the Temple of Knowledge in Wisebloom keeping quiet?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「北地区への通行は\r  禁止されている」\u0010",
-   "en": "",
+   "en": "\"Passage to the North District is forbidden.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

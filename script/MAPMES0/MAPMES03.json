@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ北地区",
-   "en": "",
+   "en": "Ambrose North District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "南地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the South District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "23",
    "group": "location",
    "jp": "貴族の邸宅",
-   "en": "",
+   "en": "Noble's Mansion",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "おや？\u0017暗闇の中にぼんやりと\r文字が見える\u0010\b",
-   "en": "",
+   "en": "Hm?\u0017 Letters show faintly in the darkness.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "『地下…水…道』？\u0010\b",
-   "en": "",
+   "en": "\"Under... ground... water... way\"?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "この扉には\rカギが かかっている\u0010\b",
-   "en": "",
+   "en": "This door is locked.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

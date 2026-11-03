@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "プレリアール公の後から\r先程の大男が進み出た\u0010\b",
-   "en": "",
+   "en": "From behind Duke Prairial, the giant from before stepped forward.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "大男\r「グレイストーンだ…",
-   "en": "",
+   "en": "Giant\r\"I am Greystone...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  主人の命により\r  おまえたちと共に戦う」",
-   "en": "",
+   "en": "By my master's order, I fight at your side.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンが\r仲間に加わった\u0010",
-   "en": "",
+   "en": "Greystone joined the party!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「これ以上 サブシステムの\r  停止は許しません",
-   "en": "",
+   "en": "Kiral\r\"I will not allow any more subsystems to be shut down.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  また私の身体を奪う\r  つもり？",
-   "en": "",
+   "en": "Do you mean to take my body from me again?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お姉さん…」",
-   "en": "",
+   "en": "Sister...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

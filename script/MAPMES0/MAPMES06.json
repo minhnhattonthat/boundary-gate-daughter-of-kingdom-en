@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "クレーターの地下１階",
-   "en": "",
+   "en": "Crater B1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "行き止まりだ\u0010",
-   "en": "",
+   "en": "Dead end.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

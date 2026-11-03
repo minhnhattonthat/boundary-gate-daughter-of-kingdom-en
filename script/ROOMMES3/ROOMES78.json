@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "女主人",
-   "en": "",
+   "en": "Landlady",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "船員Ａ",
-   "en": "",
+   "en": "Sailor A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "マイヨールの息子",
-   "en": "",
+   "en": "Maillol's Son",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "漁師マイヨール",
-   "en": "",
+   "en": "Fisherman Maillol",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「化け物どもを追い払って\r  くれたんだって？」\u0010",
-   "en": "",
+   "en": "\"I hear you drove those monsters off?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おかげで助かったよ」\u0010",
-   "en": "",
+   "en": "\"You really saved us.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「明日から 再び船が出せる\r  ようになるだろう」\u0010",
-   "en": "",
+   "en": "\"The boats should be able to sail again from tomorrow.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あの時は世話になったな」\u0010",
-   "en": "",
+   "en": "\"Thanks for helping me out back then.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「助けていただき\r  ありがとうございました」\u0010",
-   "en": "",
+   "en": "\"Thank you for rescuing me.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あんたらだったのか\r  息子を助け出してくれた\r  のは…\u0010\b",
-   "en": "",
+   "en": "\"So you're the ones who brought my boy back, eh...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  よし  わしが要塞に\r  船を出してやろう\u0010\b  港のはずれの堤防で\r  待っとるぞ」\u0010",
-   "en": "",
+   "en": "Right, then. I'll ferry ya out to the fortress myself.\u0010\bI'll be waitin' on the breakwater at the far end of the harbour.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "南の監視塔屋上",
-   "en": "",
+   "en": "South Watchtower Roof",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おや？ \u0017これは？！」\u0010\bサビたカギを見つけた\u0010\b",
-   "en": "",
+   "en": "\"Hm? \u0017What's this?!\"\u0010\bFound a rusty key.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「このカギできっと要塞に\r  入れるわ！\u0010\b",
-   "en": "",
+   "en": "\"I'm sure this key will get us into the fortress!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  早く行きましょう」\u0010",
-   "en": "",
+   "en": "Let's hurry.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

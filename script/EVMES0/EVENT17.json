@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「知識聖堂のお嬢さんよ",
-   "en": "",
+   "en": "Finn\r\"Say, young lady from the Temple of Knowledge.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  何か隠してることが\r  あるんじゃないか？」",
-   "en": "",
+   "en": "You're hiding something, aren't you?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「え？」",
-   "en": "",
+   "en": "Risp\r\"Huh?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「あの金属片のことだよ」",
-   "en": "",
+   "en": "Finn\r\"About those metal fragments.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「……」",
-   "en": "",
+   "en": "Risp\r\"......\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「ま 俺には関係ないけどな\r  金さえもらえればね」",
-   "en": "",
+   "en": "Finn\r\"Eh, it's none of my business. Long as I get paid.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "二人が ロードダールに\r着いた時には\r雪が舞い始めていた",
-   "en": "",
+   "en": "By the time we reached Rhodedahl, snow had begun to fall.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "町にはいると\r地の底からうなるような\r音が響いている",
-   "en": "",
+   "en": "As we entered the town, a sound like a groan from deep underground was echoing all around.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

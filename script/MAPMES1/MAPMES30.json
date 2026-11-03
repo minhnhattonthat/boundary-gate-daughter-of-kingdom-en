@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アモーク要塞１階",
-   "en": "",
+   "en": "Fort Amok 1F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "入口だ\r扉は閉ざされている\u0010",
-   "en": "",
+   "en": "The entrance. The door is shut tight.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰かいる？\u0010\b",
-   "en": "",
+   "en": "Is someone there?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "痩せた長身の魔導司祭と\r数人の兵士が見えた\u0010\b",
-   "en": "",
+   "en": "A tall, gaunt priest of Sorcery and several soldiers came into view.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭はパーティの姿に\r一瞬驚いたようだ\u0010\b",
-   "en": "",
+   "en": "For a moment, the priest seemed startled at the sight of the party.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭と兵士達は出口に向か\rって消え 巨大な扉の\r閉じる音が聞こえた\u0010",
-   "en": "",
+   "en": "The priest and his soldiers vanished toward the exit, and the sound of a huge door slamming shut rang out.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bライトシールド+１を\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Light Shield +1.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rライトシールド+１を\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Light Shield +1.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bフィン達は\r１５００Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFinn's party obtained 1500G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

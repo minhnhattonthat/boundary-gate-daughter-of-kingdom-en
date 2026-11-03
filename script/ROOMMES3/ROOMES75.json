@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "図書室Ａ",
-   "en": "",
+   "en": "Library A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ａ",
-   "en": "",
+   "en": "Scholar A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ｂ",
-   "en": "",
+   "en": "Scholar B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "学者Ｃ",
-   "en": "",
+   "en": "Scholar C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "部屋の外",
-   "en": "",
+   "en": "Leave room",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いにしえの知識の分身\r  たちは 大聖堂を中心に\r  結ばれているといいます」\u0010",
-   "en": "",
+   "en": "\"They say the Ancient Knowledge's other selves are all linked together, with the Cathedral at the centre.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「なまじ魔法が使えるために\r  独自の技術が進歩しないの\r  では…」\u0010",
-   "en": "",
+   "en": "\"Perhaps it's precisely because we can use magic that our own technology never advances...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「一部の技術だけが極端に\r  進んでいる…\u0010\b  おかしな世界だと\r  思いませんか？」\u0010",
-   "en": "",
+   "en": "\"Only certain technologies are wildly advanced...\u0010\bDon't you think it's a strange world?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

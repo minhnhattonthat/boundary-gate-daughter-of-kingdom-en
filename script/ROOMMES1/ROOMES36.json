@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "治療魔導士Ｂ",
-   "en": "",
+   "en": "Healing Mage B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "治療魔導士Ａ",
-   "en": "",
+   "en": "Healing Mage A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "治療魔導士",
-   "en": "",
+   "en": "Healing Mage",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "治療院の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「我々の技術は いにしえの\r  知識と魔術の力の\r  組み合わせです\u0010\b  王国の娘のもたらす知識は\r  多くの人々を救って\r  きました」\u0010\b",
-   "en": "",
+   "en": "\"Our techniques combine the Ancient Knowledge with the power of sorcery.\u0010\bThe knowledge the Daughter of the Kingdom brings has saved a great many people.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「街がどんなことになっても\r  私達は離れません」\u0010\b",
-   "en": "",
+   "en": "\"Whatever becomes of the city, we will not leave.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さて どんな御用ですか？",
-   "en": "",
+   "en": "Now, what can I do for you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「世界のあちこちに 魔力が\r  沸き出す泉があるという\u0010\b  我々の 利用している\r  魔術の力も そこから\r  得られているのだ」\u0010",
-   "en": "",
+   "en": "\"They say there are springs all over the world where magical power wells up.\u0010\bThe power of sorcery we use comes from them as well.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

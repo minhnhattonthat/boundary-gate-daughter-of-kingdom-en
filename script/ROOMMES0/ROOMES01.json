@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "酒場の娘Ａ",
-   "en": "",
+   "en": "Barmaid A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "酒場の娘Ｂ",
-   "en": "",
+   "en": "Barmaid B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "店の中からは\r音楽と娘達の笑い声が\r聞こえてくる\u0010",
-   "en": "",
+   "en": "Music and the laughter of girls drift out from inside.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「知識聖堂は 魔導聖堂と\r  ならぶ権威をもって\r  いるが…\u0010\b",
-   "en": "",
+   "en": "\"The Temple of Knowledge holds as much authority as the Temple of Sorcery, but...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  めったに一般の人々とは\r  接触しないんだよ」\u0010",
-   "en": "",
+   "en": "they rarely have any dealings with ordinary folk.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ここんとこ 若い娘が\r  何人も行方不明に\r  なってるんだ\u0010\b",
-   "en": "",
+   "en": "\"Lately a lot of young girls have gone missing.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  化け物の仕業だって\r  ウワサだ\u0010\b",
-   "en": "",
+   "en": "Word is it's the work of monsters.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  うちの女の子達も\r  さわいでるよ」\u0010",
-   "en": "",
+   "en": "Our girls here are all in a tizzy over it.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「知識聖堂の者だけが\r  瞳の紋章を身に付ける\r  ことを許されます」\u0010",
-   "en": "",
+   "en": "\"Only those of the Temple of Knowledge are permitted to wear the Iris Crest.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あたしの知ってる娘も\r  行方不明に\r  なっちゃったの」\u0010",
-   "en": "",
+   "en": "\"A girl I know went missing too.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「怖いから お店に出る日は\r  朝まで帰らないわ」\u0010",
-   "en": "",
+   "en": "\"I'm so scared that on days I work, I don't go home till morning.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「東地区の境付近で\r  若い女性の死体が\r  発見されたんだってな\u0010\b",
-   "en": "",
+   "en": "\"Heard they found a young woman's body near the edge of the East District.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  オレが思うに戒厳令が\r  しかれたのは\r  そのせいじゃないか？」\u0010",
-   "en": "",
+   "en": "If you ask me, that's why they declared martial law, eh?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お嬢さん\r  ワイズブルームから来た\r  のかい？\u0010\b",
-   "en": "",
+   "en": "\"Did you come from Wisebloom, miss?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂の司祭を\r  見るのは初めてだよ」\u0010",
-   "en": "",
+   "en": "First time I've ever seen a priest of the Temple of Knowledge.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「貴族達たちはみんな田舎\r  に逃げ出して､東地区は\r  空き家だらけだ」\u0010",
-   "en": "",
+   "en": "\"The nobles have all run off to the countryside, and the East District's full of empty houses.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「どうせ寝るところが\r  ないんだったら\r  化け物を探しに行くって\u0010\b  いう手もあるな」\u0010",
-   "en": "",
+   "en": "\"If you've got nowhere to sleep anyway, you could always go looking for the monster...\u0010\bThat's one idea.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「モーダルグロウには\r  魔導 知識 医療の\r  三聖堂がある\u0010\b",
-   "en": "",
+   "en": "\"Modalglow has three temples: Sorcery, Knowledge and Medicine.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それぞれの分野で権威を\r  持っているんだ\u0010\b  それらを統括するのが\r  国王と王国の娘なのさ」\u0010",
-   "en": "",
+   "en": "Each holds authority in its own field.\u0010\bOver them all stand the King and the Daughter of the Kingdom.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「代々の王国の娘が\r  もたらした いにしえの\r  知識は\u0010\b  すべて知識聖堂が\r  管理しています」\u0010",
-   "en": "",
+   "en": "\"The Ancient Knowledge brought by each Daughter of the Kingdom\u0010\bis all kept by the Temple of Knowledge.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

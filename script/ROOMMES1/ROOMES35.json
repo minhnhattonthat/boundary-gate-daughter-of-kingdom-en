@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客",
-   "en": "",
+   "en": "Patron",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「魔法のアイテムは\r  使うタイミングが大事」\u0010\b",
-   "en": "",
+   "en": "\"With magic items, timing is everything.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「私も早く逃げなくちゃ\r  いけないんだけど…」\u0010\b",
-   "en": "",
+   "en": "\"I really ought to get out of here soon too, but...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さて､どんな御用ですか？",
-   "en": "",
+   "en": "Now, what can I do for you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「南地区の医療聖堂で\r  何か起きているらしい\u0010\b  外部の者を入れようと\r  しないんだ」\u0010",
-   "en": "",
+   "en": "\"Something's going on at the Temple of Medicine in the South District.\u0010\bThey won't let any outsiders in.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ホムンクリって 知って\r  ます？ 人間が造り出した\r  生命ですよ\u0010\b  医療聖堂が造っているって\r  噂もあるけど…\u0010\b  本当なら恐ろしい\r  話ですよね…」\u0010",
-   "en": "",
+   "en": "\"Have you heard of Homunculi? They're life created by human hands.\u0010\bThere's a rumour the Temple of Medicine is making them...\u0010\bIf it's true, it's a frightening thought...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

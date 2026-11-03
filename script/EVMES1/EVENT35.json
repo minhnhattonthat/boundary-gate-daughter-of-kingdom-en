@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「静かね…」",
-   "en": "",
+   "en": "Risp\r\"It's so quiet...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「…やっと笑顔が見れたな」",
-   "en": "",
+   "en": "Finn\r\"...Finally got to see you smile.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「え？」",
-   "en": "",
+   "en": "Risp\r\"Huh?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「トーナムでじいさんの\r  息子が見つかった時にさ」",
-   "en": "",
+   "en": "Finn\r\"Back in Tornam, when they found the old man's son.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「それまで私\r  笑ってなかった？」",
-   "en": "",
+   "en": "Risp\r\"Hadn't I been smiling before that?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「まあな」",
-   "en": "",
+   "en": "Finn\r\"Well... pretty much.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「…フィン…あのね…\r  …私…」",
-   "en": "",
+   "en": "Risp\r\"...Finn... um... ...I...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーン\r「フィン」",
-   "en": "",
+   "en": "Greystone\r\"Finn.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「な､なんだよ！」",
-   "en": "",
+   "en": "Finn\r\"Wh-what?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーン\r「上で音がする」",
-   "en": "",
+   "en": "Greystone\r\"Noise. Upstairs.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「わかったよ！\r  …ったく…」",
-   "en": "",
+   "en": "Finn\r\"All right, all right! ...Honestly...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

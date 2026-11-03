@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑道地下１階",
-   "en": "",
+   "en": "Mine B1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "ハンセン\r",
-   "en": "",
+   "en": "Hansen\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう だいじょうぶじゃ\u0010\b",
-   "en": "",
+   "en": "\"It's all over now, eh.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂のお嬢さん\r  すまんかったのう\u0010\b",
-   "en": "",
+   "en": "Sorry for the trouble, young lady from the Temple of Knowledge.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  グリソムは…\r  奥さんには気の毒\r  じゃが…\u0010\b",
-   "en": "",
+   "en": "As for Grissom... it's hard on his wife, but...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  何も言わないで\r  そっとしといて\r  やってくれ」\u0010\u0017\b",
-   "en": "",
+   "en": "don't say anything. Just leave 'em be, would ya.\"\u0010\u0017\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "23",
    "group": "location",
    "jp": "ロードダールの鉱山町",
-   "en": "",
+   "en": "Rhodedahl Mining Town",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

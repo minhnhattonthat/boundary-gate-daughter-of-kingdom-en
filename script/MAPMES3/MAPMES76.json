@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城６階",
-   "en": "",
+   "en": "Ambrose Castle 6F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズの城５階",
-   "en": "",
+   "en": "Ambrose Castle 5F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "王座にはやつれたデミウスが\r座っていた\u0010\bうつろな目でなにかつぶやい\rている\u0010",
-   "en": "",
+   "en": "A haggard Demius sat on the throne.\u0010\bHe was muttering something, his eyes vacant.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは足下に醜く変形した\r死体をみおろした\u0010\b王国の娘を利用した男の\r最後だ\u0010\bフィンは王座から\r金色に光る大きな鍵を拾った\u0010",
-   "en": "",
+   "en": "Finn looked down at the hideously twisted corpse at his feet.\u0010\bSo ended the man who had used the Daughter of the Kingdom.\u0010\bFrom the throne, Finn picked up a large key glowing gold.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

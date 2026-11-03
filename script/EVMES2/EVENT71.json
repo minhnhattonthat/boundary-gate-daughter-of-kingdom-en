@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「私はキラルの双子の姉…",
-   "en": "",
+   "en": "Risp\r\"I am Kiral's twin sister, the elder...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  王国の娘となる資格は\r  あります」",
-   "en": "",
+   "en": "I have the right to become the Daughter of the Kingdom.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔導聖堂長\r「じゃが…」",
-   "en": "",
+   "en": "High Priest of Sorcery\r\"But, my girl...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「大丈夫です\r  司祭長様",
-   "en": "",
+   "en": "Risp\r\"It is all right, High Priest.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ４つの迷宮の底で\r  いにしえの知識は私を\r  主人とみとめました」",
-   "en": "",
+   "en": "In the depths of the four Labyrinths, the Ancient Knowledge accepted me as its master.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「キラルが教えてくれました",
-   "en": "",
+   "en": "Risp\r\"Kiral told me.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  カリフォスの消失\r  アンブローズを襲った\r  異変",
-   "en": "",
+   "en": "The vanishing of Caliphos, the strange events that struck Ambrose,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いにしえの知識\r  そして､王国の娘",
-   "en": "",
+   "en": "the Ancient Knowledge, and the Daughter of the Kingdom...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  すべての答えが大聖堂の\r  地下にあるということを」",
-   "en": "",
+   "en": "the answers to all of it lie beneath the Cathedral.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「大聖堂の地下…！？",
-   "en": "",
+   "en": "Finn\r\"Beneath the Cathedral...?!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そこが最後の紋章の迷宮\r  なのか？」",
-   "en": "",
+   "en": "Is that where the last Crest's Labyrinth is?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「そして魔力の源\r  力の渦の中心…",
-   "en": "",
+   "en": "Risp\r\"And the source of magic, the heart of the vortex of power...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートの\r  存在する場所なのです」",
-   "en": "",
+   "en": "It is where the Boundary Gate lies.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

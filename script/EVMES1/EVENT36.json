@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「ありがとう",
-   "en": "",
+   "en": "Ash\r\"Thank you.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  君たちの協力には お礼の\r  言葉もない",
-   "en": "",
+   "en": "I cannot thank you enough for your help.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  シーダを父の館に送り届け\r  たら私も仲間と共に\r  アンブローズに戻る」",
-   "en": "",
+   "en": "Once I have taken Sheeda to my father's manor, I will return to Ambrose with my comrades.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "シーダ\r「いや！あたしも\r  アンブローズに戻ります」",
-   "en": "",
+   "en": "Sheeda\r\"No! I'm going back to Ambrose too!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「…アンブローズは\r  魔導聖堂の支配下だ",
-   "en": "",
+   "en": "Ash\r\"...Ambrose is under the Temple of Sorcery's control.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  たとえ新国王を開放できた\r  としても",
-   "en": "",
+   "en": "Even if we manage to free the new King,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そんな危険の中に\r  戻りたがるとは思えん」",
-   "en": "",
+   "en": "I can't imagine he would want to return to such danger.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "シーダ\r「そんなことないわ！",
-   "en": "",
+   "en": "Sheeda\r\"That's not true!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …あの人は…国王だもの\r  必ず アンブローズに\r  戻ってきます！」",
-   "en": "",
+   "en": "...He's... he's the King! He will come back to Ambrose, I know it!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「メリッサ\r  君は彼らと共に…」",
-   "en": "",
+   "en": "Ash\r\"Melissa, you go with them...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「わかっていますわ",
-   "en": "",
+   "en": "Melissa\r\"I understand perfectly.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この馬鹿力には\r  借りがありますから」",
-   "en": "",
+   "en": "I do owe this brute a debt, after all.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

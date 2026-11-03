@@ -12,9 +12,9 @@
    "op": "25",
    "group": "building",
    "jp": "バラック",
-   "en": "",
+   "en": "Shacks",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "25",
    "group": "building",
    "jp": "バラック",
-   "en": "",
+   "en": "Shacks",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "25",
    "group": "building",
    "jp": "バラック",
-   "en": "",
+   "en": "Shacks",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "25",
    "group": "building",
    "jp": "バラック",
-   "en": "",
+   "en": "Shacks",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "23",
    "group": "location",
    "jp": "地下街廃墟の入口",
-   "en": "",
+   "en": "Undercity Ruins Entrance",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「トールマンは怪我を\r  しているのよ\u0010\b  怪我人をアンブローズに\r  連れて行けないわ」\u0010",
-   "en": "",
+   "en": "\"Tallman is hurt.\u0010\bWe can't take a wounded man to Ambrose.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

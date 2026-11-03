@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "新国王\r「アンブローズは危険\r  なのだろう？",
-   "en": "",
+   "en": "New King\r\"Ambrose is dangerous, is it not?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  プレリアール公に\r  かくまってもらったほう\r  が…」",
-   "en": "",
+   "en": "Perhaps I had better seek shelter with Duke Prairial...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「この……",
-   "en": "",
+   "en": "Melissa\r\"Why, you......",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "港町トーナム",
-   "en": "",
+   "en": "Port Town of Tornam",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "見張り\r",
-   "en": "",
+   "en": "Lookout\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港が封鎖される直前に\r  小舟が要塞の方に\u0010\b  向かっていたよ\u0010\b  アモーク要塞に 船を\r  近づけることは禁じられて\r  いるんだがな」\u0010",
-   "en": "",
+   "en": "\"Right before they sealed off the port, a little boat was heading out\u0010\btoward the fortress.\u0010\bMind you, no boat's allowed anywhere near Fort Amok.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港に魔物が近寄らない\r  ように見張っているんだ」\u0010",
-   "en": "",
+   "en": "\"I'm keeping watch so no monsters get near the port.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "この扉は閉ざされている\u0010",
-   "en": "",
+   "en": "This door is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然､魔物が襲いかかって\rきた\u0010\b",
-   "en": "",
+   "en": "Suddenly, a monster attacked!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「気を付けろ\r  館の時と同じだぞ！」\u0010",
-   "en": "",
+   "en": "\"Careful. Same as the manor!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "化け物は断末魔の叫び声を\r上げた\u0010\b",
-   "en": "",
+   "en": "The creature let out a dying scream.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプの唱える呪文と共に\r小さくなって消えて行く\u0010\b",
-   "en": "",
+   "en": "As Risp chanted her spell, it shrank away and vanished.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おや？倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
-   "en": "",
+   "en": "\"Hm? A boy. Huddled in the storehouse corner.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おい！大丈夫か？」\u0010\b",
-   "en": "",
+   "en": "\"Hey! You all right?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "少年は気がついたようだ\u0010\b",
-   "en": "",
+   "en": "The boy seemed to be coming round.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "少年\r",
-   "en": "",
+   "en": "Boy\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「化け物は！\r  どこ？！…\u0010\b  化け物を倒してくれた\r  んですか？\u0010\b",
-   "en": "",
+   "en": "\"The monster! Where is it?!...\u0010\bDid you beat the monster?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ありがとうございました\r  このご恩は忘れません\u0010\b",
-   "en": "",
+   "en": "Thank you so much. I'll never forget this kindness.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いけない！\r  父さんが心配している\r  と思うので帰ります\u0010\b",
-   "en": "",
+   "en": "Oh no! My dad must be worried sick. I'd better go home.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お礼がしたいので\r  後で 酒場にきて\r  くださいね」\u0010\b",
-   "en": "",
+   "en": "I want to thank you, so please come by the tavern later.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "少年は走り去っていった\u0010\b",
-   "en": "",
+   "en": "The boy ran off.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「よかったな」\u0010\b",
-   "en": "",
+   "en": "\"Good thing he's all right.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あんな少年まで巻き込まれ\r  るなんて…」\u0010\b",
-   "en": "",
+   "en": "\"To think even a little boy like that got dragged into this...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010\b",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

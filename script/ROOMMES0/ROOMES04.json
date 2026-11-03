@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "治療魔導士",
-   "en": "",
+   "en": "Healing Mage",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "治療院の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「こんな夜更けに\r  大変ですね」\u0010\b",
-   "en": "",
+   "en": "\"Out so late at night? How hard for you.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「癒しの都アンブローズへ\r  ようこそ\u0010\b  常に新しい医療技術が\r  王国の娘により\r  もたらされています」\u0010\b",
-   "en": "",
+   "en": "\"Welcome to Ambrose, City of Healing.\u0010\bNew medical arts are ever being brought to us by the Daughter of the Kingdom.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "当治療院に何か？",
-   "en": "",
+   "en": "What brings you to our clinic?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

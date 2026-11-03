@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "いつのまにか司祭長の\r後ろにリスプが立っていた\u0010",
-   "en": "",
+   "en": "Before anyone noticed, Risp was standing behind the High Priest.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "もう ここには入れない\u0010",
-   "en": "",
+   "en": "There's no going in here anymore.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長の部屋を出ると\r後ろからリスプが追ってきた\u0010\b",
-   "en": "",
+   "en": "As Finn left the High Priest's room, Risp came after him.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

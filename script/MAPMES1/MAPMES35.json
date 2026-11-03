@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "扉は閉ざされている\u0010",
-   "en": "",
+   "en": "The door is shut.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "メリッサ\r",
-   "en": "",
+   "en": "Melissa\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いくらグレイストーンが\r  力持ちだからって\u0010\b  いつまでもリオを抱えて\r  いられないわ\r  早く西地区の宿屋に…」\u0010",
-   "en": "",
+   "en": "\"Strong as Greystone is,\u0010\bhe can't carry Rio around forever. Hurry, to the inn in the West District...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ南地区",
-   "en": "",
+   "en": "Ambrose South District",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "扉が壊れてるらしく\r入れない\u0010",
-   "en": "",
+   "en": "The door seems to be broken. Can't get in.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "メリッサ\r",
-   "en": "",
+   "en": "Melissa\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「？\r  誰かが倒れているわ」\u0010\b",
-   "en": "",
+   "en": "\"Hm? Somebody's collapsed over there.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "フィン\r",
-   "en": "",
+   "en": "Finn\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオだ！ おい！\r  だいじょうぶか！」\u0010\b",
-   "en": "",
+   "en": "\"It's Rio! Hey! You all right?!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "リスプ\r",
-   "en": "",
+   "en": "Risp\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「！\u0017 フィン！\r  近づいちゃだめよ！\u0010\b  魔物が！」\u0010\b",
-   "en": "",
+   "en": "\"Ah!\u0017 Finn! Don't go near him!\u0010\bThere's a monster!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは意識がないようだ\u0010\bグレイストーンが\rリオの身体を軽々と\r担ぎ上げた\u0010\b",
-   "en": "",
+   "en": "Rio seems to be unconscious.\u0010\bGreystone hoisted Rio onto his shoulder with ease.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「早く宿に連れて帰ろう」\u0010",
-   "en": "",
+   "en": "\"Back to the inn. Quickly.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンが銀の鍵を使って\r落とし蓋の錠をはずした\u0010\bグレイストーンが重い落し\r蓋を軽々と引き上げた\u0010\b真っ暗な口を開けている\r穴に入った\u0010",
-   "en": "",
+   "en": "Finn used the Silver Key to undo the lock on the trapdoor.\u0010\bGreystone hauled the heavy trapdoor up with ease.\u0010\bThey climbed down into the gaping black hole.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "カギが かかっている\u0010",
-   "en": "",
+   "en": "It's locked.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "   アモーク要塞地下１階",
-   "en": "",
+   "en": "Fort Amok B1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地下水道の鉄格子に\rサビついた錠がおりている\rマイヨールは肩をすくめた\u0010\b",
-   "en": "",
+   "en": "A rusted lock hangs on the iron grate of the underground waterway. Maillol shrugged.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "マイヨール\r",
-   "en": "",
+   "en": "Maillol\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「監視塔のどちらかにカギが\r  あるはずじゃ」\u0010",
-   "en": "",
+   "en": "\"The key ought to be in one of them watchtowers, I'd wager.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地下水道の鉄格子に\rサビついた錠がおりている\u0010\bリスプが死体の持っていた\rカギを差し込んでみた\u0010\b力を込めて回すと錠が開いた\u0010",
-   "en": "",
+   "en": "A rusted lock hangs on the iron grate of the underground waterway.\u0010\bRisp tried the key the dead soldier had carried.\u0010\bShe turned it hard, and the lock opened.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンはマイヨールに\rここで待つようたのんだ\u0010\b",
-   "en": "",
+   "en": "Finn asked Maillol to wait here.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "マイヨール\r",
-   "en": "",
+   "en": "Maillol\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「どうか無事で…」\u0010\bマイヨールは頭を下げた\u0010",
-   "en": "",
+   "en": "\"Mind ye come back safe, now...\"\u0010\bMaillol bowed his head.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュが皆の手を握った\u0010\b",
-   "en": "",
+   "en": "Ash shook everyone's hand.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンはぶ然と\rしている\u0010\b",
-   "en": "",
+   "en": "Greystone looked sullen.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプが小さく笑った\u0010\b",
-   "en": "",
+   "en": "Risp gave a small laugh.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサが\r仲間になった\u0010\b",
-   "en": "",
+   "en": "Melissa joined the party!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "鉄格子には山羊の印が\r描かれている\u0010\bリスプが山羊の印の鍵で\r鉄格子を開いた\u0010",
-   "en": "",
+   "en": "A goat crest is painted on the iron grate.\u0010\bRisp opened the grate with the Goat Key.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "鉄格子には山羊の印が\r描かれている\u0010\b鉄格子の向こうには\r地下水道が さらに\r広がっているようだ\u0010\bグレイストーンが\r鉄格子を揺さぶったが\r開きそうにない\u0010",
-   "en": "",
+   "en": "A goat crest is painted on the iron grate.\u0010\bBeyond the grate, the underground waterway seems to stretch on further.\u0010\bGreystone shook the grate, but it would not budge.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bフィン達は\r５００Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFinn's party obtained 500G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bチャージロールを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Charge Scroll.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rチャージロールを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Charge Scroll.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
-   "en": "",
+   "en": "There's a treasure chest.\u0010\bOpen it?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "宝箱を開けた！\u0010\bサンダーロールを\r見つけた\u0010\b",
-   "en": "",
+   "en": "Opened a treasure chest!\u0010\bFound a Thunder Scroll.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\rサンダーロールを\r手に入れた！\u0010",
-   "en": "",
+   "en": "Finn's party obtained the Thunder Scroll!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "しかし､持ちきれなかった\u0010",
-   "en": "",
+   "en": "But you can't carry any more.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

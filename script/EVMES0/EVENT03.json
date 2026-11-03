@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「知識聖堂が動き出したか…\r  なら 話は別だ…",
-   "en": "",
+   "en": "Rio\r\"So the Temple of Knowledge is makin' a move... Then that's another story...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だが ひとつこちらの\r  条件を聞いてもらおう",
-   "en": "",
+   "en": "But first ya gotta agree to one condition of mine.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あんたらには\r  カリフォスに使いに\r  行ってもらいたい",
-   "en": "",
+   "en": "I want you two to run an errand to Caliphos for me.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そこで何かが起こって\r  いるらしい",
-   "en": "",
+   "en": "Seems somethin's happened out there.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  これを使え」",
-   "en": "",
+   "en": "Take this.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

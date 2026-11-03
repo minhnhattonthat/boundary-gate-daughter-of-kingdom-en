@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "失われた紋章の迷宮\r                  地下３階",
-   "en": "",
+   "en": "Lost Crest Labyrinth\rB3",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "巨大な焼けた金属の壁が目の\r前に横たわっている\u0010",
-   "en": "",
+   "en": "A huge wall of scorched metal lies before them.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "急にリスプが話しだした\r目が虚ろだ\u0010\b",
-   "en": "",
+   "en": "Suddenly Risp began to speak. Her eyes were vacant.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "大聖堂の闇の中で\r一人の娘がつぶやいていた",
-   "en": "",
+   "en": "In the darkness of the Cathedral, a girl was murmuring to herself.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "娘\r「そう… 船を動かすのよ…",
-   "en": "",
+   "en": "Girl\r\"Yes... We must move the ship...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  カリフォスの船は\r  燃えてしまったけれど…",
-   "en": "",
+   "en": "The ship at Caliphos burned, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まだ船はあるわ」",
-   "en": "",
+   "en": "there is still a ship left.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

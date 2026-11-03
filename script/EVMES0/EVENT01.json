@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "娘                        \r「ありがとう…            \r  私の名前はリスプ        ",
-   "en": "",
+   "en": "Girl\r\"Thank you... My name is Risp.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  城にいる妹に会いに…    \r  ワイズブルームから      \r  きました                ",
-   "en": "",
+   "en": "I came from Wisebloom... to see my younger sister in the castle.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  でも 城に近づくことも   \r  許されなくて…」",
-   "en": "",
+   "en": "But they won't even let me near the castle...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「どうしても妹に\r  会いたいんです",
-   "en": "",
+   "en": "Risp\r\"I simply must see my sister.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お願いします\r  妹に会えるまで\r  私を助けてください",
-   "en": "",
+   "en": "Please... help me until I can see her.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お金は…\r  お金は 知識聖堂が\r  保証しますから」",
-   "en": "",
+   "en": "The money... The Temple of Knowledge will guarantee the money.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "娘一人で夜道をうろつく\rような世間知らずでは",
-   "en": "",
+   "en": "A sheltered girl naive enough to wander the streets alone at night",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "いずれまた トラブルに\r巻き込まれるだろう…",
-   "en": "",
+   "en": "was bound to land in trouble again sooner or later...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「どうやら傭兵の仕事は\r  見つかりそうにないしな",
-   "en": "",
+   "en": "Finn\r\"Doesn't look like I'll find any mercenary work,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  懐もさみしいときてる…",
-   "en": "",
+   "en": "and my purse is feeling light...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いいだろう\r  あんたのボディガードを\r  引き受けよう」",
-   "en": "",
+   "en": "Fine. I'll be your bodyguard.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

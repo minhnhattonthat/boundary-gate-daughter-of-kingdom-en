@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「こっち来てなさいよ！",
-   "en": "",
+   "en": "Melissa\r\"You lot, stay over here!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  大事な話してんだから！",
-   "en": "",
+   "en": "We're having an important talk!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  まったく男どもときたら…",
-   "en": "",
+   "en": "Honestly, men...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そんなに見たきゃ\r  あたしが…」",
-   "en": "",
+   "en": "If you're that desperate to look, I'll...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーン\r「いや  やめてくれ…\r  ウォッ」",
-   "en": "",
+   "en": "Greystone\r\"No... Stop... Whoa!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

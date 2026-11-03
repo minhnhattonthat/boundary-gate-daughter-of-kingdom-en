@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔導聖堂の司祭長と\rアッシュが待っていた\u0010\b",
-   "en": "",
+   "en": "The High Priest of the Temple of Sorcery and Ash were waiting.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュがフィンの肩を\rたたいた\u0010\b",
-   "en": "",
+   "en": "Ash clapped Finn on the shoulder.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "アッシュ\r",
-   "en": "",
+   "en": "Ash\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオの手当ては我々に\r  まかせてくれ」\u0010",
-   "en": "",
+   "en": "\"Leave Rio's care to us.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "司祭長がリスプに言った\u0010\b",
-   "en": "",
+   "en": "The High Priest spoke to Risp.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "魔導聖堂長\r",
-   "en": "",
+   "en": "High Priest of Sorcery\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「４つの迷宮の底で真実と\r  向かい合うのじゃ」\u0010",
-   "en": "",
+   "en": "\"In the depths of the four Labyrinths, you must face the truth, my girl.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "23",
    "group": "location",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｃ",
-   "en": "",
+   "en": "Patron C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "壁の絵",
-   "en": "",
+   "en": "Wall Painting",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオは２階の部屋で\r  安静にしているよ\u0010\b  手当ては私に任せて\r  おくれ\u0010\b",
-   "en": "",
+   "en": "\"Rio's resting in a room upstairs.\u0010\bLeave his care to me.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いらっしゃい\r  部屋はひとつしか\r  空いてないからね」\u0010\b",
-   "en": "",
+   "en": "\"Welcome. Mind you, there's only one room free.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 宿を開いている\r  状況ではないけど\u0010\b  私には ここしかいる\r  場所がないの」\u0010\b",
-   "en": "",
+   "en": "\"It's hardly the time to be running an inn,\u0010\bbut this is the only place I have.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何の用だい？",
-   "en": "",
+   "en": "What'll it be?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「魔導 知識 そして\r  医療聖堂には\r  それぞれ 司祭長がいる\u0010\b  魔導聖堂の司祭長は\r  とても 人望の厚い人\r  なんだが…」\u0010",
-   "en": "",
+   "en": "\"The Temple of Sorcery, the Temple of Knowledge and the Temple of Medicine each have a High Priest.\u0010\bThe High Priest of the Temple of Sorcery is a man the people truly trust, but...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「トーナムはアモーク要塞の\r  入口みたいなもんだ\u0010\b  そこで騒ぎが起きてる\r  らしい」\u0010",
-   "en": "",
+   "en": "\"Tornam's sort of the gateway to Fort Amok.\u0010\bSeems there's some trouble brewing there.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「心臓の紋章は 医療聖堂の\r  シンボルだ\u0010\b  治療所を見ただろう？\u0010\r  不可思議な装置だらけだ\u0010\b  みんな代々の王国の娘が\r  もたらした技術なのさ」\u0010",
-   "en": "",
+   "en": "\"The Heart Crest is the symbol of the Temple of Medicine.\u0010\bYou've seen the clinic, right?\u0010 Full of mysterious devices.\u0010\bAll of it technology brought by one Daughter of the Kingdom after another.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「医療聖堂は魔導聖堂や\r  知識聖堂より､低く見られ\r  ている\u0010\b",
-   "en": "",
+   "en": "\"The Temple of Medicine is looked down on next to the Temple of Sorcery and the Temple of Knowledge.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いにしえの知識と魔法…\r  それがこの国を\r  支えている」\u0010",
-   "en": "",
+   "en": "Ancient Knowledge and magic... that's what holds this country up.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁には美しい少女の絵が\r掲げられている\u0010\b下に文字が書いてある\u0010\b『王国の娘 いにしえの\r言葉を聞き賜う…』\u0010\b",
-   "en": "",
+   "en": "On the wall hangs a portrait of a beautiful girl.\u0010\bThere is writing beneath it.\u0010\b\"The Daughter of the Kingdom, who hears the words of old...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプは 悲しげに絵を\r見つめている\u0010",
-   "en": "",
+   "en": "Risp gazes sadly at the painting.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

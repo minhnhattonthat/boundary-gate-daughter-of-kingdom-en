@@ -12,9 +12,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "リオ",
-   "en": "",
+   "en": "Rio",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "魔導聖堂長",
-   "en": "",
+   "en": "High Priest of Sorcery",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "アッシュ",
-   "en": "",
+   "en": "Ash",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リスプ､\r  ワイズブルームへ\r  帰りなさい」\u0010",
-   "en": "",
+   "en": "\"Risp, return to Wisebloom.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「医療聖堂長が\r  言っておった\u0010\b  王国の娘に身体は\r  不要だと…\u0010\b  そのほうが いにしえの\r  知識とはなじむのだと」\u0010",
-   "en": "",
+   "en": "\"The High Priest of Medicine said as much...\u0010\bThat the Daughter of the Kingdom has no need of a body...\u0010\bThat she blends better with the Ancient Knowledge that way.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…」\u0010",
-   "en": "",
+   "en": "\"...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「アンブローズにいるはず\r  のリオがまだ､帰らな\r  いんだ\u0010\b",
-   "en": "",
+   "en": "\"Rio should be in Ambrose, yet he still hasn't come back.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この宿で落ち合う約束\r  なんだが」\u0010",
-   "en": "",
+   "en": "We agreed to meet at this inn.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオのことはまかせろ」\u0010",
-   "en": "",
+   "en": "\"Leave Rio to me.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオが意識を\r  取り戻したぞ！\u0010\b  城に入る地下水道の入口が\r  東地区にあるそうだ\u0010\b  これが入り口の鍵だ」\u0010\b",
-   "en": "",
+   "en": "\"Rio has come to!\u0010\bHe says the waterway into the castle has an entrance in the East District.\u0010\bThis is the key to that entrance.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "銀の鍵を手にいれた\u0010",
-   "en": "",
+   "en": "Got the Silver Key!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「城に入る地下水道の入口が\r  東地区にあるそうだ」\u0010",
-   "en": "",
+   "en": "\"He says the waterway into the castle has an entrance in the East District.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「大聖堂の奥…？」\u0010",
-   "en": "",
+   "en": "\"The depths of the Cathedral...?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「アンブローズは\r  もう､終わりなのか？」\u0010\b",
-   "en": "",
+   "en": "\"Is it all over for Ambrose?\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「もう 宿を開いている状況\r  では ないんだけど…\u0010\b  私には ここしか いる\r  場所がないのよ」\u0010\b",
-   "en": "",
+   "en": "\"This is no time to be running an inn, really...\u0010\bBut this is the only place I have to be.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "泊まっていくかい？",
-   "en": "",
+   "en": "Staying the night?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

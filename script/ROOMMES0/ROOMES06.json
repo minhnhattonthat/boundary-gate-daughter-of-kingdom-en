@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "道具屋の娘",
-   "en": "",
+   "en": "Item Shop Girl",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいない‥‥",
-   "en": "",
+   "en": "No one's here...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いらっしゃいませ\u0010\b  そなえあれば憂いなし\r  っていうでしょ？」\u0010\b",
-   "en": "",
+   "en": "\"Welcome!\u0010\bBetter safe than sorry, as they say!\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "どんな御用ですか？",
-   "en": "",
+   "en": "How may I help you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

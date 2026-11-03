@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「狭いわね…こんな汚い\r  ところ通らなきゃ…",
-   "en": "",
+   "en": "Melissa\r\"So cramped... and we have to squeeze through a filthy place like this...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ！グレイストーン",
-   "en": "",
+   "en": "! Greystone,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  へんなところ触らない\r  でよ…",
-   "en": "",
+   "en": "don't you touch me anywhere funny...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …キャー！」",
-   "en": "",
+   "en": "...Eeek!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「急に手を離すことない\r  でしょ！」",
-   "en": "",
+   "en": "Melissa\r\"You didn't have to let go all of a sudden!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーン\r「…触るなといった」",
-   "en": "",
+   "en": "Greystone\r\"...You said not to touch.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「も～ やぁだ～」",
-   "en": "",
+   "en": "Melissa\r\"Ugh, I hate thiiis!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

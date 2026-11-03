@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "失われた紋章の迷宮\r                  地下５階",
-   "en": "",
+   "en": "Lost Crest Labyrinth\rB5",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプが壁のパネルに\r手をあてた\u0010\b突然 扉の前にホログラムが\r浮かび上がる\u0010",
-   "en": "",
+   "en": "Risp placed her hand on the panel in the wall.\u0010\bSuddenly, a hologram rose up before the door.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "目の前には巨大な光の渦が\rゆらめいている\u0010",
-   "en": "",
+   "en": "Before them, a huge vortex of light shimmers.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

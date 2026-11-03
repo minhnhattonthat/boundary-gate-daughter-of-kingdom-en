@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫Ａ",
-   "en": "",
+   "en": "Miner A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫Ｂ",
-   "en": "",
+   "en": "Miner B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫Ｃ",
-   "en": "",
+   "en": "Miner C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "女",
-   "en": "",
+   "en": "Woman",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「２日前に 大きな地震が\r  あって 坑道で落盤が\r  あったんだよ\u0010\b",
-   "en": "",
+   "en": "\"Two days ago there was a big earthquake, and part of the tunnels caved in.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  幸い２､３人のけが人で\r  済んだが…\u0010\b",
-   "en": "",
+   "en": "Luckily only two or three folks got hurt...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  落盤で 見つかった\r  古い坑道から 化け物達が\r  飛び出してきて…」\u0010",
-   "en": "",
+   "en": "but monsters came pouring out of an old shaft the cave-in turned up...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「化け物が飛び出して\r  くるなんて…」\u0010",
-   "en": "",
+   "en": "\"Monsters, pouring out like that...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お偉がたが 宿のホールで\r  話し合ってるが…\u0010\b  化け物相手に どうしろっ\r  てんだ？」\u0010",
-   "en": "",
+   "en": "\"The bigwigs are holding talks in the inn's hall...\u0010\bbut what're we supposed to do against monsters?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お偉がたが 宿のホールで\r  話し合ってる\u0010\b  でも 話し合っているだけ\r  では…」\u0010",
-   "en": "",
+   "en": "\"The bigwigs are holding talks in the inn's hall.\u0010\bBut just talking won't...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ハンセンのじいさんも\r  気の毒に…\u0010\b  もう とっくに\r  喰われちまってる\r  だろうな…」\u0010",
-   "en": "",
+   "en": "\"Poor old Hansen...\u0010\bHe's long since been eaten by now, I bet...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ハンセンのじいさん\r  助かったんだって？\r  よかったな」\u0010",
-   "en": "",
+   "en": "\"Heard old Hansen made it out alive? Good for him.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「調査隊が下りていって\r  しばらくしたら\r  突然悲鳴が聞こえて…」\u0010",
-   "en": "",
+   "en": "\"Not long after the survey team went down, we suddenly heard screams...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「アンブローズにも化け物が\r  出たんだってな\u0010\r  もう何もかもおしまいだ」\u0010",
-   "en": "",
+   "en": "\"Heard monsters showed up in Ambrose too.\u0010 It's all over now.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「かわいそうなのは\r  グリソムさんとこの\r  奥さんだよ\u0010\b",
-   "en": "",
+   "en": "\"The one I feel sorry for is Grissom-san's wife.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  旦那さんは\r  まだ生きてるって\r  信じてるみたいだよ」\u0010",
-   "en": "",
+   "en": "She seems to believe her husband's still alive.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

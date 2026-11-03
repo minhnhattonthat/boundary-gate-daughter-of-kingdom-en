@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女\r「これね 組織の情報に\r  あった隠し扉は",
-   "en": "",
+   "en": "Woman\r\"This must be it, the hidden door from the resistance's intel.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  え～と…これを押して\r  こっちを…」",
-   "en": "",
+   "en": "Ummm... I push this, and then this...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

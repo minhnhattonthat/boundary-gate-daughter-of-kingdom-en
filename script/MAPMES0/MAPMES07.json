@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "クレーターの地下２階",
-   "en": "",
+   "en": "Crater B2",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "物陰に男が倒れている\u0010\bどうやら､怪我を\r負っているようだ\u0010\b",
-   "en": "",
+   "en": "A man lay collapsed in the shadows.\u0010\bHe seemed to be injured.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンは肩を貸し\r男の体を起こした\u0010\b",
-   "en": "",
+   "en": "Finn lent him a shoulder and helped him up.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "トールマンは手に持った\rねじれた金属片を リスプに\r見せた\u0010",
-   "en": "",
+   "en": "Tallman showed Risp the twisted metal fragment in his hand.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "一瞬 リスプの顔が\rこわ張った\u0010\b",
-   "en": "",
+   "en": "For an instant, Risp's face stiffened.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何もないようだ\u0010",
-   "en": "",
+   "en": "There seems to be nothing here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

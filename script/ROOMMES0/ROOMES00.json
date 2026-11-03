@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "町人Ａ",
-   "en": "",
+   "en": "Townsman A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "町人Ｂ",
-   "en": "",
+   "en": "Townsman B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "感じのいい宿だ\u0010\rホールは ずいぶん\rにぎわっている\u0010",
-   "en": "",
+   "en": "A nice, cosy inn.\u0010 The hall is bustling.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「申し訳ないんだが\r  部屋がいっぱいなんだよ\u0010\b",
-   "en": "",
+   "en": "\"Sorry, but we're full up.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  冒険の記録なら\r  できるんだが…",
-   "en": "",
+   "en": "I can still record your adventure, though...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "27",
    "group": "choice",
    "jp": "記録する",
-   "en": "",
+   "en": "Save",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "27",
    "group": "choice",
    "jp": "記録しない",
-   "en": "",
+   "en": "Don't save",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  夜はぶっそうだから\r  気をつけるんだな」\u0010",
-   "en": "",
+   "en": "It's not safe at night, so watch yourself.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「まだ､寝るには\r  早いから､そこいら辺\r  うろついてきたら？」",
-   "en": "",
+   "en": "\"It's still too early for bed. Why not take a wander around?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "いらっしゃい",
-   "en": "",
+   "en": "Welcome!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「悪い時期に来てしまった\r  ようだな\u0010\b",
-   "en": "",
+   "en": "\"Looks like you've come at a bad time.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  今日から戒厳令がしかれ\r  たから 通行証を持って\r  ないと\u0010\b  この北地区から\r  でられないんだ」\u0010",
-   "en": "",
+   "en": "Martial law came in today, so unless you've got a pass,\u0010\byou can't get out of the North District.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「今 このへんじゃ\r  反逆者狩りをやってんだ\u0010\b  あんたも気を付けたほうが\r  いいぜ」\u0010",
-   "en": "",
+   "en": "\"They're hunting rebels around here right now.\u0010\bYou'd better watch yourself too.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あんた傭兵かい？\u0010\b  あんたと同じ様に\r  泊まれなくなった\r  傭兵達は\u0010\b  酒場で夜を明かす\r  らしいぜ」\u0010",
-   "en": "",
+   "en": "\"You a mercenary?\u0010\bI hear the mercenaries who couldn't get a room, same as you,\u0010\bare spending the night in the tavern.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「近々､王国の娘より\r  重大な発表があるそうだ\u0010\b",
-   "en": "",
+   "en": "\"Word is the Daughter of the Kingdom will soon make an important announcement.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  モーダルグロウの繁栄は\r  大聖堂にいる王国の娘の\r  おかげだよ」\u0010",
-   "en": "",
+   "en": "Modalglow owes its prosperity to the Daughter of the Kingdom in the Cathedral.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

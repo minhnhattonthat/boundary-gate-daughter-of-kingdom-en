@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "メルクの家",
-   "en": "",
+   "en": "Merk's House",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "老婆メルク",
-   "en": "",
+   "en": "Old Woman Merk",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "トールマン",
-   "en": "",
+   "en": "Tallman",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "小屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "バラックに入ると 怪我人の\r食事を作っていた老婆が\r顔をあげた\u0010\b",
-   "en": "",
+   "en": "When we stepped into the shack, an old woman cooking for the injured looked up.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「この傷では 当分\r  ここから 動かすわけには\r  いかないよ」\u0010",
-   "en": "",
+   "en": "\"With wounds like these, he can't be moved from here for a good while, dearie.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "トールマン",
-   "en": "",
+   "en": "Tallman",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「他にも 怪我人を\r  みつけたら\r  連れておいで」\u0010",
-   "en": "",
+   "en": "\"If you find any more injured, bring 'em here.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「わたしは\r  当分動けそうにない…」\u0010",
-   "en": "",
+   "en": "\"Looks like I won't... be moving for a while...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

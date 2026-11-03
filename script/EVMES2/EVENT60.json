@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「私と一緒に…\r  お姉さん",
-   "en": "",
+   "en": "Kiral\r\"Come with me... Sister.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  二人の力があれば\r  世界を自由に…",
-   "en": "",
+   "en": "With our power together, we could do as we please with the world...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いいえ\r  この世界だけじゃない…」\r",
-   "en": "",
+   "en": "No... not just this world...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「やめて！キラル！",
-   "en": "",
+   "en": "Risp\r\"Stop it, Kiral!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  バウンダリーゲートには\r  誰も手を触れては\r  いけないのよ」",
-   "en": "",
+   "en": "No one must ever lay a hand on the Boundary Gate!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

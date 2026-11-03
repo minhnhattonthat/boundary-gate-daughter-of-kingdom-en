@@ -15,6 +15,7 @@ Rows marked `nocheck` in notes are guidance only.
 - Credits: English.
 - Register / flavour: low-fantasy adventure with a sci-fi twist (late reveal). Plain modern English with a light
   period feel; no modern slang ("OK", "guys", "cool"). Finn narrates in first person, past tense, dry and wry.
+- Spelling: British (colour, harbour, armour, defence, rumour); "-ize" verbs are fine either way, keep one per line.
 - Sound effects / interjections: English equivalents (キャー -> "Eeek!", ウォッ -> "Whoa!", ほっほっほ -> "Ho ho ho").
 - Abbreviations: full names and terms everywhere; prefer engine changes over shortening (flag any abbreviation as a
   last resort with `LONG:`). Floor labels are the one standing exception: 地下N階 -> "BN", N階 -> "NF", 屋上 -> "Roof".
@@ -83,7 +84,7 @@ Rows marked `nocheck` in notes are guidance only.
 | 知識聖堂長 | High Priest of Knowledge | | | |
 | 副司祭長 | Vice High Priest | | Demius's rank | |
 | 司祭長 | High Priest | | | |
-| 王国の娘 | Daughter of the Kingdom | | title of the girl who links to the Ancient Knowledge | Princess |
+| 王国の娘 | Daughter of the Kingdom / Daughters of the Kingdom | | title of the girl who links to the Ancient Knowledge | Princess |
 | 戒厳令 | martial law | | | |
 | 傭兵 | mercenary/mercenaries | | | |
 | 反魔導聖堂組織 | resistance | | "the resistance against the Temple of Sorcery"; 組織 alone = "the resistance" | |
@@ -100,7 +101,7 @@ Rows marked `nocheck` in notes are guidance only.
 | 瞳の紋章 | Iris Crest | | | Eye Crest |
 | 五芒星の紋章 | Pentagram Crest | | | |
 | 失われた紋章 | Lost Crest | | | |
-| ゲートの守護者 | Guardian of the Gate | | | |
+| ゲートの守護者 | Guardian of the Gate / Guardians of the Gate | | | |
 | サブシステム | subsystem | | | |
 | 人工知能 | artificial intelligence/AI | | | |
 | アイリス | Iris | | AI subsystem name | |
@@ -168,5 +169,48 @@ Plain English equipment names: ショートソード Short Sword, レイピア R
 | ポーション | Potion | | | |
 | 山羊のカギ | Goat Key | | | |
 
+## Common nouns, speakers, labels (from wave 1; guidance, not lint-enforced)
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| 道具屋 | Item Shop | nocheck | lower case in running text | Items Shop, Tool Shop |
+| 武具屋 | Arms Shop / Armoury | nocheck | room/NPC label "Arms Shop"; map name "... Armoury" | Armory |
+| 武器屋 | Weapon Shop | nocheck | | |
+| 鍛冶屋 | Smithy / Blacksmith | nocheck | | |
+| 治療院 | Clinic | nocheck | also 治療所 | Infirmary |
+| 酒場 | Tavern | nocheck | | |
+| 宿屋 | Inn | nocheck | | |
+| 連絡所 | Army Post | nocheck | | |
+| 鉱山長 | Mine Overseer | nocheck | | Mine Chief |
+| 坑夫長 | Head Miner | nocheck | | |
+| 坑道 | Mine / Mine Shaft | nocheck | floor labels "Mine B1" | |
+| 地下水道 | Waterway | nocheck | "Ambrose Waterway"; アモーク要塞地下水路 Fort Amok Waterway | Sewers |
+| 倉庫街 | Warehouse District | nocheck | | |
+| バラック | Shack | nocheck | Shack A/B/C | |
+| 最後の迷宮 | Final Labyrinth | nocheck | exe map names (the banners say 失われた紋章の迷宮 Lost Crest Labyrinth: both as in the JP) | |
+| 大男 | Giant | nocheck | speaker before Greystone is named | |
+| 医師 | Doctor | nocheck | | |
+| 番兵 | Guard | nocheck | Guard A/B | |
+| 町人Ａ | Townsman A | nocheck | | |
+| 主人 | Innkeeper / Barkeep / Shopkeeper | nocheck | by the room | |
+| 生体端末 | living terminal | nocheck | 端末 terminal | |
+| 多重人格型人工知能システム | multi-personality AI system | nocheck | | |
+| 山羊のカギ | Goat Key | | 山羊の印 goat crest (Melissa: 山羊の紋章) | |
+| 牙の印の鍵 | Fang Crest Key | | likewise 瞳/心臓/五芒星 -> Iris/Heart/Pentagram Crest Key | Fang Key |
+| 五芒星のアミュレット | Pentagram Amulet | | | |
+| 銀の鍵 | Silver Key | | | |
+| 魔石 | Stone | nocheck | item category | |
+| 水薬 | Potion | nocheck | item category | |
+| 巻物 | Scroll | nocheck | item category | |
+
+## Stats (exe)
+攻撃 Attack, 防御 Defence, 武力 Combat, 魔力 Magic, 速力 Speed, 体力 Vitality, 筋力 Strength, 知力 Intellect,
+能力値 Stats, ＬＶ LV, 経験値 EXP. Field menu: 常時 Anytime, 戦闘中 In Battle, 移動時/移動中 On Field, 特殊 Special.
+Settings: 見る/見ない Show/Skip, 普通/少ない/多い Normal/Low/High.
+
 ## Decisions from earlier batches
-- (none yet)
+- Narration person follows the JP: third person where it names フィン/フィン達/二人, Finn's first person in his monologues.
+- Speaker lines keep the JP's trailing row break (`Name /`); the dialogue after starts on row 2.
+- Item pickups: "Got the X!" / "Found a X." / "Obtained the X." (the JP varies too).
+- Monster names: natural reading of the katakana, spelled to avoid accidental words (ラムビッチ Rambich, ビッチバス Bichbus).
+- Battle and shop messages in past tense ("%s took %d damage.").
+- 最後の迷宮 vs 失われた紋章の迷宮: kept as two names, as the JP has them.

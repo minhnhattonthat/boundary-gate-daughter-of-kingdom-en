@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいないようだ\u0010",
-   "en": "",
+   "en": "No one seems to be here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオ？ \u0017あの男なら\r  もう､出てったよ」\u0010",
-   "en": "",
+   "en": "\"Rio? \u0017That fella's already left.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いらっしゃい」\u0010",
-   "en": "",
+   "en": "\"Welcome.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「魔導聖堂に反抗すると\r  たちまち 処刑されちまう\r  って」\u0010",
-   "en": "",
+   "en": "\"They say if you defy the Temple of Sorcery, you get executed on the spot.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「五芒星の紋章は\r  魔導聖堂の印だ\u0010\b  魔導聖堂は､王国内の魔力\r  を研究､管理する役割を\r  持っている」\u0010",
-   "en": "",
+   "en": "\"The Pentagram Crest is the mark of the Temple of Sorcery.\u0010\bThe Temple of Sorcery's role is to study and govern the magical power within the kingdom.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

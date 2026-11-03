@@ -88,7 +88,7 @@ def glossary():
         cols = [c.strip() for c in line.strip().strip('|').split('|')]
         if not line.startswith('|') or len(cols) < 2 or cols[0] in ('JP', '') or set(cols[0]) <= set('-'):
             continue
-        if 'nocheck' in (cols[3] if len(cols) > 3 else ''):
+        if any('nocheck' in c for c in cols[2:]):
             continue
         en = [x.strip() for x in cols[1].split('/') if x.strip()]
         avoid = [x.strip() for x in (cols[4] if len(cols) > 4 else '').split(',') if x.strip()]
@@ -135,7 +135,7 @@ NAME_ROW = re.compile(r'^[^\r「\x08\x10 ]{1,13}\r「')
 def check_unit(u, en_tsv, terms):
     """(errors, warnings) for one unit's English (tsv form)."""
     err, warn = [], []
-    if not en_tsv.strip():
+    if not en_tsv or (not en_tsv.strip() and u['jp'].strip(' 　')):   # a blank JP (exe:03658) may stay blank
         return ['empty'], []
     if any(not (0x20 <= ord(c) <= 0x7E) for c in en_tsv):
         bad = ''.join(sorted({c for c in en_tsv if not 0x20 <= ord(c) <= 0x7E}))
@@ -191,7 +191,9 @@ def check_unit(u, en_tsv, terms):
                 warn.append(f'{len(pages)} pages for {np_jp} JP page(s): consider tightening')
         else:
             n, hard = W.FIELD[e['op']]
-            rows = game.split('\r')
+            if game.endswith('\r') != jp.endswith('\r'):
+                err.append('trailing row break differs from the JP (a speaker line ends with " / ")')
+            rows = game.rstrip('\r').split('\r')
             if len(rows) > (2 if e['op'] == '23' else 1):
                 err.append(f'{len(rows)} rows in a one-row field')
             for r in rows:

@@ -12,9 +12,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "25",
    "group": "building",
    "jp": "鍛冶屋",
-   "en": "",
+   "en": "Smithy",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "大門の番兵\r",
-   "en": "",
+   "en": "Great Gate Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「通行証がなければ\r  勝手に町から出ては\u0010\b  いかん！」\u0010",
-   "en": "",
+   "en": "\"Nobody leaves town\u0010\bwithout a pass!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「通行証がなければ\r  勝手に町から出ては\u0010\b  いかん！\u0010\b",
-   "en": "",
+   "en": "\"Nobody leaves town\u0010\bwithout a pass!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ん？\r  通行証を持ってるのか」\u0010",
-   "en": "",
+   "en": "Hm? You've got a pass, have you?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いま 反逆者の狩り出し\r  を行っている\u0010\b  東地区へ移動しては\r  いかん！」\u0010",
-   "en": "",
+   "en": "\"We're rounding up rebels right now.\u0010\bNo going into the East District!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いま 反逆者の狩り出しを\r  行っている\u0010\b  西地区へ移動しては\r  いかん！」\u0010",
-   "en": "",
+   "en": "\"We're rounding up rebels right now.\u0010\bNo going into the West District!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "通行人Ａ\r",
-   "en": "",
+   "en": "Passerby A\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あんたら困っていること\r  があるなら リオに相談\u0010\b  してみな\u0010\b  あいつなら いろいろ裏の\r  事情にも通じているから」\u0010",
-   "en": "",
+   "en": "\"If you two have troubles, try talking\u0010\bto Rio.\u0010\bHe knows all about what goes on behind the scenes.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "通行人Ｂ\r",
-   "en": "",
+   "en": "Passerby B\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「なにかあったら\r  お嬢さんの持っている\u0010\b  瞳の紋章をみせればいい」\u0010",
-   "en": "",
+   "en": "\"If anything happens, just show them\u0010\bthe Iris Crest the young lady carries.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオなら酒場に\r  いるんじゃないかな」\u0010\b",
-   "en": "",
+   "en": "\"Rio? He's probably at the tavern.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "通行人Ｃ\r",
-   "en": "",
+   "en": "Passerby C\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「反魔導聖堂組織の娘が\r  捕まったそうだ」\u0010",
-   "en": "",
+   "en": "\"I hear a girl from the resistance got caught.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「キラル様は５０年ぶりの\r  王国の娘です\u0010\b  ここ１年ほどは大聖堂に\r  こもって 姿をお見せに\r  なりませんが…」\u0010",
-   "en": "",
+   "en": "\"Kiral-sama is the first Daughter of the Kingdom in fifty years.\u0010\bBut this past year or so, she has stayed shut away in the Cathedral and not shown herself...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "兵士風の男\r",
-   "en": "",
+   "en": "Soldierly Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「そのお嬢さんは\r  知識聖堂の司祭かい？\u0010\b  何故､こんな所に…」\u0010\b",
-   "en": "",
+   "en": "\"Is the young lady a priestess of the Temple of Knowledge?\u0010\bWhat's she doing in a place like this...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おれは 新しい目を入れて\r  もらったのさ\u0010\b",
-   "en": "",
+   "en": "\"I had a new eye put in.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ずいぶん高くついたがね\r  この国の医療聖堂とやらの\r  力は 本物だぜ」\u0010",
-   "en": "",
+   "en": "Cost me a pretty penny, though. This country's Temple of Medicine is the real deal, I'll tell ya.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "乞食\r",
-   "en": "",
+   "en": "Beggar\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おめぐみを …」\u0010\r",
-   "en": "",
+   "en": "\"Spare a coin...?\"\u0010\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ５Ｇをあたえますか？",
-   "en": "",
+   "en": "Give him 5G?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「それは残念なことじゃ」\u0010",
-   "en": "",
+   "en": "\"Ah, that's a shame, that is.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何と！わしのような乞食に\r  与える金もないとは！\r  かわいそうにのう…\u0010\b  …\u0010  …\u0010  …\u0010  …\u0010  …\u0010\b  これは わしからの\r  プレゼントじゃ\u0010\r  大事に持っているがよい」\u0010\b",
-   "en": "",
+   "en": "\"What! You've not even got a coin for an old beggar like me? You poor soul...\u0010\b...\u0010 ...\u0010 ...\u0010 ...\u0010 ...\u0010\bHere's a little present from me.\u0010 Keep it safe, eh.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何と わしのような乞食に\r  与える金もないとは！\r  かわいそうにのう…\u0010\b  わしが与えたアイテムも\r  持っていないようじゃし\r  やれやれじゃのう」\u0010",
-   "en": "",
+   "en": "\"What! You've not even got a coin for an old beggar like me? You poor soul...\u0010\bAnd it seems you don't even have the item I gave you. Dear, oh dear.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何と わしのような乞食に\r  与える金もないとは！\r  かわいそうにのう…\u0010\b  じゃが もう おぬしには\r  何もやれんぞ」\u0010",
-   "en": "",
+   "en": "\"What! You've not even got a coin for an old beggar like me? You poor soul...\u0010\bBut I've nothin' more to give ya, I'm afraid.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -397,9 +397,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ところで だんな\r  おととい 北の空に妙な\r  雲が見えましたが\u0010\b  ありゃ なんですかねぇ」\u0010",
-   "en": "",
+   "en": "By the way, guv... The day before yesterday, there was a strange cloud in the northern sky.\u0010\bWhat d'you reckon that was?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -419,9 +419,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ところで だんな\u0010\r  東地区の丘の上の\r  屋敷に 毎晩怪しい光が\u0010\b  ともるのを知ってやすか」\u0010",
-   "en": "",
+   "en": "By the way, guv...\u0010 D'you know about the strange light that shows every night\u0010\bat the mansion on the hill in the East District?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -430,9 +430,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, guv.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -441,9 +441,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  大きな声じゃ言えねえん\r  ですがね\u0010\b  前の王様は 殺されたん\r  だっていう話ですぜ…」\u0010",
-   "en": "",
+   "en": "Can't say it too loud, mind...\u0010\bbut word is the old King was murdered...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -452,9 +452,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「へへ… 毎度ありがとう\r  ございやす\u0010\b",
-   "en": "",
+   "en": "\"Heh heh... Much obliged, as always.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -463,9 +463,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ですが だんな\u0017 もう\r  あっしが知っている\r  情報は ありませんぜ」\u0010",
-   "en": "",
+   "en": "But, guv,\u0017 that's all the news I've got.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -474,9 +474,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「反逆者に関する情報には\r  賞金をあたえる」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"A reward will be paid for information on rebels.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -485,9 +485,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「夜間 女性や子供は\r  出歩かないこと！」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"Women and children must not go out at night!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -496,9 +496,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "貼り紙がある\u0010\r「あらたな増税については\r  おって発表する」\u0010",
-   "en": "",
+   "en": "There's a notice.\u0010 \"Details of new taxes will be announced in due course.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -507,9 +507,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「増 税 反 対 ！」\u0010",
-   "en": "",
+   "en": "There's graffiti on the wall.\u0010 \"NO MORE TAXES!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -518,9 +518,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に落書きがある\u0010\r「魔導聖堂の横暴を\r  阻止しよう！」\u0010",
-   "en": "",
+   "en": "There's graffiti on the wall.\u0010 \"Stop the Temple of Sorcery's tyranny!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -529,9 +529,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "門は 閉ざされている\u0010",
-   "en": "",
+   "en": "The gate is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -540,9 +540,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "東地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the East District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -551,9 +551,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "西地区への門は\r閉ざされている\u0010",
-   "en": "",
+   "en": "The gate to the West District is closed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -562,9 +562,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "カギが かかっている\u0010\b",
-   "en": "",
+   "en": "It's locked.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -573,9 +573,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "？\u0017\r『リオの家』と書いてある\u0010",
-   "en": "",
+   "en": "?\u0017 It says \"Rio's House.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -584,9 +584,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "倉庫の床に蓋がしてある\u0010",
-   "en": "",
+   "en": "There's a hatch in the warehouse floor.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -595,9 +595,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アンブローズ城だ\u0010",
-   "en": "",
+   "en": "It's Ambrose Castle.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -606,9 +606,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "番兵\r",
-   "en": "",
+   "en": "Guard\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -617,9 +617,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「このあたりは危険だ\r  怪物があらわれたんだ\u0010\b",
-   "en": "",
+   "en": "\"It's dangerous around here. A monster showed up.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -628,9 +628,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  見知らぬ若者が\r  倒したらしいが…」\u0010\b",
-   "en": "",
+   "en": "Seems some young stranger took care of it, though...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

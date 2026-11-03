@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "鍛冶屋",
-   "en": "",
+   "en": "Smithy",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "見習い",
-   "en": "",
+   "en": "Apprentice",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "鍛冶屋の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「武器や防具が欲しけりゃ\r  店の方へいってくれ\u0010\b  城から 大量の注文が\r  きてるんで 大忙しだ」\u0010",
-   "en": "",
+   "en": "\"If you want weapons or armour, go round to the shop.\u0010\bWe're swamped with a huge order from the castle.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「どんなことがあっても\r  私は ここで鍛冶を続ける\r  つもりだ」\u0010",
-   "en": "",
+   "en": "\"Whatever happens, I mean to keep smithing right here.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「こんなにでかいヨロイを\r  どうするんだろう\u0010\b  とても普通の人間用とは\r  思えないよ」\u0010",
-   "en": "",
+   "en": "\"What would anyone do with armour this big?\u0010\bIt can't be meant for any ordinary person.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「私は師匠についていく\r  だけですよ」\u0010",
-   "en": "",
+   "en": "\"I just follow my master.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

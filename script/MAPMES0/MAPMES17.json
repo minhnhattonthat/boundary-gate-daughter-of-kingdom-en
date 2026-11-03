@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "プレリアール公の館地下１階",
-   "en": "",
+   "en": "Duke Prairial's Manor B1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "23",
    "group": "location",
    "jp": "プレリアール公の館１階",
-   "en": "",
+   "en": "Duke Prairial's Manor 1F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "近づくことができない\u0010",
-   "en": "",
+   "en": "There was no getting near it.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "なぜ ゲートが？\u0010\rリスプが 声高に呪文を唱え\r始めた\u0010\b",
-   "en": "",
+   "en": "Why is there a Gate here?\u0010 Risp began chanting a spell in a loud voice.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "光の渦が大きく揺らめく\u0010\b",
-   "en": "",
+   "en": "The vortex of light wavered violently.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "やがて娘の笑い声を残して\r光の渦は消えた\u0010\b",
-   "en": "",
+   "en": "At last, leaving behind a girl's laughter, the vortex of light vanished.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプがぼう然として\rつぶやいた\u0010\b",
-   "en": "",
+   "en": "Risp murmured, stunned.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「…キラル…」\u0010\b",
-   "en": "",
+   "en": "Risp\r\"...Kiral...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

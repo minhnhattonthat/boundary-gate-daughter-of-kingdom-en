@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "国王\r「ご心配なく",
-   "en": "",
+   "en": "King\r\"Do not worry.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  我々は\r  最後までアンブローズを\r  守り続けます」",
-   "en": "",
+   "en": "We shall defend Ambrose to the very end.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

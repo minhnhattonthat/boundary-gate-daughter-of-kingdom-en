@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "牙の紋章の迷宮\r              地下４階",
-   "en": "",
+   "en": "Fang Crest Labyrinth\rB4",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "モンスターがあらわれた！\u0010",
-   "en": "",
+   "en": "A monster appeared!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "紋章のアックスを\r手に入れた\u0010",
-   "en": "",
+   "en": "Obtained the Crest Axe.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

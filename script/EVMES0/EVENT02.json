@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「大聖堂に行きたいだあ？",
-   "en": "",
+   "en": "Rio\r\"The Cathedral? Ha!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  堀の内側にはネコの仔一匹\r  入れねえよ」",
-   "en": "",
+   "en": "Not even a kitten gets past that moat.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

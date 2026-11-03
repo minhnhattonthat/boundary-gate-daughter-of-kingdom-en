@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「忘れられた古代の\r  小さなゲートだわ…」",
-   "en": "",
+   "en": "Risp\r\"It is a small, ancient Gate... long forgotten...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「ゲート？」",
-   "en": "",
+   "en": "Finn\r\"A Gate?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「ゲートはこの世界と異世界\r  を結ぶ 通路なのです",
-   "en": "",
+   "en": "Risp\r\"Gates are passages that link this world with other worlds.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そして私には それを\r  コントロールできる力が\r  あるんです」",
-   "en": "",
+   "en": "And I... I have the power to control them.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

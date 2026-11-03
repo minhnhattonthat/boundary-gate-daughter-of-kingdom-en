@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "町人Ａ",
-   "en": "",
+   "en": "Townsman A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "町人Ｂ",
-   "en": "",
+   "en": "Townsman B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいないようだ\u0010",
-   "en": "",
+   "en": "No one seems to be here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "いらっしゃい",
-   "en": "",
+   "en": "Welcome!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「カリフォスが\r  消えちまったらしい\u0010\b  後には 大きな穴が\r  あるだけだったそうだ」\u0010",
-   "en": "",
+   "en": "\"Word is Caliphos just up and vanished.\u0010\bAll that's left, they say, is a great big hole.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ずっと 新国王の姿が\r  見えないんだ\u0010\b  城では 魔導聖堂が\r  軍の指揮権まで\r  握っている」\u0010",
-   "en": "",
+   "en": "\"Nobody's seen the new King for ages.\u0010\bOver at the castle, the Temple of Sorcery's even taken command of the army.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

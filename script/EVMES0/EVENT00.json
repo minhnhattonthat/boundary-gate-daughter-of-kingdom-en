@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "その国の噂を聞いたのは    \r港の汚い酒場だった        ",
-   "en": "",
+   "en": "I first heard of that kingdom in a filthy dockside tavern.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "王国の名はモーダルグロウ  \rまたの名を癒しの王国      ",
-   "en": "",
+   "en": "It was called Modalglow, also known as the Kingdom of Healing.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "その国の医者と魔術師たちは\r失った腕や脚すら造り直して\rしまうというから          ",
-   "en": "",
+   "en": "Its doctors and sorcerers, they said, could even rebuild lost arms and legs.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "病人、けが人たちが押しかけるのも無理はない",
-   "en": "",
+   "en": "No wonder the sick and the wounded flocked there.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "新しい国王が即位して以来  \r密かに軍備を増強している  \rとも聞いた                ",
-   "en": "",
+   "en": "I'd also heard that ever since the new King took the throne, the realm had been quietly building up its army.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "確かに俺はまだ一介の傭兵  \rだが                      \r腕には自信がある          ",
-   "en": "",
+   "en": "Sure, I was just another mercenary. But I knew what my sword arm could do.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "大きな出世の手掛かりを    \rつかむために              ",
-   "en": "",
+   "en": "Hoping to grab my big chance to rise in the world,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "俺は王国の都              \rアンブローズの門をくぐった",
-   "en": "",
+   "en": "I walked through the gates of Ambrose, the royal capital.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "23",
    "group": "location",
    "jp": "アンブローズ北地区大門",
-   "en": "",
+   "en": "Ambrose\rNorth District Great Gate",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

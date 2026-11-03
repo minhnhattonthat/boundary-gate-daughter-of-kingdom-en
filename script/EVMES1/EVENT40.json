@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女\r「あきれた馬鹿力…",
-   "en": "",
+   "en": "Woman\r\"Unbelievable. What a brute...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そうだ！急がなきゃ！\r  ほら！なにやってんの！\r  上よ！上だってば！」",
-   "en": "",
+   "en": "Oh, right! We have to hurry! Come on, what are you dawdling for?! Up! I said up!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

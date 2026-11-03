@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "酒場の女",
-   "en": "",
+   "en": "Tavern Woman",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "リオ",
-   "en": "",
+   "en": "Rio",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "あやしげな酒場に\rおりていった\u0010\b店の主人は陰気な顔で\r黙っている\u0010",
-   "en": "",
+   "en": "I headed down into a shady-looking tavern.\u0010\bThe owner said nothing, his face sullen.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「さっきの野郎､\r  東ゲートの当直\r  だっていうのに\u0010\b  あんなに酔っていて\r  だいじょうぶかな」\u0010",
-   "en": "",
+   "en": "\"That fella who just left has duty at the East Gate tonight.\u0010\bDrunk as he was... think he'll be all right?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「東ゲートの番兵は いつも\r  夜になると 酒を飲むんだ\u0010\b",
-   "en": "",
+   "en": "\"The East Gate guards always hit the bottle once night falls.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  夜は 化け物がうろついて\r  いるっていうウワサを\r  怖がっているみたいだよ」\u0010",
-   "en": "",
+   "en": "Seems they're scared of the rumours that monsters prowl around at night.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオ？そういえば\r  もう､出てったよ」\u0010\b",
-   "en": "",
+   "en": "\"Rio? Come to think of it, he's already gone.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「東ゲートのそばで\r  白い髪の娘に出会ったよ\u0010\b  胸に瞳の紋章をつけて\r  いたけれど…\u0010\b",
-   "en": "",
+   "en": "\"I ran into a white-haired girl near the East Gate.\u0010\bShe wore an Iris Crest on her chest, but...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂の司祭はやっぱり\r  変わっているね」\u0010",
-   "en": "",
+   "en": "those Temple of Knowledge priests sure are odd.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「城では 武器や食料を\r  買い込んでいるらしいが…\u0010\b",
-   "en": "",
+   "en": "\"They say the castle's been buying up weapons and food...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  肝心の兵士はどこから\r  調達するんだ？」\u0010",
-   "en": "",
+   "en": "but where are they getting the soldiers from?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「まいったな\r  反逆者狩りとやらで\r  町から出られないよ\u0010\b",
-   "en": "",
+   "en": "\"What a mess. With this rebel hunt or whatever, nobody can leave town.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  酒でも飲むしかないか」\u0010",
-   "en": "",
+   "en": "Nothing to do but drink, I guess.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「口は災いの元だ」\u0010",
-   "en": "",
+   "en": "\"Careless talk brings trouble.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「何か用か？\u0010\b  大聖堂に行きたい？\r  ムチャいうな\u0010\b",
-   "en": "",
+   "en": "\"What d'ya want?\u0010\bThe Cathedral? Don't make me laugh.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  魔導聖堂が城の実権を\r  握って以来､\r  掘の内側には\u0010\b  ネコの仔一匹入れねえよ」\u0010",
-   "en": "",
+   "en": "Ever since the Temple of Sorcery got its hands on the castle,\u0010\bnot even a kitten gets past that moat.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ふと リオがリスプを見た\r",
-   "en": "",
+   "en": "Then Rio happened to glance at Risp.\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "すると おどろいた顔をして\rリスプの首の瞳の紋章を\u0010\b見ながら こんなことを\r言い出した\u0010\b",
-   "en": "",
+   "en": "He looked startled. Eyeing the Iris Crest at Risp's neck,\u0010\bhe came out with this.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオは二人に ニセの通行証\rを渡した\u0010\b",
-   "en": "",
+   "en": "Rio handed the two of them forged passes.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「まず トールマンの話を\r  教えてもらおう」\u0010",
-   "en": "",
+   "en": "\"First, let's hear about Tallman.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「昨夜､丘の上の家に\r  変な灯がついていたわ\u0010\b  おかしいわね\r  あそこは空き家の\r  はずなのに」\u0010",
-   "en": "",
+   "en": "\"Last night there was a strange light on in the house on the hill.\u0010\bOdd, isn't it? That place is supposed to be empty.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「東地区のゲートの番兵は\r  さっきまで､ここで\r  飲んでいたのよ\u0010\b  だいぶ酔ってたみたい\r  だから 門番にならない\r  かもね」\u0010",
-   "en": "",
+   "en": "\"The East District Gate guard was drinking here until just now.\u0010\bHe looked pretty drunk, so he may not be much of a gatekeeper tonight.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「あたしらには\r  貴族達みたいに 逃げ出す\r  別荘なんかないわ」\u0010",
-   "en": "",
+   "en": "\"Folks like us don't have country houses to flee to like the nobles do.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

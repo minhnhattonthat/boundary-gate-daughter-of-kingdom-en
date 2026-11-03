@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "プレリアール公\r「お二人には\r  お礼の申しようもない",
-   "en": "",
+   "en": "Duke Prairial\r\"I know not how I might thank you both.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それにしても 魔導聖堂が\r  これほどの力を\r  持ち始めたとは…",
-   "en": "",
+   "en": "Yet that the Temple of Sorcery should come to wield such power...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  息子のアッシュが\r  気になる情報を知らせて\r  きた",
-   "en": "",
+   "en": "My son Ash has sent me troubling news.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  魔導聖堂の実権を握って\r  いるのは\r  副司祭長デミウスらしい",
-   "en": "",
+   "en": "It seems the true power in the Temple of Sorcery lies with Vice High Priest Demius.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  医療聖堂を取り込み\r  強力な軍隊を作り出そうと\r  していると…」",
-   "en": "",
+   "en": "He has drawn in the Temple of Medicine, they say, and seeks to forge a mighty army...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "プレリアール公\r「医療聖堂はともかく",
-   "en": "",
+   "en": "Duke Prairial\r\"The Temple of Medicine aside,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  なぜ王国の娘が魔導聖堂に\r  味方するのか…",
-   "en": "",
+   "en": "why would the Daughter of the Kingdom side with the Temple of Sorcery...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  王国の娘のもたらす力は\r  人々のためにこそ\r  あるはず…",
-   "en": "",
+   "en": "The power the Daughter of the Kingdom bestows is meant, above all, for the people...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お二人には なにとぞ\r  我々の力になってくださる\r  よう お願い申す」",
-   "en": "",
+   "en": "I beg of you both, lend us your strength, I pray.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "プレリアール公\r「グレイストーン､おまえは\r  この方達と共にゆくのだ",
-   "en": "",
+   "en": "Duke Prairial\r\"Greystone, you will go with them.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  よいな」",
-   "en": "",
+   "en": "Is that understood?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

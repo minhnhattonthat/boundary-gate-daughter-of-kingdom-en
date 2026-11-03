@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女\r「シーダ！」",
-   "en": "",
+   "en": "Woman\r\"Sheeda!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "シーダ\r「メリッサ？！」",
-   "en": "",
+   "en": "Sheeda\r\"Melissa?!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

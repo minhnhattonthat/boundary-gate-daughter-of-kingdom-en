@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「キラル…\r  あなた､わざと…」",
-   "en": "",
+   "en": "Risp\r\"Kiral... you did that on purpose...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「ありがとう…\r  お姉さん…」",
-   "en": "",
+   "en": "Kiral\r\"Thank you... Sister...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「もうあまり時間が無いの…  ゲートを早く…」",
-   "en": "",
+   "en": "Kiral\r\"There isn't much time left... The Gate, quickly...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「キラル？」",
-   "en": "",
+   "en": "Risp\r\"Kiral?\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「キラル！」",
-   "en": "",
+   "en": "Risp\r\"Kiral!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "キラル\r「お姉さん…\r  私達また一緒に…」",
-   "en": "",
+   "en": "Kiral\r\"Sister... We'll be together again...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

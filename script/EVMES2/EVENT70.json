@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "魔導聖堂長\r「そうか…\r  キラルが…",
-   "en": "",
+   "en": "High Priest of Sorcery\r\"I see... So Kiral...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ゲートを操る力を持って\r  生まれたばかりに…",
-   "en": "",
+   "en": "All because she was born with the power to control the Gate...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  不憫な娘じゃ…",
-   "en": "",
+   "en": "Poor child, poor child...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  モーダルグロウを覆う\r  影はいまだ晴れてはおらん",
-   "en": "",
+   "en": "The shadow over Modalglow has yet to lift, my girl.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だが 我々は王国の娘を\r  失い",
-   "en": "",
+   "en": "And we have lost the Daughter of the Kingdom,",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  その秘密を知る\r  医療聖堂の司祭長も\r  死んでしまった」",
-   "en": "",
+   "en": "and the High Priest of the Temple of Medicine, who knew her secret, is dead as well.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リスプ\r「王国の娘は\r  ここにいます…」",
-   "en": "",
+   "en": "Risp\r\"The Daughter of the Kingdom... is here...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

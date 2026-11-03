@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "リオ\r「…たのみがある",
-   "en": "",
+   "en": "Rio\r\"...I got a favour to ask.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いや これは取り引きとは\r  関係ない",
-   "en": "",
+   "en": "No, this ain't got nothin' to do with our deal.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この金属片を\r  ロードダールの\r  鉱山にいる",
-   "en": "",
+   "en": "These metal fragments... take 'em to the mines in Rhodedahl",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  グリソムに届けて\r  くれないか？",
-   "en": "",
+   "en": "and give 'em to Grissom, would ya?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの男ならこの金属に\r  ついて何か知っているに\r  違いない」",
-   "en": "",
+   "en": "If anybody knows somethin' about this metal, it's him.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

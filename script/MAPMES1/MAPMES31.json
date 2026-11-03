@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "アモーク要塞２階",
-   "en": "",
+   "en": "Fort Amok 2F",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "狭い牢の中で 女が鉄格子\rを蹴飛ばしている\u0010\b",
-   "en": "",
+   "en": "In a cramped cell, a woman is kicking at the bars.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助ける",
-   "en": "",
+   "en": "Help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助けない",
-   "en": "",
+   "en": "Don't help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女は おもいっきり\r鉄格子を蹴飛ばし はずみで\r自分もひっくりかえった\u0010",
-   "en": "",
+   "en": "The woman gave the bars an almighty kick, and the recoil knocked her flat on her back.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも鉄格子を\rねじ曲げてしまった\u0010\b",
-   "en": "",
+   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "出てきたのは 酒場で\rアッシュと共にいた女だった\u0010\b",
-   "en": "",
+   "en": "Out came the woman who had been with Ash at the tavern.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女は どんどん\rグレイストーンを引っ張って\rいく\u0010\b",
-   "en": "",
+   "en": "The woman marched off, hauling Greystone along behind her.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンとリスプは\r顔を見合わせ あきれながら\r後を追った\u0010",
-   "en": "",
+   "en": "Finn and Risp exchanged a look and followed, exasperated.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁に山羊の印が\r彫りこまれている\u0010\b",
-   "en": "",
+   "en": "A goat crest is carved into the wall.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女は壁の彫刻をいじっている\u0010\b",
-   "en": "",
+   "en": "The woman fiddled with the carving on the wall.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "       …開かない\u0010\b",
-   "en": "",
+   "en": "...It won't open.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女は 思いきり壁をけとばし\rはずみで自分も\rひっくり返った\u0010\b",
-   "en": "",
+   "en": "The woman kicked the wall as hard as she could, and the recoil sent her tumbling over.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁が開き 上に続く階段が\rあらわれた\u0010",
-   "en": "",
+   "en": "The wall slid open, revealing a staircase leading up.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の中で若い男が叫んだ\u0010\b",
-   "en": "",
+   "en": "A young man in a cell cried out.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -276,9 +276,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ここから出してください」",
-   "en": "",
+   "en": "\"Please, let me out of here!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -287,9 +287,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助ける",
-   "en": "",
+   "en": "Help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -298,9 +298,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助けない",
-   "en": "",
+   "en": "Don't help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -309,9 +309,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンが\r鉄格子をつかんだ\u0010\b",
-   "en": "",
+   "en": "Greystone took hold of the bars.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -320,9 +320,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "",
+   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -331,9 +331,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然 男は笑いだすと\rパーティに襲いかかってきた\u0010\b",
-   "en": "",
+   "en": "Suddenly the man burst out laughing and attacked the party!\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -342,9 +342,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…」\u0010\b",
-   "en": "",
+   "en": "\"...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -353,9 +353,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の中で若い男が叫んだ\u0010\b",
-   "en": "",
+   "en": "A young man in a cell cried out.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -364,9 +364,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -375,9 +375,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ここから出してください」",
-   "en": "",
+   "en": "\"Please, let me out of here!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -386,9 +386,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助ける",
-   "en": "",
+   "en": "Help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -397,9 +397,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助けない",
-   "en": "",
+   "en": "Don't help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -408,9 +408,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンが\r鉄格子をつかんだ\u0010\b",
-   "en": "",
+   "en": "Greystone took hold of the bars.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -419,9 +419,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "",
+   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -430,9 +430,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男",
-   "en": "",
+   "en": "Man",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -441,9 +441,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ありがとうございます\r  おかげで助かりました\u0010\b",
-   "en": "",
+   "en": "\"Thank you so much. You've saved me.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -452,9 +452,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  お礼にこれを受け取って\r  ください」\u0010\b",
-   "en": "",
+   "en": "Please, take this as thanks.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -463,9 +463,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は\r５００Ｇを\r手に入れた\u0010",
-   "en": "",
+   "en": "Finn's party obtained 500G.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -474,9 +474,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "男はフィンに\rヒールリングを\r渡した\u0010\b",
-   "en": "",
+   "en": "The man handed Finn a Heal Ring.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -485,9 +485,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ヒールリングを\r手に入れた\u0010\b",
-   "en": "",
+   "en": "Obtained the Heal Ring.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -496,9 +496,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…」\u0010\b",
-   "en": "",
+   "en": "\"...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -507,9 +507,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の中で若い男が叫んだ\u0010\b",
-   "en": "",
+   "en": "A young man in a cell cried out.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -518,9 +518,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -529,9 +529,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ここから出してください」",
-   "en": "",
+   "en": "\"Please, let me out of here!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -540,9 +540,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助ける",
-   "en": "",
+   "en": "Help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -551,9 +551,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助けない",
-   "en": "",
+   "en": "Don't help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -562,9 +562,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンが\r鉄格子をつかんだ\u0010\b",
-   "en": "",
+   "en": "Greystone took hold of the bars.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -573,9 +573,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "",
+   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -584,9 +584,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然 男は笑いだすと\rパーティに襲いかかってきた\u0010",
-   "en": "",
+   "en": "Suddenly the man burst out laughing and attacked the party!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -595,9 +595,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…」\u0010\b",
-   "en": "",
+   "en": "\"...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -606,9 +606,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "牢の中で若い男が叫んだ\u0010\b",
-   "en": "",
+   "en": "A young man in a cell cried out.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -617,9 +617,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "男\r",
-   "en": "",
+   "en": "Man\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -628,9 +628,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ここから出してください」",
-   "en": "",
+   "en": "\"Please, let me out of here!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -639,9 +639,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助ける",
-   "en": "",
+   "en": "Help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -650,9 +650,9 @@
    "op": "27",
    "group": "choice",
    "jp": "助けない",
-   "en": "",
+   "en": "Don't help",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -661,9 +661,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンが\r鉄格子をつかんだ\u0010\b",
-   "en": "",
+   "en": "Greystone took hold of the bars.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -672,9 +672,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\r気合もろとも\r鉄格子をねじ曲げてしまった\u0010\b",
-   "en": "",
+   "en": "With a mighty heave, Greystone wrenched the bars apart.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -683,9 +683,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然 男は笑いだすと\rパーティに襲いかかってきた\u0010",
-   "en": "",
+   "en": "Suddenly the man burst out laughing and attacked the party!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -694,9 +694,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…」\u0010\b",
-   "en": "",
+   "en": "\"...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

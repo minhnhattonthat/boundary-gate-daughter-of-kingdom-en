@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "誰もいないようだ\u0010",
-   "en": "",
+   "en": "No one seems to be here.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ぶっそうな ご時世だ\u0010\r  武器や防具は ちゃんと\r  装備しとけよ」\u0010\b",
-   "en": "",
+   "en": "\"Dangerous times, these.\u0010 Keep your weapons and armour properly equipped.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さて､どんなご用かな？",
-   "en": "",
+   "en": "Now then, what can I do for you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

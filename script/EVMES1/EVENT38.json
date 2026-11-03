@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "女\r「…味方なら手伝ってよ",
-   "en": "",
+   "en": "Woman\r\"...If you're on our side, then help me out!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  この鉄格子には魔法が\r  きかないんだから」",
-   "en": "",
+   "en": "Magic doesn't work on these bars!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

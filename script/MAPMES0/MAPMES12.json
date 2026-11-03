@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑道地下３階",
-   "en": "",
+   "en": "Mine B3",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ここには もう入れない\u0010",
-   "en": "",
+   "en": "There's no getting in here now.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "不思議な形をした\r石像が倒れている\u0010",
-   "en": "",
+   "en": "A strangely shaped stone statue lies toppled over.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アミュレットを\r使いますか？\u0019\b",
-   "en": "",
+   "en": "Use the Amulet?\u0019\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンが石像を立て直し\rリスプがアミュレットを\rのせ 何かをつぶやいた\u0010\b",
-   "en": "",
+   "en": "Finn set the statue upright, and Risp placed the Amulet on it and murmured something.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "鈍い振動が伝わり\r縦穴からの音が止んだ\u0010\b",
-   "en": "",
+   "en": "A dull tremor ran through the rock, and the noise from the shaft stopped.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "岩陰に老人がうずくまって\rいた\u0010\b足をくじいているらしい\u0010",
-   "en": "",
+   "en": "An old man was crouched behind a rock.\u0010\bHe seemed to have twisted his ankle.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ハンセン老人が リスプに\rアミュレットを手渡した\u0010\b黒く滑らかな石に\r五芒星が彫ってある\u0010\b",
-   "en": "",
+   "en": "Old Hansen handed Risp an amulet.\u0010\bA pentagram was carved into the smooth black stone.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "五芒星のアミュレットを\r手に入れた\u0010",
-   "en": "",
+   "en": "Got the Pentagram Amulet!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "ハンセン\r",
-   "en": "",
+   "en": "Hansen\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「近くに不思議な石像が\r  あるはずじゃ\u0010\b",
-   "en": "",
+   "en": "\"There ought to be a strange stone statue nearby, eh.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そのアミュレットを使って\r  どうか一刻も早く封印を\r  直してくだされ」\u0010",
-   "en": "",
+   "en": "Use that amulet and fix the seal, quick as ya can, I beg ya.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "ここには もう入れない\u0010",
-   "en": "",
+   "en": "There's no getting in here now.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "目の前に 縦穴が 地底深く\r口を開けている\u0010\b",
-   "en": "",
+   "en": "Before us, a shaft gaped open, plunging deep into the earth.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "穴の縁には 不可思議な模様\rの彫られた石が敷き詰めて\rある\u0010\b",
-   "en": "",
+   "en": "Its rim was paved with stones carved in uncanny patterns.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "地の底からは 笛のような\r不思議な音が響いてくる\u0010\b",
-   "en": "",
+   "en": "From the depths came a strange sound, like a flute.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "テケ・リ・リ…\rと繰り返しているようだ\u0010\b",
-   "en": "",
+   "en": "Tekeli-li... it seemed to cry, over and over.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "とても降りていくことは\rできそうにない\u0010\b",
-   "en": "",
+   "en": "There was no way we could climb down there.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン\r「あきらめよう…」\u0010\b",
-   "en": "",
+   "en": "Finn\r\"Let's give up...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -254,9 +254,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンの言葉にリスプは\r返事をしなかった\u0010",
-   "en": "",
+   "en": "Risp gave no answer to Finn.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -265,9 +265,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "不気味な縦穴だ\u0010",
-   "en": "",
+   "en": "An eerie shaft.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑夫の家Ｄ",
-   "en": "",
+   "en": "Miner's House D",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "娘",
-   "en": "",
+   "en": "Girl",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "子供",
-   "en": "",
+   "en": "Child",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「私達も家族を失いました\r  これからどうすれば…」\u0010",
-   "en": "",
+   "en": "\"We lost family too. What are we going to do now...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「お姉ちゃん…\r  パパは いつ\r  帰ってくるの…？」\u0010",
-   "en": "",
+   "en": "\"Sis... When is Papa coming home...?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "突然 リスプが意識を\r失い､崩れ落ちた\u0010",
-   "en": "",
+   "en": "Suddenly, Risp lost consciousness and collapsed.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "メリッサ\r「リスプ！\r  早く宿に戻らなきゃ…",
-   "en": "",
+   "en": "Melissa\r\"Risp! We have to get her back to the inn, now...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  グレイストーン！\r  なにぼさっとしてんの！\r  リスプを運ぶのよ！",
-   "en": "",
+   "en": "Greystone! What are you standing around for?! Carry Risp!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  何言ってんのよ\r  どこ触ったっていいから\r  早く！」",
-   "en": "",
+   "en": "What are you on about? Touch her wherever you like, just hurry!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "グレイストーンは\rリスプを 軽々と\r持ち上げた\u0010\b",
-   "en": "",
+   "en": "Greystone lifted Risp as if she weighed nothing.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィン達は急ぎ足で\r西地区の宿へと\r向かった\u0010\b",
-   "en": "",
+   "en": "Finn and the others hurried off to the inn in the West District.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

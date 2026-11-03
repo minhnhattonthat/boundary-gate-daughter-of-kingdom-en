@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「王国…",
-   "en": "",
+   "en": "Demius\r\"The kingdom...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  私の王国だ…",
-   "en": "",
+   "en": "My kingdom...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  だまされたわけか…",
-   "en": "",
+   "en": "So I was deceived...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  あの娘に",
-   "en": "",
+   "en": "by that girl...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  …この俺が…」",
-   "en": "",
+   "en": "...ME, of all people...\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "デミウス\r「残念だったな\r  王国の娘！",
-   "en": "",
+   "en": "Demius\r\"Too bad for you, Daughter of the Kingdom!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ゲートの守護者！",
-   "en": "",
+   "en": "Guardian of the Gate!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  サブシステムは\r  すべて停止したままだ！",
-   "en": "",
+   "en": "The subsystems all remain shut down!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  再び船を飛ばすことなど\r  できまい！",
-   "en": "",
+   "en": "You'll never make the ship fly again!",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  おまえは始めから\r  破壊と混沌だけを…",
-   "en": "",
+   "en": "From the start, you wanted nothing but destruction and chaos...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  ぐっ…げっ…\r  ぐぅぁーっ！！」",
-   "en": "",
+   "en": "Guh... gah... GRAAAHH!!\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "酒場アルフォース",
-   "en": "",
+   "en": "Alforce Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「おれは最後までこの店を\r  離れんぞ」\u0010",
-   "en": "",
+   "en": "\"I ain't leavin' this place till the very end.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「みんな出ていったぜ\r  どこへだって？\u0010\r  知らんね」\u0010",
-   "en": "",
+   "en": "\"Everybody's cleared out. Where to?\u0010 No idea.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "フィンはリオから預かった\rプレートを見せた\u0010\b",
-   "en": "",
+   "en": "Finn showed the plate Rio had given him.\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "主人\r",
-   "en": "",
+   "en": "Barkeep\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「ん？ プレートを持って\r  いるようだな？」\u0010\b主人は 黙ってプレートを\r確かめているようだ\u0010\b奥の部屋へ入って\r何か話していたが やがて\r中に入るよう告げた\u0010",
-   "en": "",
+   "en": "\"Hm? Got a plate there, have ya?\"\u0010\bThe barkeep silently looked the plate over.\u0010\bHe went into the back room and talked with someone, and before long told them to come in.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「いらっしゃい」\u0010",
-   "en": "",
+   "en": "\"Welcome.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「リオは今朝 街に出て\r  いったきりだぜ\u0010\b  城のことで調べることが\r  あると言っていたが…」\u0010",
-   "en": "",
+   "en": "\"Rio went out into town this morning and ain't been back since.\u0010\bSaid he had somethin' to look into about the castle...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「後からきた男が\r  ひとり残ってたみたい\r  だが…」\u0010",
-   "en": "",
+   "en": "\"Looks like one fella who came later stayed behind, though...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「なぜ 我々が 魔導聖堂の\r  指揮下に入らねば\r  ならない？\u0010\b",
-   "en": "",
+   "en": "\"Why must we place ourselves under the Temple of Sorcery's command?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  いくら 王国の娘の決定\r  とはいえ 納得できん！」\u0010",
-   "en": "",
+   "en": "Daughter of the Kingdom's decision or not, I can't accept it!\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「逃げ出さないガンコ者が\r  街のあちこちにまだいるぜ\u0010\b  ここの主人もその一人\r  だがな」\u0010",
-   "en": "",
+   "en": "\"There's still stubborn folks all over town who won't run.\u0010\bThe owner here's one of 'em.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「トーナムは アモーク要塞\r  の入口みたいなもんだ\u0010\b  そこで騒ぎがおきている\r  らしい」\u0010",
-   "en": "",
+   "en": "\"Tornam's sort of the gateway to Fort Amok.\u0010\bSeems there's some trouble brewing there.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「知識聖堂は 政治には関与\r  しないしきたりだったが…\u0010\b  ここまで魔導聖堂が\r  力を広げるとはなぁ…」\u0010\b",
-   "en": "",
+   "en": "\"By custom, the Temple of Knowledge always stayed out of politics...\u0010\bWho'd have thought the Temple of Sorcery would spread its power this far...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

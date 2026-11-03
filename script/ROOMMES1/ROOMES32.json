@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "坑夫の家Ａ",
-   "en": "",
+   "en": "Miner's House A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "坑夫",
-   "en": "",
+   "en": "Miner",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "家の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「俺が生まれる ずっと前に\r  同じようなことがあった\r  らしい」\u0010\b",
-   "en": "",
+   "en": "\"Seems somethin' like this happened once before, long before I was born.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

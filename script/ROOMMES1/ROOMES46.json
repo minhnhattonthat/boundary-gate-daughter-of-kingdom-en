@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ａ",
-   "en": "",
+   "en": "Patron A",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｂ",
-   "en": "",
+   "en": "Patron B",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客Ｃ",
-   "en": "",
+   "en": "Patron C",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "地図",
-   "en": "",
+   "en": "Map",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "28",
    "group": "menu",
    "jp": "宿の外",
-   "en": "",
+   "en": "Leave inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港が再開して､ひとまず\r  ホッとしたよ」\u0010\b",
-   "en": "",
+   "en": "\"With the harbour open again, what a relief.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「３日前に アンブローズ\r  のお偉いさんが\u0010\b  アモーク要塞に渡った\r  んだよ」\u0010\b",
-   "en": "",
+   "en": "\"Three days ago, some bigwig from Ambrose\u0010\bcrossed over to Fort Amok.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "何か御用ですか？",
-   "en": "",
+   "en": "Is there something you need?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港から 逃げ出す前に\r  ちらっと見たんだが…\u0010\b  光の渦から 化け物が\r  出てきていたようだ」\u0010",
-   "en": "",
+   "en": "\"I caught a glimpse before I ran from the harbour...\u0010\bLooked like monsters were coming out of a vortex of light.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「港に御用がおありですか？\r\u0017  ご相談したいことが\r  あるのですが…\u0010\b",
-   "en": "",
+   "en": "\"Have you business at the harbour? \u0017There is something I would like to discuss with you...\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  西の袋小路まで\r  来ていただけませんか？\u0019",
-   "en": "",
+   "en": "Would you come to the dead end on the west side?\u0019",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  そうですか…\r  その気になったら\r  また来てください」\u0010",
-   "en": "",
+   "en": "I see... If you change your mind, please come again.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  それでは 西の袋小路で\r  お待ちしています」\u0010",
-   "en": "",
+   "en": "Then I will be waiting at the dead end on the west side.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「今度の騒ぎと魔導聖堂が\r  関係ある？\u0010\b",
-   "en": "",
+   "en": "\"The Temple of Sorcery, mixed up in this latest trouble?\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  めったなことは\r  言わんことだ」\u0010",
-   "en": "",
+   "en": "You'd best not go sayin' such things.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "壁には エルシノア湖周辺の\r地図がかけてある\u0010",
-   "en": "",
+   "en": "On the wall hangs a map of the area around Lake Elsinore.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

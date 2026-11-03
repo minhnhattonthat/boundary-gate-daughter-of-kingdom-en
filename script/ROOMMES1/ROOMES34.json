@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "客",
-   "en": "",
+   "en": "Patron",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "28",
    "group": "menu",
    "jp": "店の外",
-   "en": "",
+   "en": "Go outside",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "1c",
    "group": "npc",
    "jp": "主人",
-   "en": "",
+   "en": "Innkeeper",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「うちは上等の品ばかりだ\r  少し値が張るがな」\u0010\b",
-   "en": "",
+   "en": "\"Only top-quality goods here. They cost a bit more, mind.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「こんな状態のおかげで\r  品がなくなりそうだよ」\u0010\b",
-   "en": "",
+   "en": "\"With things the way they are, I'm about to run out of stock.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "さて どんな御用ですか？",
-   "en": "",
+   "en": "Now, what can I do for you?",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「エルシノア湖を渡るなら\r  トーナムから\r  船に乗らなきゃな」\u0010",
-   "en": "",
+   "en": "\"If you want to cross Lake Elsinore, you'll need to take a boat from Tornam.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「王国の娘の姿をみたこと\r  あるかい？\u0010\b  遠くからだったけど\r  本当にきれいだったぜ」\u0010",
-   "en": "",
+   "en": "\"Ever laid eyes on the Daughter of the Kingdom?\u0010\bI only saw her from far off, but she was a real beauty.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

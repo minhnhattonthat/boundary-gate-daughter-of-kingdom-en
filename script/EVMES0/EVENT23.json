@@ -12,9 +12,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "アッシュ\r「私が 反魔導聖堂組織の\r  リーダー､アッシュだ",
-   "en": "",
+   "en": "Ash\r\"I am Ash, leader of the resistance against the Temple of Sorcery.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  君達のことは リオから\r  報告を受けている…",
-   "en": "",
+   "en": "Rio has reported to me about you two...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  知識聖堂の権威を\r  軽んじるつもりはないが…",
-   "en": "",
+   "en": "I have no wish to make light of the Temple of Knowledge's authority, but...",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  時期が 時期だけに\r  城に入るのは簡単なこと\r  ではない",
-   "en": "",
+   "en": "at a time like this, getting into the castle is no simple matter.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  しばらくの間\r  プレリアール公の館に\r  世話になるといい",
-   "en": "",
+   "en": "For the time being, you should stay at Duke Prairial's manor.",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "  彼は 先頭に立って\r  魔導聖堂のやり方に反対\r  している地方領主だ」",
-   "en": "",
+   "en": "He is a provincial lord who leads the opposition to the Temple of Sorcery's methods.\"",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

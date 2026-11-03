@@ -12,9 +12,9 @@
    "op": "23",
    "group": "location",
    "jp": "五芒星の紋章の迷宮\r                  地下１階",
-   "en": "",
+   "en": "Pentagram Crest Labyrinth\rB1",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "グレイストーン\r",
-   "en": "",
+   "en": "Greystone\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「…不気味な声が」\u0010\b",
-   "en": "",
+   "en": "\"...An eerie voice.\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "五芒星の印の鍵を持たぬ\rもの立ち去れ！\u0010",
-   "en": "",
+   "en": "Those who bear not the Pentagram Crest Key, begone!\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]

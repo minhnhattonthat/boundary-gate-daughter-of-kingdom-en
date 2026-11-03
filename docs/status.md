@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (engine spike + marker build) done 2026-11-04. Next: phase 6 (translate in batches).
+- **Phase:** 6 (translate) done 2026-11-04. Next: phase 7 (insert, fit, check).
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
@@ -74,20 +74,48 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - **Heap headroom**: MAPMES00's script grown by 4 KB and by **64 KB** still boots a town map, a room, a battle and
     the field menu (shots `work/qa/grow*/`). Scripts are all < 4.2 KB originally, so English growth is safe.
   - VWF rejected: fixed-pitch half-width ASCII, every printable glyph present (docs/decisions.md D9).
-- **Next (phase 6):** translate in batches. Before dispatch:
-  - add `box`/`max` to the JSON entries from `docs/re/windows.md` (message pages 26x3; item/shop name 20, spell 22,
-    equipped 30, party name 14, location 24) so the lint can check each line against its own budget;
-  - write the lint (`tools/lint.py`, wired into `tools/check.py`): row cells vs budget, rows per page, control-code
-    multiset JP==EN, glossary terms, `::` for ':', no `@`/`\`, leftover Japanese, stub last lines, leading/trailing
-    blanks;
-  - add `EXTRA` warp scenes (`tools/debug/mkscenes.py`) that get past a room's entry dialogue, to measure the choice
-    window (0x27) and the room list (0x1c/0x28/0x4e) — the last guesses in the width gate;
-  - batches by `group`; glossary in `glossary.md`.
-- **Next (phase 7):** exe relocation for strings longer than their field; then the real insert (mode `en`).
-- **Open questions (non-blocking):** whether events are voiced (CDDA `EVnnX.WAV`, `XA/`); title katakana line plan
+- **Done (phase 6)** — every translatable string has English: **2,232/2,232 unique JP strings** (2,751 entries;
+  identical JP = identical English) in `script/*.json` `en` (status `tl`); `python -X utf8 tools/lint.py` 0 errors.
+  - Tools: `tools/wrap.py` (budgets per op/exe group + the dialogue layout: word-wrap to 26 cells, 3 rows a page or
+    2 under a 0x21 speaker, automatic `\x10\x08` page break when a page overflows, 1-space hanging indent inside a
+    quote, continuation entries (JP starts indented) continue the quote), `tools/lint.py` (in `tools/check.py`:
+    controls, printf order, name row `Name\r"`, speaker trailing `\r`, glossary + Avoid, honorifics on names,
+    budgets hard/soft, exe byte slots as warnings), `tools/batches.py split|check|merge|fit|pairs` (TSV batches in
+    `work/tl/`, gitignored), `tests/test_wrap.py`.
+  - Docs: `glossary.md` (names D10, titles D11, British spelling, wave-1 terms), `docs/synopsis.md`,
+    `docs/style-reference.md`, `docs/translator-brief.md`, `docs/reviewer-brief.md`, `docs/polish.md` (all reviewer
+    Minors, unticked: phase 9 polish pass).
+  - Run: 17 batches (b001-b012 script, b013-b017 exe), 5 translator agents, 14 reviewer reports, all **Approved**;
+    the 9 Important findings were fixed and re-checked before merge (EVENT35 smile answer, EVENT82 口移し/境界の門,
+    ROOMES27 Rio voice, MAPMES31 choice object, MAPMES33 dead soldier, exe:01078 bridge, and term drift).
+  - `en` is **paragraph form**: `\r` only where a break is forced (name rows, speaker lines, banners, exe rows); the
+    build must lay out 0x22 entries with `wrap.layout(en, wrap.rows_budget(prev_op), quote=wrap.continues_quote(jp))`
+    — `insert.py text_for('en')` does not call it yet (phase 7).
+  - exe:00974 (`原\x01`) reclassified as data (`extract.NOT_TEXT`).
+- **Next (phase 7):** insert, fit, check:
+  - wire `wrap.layout` into `insert.py` for op 0x22 (see above) and `sjis.encode_en` for script text; exe text keeps
+    `::`/`:%c` as stored (encode with `sjis.encode`).
+  - **exe relocation**: 173 exe strings are longer than their byte slot (`lint.py --warn | grep relocation`): item,
+    spell, monster, map and menu names, battle/shop/save messages, prologue/ending/credits. Pointers are in each
+    entry's `refs` (data words and lui/addiu pairs). Candidate space: zero runs listed in `docs/re/text.md` §Free space
+    (trap-fill first), the debug-menu/debug-room strings.
+  - **tight fixed fields that need engine work, not text**: status-effect slots `%2s`/`%4s` (exe:00b28, 00fc8: 毒/眠/黙
+    -> Poison/Sleep/Silence), the field-menu column (exe:01000, 4 cells per label), equip label `%8s` (exe:00c8c),
+    battle command block 6 cells (exe:04680-046a4: Fight/Run/Weapon/Status/Magic/Items).
+  - **memory-card title** pieces (exe:03618/03638/03658/0365c) are shown by the BIOS card manager, which expects
+    Shift-JIS: convert the English to full-width at insert time, or keep them.
+  - measure the still-guessed widths in-game: choice 0x27 (10), npc 0x1c (16), room menu 0x28 (12)/0x4e (22);
+    5 lines exceed those guesses (`lint.py --warn | grep -v exe`), e.g. "East Watchtower" (15 > 12). Needs `EXTRA`
+    warp scenes past a room's entry dialogue (`tools/debug/mkscenes.py`).
+  - then `build.py` English build + smoke + `romdiff.py` ranges.
+- **Open questions (non-blocking):** events are voiced (the credits list a voice cast; CDDA `EVnnX.WAV`, `XA/`):
+  English text runs over Japanese voice, so page breaks added by the layout must not desync timed pages (check the
+  auto-advancing EVENT00 prologue in phase 8); title katakana line plan
   (graphics.md G1); the title-screen menu labels are exe `boot` strings (marked in the marker build: 10/4/4 digits),
   the katakana subtitle under the logo is the one known graphic. QA builds (`--marker`/`--ruler`/`--torture`/
   `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
   build they were made on (the warp cold-boots, so this only matters for state reuse).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** nothing blocking. Non-blocking: name spellings chosen without an official source
+  (D10: Risp, Kiral, Modalglow, Rhodedahl, Prairial, Sheeda...); swap any in `glossary.md` and the lint flags every
+  line to change.

@@ -12,9 +12,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "見張り\r",
-   "en": "",
+   "en": "Lookout\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -23,9 +23,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「坑道は立入禁止だ\u0010\b  穴から 化け物どもが\r  飛び出してきたんだ」\u0010",
-   "en": "",
+   "en": "\"The mine's off-limits.\u0010\bMonsters came pourin' out of the shaft.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -34,9 +34,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「作業用の非常口を使え\u0010\b  せまいから化け物も\r  出てこれまい」\u0010",
-   "en": "",
+   "en": "\"Use the workers' emergency exit.\u0010\bIt's narrow, so the monsters can't get out that way.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -45,9 +45,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「グリソムはどこに…」\u0010\b",
-   "en": "",
+   "en": "\"Where's Grissom...\"\u0010\b",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -56,9 +56,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "見張り\r",
-   "en": "",
+   "en": "Lookout\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -67,9 +67,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「このでかい扉も\r  いつまでもつか…」\u0010",
-   "en": "",
+   "en": "\"How long will this big door hold...\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -78,9 +78,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「鉱山長の許しがあるなら\r  かまわんが…\u0010\b  あんたら正気か？」\u0010",
-   "en": "",
+   "en": "\"If the mine overseer's given the say-so, fine by me...\u0010\bBut are you folks out of your minds?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -89,9 +89,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「人々を救ってくれて\r  ありがとう」\u0010",
-   "en": "",
+   "en": "\"Thank you for saving everyone.\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -100,9 +100,9 @@
    "op": "25",
    "group": "building",
    "jp": "鉱山管理事務所",
-   "en": "",
+   "en": "Mine Management Office",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -111,9 +111,9 @@
    "op": "25",
    "group": "building",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -122,9 +122,9 @@
    "op": "25",
    "group": "building",
    "jp": "グリソムの家",
-   "en": "",
+   "en": "Grissom's House",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -133,9 +133,9 @@
    "op": "25",
    "group": "building",
    "jp": "坑夫の家",
-   "en": "",
+   "en": "Miners' Houses",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -144,9 +144,9 @@
    "op": "25",
    "group": "building",
    "jp": "坑夫の家",
-   "en": "",
+   "en": "Miners' Houses",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -155,9 +155,9 @@
    "op": "25",
    "group": "building",
    "jp": "坑夫の家",
-   "en": "",
+   "en": "Miners' Houses",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -166,9 +166,9 @@
    "op": "25",
    "group": "building",
    "jp": "坑夫の家",
-   "en": "",
+   "en": "Miners' Houses",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -177,9 +177,9 @@
    "op": "25",
    "group": "building",
    "jp": "武具屋",
-   "en": "",
+   "en": "Arms Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -188,9 +188,9 @@
    "op": "25",
    "group": "building",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -199,9 +199,9 @@
    "op": "25",
    "group": "building",
    "jp": "治療院",
-   "en": "",
+   "en": "Clinic",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -210,9 +210,9 @@
    "op": "25",
    "group": "building",
    "jp": "宿屋",
-   "en": "",
+   "en": "Inn",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -221,9 +221,9 @@
    "op": "21",
    "group": "speaker",
    "jp": "見張り\r",
-   "en": "",
+   "en": "Lookout\r",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -232,9 +232,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "「坑道は立入禁止だと\r  いっているだろ！\u0010\b  命が惜しくないのか？」\u0010",
-   "en": "",
+   "en": "\"I told ya, the mine's off-limits!\u0010\bDon't you care if you live?\"\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -243,9 +243,9 @@
    "op": "22",
    "group": "dialogue",
    "jp": "住宅地が見える\u0010",
-   "en": "",
+   "en": "The houses are in view.\u0010",
    "kind": "text",
-   "status": "",
+   "status": "tl",
    "notes": ""
   }
  ]
