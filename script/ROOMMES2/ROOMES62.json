@@ -23,10 +23,10 @@
    "op": "4e",
    "group": "menu",
    "jp": "アンブローズ北地区大門",
-   "en": "Ambrose\rNorth District Great Gate",
+   "en": "Ambrose Great Gate",
    "kind": "text",
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: list row is 24 cells and one row an entry (a \\r splits the entry across two cursor rows)"
   },
   {
    "id": "ROOMES62:4fafc",
@@ -56,10 +56,10 @@
    "op": "4e",
    "group": "menu",
    "jp": "五芒星の紋章の迷宮",
-   "en": "Pentagram Crest Labyrinth",
+   "en": "Pentagram Labyrinth",
    "kind": "text",
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: list row is 24 cells"
   },
   {
    "id": "ROOMES62:4fb3b",

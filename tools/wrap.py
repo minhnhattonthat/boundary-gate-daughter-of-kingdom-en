@@ -16,7 +16,7 @@ Rows inside an open "quote" get a one-space hanging indent (the JP indents its q
 import re
 
 COLS, ROWS = 26, 3
-CLR, WAIT = '\x08', '\x10'
+CLR, WAIT, CHOICE = '\x08', '\x10', '\x19'
 PAGE = WAIT + CLR
 # Voiced events advance on their own and never wait for a button; a button wait there stalls the scene before its
 # window shows (phase 8, EVENT68). Their extra pages wait 3 x 60 frames (printer byte 0x17) instead.
@@ -25,7 +25,9 @@ TIMED_PAGE = '\x17\x17\x17' + CLR
 # script fields: op -> (cells, hard). hard = measured; soft = guess until phase 8 measures it.
 FIELD = {'21': (26, True), '23': (26, True), '25': (24, True),
          # 0x1c NPC list: drawn in the 26-cell message window after a 1-cell cursor (phase 7, npcs_53)
-         '1c': (25, True), '27': (10, False), '28': (25, False), '4e': (25, False)}
+         '1c': (25, True), '27': (10, False),
+         # 0x28/0x4e destination lists: text from cell 2 (cursor in 0-1), one row an entry (phase 8, room_62)
+         '28': (24, True), '4e': (24, True)}
 
 # printf conversions: worst-case cells drawn (used for exe budget checks)
 PRINTF = re.compile(r'%[-+ 0#]*(\d*)(l?)([sdcx])')
@@ -116,46 +118,70 @@ def _rows_of(seg, cols, quote):
     return rows, quote
 
 
-def _balance(rows, first_max, rows_max=ROWS):
-    """Cut rows into the fewest pages (the first holds <= first_max rows: 2 under a speaker line; later pages
-    rows_max, the clear wipes the name row too). Of those cuts, pages end at a sentence end (or an existing button
-    wait) where they can, then as even as possible: 4 rows -> 2+2, 7 -> 3+2+2, so an overflow rarely leaves a
-    one-row fragment page ("moves.") after a full one or splits "weapons and / armour" across pages."""
-    n = len(rows)
-    if n <= first_max:
-        return [rows]
-    m = -(-(n - first_max) // rows_max)          # pages after the first
+_FUNC = set('a an the of to and or in on at with for by from into is are was were be as that this these my your '
+            'our their his her its we i you he she it they but if so not no'.split())
 
-    def cut(row):                                # how badly a page ending on this row cuts the text
-        row = row.rstrip()
-        return 0 if re.search(r'([.!?]|\.\.\.|' + WAIT + ')["\')]*$', row) else 1 if re.search(r'[,;:-]$', row) else 2
 
-    def splits(left, k, cap):                    # every way to cut `left` rows into k pages of <= cap rows
-        if k == 1:
-            yield [left] if 1 <= left <= cap else None
-            return
-        for s in range(1, min(cap, left - k + 1) + 1):
-            for t in splits(left - s, k - 1, cap):
-                if t:
-                    yield [s] + t
+def _cut(word):
+    """How badly ending a page after this word cuts the text: sentence end (or a JP button wait) 0, clause 1,
+    content word 4, function word 6 ('Temple of / Knowledge', 'weapons and / armour')."""
+    if re.search(r'([.!?]|\.\.\.|' + WAIT + ')["\')]*$', word):
+        return 0
+    if re.search(r'([,;:]|--)["\')]*$', word):
+        return 1
+    return 6 if word.strip('"\'(').lower() in _FUNC else 4
 
-    best = None
-    for f in range(1, first_max + 1):
-        for rest in splits(n - f, m, rows_max) if n - f >= m else ():
-            if not rest:
+
+def _paginate(seg, cols, quote, first_max, rows_max=ROWS, choice=False):
+    """Word-wrap one segment into pages: the first holds <= first_max rows (2 under a speaker line), later ones
+    rows_max (the clear wipes the name row too). Text that fits stays one page. Otherwise each page is wrapped on
+    its own and the cut points are chosen (DP over words) to cost least: 2 a page, _cut() at each page end, 1 a
+    lone-row page (except a first page under a speaker line); so pages start at sentences where they can.
+    Returns (pages, quote_after)."""
+    rows, quote_end = _rows_of(seg, cols, quote)
+    rows = [r.rstrip() for r in rows]
+    while rows and not rows[-1].strip():
+        rows.pop()
+    last = 1 if choice or CHOICE in seg else 0   # an inline choice (0x19) takes the row after the text
+    if len(rows) <= first_max - last:
+        return [rows], quote_end
+    toks = []                                    # (word, starts a \r paragraph)
+    for k, para in enumerate(seg.split('\r')):
+        ws = [w for w in para.split(' ') if w] or ['']
+        toks += [(w, k > 0 and x == 0) for x, w in enumerate(ws)]
+    qs = [quote]
+    for w, _ in toks:
+        qs.append(qs[-1] ^ (w.count('"') % 2 == 1))
+
+    def page(i, j):
+        text = ''.join(('\r' if p else ' ') * (t > i) + w for t, (w, p) in enumerate(toks[i:j], i))
+        r = [x.rstrip() for x in _rows_of(text, cols, qs[i])[0]]
+        while r and not r[-1].strip():
+            r.pop()
+        return r
+
+    n, best = len(toks), {len(toks): (0, [])}
+    for i in range(n - 1, -1, -1):
+        cap = first_max if i == 0 else rows_max
+        for j in range(i + 1, n + 1):
+            r = page(i, j)
+            if len(r) > cap:
+                break
+            if j == n and len(r) > cap - last:
                 continue
-            sizes = [f] + rest
-            ends = [sum(sizes[:i + 1]) - 1 for i in range(len(sizes) - 1)]
-            # page ends at sentence ends first, then no lone-row pages, then even; a lone row reads better first
-            score = (sum(cut(rows[e]) for e in ends), sizes.count(1), max(sizes) - min(sizes), f,
-                     [-s for s in rest])         # then fuller pages first
-            best = min(best or (score, sizes), (score, sizes))
-    sizes = best[1]
-    out, at = [], 0
-    for n in sizes:
-        out.append(rows[at:at + n])
-        at += n
-    return out
+            cost = 2 + (_cut(toks[j - 1][0]) if j < n else 0) + (len(r) == 1 and (i > 0 or cap == rows_max))
+            cand = (cost + best[j][0], [r] + best[j][1])
+            if i not in best or (cand[0], len(cand[1])) < (best[i][0], len(best[i][1])):
+                best[i] = cand
+    if 0 not in best:                            # a word longer than a page: plain row cuts
+        caps = [first_max] + [rows_max] * len(rows)
+        out, at = [], 0
+        for c in caps:
+            if at < len(rows):
+                out.append(rows[at:at + c])
+                at += c
+        return out, quote_end
+    return best[0][1], quote_end
 
 
 def continues_quote(jp):
@@ -167,7 +193,7 @@ def layout(en, rows_max=ROWS, cols=COLS, quote=False, page=PAGE):
     """Paragraph-form English -> (game string, pages). pages = list of row lists (for checks/fit).
 
     Splits at clear (\\x08); a wait (\\x10) not followed by clear stays inside the page. Overflowing
-    pages are cut into extra pages at row boundaries with \\x10\\x08. `quote`: the entry starts inside
+    pages become extra pages (_paginate) joined by `page` (\\x10\\x08). `quote`: the entry starts inside
     a quote opened by an earlier entry (continues_quote), so its rows get the hanging indent."""
     out, pages = [], []
     for i, seg in enumerate(en.split(CLR)):
@@ -180,11 +206,8 @@ def layout(en, rows_max=ROWS, cols=COLS, quote=False, page=PAGE):
         if not seg.strip():
             out.append(seg + tail)
             continue
-        rows, quote = _rows_of(seg, cols, quote)
-        rows = [r.rstrip() for r in rows]
-        while rows and not rows[-1].strip():
-            rows.pop()
-        chunks = _balance(rows, rows_max if i == 0 else ROWS)   # a clear wipes the speaker row too
+        chunks, quote = _paginate(seg, cols, quote, rows_max if i == 0 else ROWS,   # a clear wipes the speaker row
+                                  choice=CHOICE in tail)
         pages.extend(chunks)
         out.append(page.join('\r'.join(c) for c in chunks) + tail)
     return ''.join(out), pages

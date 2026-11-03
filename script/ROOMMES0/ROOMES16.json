@@ -23,10 +23,10 @@
    "op": "4e",
    "group": "menu",
    "jp": "アンブローズ北地区大門",
-   "en": "Ambrose\rNorth District Great Gate",
+   "en": "Ambrose Great Gate",
    "kind": "text",
    "status": "tl",
-   "notes": ""
+   "notes": "no-glossary: list row is 24 cells and one row an entry (a \\r splits the entry across two cursor rows)"
   },
   {
    "id": "ROOMES16:10e1f",

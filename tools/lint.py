@@ -34,7 +34,9 @@ def units():
             if e['kind'] == 'text':
                 spk = W.to_tsv(prev_text).strip(' /') if prev == '21' and e['op'] == '22' else ''
                 # NPC-list (0x1c) and speaker (0x21) labels are per room: 主人 is Innkeeper, Barkeep or Shopkeeper
-                key = ('s', e['jp'], rel) if e['op'] in ('1c', '21') else ('s', e['jp'])
+                # speaker/NPC labels vary per room; destination-list rows (24 cells) may shorten a name
+                key = ('s', e['jp'], rel) if e['op'] in ('1c', '21') else \
+                    ('l', e['jp']) if e['op'] in ('28', '4e') else ('s', e['jp'])
                 if key not in seen:
                     seen[key] = {'jp': e['jp'], 'ids': [], 'entries': [], 'prev': [], 'speaker': spk,
                                  'src': rel, 'exe': False}

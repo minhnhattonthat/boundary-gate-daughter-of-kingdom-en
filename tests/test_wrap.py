@@ -12,26 +12,32 @@ def test_layout_wraps_and_pages():
     assert all(W.cells(r) <= W.COLS for p in pages for r in p)
     assert all(len(p) <= 3 for p in pages)
     assert pages[0][0] == 'Risp' and pages[0][1].startswith('"')
-    assert [len(p) for p in pages] == [2, 2]           # 4 rows: balanced, not 3 + 1
+    assert len(pages) == 2 and pages[0][-1].endswith('sister.')   # 4 rows: cut at the sentence, not 3 + 1
     assert pages[1][0].startswith(' ')                 # hanging indent inside the quote
     assert game.endswith('\x10') and W.PAGE in game     # auto page break, trailing wait kept
     assert W.controls(game) == ['\x10']
 
 
-def test_overflow_pages_are_balanced():
-    sizes = lambda n, first: [len(p) for p in W._balance([f'row{i}' for i in range(n)], first)]  # noqa: E731
-    assert sizes(4, 3) == [2, 2] and sizes(7, 3) == [2, 3, 2] and sizes(3, 3) == [3]
-    assert sizes(4, 2) == [2, 2] and sizes(5, 2) == [2, 3] and sizes(3, 2) == [1, 2]  # under a speaker
-    assert W._balance([], 3) == [[]]
-
-
 def test_overflow_pages_end_at_sentences():
-    """A page ends where a sentence (or a JP button wait) does when the page count allows it (phase 8 QA:
-    'Keep your weapons and / armour properly equipped.' was cut across pages)."""
-    rows = ['"Dangerous times, these.\x10', ' Keep your weapons and', ' armour properly', ' equipped."']
-    assert [len(p) for p in W._balance(rows, 3)] == [1, 3]
-    rows = ['One two three.', 'Four five', 'six seven.', 'Eight.']
-    assert [len(p) for p in W._balance(rows, 3)] == [1, 3]
+    """Overflow pages start at sentences (or after a JP button wait) where they can, and never end on a function
+    word when a content word or clause will do (phase 8 QA: 'weapons and / armour', 'Temple of / Knowledge')."""
+    _, p = W.layout('"Dangerous times, these.\x10 Keep your weapons and armour properly equipped."', 3)
+    assert p == [['"Dangerous times, these.\x10'], [' Keep your weapons and', ' armour properly', ' equipped."']]
+    _, p = W.layout('"I was walking down the street when all of a sudden I got blown off my feet... '
+                    'When I came to, I was lying here."', 3)
+    assert len(p) == 2 and all(len(x) <= 3 for x in p)
+    assert all(W._cut(x[-1].split()[-1]) < 6 for x in p[:-1])
+    _, p = W.layout('One two three four five six seven eight nine ten eleven twelve thirteen.', 1, cols=12)
+    assert len(p[0]) == 1 and all(len(x) <= 3 for x in p)   # still fits whatever the cuts cost
+    assert W.layout('Short.', 3)[1] == [['Short.']]
+
+
+def test_choice_keeps_its_row():
+    """An inline choice (0x19) draws on the row after the text: the last page leaves it one row (room_46)."""
+    _, p = W.layout('Would you come to the dead end on the west side?\x19', 3, quote=True)
+    assert len(p[-1]) <= 2
+    _, p = W.layout('Would you come to the dead end in the west?\x19', 3, quote=True)
+    assert len(p) == 1 and len(p[0]) == 2
 
 
 def test_continuation_indent():

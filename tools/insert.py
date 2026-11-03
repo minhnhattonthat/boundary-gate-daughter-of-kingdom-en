@@ -209,6 +209,27 @@ FORMAT_EN = {
 EXTRA_STRINGS = [('Psn', 'exe:00abc', [0x152c8])]
 
 
+MONSTERS, MONSTER_SIZE = 0x66e58, 0x84    # monster records in the exe: name pointer +0, action pointers +0x24..
+_WRAPPED = None
+
+
+def _wrapped_actions():
+    """Monster actions print after the monster's name and the battle window cuts at 26 cells mid-word ('brea' /
+    'th!'). Ids of the actions that can overflow behind the longest name using them (+2 for an 'A'/'B' suffix,
+    +1 space): the build starts those on their own row."""
+    ents = [e for e in entries_of(EXE) if e['group'] == 'monsters' and e.get('en')]
+    rec = lambda r: r - (r - MONSTERS) % MONSTER_SIZE   # noqa: E731
+    names = {rec(int(r, 16)): e['en'] for e in ents for r in e['refs']
+             if int(r, 16) >= MONSTERS and (int(r, 16) - MONSTERS) % MONSTER_SIZE == 0}
+    out = set()
+    for e in ents:
+        users = [names.get(rec(int(r, 16)), '') for r in e['refs'] if int(r, 16) >= MONSTERS]
+        if users and (int(e['refs'][0], 16) - MONSTERS) % MONSTER_SIZE and \
+                max(map(len, users)) + 3 + wrap.cells(e['en']) > 26:
+            out.add(e['id'])
+    return out
+
+
 def en_exe(entry):
     """English for an exe string as the build writes it."""
     eid, jp, en = entry['id'], entry['jp'], entry['en']
@@ -216,6 +237,12 @@ def en_exe(entry):
         return FORMAT_EN[eid]
     if not en or eid in CARD_KEEP:
         return jp
+    if entry['group'] == 'monsters':
+        global _WRAPPED
+        if _WRAPPED is None:
+            _WRAPPED = _wrapped_actions()
+        if eid in _WRAPPED:
+            return '\n' + en
     if eid in CARD_FULLWIDTH:
         return fullwidth(en)
     if jp != jp.rstrip(' 　') and en == en.rstrip(' '):
