@@ -208,3 +208,10 @@ Minor review findings, deferred to one polish pass (phase 9). Each line gets tic
 - [x] MAPMES29:92909/9299f, MAPMES35:99ea7 - present "hangs"/"seems" before past actions -> past tense, unless the translator brief's present-tense scene-description rule applies (as for the ROOMES descriptions above) -- fixed
 - [x] ROOMES30:1a171 - "Good for him" dismissive -> "Heard old Hansen made it out alive? Glad to hear it." -- fixed
 - [x] ROOMES50:0c380 - Greystone "Boy. Warehouse corner. Huddled." too fragmented -> "Boy huddled in the corner." -- fixed
+
+## Story pass round 3 (all 12 chapters ok)
+- [x] EVENT71:12e75 - "Kiral's twin sister, the elder..." awkward -> "I am Kiral's elder twin sister..." -- fixed
+- [x] MAPMES36:90ac8 (+ banner ROOMES39:15b7d) - "Army Liaison Post" vs glossary 連絡所 "Army Post" -> "Army Post" -- fixed
+- [x] ROOMES05:14c4e - apprentice "I just follow my master" -> "I'll stick with my master." -- fixed
+- [x] ROOMES13:5002f - present-tense watchtower description -- waived: room descriptions stay present tense (translator brief), as ruled above
+- [x] ROOMES62:4fb24 - "Pentagram Crest Labyrinth" -- waived: 25 cells, the destination row holds 24 (see above)
