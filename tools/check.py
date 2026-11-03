@@ -15,4 +15,7 @@ lint = subprocess.run([sys.executable, '-X', 'utf8', 'tools/extract.py', 'check'
 for line in (lint.stdout or '').splitlines():
     if line.startswith(('FAIL', 'check:')):
         print(line)
-sys.exit(lint.returncode)
+if lint.returncode:
+    sys.exit(lint.returncode)
+# translation lint: every `en` against its budget, controls, glossary (tools/lint.py)
+sys.exit(subprocess.run([sys.executable, '-X', 'utf8', 'tools/lint.py'], cwd=ROOT).returncode)
