@@ -130,7 +130,7 @@ def _cut(word, nxt=''):
     'Ancient / Knowledge')."""
     if re.search(r'([.!?]|\.\.\.|' + WAIT + ')["\')]*$', word):
         return 0
-    if re.search(r'([,;:]|--)["\')]*$', word):
+    if re.search(r'([,;:]|--)["\')]*$|"$', word):   # a closing quote ends a title: '...Culture" / "Forming'
         return 1
     w, n = word.strip('"\'(.'), nxt.strip('"\'(')
     if w[:1].isupper() and (n == 'of' or n[:1].isupper()) and w.lower() not in _FUNC or \

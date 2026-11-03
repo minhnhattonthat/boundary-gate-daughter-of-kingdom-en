@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit, check) done 2026-11-04. Next: phase 8 (QA in the emulator).
+- **Phase:** 8 (QA in the emulator) done 2026-11-04. Next: phase 9 (release: story pass per chapter,
+  `docs/polish.md`, release script, jp_left on the release build, debug tool off, xdelta + README + zip).
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
@@ -113,7 +114,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Menus/battle/shop/save/healer/game over/ending shots: `work/qa/p7c`, `p7d`, `p7e`, `p7f` (all clean).
   - **All 220 warp scenes pass** on the English build from a cold boot (`warp.py --all`, shots
     `work/qa/en_all/`, not yet reviewed shot by shot: phase 8).
-- **Phase 8 (QA in the emulator)** — in progress; details `docs/re/windows.md` §Measured in phase 8:
+- **Done (phase 8)** — `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0: **485/485 tour sheets
+  ok** (full English tour re-run on build 2026-11-04 after the pagination fixes; changed sheets re-reviewed by
+  `codex exec` in `work/qa/verdicts/r2_*`, `r3_*`). Smoke ok. Graphics text: title G1 blanked, zoomed cold-boot
+  shot `work/qa/gfx/g1_title_zoom_p8.png`; Game Over banner (English original) and credits ok in the tour.
+  Battle victory text checked (`work/qa/levelup_1/v2.png`: 'Gained 300 EXP.'); a level-up itself was not reached
+  (level-1 party at GOD=1 loses to formation 80); its row `%s reached Level %d.` is 20 cells, lint-checked.
+  Last fixes: wrap `_cut` treats a closing quote as a clause end (book titles), MAPMES02/14/36/37 and EVENT36
+  lines reworded so JP-mirrored page breaks fall at sentences.
+  Static scan for bad added pages (cut inside a name / on a little word / <= 2-word page): only sentence-end short
+  pages that mirror the JP's own waits remain.
+  Phase-8 history, details `docs/re/windows.md` §Measured in phase 8:
   - Tour: `python -X utf8 tools/tour.py [--jp]` plays every warp scene (events without presses, NUDGE only where the
     script waits for a button; rooms talk to each NPC; maps, menus, shop, healer, save, battle, ending) into
     `work/qa/tour[_jp]/sheets/`; `tools/vqa.py work/qa/chunks/chunk_*.txt` gets a `codex exec` read-only verdict per

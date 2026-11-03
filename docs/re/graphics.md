@@ -32,4 +32,5 @@ level-up, game over (`ゲームオーバー`), ending and credits. Add a row abo
 
 Seen so far through the warp (phase 2, `work/qa/warp/<scene>/`): battle commands, messages and the room menu
 (会話 移動 状態) are font text; the game-over banner is an English "Game Over" graphic already; ending pictures carry no
-text. Still to look at closely in phase 8: battle effects (ANI), level-up, save screens, credits.
+text. Phase 8 tour (all sheets ok): battle, save screens, credits and game over show no Japanese graphics; battle
+effects (ANI) are pictures only.
