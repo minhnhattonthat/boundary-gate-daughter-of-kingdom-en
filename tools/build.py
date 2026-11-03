@@ -1,6 +1,6 @@
 """Build the English disc: build/boundary-gate-en.bin (data track) + .cue (audio tracks 02-90 from rom/).
 
-Usage: python -X utf8 tools/build.py [--marker|--torture] [--grow FILE=N]
+Usage: python -X utf8 tools/build.py [--marker|--torture|--ruler] [--grow FILE=N]
 Steps: check the dump (rom.sha1), unpack it once with dumpsxiso into work/disc (tree + layout.xml),
 stage the changed files (tools/insert.py) into work/stage/<tag>/ with a layout that points at them,
 repack with mkpsxiso, cut the data track off the single image mkpsxiso writes, and write a cue that
@@ -71,17 +71,12 @@ def main(argv):
         sys.exit(f'missing {MKPSXISO}: see AGENTS.md Paths')
     unpack()
     mode = 'torture' if a.torture else 'ruler' if a.ruler else 'marker' if a.marker else 'en'
-    if a.marker or a.torture or a.ruler or a.grow:
-        grow = {Path(kv.split('=')[0]).name: int(kv.split('=')[1]) for kv in a.grow}
-        tag = mode if mode != 'en' else 'grow'
-        if a.grow:
-            tag += '-grow'
-        lp, files = insert.stage(tag, mode, grow=grow, ascii_text=(mode == 'en'))
-        print(f'staged {len(files)} files ({mode}) under {lp.parent}')
-        out = OUT if mode == 'en' else ROOT / 'build' / f'boundary-gate-{tag}'
-        data = repack(out, lp)
-    else:
-        data = repack(OUT)
+    grow = {Path(kv.split('=')[0]).name: int(kv.split('=')[1]) for kv in a.grow}
+    tag = mode + ('-grow' if a.grow else '')
+    lp, files = insert.stage(tag, mode, grow=grow, ascii_text=(mode == 'en'))
+    print(f'staged {len(files)} files ({mode}) under {lp.parent}')
+    out = OUT if tag == 'en' else ROOT / 'build' / f'boundary-gate-{tag}'
+    data = repack(out, lp)
     print(f'built {data} + {data.with_suffix(".cue").name}')
 
 

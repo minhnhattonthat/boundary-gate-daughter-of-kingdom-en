@@ -30,6 +30,7 @@ import evscript as E  # noqa: E402
 import exestr as X  # noqa: E402
 import extract  # noqa: E402
 import sjis  # noqa: E402
+import wrap  # noqa: E402
 
 TREE = ROOT / 'work' / 'disc' / 'tree'
 DISC = ROOT / 'work' / 'disc'
@@ -174,12 +175,58 @@ def ruler_exe(eid, jp):
     return ''.join('8' if ord(ch) > 0x7E else ch for ch in jp)
 
 
-def text_for(entry, mode):
+# Memory-card save title (exe 0x1f2c0): the BIOS card manager draws it, and it reads Shift-JIS only.
+# 03618 is copied as a fixed 29-byte literal (lw/sw) and then overwritten, and already says
+# ＢＯＵＮＤＡＲＹ－ＧＡＴＥ; 03658/0365c are the full-width space and colon of the play time.
+CARD_KEEP = {'exe:03618', 'exe:03658', 'exe:0365c'}
+CARD_FULLWIDTH = {'exe:03638'}
+
+
+def fullwidth(text):
+    """ASCII -> full-width Shift-JIS forms, printf specifiers kept as they are."""
+    out, i = [], 0
+    while i < len(text):
+        m = re.match(r'%[-+ 0#]*\d*l?[sdcx]', text[i:])
+        if m:
+            out.append(m.group(0))
+            i += m.end()
+            continue
+        c = text[i]
+        out.append('　' if c == ' ' else chr(ord(c) + 0xFEE0) if 0x21 <= ord(c) <= 0x7E else c)
+        i += 1
+    return ''.join(out)
+
+
+def en_exe(entry):
+    """English for an exe string as the build writes it."""
+    eid, jp, en = entry['id'], entry['jp'], entry['en']
+    if not en or eid in CARD_KEEP:
+        return jp
+    if eid in CARD_FULLWIDTH:
+        return fullwidth(en)
+    if jp != jp.rstrip(' 　') and en == en.rstrip(' '):
+        # JP pads the field with spaces (location names, 24 cells): keep the padding, it clears the
+        # previous name on screen and lines up the play time in the card title
+        en = en + ' ' * max(0, wrap.cells(jp) - wrap.cells(en.replace('::', ':')))
+    return en
+
+
+def en_script(entry, prev_op):
+    """English for a script S operand: dialogue (0x22) gets the window layout (wrap.layout)."""
+    en = entry['en']
+    if not en:
+        return entry['jp']
+    if entry['op'] == '22':
+        return wrap.layout(en, wrap.rows_budget(prev_op), quote=wrap.continues_quote(entry['jp']))[0]
+    return en
+
+
+def text_for(entry, mode, prev_op=None):
     """The replacement text for one entry in `mode` = marker|torture|ruler|en|jp."""
     if mode == 'jp' or entry['kind'] != 'text':
         return entry['jp']
     if mode == 'en':
-        return entry['en'] or entry['jp']
+        return en_exe(entry) if entry['id'].startswith('exe:') else en_script(entry, prev_op)
     if mode == 'ruler':
         if entry['id'].startswith('exe:'):
             return ruler_exe(entry['id'], entry['jp'])
@@ -269,34 +316,196 @@ def rebuild_script(data, stem, texts, ascii_text=False, grow=0):
 def write_script(rel, data, mode='marker', ascii_text=False, grow=0):
     """Rebuild one *MES file from its script/*.json entries."""
     stem = Path(rel).stem
-    texts = {}
+    texts, prev = {}, None
     for e in entries_of(rel):
-        texts[e['id']] = text_for(e, mode)
+        texts[e['id']] = text_for(e, mode, prev)
+        if e['kind'] == 'text':          # same rule as lint.units(): op of the previous text entry
+            prev = e['op']
     return rebuild_script(data, stem, texts, ascii_text, grow)
 
 
 # ---------------------------------------------------------------- exe writer
 
-def rebuild_exe(data, texts):
-    """Overwrite each text string in place, NUL-padded to its original length (no relocation yet)."""
+def _head(data, s):
+    """Start of the string as code sees it: the extractor drops leading printer controls ('\\n%s...')."""
+    h = s
+    while data[h - 1] == 0x0A:
+        h -= 1
+    return h if data[h - 1] == 0 else s      # other bytes before a string are data (0xc11: 02 01 03)
+
+
+def _put(out, off, raw, by, orig, log):
+    if log is not None:
+        log.append(f'{off:X} {orig[off:off + len(raw)].hex()} {raw.hex()} {by}')
+    out[off:off + len(raw)] = raw
+
+
+def _movable(data, where, addr):
+    """Every reference to a string head is a pointer word or a `lui 0x8001` + addiu/ori low half."""
+    if not where:
+        return False
+    for kind, o in where:
+        if kind != 'table':
+            ins = struct.unpack_from('<I', data, o)[0]
+            if ins >> 26 not in (0x09, 0x0D) or (ins & 0xFFFF) != (addr & 0xFFFF):
+                return False
+    return True
+
+
+def _place(data, slots):
+    """Free spans from `slots` and a best-fit placement of the strings marked to move.
+    Returns (placed, spans): placed = [(slot, at)] or None when one does not fit."""
+    free = []
+    for eid, s, e, h, end, raw, where, move in slots:
+        if move:
+            free.append((h, end))
+        elif raw != data[s:e] and len(raw) + 1 < end - s:
+            free.append((s + len(raw) + 1, end))
+    spans = []
+    for a, b in sorted(free):
+        if spans and spans[-1][1] == a:
+            spans[-1][1] = b
+        else:
+            spans.append([a, b])
+    merged = [tuple(sp) for sp in spans]
+    placed = []
+    for sl in sorted((sl for sl in slots if sl[7]), key=lambda sl: -(sl[1] - sl[3] + len(sl[5]) + 1)):
+        n = sl[1] - sl[3] + len(sl[5]) + 1
+        fit = [sp for sp in spans if sp[1] - sp[0] >= n]
+        if not fit:
+            return None, merged
+        sp = min(fit, key=lambda x: x[1] - x[0])
+        placed.append((sl, sp[0]))
+        sp[0] += n
+    return placed, [tuple(sp) for sp in spans]
+
+
+def rebuild_exe(data, texts, log=None):
+    """Write each text string in place when it fits its slot, else relocate it inside the text region.
+
+    A slot is the string's bytes plus the NUL padding up to the next 4-byte boundary (never past the
+    next string). Strings that do not fit move into the space the others free: the tail of a slot
+    whose English is shorter, and the whole slot of a string that moved. Every target stays inside
+    0x80010000-0x80014F00, so a `lui 0x8001` / `addiu lo` reference only needs its low half changed;
+    pointer words are rewritten whole. A string with no reference at its head cannot move (an error).
+    `log` collects one `OFFSET ORIG NEW writer` line per write for romdiff.py --writes."""
     out = bytearray(data)
     strings, _ = X.segment(data)
-    wrote = 0
-    for s, e in strings:
+    refs = X.refs(data)
+    heads = [_head(data, s) for s, _ in strings]
+    slots, wrote = [], 0           # [eid, s, e, h, end, raw, refs-or-None, must_move]
+    for i, (s, e) in enumerate(strings):
         eid = f'exe:{s:05x}'
         if eid not in texts:
             continue
+        nxt = heads[i + 1] if i + 1 < len(strings) else X.REGION[1]
+        end = e
+        while end < min(nxt, (e + 4) & ~3) and data[end] == 0:
+            end += 1
         raw = sjis.encode(texts[eid])
-        if len(raw) > e - s:
-            raise ValueError(f'{eid}: {len(raw)} bytes does not fit the {e - s}-byte field')
-        out[s:e] = raw + b'\0' * (e - s - len(raw))
         wrote += 1
-    return bytes(out), wrote
+        cap = end - s - 1 if end > e else e - s          # end == e: the original has no NUL either
+        h = heads[i]
+        where = refs.get(X.ram(h)) if _movable(data, refs.get(X.ram(h)), X.ram(h)) else None
+        if len(raw) > cap and where is None:
+            raise ValueError(f'{eid}: {len(raw)} bytes does not fit {cap} and nothing points at it')
+        slots.append([eid, s, e, h, end, raw, where, len(raw) > cap])
+    # Moving strings that fit too merges the free spans around them; take the smallest such string
+    # between two free spans until every string that must move has a place (best fit, largest first).
+    while True:
+        placed, spans = _place(data, slots)
+        if placed is not None:
+            break
+        free = {a: b for a, b in spans}
+        ends = {b: a for a, b in spans}
+        best = None
+        for sl in slots:
+            eid, s, e, h, end, raw, where, move = sl
+            if move or where is None or raw == data[s:e]:
+                continue
+            used = s + len(raw) + 1 if len(raw) + 1 < end - s else end
+            gain = (h - ends[h] if h in ends else 0) + (free[used] - used if used in free else 0)
+            if gain and (best is None or (gain, -len(raw)) > best[0]):
+                best = ((gain, -len(raw)), sl)
+        if best is None:
+            raise ValueError(f'exe text region full: {spans}')
+        best[1][7] = True
+    for sl in slots:
+        eid, s, e, h, end, raw, where, move = sl
+        if not move and raw != data[s:e]:
+            _put(out, s, raw + (b'\0' if len(raw) < end - s else b''), eid, data, log)
+    for a, b in spans:                                   # what is left of the freed space: zeros
+        for k in range(a, b):
+            if data[k]:
+                _put(out, k, b'\0', 'clear', data, log)
+    for (eid, s, e, h, end, raw, where, _), at in placed:
+        _put(out, at, data[h:s] + raw + b'\0', eid + ' moved', data, log)
+        new = X.ram(at)
+        assert new >> 16 == X.ram(h) >> 16 == 0x8001 and new & 0x8000 == 0
+        for kind, o in where:
+            if kind == 'table':
+                assert struct.unpack_from('<I', data, o)[0] == X.ram(h)
+                _put(out, o, struct.pack('<I', new), f'{eid} ptr', data, log)
+            else:
+                ins = struct.unpack_from('<I', data, o)[0]
+                _put(out, o, struct.pack('<I', (ins & 0xFFFF0000) | (new & 0xFFFF)), f'{eid} lo16', data, log)
+    return bytes(out), wrote, [(sl[0], sl[3], at) for sl, at in placed]
 
 
-def write_exe(data, mode='marker'):
+# Engine patches for English (en build only): (file offset of an `addiu rX, $zero, imm`, old imm, new imm,
+# why). openwindow(x px, y px, w cells, h rows) arguments, listed by tools/windows.py; docs/re/windows.md.
+_CMD = 'command window (Talk/Move/Status, Fight/Run/Weapon/Magic/Items/Status, Buy/Sell): 6 -> 8 cells'
+_COL = 'field-menu column / submenu title box: 4 -> 6 cells (Items, Magic, Equip, Status, Map, Config)'
+_TOP = 'top-row box right of the title box: 12 px right, 2 cells narrower (same right edge)'
+EXE_PATCHES = [
+    *[(o, 4, 6, _COL) for o in (0x15a68, 0x16694, 0x174a0, 0x18ba8, 0x19088, 0x1a1bc, 0x1a1f8)],
+    *[(o, 58, 70, _TOP) for o in (0x15ac0, 0x166dc, 0x174f8, 0x19c64, 0x1a2bc)],
+    *[(o, 41, 39, _TOP) for o in (0x15ac8, 0x166e4, 0x17500, 0x19c6c, 0x1a2c4)],
+    (0x18c00, 56, 68, _TOP), (0x18c08, 42, 40, _TOP), (0x190e0, 56, 68, _TOP), (0x190e8, 42, 40, _TOP),
+    *[(o, 6, 8, _CMD) for o in (0x0fa20, 0x1c46c, 0x1dd38, 0x1fd7c, 0x22dac)],
+    *[(o, 12, 6, _CMD + ', 6 px further left') for o in (0x0fa18, 0x1c464, 0x1dd30, 0x1fd74, 0x22d7c)],
+]
+
+
+def patch_exe(out, orig, log=None, patches=EXE_PATCHES):
+    """Apply EXE_PATCHES: each must be `addiu rX, $zero, old` in the original, or the build fails."""
+    for o, old, new, why in patches:
+        ins = struct.unpack_from('<I', orig, o)[0]
+        if ins >> 26 != 0x09 or (ins >> 21) & 31 or (ins & 0xFFFF) != old & 0xFFFF:
+            raise ValueError(f'exe patch at {o:#x}: {ins:08x} is not addiu rX, $zero, {old} ({why})')
+        _put(out, o, struct.pack('<I', (ins & 0xFFFF0000) | (new & 0xFFFF)), f'patch {why}', orig, log)
+
+
+def stale_refs(data, moved, window=16):
+    """References to a moved string's old head that the build did not rewrite: `lui r, 0x8001` and,
+    up to `window` instructions later, any immediate use of the old low half on r (addiu/ori, a load
+    or store: a literal copied by lw). exestr.refs() only pairs instructions 2 apart, so this is the
+    wider net. Returns [(eid, file offset, instruction word)]."""
+    old = {X.ram(h) & 0xFFFF: eid for eid, h, _ in moved}
+    hits, lui = [], {}
+    for o in range(0x800, len(data) - 3, 4):
+        ins = struct.unpack_from('<I', data, o)[0]
+        op, rs, rt, imm = ins >> 26, (ins >> 21) & 31, (ins >> 16) & 31, ins & 0xFFFF
+        if op == 0x0F:                                   # lui rt, imm
+            if imm == 0x8001:
+                lui[rt] = o
+            else:
+                lui.pop(rt, None)
+            continue
+        uses = op in (0x09, 0x0D) or 0x20 <= op <= 0x2E      # addiu/ori, loads/stores
+        if uses and rs in lui and o - lui[rs] <= 4 * window and imm in old:
+            hits.append((old[imm], o, ins))
+    return hits
+
+
+def write_exe(data, mode='marker', log=None):
     texts = {e['id']: text_for(e, mode) for e in entries_of(EXE)}
-    return rebuild_exe(data, texts)
+    new, wrote, moved = rebuild_exe(data, texts, log)
+    if mode == 'en':
+        out = bytearray(new)
+        patch_exe(out, data, log)
+        new = bytes(out)
+    return new, wrote, moved
 
 
 # ---------------------------------------------------------------- staging
@@ -344,7 +553,13 @@ def stage(tag, mode, only=None, grow=None, ascii_text=False):
         if new != data:
             files.append((rel, new))
     exe = (TREE / EXE).read_bytes()
-    new, wrote = write_exe(exe, mode)
+    log = []
+    new, wrote, moved = write_exe(exe, mode, log)
+    done = {int(line.split()[0], 16) for line in log if line.endswith(' lo16')}
+    stale = [x for x in stale_refs(exe, moved) if x[1] not in done]
+    if stale:
+        raise SystemExit('moved exe strings keep unrewritten readers: '
+                         + ', '.join(f'{eid} at {o:#x} ({ins:08x})' for eid, o, ins in stale[:20]))
     files.append((EXE, new))
     dest_root = STAGE / tag
     if dest_root.exists():
@@ -359,6 +574,10 @@ def stage(tag, mode, only=None, grow=None, ascii_text=False):
     dest_root.mkdir(parents=True, exist_ok=True)
     lp = dest_root / 'layout.xml'
     lp.write_text(layout, encoding='utf-8', newline='\n')
+    # write log for romdiff.py --writes, and where each relocated string went
+    (dest_root / 'exe_writes.txt').write_text('\n'.join(log) + '\n', encoding='utf-8', newline='\n')
+    (dest_root / 'exe_moved.txt').write_text(
+        ''.join(f'{eid} {h:05x} -> {at:05x}\n' for eid, h, at in sorted(moved)), encoding='utf-8', newline='\n')
     return lp, files
 
 
@@ -375,7 +594,7 @@ def cmd_roundtrip(a):
         if new != data:
             bad.append(rel)
     exe = (TREE / EXE).read_bytes()
-    new, _ = rebuild_exe(exe, {e['id']: e['jp'] for e in entries_of(EXE)})
+    new = rebuild_exe(exe, {e['id']: e['jp'] for e in entries_of(EXE)})[0]
     if new != exe:
         bad.append(EXE)
     for b in bad[:10]:

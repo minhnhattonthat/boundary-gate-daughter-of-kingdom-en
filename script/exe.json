@@ -1066,7 +1066,7 @@
    "ram": "0x8001048c",
    "group": "menu",
    "jp": "装備品：",
-   "en": "Accessory::",
+   "en": "Extra::",
    "kind": "text",
    "refs": [
     "0x16db8"
@@ -1526,7 +1526,7 @@
    "ram": "0x8001066c",
    "group": "menu",
    "jp": "設定",
-   "en": "Settings",
+   "en": "Config",
    "kind": "text",
    "refs": [
     "0x18bd4"
@@ -1767,13 +1767,13 @@
    "ram": "0x8001078c",
    "group": "menu",
    "jp": "現在地：  %24s",
-   "en": "",
+   "en": "Location:: %24s",
    "kind": "text",
    "refs": [
     "0x195ac"
    ],
-   "status": "",
-   "notes": "debug menu: debug-only, kept in Japanese"
+   "status": "tl",
+   "notes": ""
   },
   {
    "id": "exe:00f9c",
@@ -1788,7 +1788,7 @@
     "0x195f4"
    ],
    "status": "",
-   "notes": "debug menu: debug-only, kept in Japanese"
+   "notes": ""
   },
   {
    "id": "exe:00fa4",
@@ -1827,7 +1827,7 @@
    "ram": "0x80010800",
    "group": "menu",
    "jp": "道具\n魔法\n装備\n状態\nＭAP\n設定",
-   "en": "Items\nMagic\nEquip\nStatus\nMap\nSettings",
+   "en": "Items\nMagic\nEquip\nStatus\nMap\nConfig",
    "kind": "text",
    "refs": [
     "0x1a22c"
@@ -7290,12 +7290,12 @@
    "ram": "0x800129d8",
    "group": "shop",
    "jp": "  ﾒﾘｯｻ",
-   "en": "",
-   "kind": "keep",
+   "en": "Melissa",
+   "kind": "text",
    "refs": [
     "0x66d88"
    ],
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -7305,12 +7305,12 @@
    "ram": "0x800129e0",
    "group": "shop",
    "jp": " ｸﾞﾚｲｽﾄｰﾝ",
-   "en": "",
-   "kind": "keep",
+   "en": "Greystone",
+   "kind": "text",
    "refs": [
     "0x66d84"
    ],
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -7320,12 +7320,12 @@
    "ram": "0x800129ec",
    "group": "shop",
    "jp": "  ﾘｽﾌﾟ",
-   "en": "",
-   "kind": "keep",
+   "en": "Risp",
+   "kind": "text",
    "refs": [
     "0x66d80"
    ],
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {
@@ -7335,12 +7335,12 @@
    "ram": "0x800129f4",
    "group": "shop",
    "jp": "ﾌｨﾝ",
-   "en": "",
-   "kind": "keep",
+   "en": "Finn",
+   "kind": "text",
    "refs": [
     "0x66d7c"
    ],
-   "status": "",
+   "status": "tl",
    "notes": ""
   },
   {

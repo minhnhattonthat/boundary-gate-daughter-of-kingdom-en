@@ -101,3 +101,30 @@ def test_stage_writes_changed_files_and_layout(tmp_path):
         for p in (lp.parent).rglob('*'):
             if p.is_file():
                 p.unlink()
+
+
+def test_english_exe_relocation():
+    """English exe: every moved string is reached through all its rewritten references, nothing else
+    still points at a vacated head, and every changed byte has a logged write over the right original."""
+    import struct
+    import exestr as X
+    exe = (TREE / insert.EXE).read_bytes()
+    log = []
+    new, wrote, moved = insert.write_exe(exe, 'en', log)
+    assert moved and len(new) == len(exe)
+    refs = X.refs(exe)
+    for eid, h, at in moved:
+        for kind, o in refs[X.ram(h)]:
+            word = struct.unpack_from('<I', new, o)[0]
+            got = word if kind == 'table' else (X.ram(h) & 0xFFFF0000) | (word & 0xFFFF)
+            assert got == X.ram(at), (eid, hex(o))
+        assert new[new.index(b'\0', at) - 1] != 0 or new[at] == 0    # NUL-terminated
+    done = {int(line.split()[0], 16) for line in log if line.endswith(' lo16')}
+    assert not [x for x in insert.stale_refs(exe, moved) if x[1] not in done]
+    covered = set()
+    for line in log:
+        off, old = line.split()[:2]
+        off = int(off, 16)
+        assert exe[off:off + len(old) // 2].hex() == old
+        covered.update(range(off, off + len(old) // 2))
+    assert {i for i in range(len(exe)) if exe[i] != new[i]} <= covered

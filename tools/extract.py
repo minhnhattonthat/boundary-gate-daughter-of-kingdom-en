@@ -120,6 +120,12 @@ def script_entries(rel, data):
 # Byte runs that decode as a glyph but are data: 0x974 = 8C B4 01, same shape as its neighbour 44 B4 01
 # (keep), no reference reaches it.
 NOT_TEXT = {0x974}
+# Half-width katakana party names drawn in the shop's member box (found in the phase-7 tour; X.wide()
+# only sees full-width glyphs).
+HALF_TEXT = {0x31d8, 0x31e0, 0x31ec, 0x31f4}
+# The leftover debug window's strings (kept Japanese). 0xf8c (現在地) and 0xf9c (gold) are the field
+# menu's location and gold boxes, shown in normal play.
+DEBUG = (0xe90, 0xf8c)
 
 
 def exe_entries(data):
@@ -137,11 +143,11 @@ def exe_entries(data):
             'group': exe_group(s),
             'jp': sjis.decode(raw),
             'en': '',
-            'kind': 'text' if X.wide(raw) and s not in NOT_TEXT else 'keep',
+            'kind': 'text' if (X.wide(raw) and s not in NOT_TEXT) or s in HALF_TEXT else 'keep',
             'refs': [f'0x{o:x}' for o in hits],
             'status': '',
             # the leftover debug window is Japanese on purpose: the release build never opens it
-            'notes': 'debug menu: debug-only, kept in Japanese' if 0xe90 <= s < 0xfa0 else '',
+            'notes': 'debug menu: debug-only, kept in Japanese' if DEBUG[0] <= s < DEBUG[1] else '',
         })
     gap_out = []
     for s, e, _ in gaps:
@@ -172,7 +178,7 @@ def merge(new, old):
         o = by_id.get(e['id'])
         if o is not None:
             for k in ('en', 'status', 'notes'):
-                if o.get(k):
+                if o.get(k) and not (k == 'notes' and o[k].startswith('debug menu')):  # generated
                     e[k] = o[k]
                     kept += bool(k == 'en')
     return kept

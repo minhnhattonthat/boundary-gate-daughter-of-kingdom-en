@@ -2,7 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translate) done 2026-11-04. Next: phase 7 (insert, fit, check).
+- **Phase:** 7 (insert, fit, check) in progress 2026-11-04. Done so far: `build.py` (no flag) = English build
+  (`wrap.layout` for 0x22, `encode_en`, exe relocation inside 0x800-0x5700 with lo16/pointer rewrites + stale-ref
+  scan + write log `work/stage/en/exe_writes.txt`, card title full-width, `insert.EXE_PATCHES` window sizes),
+  smoke ok. In progress: window background sprites (ITA_1.TIM rects, `tools/windows.py`) must follow the text
+  windows widened by EXE_PATCHES (column 4->6, command 6->8, top box shifted 12 px): see p7 notes below.
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every
