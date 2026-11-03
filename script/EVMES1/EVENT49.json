@@ -1,0 +1,54 @@
+{
+ "source": "EVMES1/EVENT49.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  540
+ ],
+ "entries": [
+  {
+   "id": "EVENT49:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "国王\r「ご心配なく",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT49:01228",
+   "off": 4648,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT49:0122b",
+   "off": 4651,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  我々は\r  最後までアンブローズを\r  守り続けます」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT49:01265",
+   "off": 4709,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

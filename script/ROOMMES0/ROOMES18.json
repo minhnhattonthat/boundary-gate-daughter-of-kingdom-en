@@ -1,0 +1,87 @@
+{
+ "source": "ROOMMES0/ROOMES18.BIN",
+ "kind": "script",
+ "scr": [
+  82608,
+  694
+ ],
+ "entries": [
+  {
+   "id": "ROOMES18:14471",
+   "off": 83057,
+   "op": "23",
+   "group": "location",
+   "jp": "バラックＡ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:1447f",
+   "off": 83071,
+   "op": "1c",
+   "group": "npc",
+   "jp": "怪我人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:1448b",
+   "off": 83083,
+   "op": "1c",
+   "group": "npc",
+   "jp": "娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:14493",
+   "off": 83091,
+   "op": "28",
+   "group": "menu",
+   "jp": "小屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:144a2",
+   "off": 83106,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「地下街のほとんどは\r  崩れてるけど クレーター\r  に続いているらしい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:144ec",
+   "off": 83180,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ひとり 元気な男の人が\r  いたんですけど…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES18:1451a",
+   "off": 83226,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  爆発の原因を調べるって\r  穴の内側にいったきり\r  戻ってこないんです」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

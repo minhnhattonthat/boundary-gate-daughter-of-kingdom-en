@@ -1,0 +1,76 @@
+{
+ "source": "EVMES1/EVENT30.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  626
+ ],
+ "entries": [
+  {
+   "id": "EVENT30:0120d",
+   "off": 4621,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "プレリアール公の後から\r先程の大男が進み出た\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT30:01240",
+   "off": 4672,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "大男\r「グレイストーンだ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT30:0125f",
+   "off": 4703,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT30:01262",
+   "off": 4706,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  主人の命により\r  おまえたちと共に戦う」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT30:01293",
+   "off": 4755,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT30:01298",
+   "off": 4760,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーンが\r仲間に加わった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

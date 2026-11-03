@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES1/ROOMES48.BIN",
+ "kind": "script",
+ "scr": [
+  81420,
+  771
+ ],
+ "entries": [
+  {
+   "id": "ROOMES48:13fcd",
+   "off": 81869,
+   "op": "23",
+   "group": "location",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:13fd7",
+   "off": 81879,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:13fe9",
+   "off": 81897,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:13ff1",
+   "off": 81905,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:1401c",
+   "off": 81948,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港に 新しい荷を\r  引き取りに行かなきゃ\r  ならないんだけど…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:14065",
+   "off": 82021,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何にしますか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:14091",
+   "off": 82065,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「さあ 新入荷の品だ\r  どうだい？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:140bd",
+   "off": 82109,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何にしますか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES48:140df",
+   "off": 82143,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「なんだって 倉庫から\r  あんな化け物が？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

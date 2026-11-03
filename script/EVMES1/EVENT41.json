@@ -1,0 +1,43 @@
+{
+ "source": "EVMES1/EVENT41.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  546
+ ],
+ "entries": [
+  {
+   "id": "EVENT41:001e8",
+   "off": 488,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「これね 組織の情報に\r  あった隠し扉は",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT41:00217",
+   "off": 535,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT41:0021a",
+   "off": 538,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  え～と…これを押して\r  こっちを…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

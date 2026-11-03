@@ -1,0 +1,263 @@
+{
+ "source": "EVMES2/EVENT51.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  852
+ ],
+ "entries": [
+  {
+   "id": "EVENT51:10e2d",
+   "off": 69165,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "医療聖堂長\r「おお…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e4a",
+   "off": 69194,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e4d",
+   "off": 69197,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  我々は 姉のおまえに\r  身体を与えた…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e79",
+   "off": 69241,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e7c",
+   "off": 69244,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  皮肉なことだ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e92",
+   "off": 69266,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10e95",
+   "off": 69269,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  身体をなくした\r  妹のほうが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10eba",
+   "off": 69306,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10ebd",
+   "off": 69309,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …それゆえに王国の娘と\r  なるとは…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10ef0",
+   "off": 69360,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10ef3",
+   "off": 69363,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "医療聖堂長\r「その脳を直接 いにしえ\r  の知識と接続し…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f2e",
+   "off": 69422,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f31",
+   "off": 69425,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あの娘は…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f43",
+   "off": 69443,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f46",
+   "off": 69446,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  理想的な…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f58",
+   "off": 69464,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f5b",
+   "off": 69467,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …生体端末…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f6f",
+   "off": 69487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f72",
+   "off": 69490,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …ちがう！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f84",
+   "off": 69508,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f87",
+   "off": 69511,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …あれは…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f99",
+   "off": 69529,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT51:10f9c",
+   "off": 69532,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ゲートを通って来た…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

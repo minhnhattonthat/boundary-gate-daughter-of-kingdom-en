@@ -1,0 +1,120 @@
+{
+ "source": "EVMES2/EVENT60.BIN",
+ "kind": "script",
+ "scr": [
+  17760,
+  707
+ ],
+ "entries": [
+  {
+   "id": "EVENT60:04731",
+   "off": 18225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「私と一緒に…\r  お姉さん",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:04757",
+   "off": 18263,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:0475a",
+   "off": 18266,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  二人の力があれば\r  世界を自由に…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:04783",
+   "off": 18307,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:04786",
+   "off": 18310,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いいえ\r  この世界だけじゃない…」\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:047b1",
+   "off": 18353,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:047b6",
+   "off": 18358,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「やめて！キラル！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:047d5",
+   "off": 18389,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:047d8",
+   "off": 18392,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  バウンダリーゲートには\r  誰も手を触れては\r  いけないのよ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT60:0481f",
+   "off": 18463,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

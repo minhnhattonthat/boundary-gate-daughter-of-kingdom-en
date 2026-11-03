@@ -1,0 +1,65 @@
+{
+ "source": "EVMES2/EVENT59.BIN",
+ "kind": "script",
+ "scr": [
+  12404,
+  590
+ ],
+ "entries": [
+  {
+   "id": "EVENT59:03245",
+   "off": 12869,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「これ以上 サブシステムの\r  停止は許しません",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT59:0327e",
+   "off": 12926,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT59:03281",
+   "off": 12929,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  また私の身体を奪う\r  つもり？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT59:032a6",
+   "off": 12966,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT59:032a9",
+   "off": 12969,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お姉さん…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

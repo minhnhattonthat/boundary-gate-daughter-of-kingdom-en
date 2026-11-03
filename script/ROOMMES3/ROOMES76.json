@@ -1,0 +1,120 @@
+{
+ "source": "ROOMMES3/ROOMES76.BIN",
+ "kind": "script",
+ "scr": [
+  83552,
+  905
+ ],
+ "entries": [
+  {
+   "id": "ROOMES76:14821",
+   "off": 84001,
+   "op": "23",
+   "group": "location",
+   "jp": "図書室Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:1482d",
+   "off": 84013,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:14839",
+   "off": 84025,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:14845",
+   "off": 84037,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:14851",
+   "off": 84049,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ｄ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:1485d",
+   "off": 84061,
+   "op": "28",
+   "group": "menu",
+   "jp": "部屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:1486c",
+   "off": 84076,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「遠い昔にもゲートを操る\r  力を持つ者がいたようで\r  す\u0010\b  彼がどうなったか…\r  記録には残ってません」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:148d6",
+   "off": 84182,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ゲートの力が この世界\r  の魔法の源なのです\u0010\b  ゲートなしでは世界は\r  成り立ちません」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:14932",
+   "off": 84274,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「バウンダリーゲートとは\r  二つの世界を結ぶ門なの\r  です\u0010\b  その起源を知るものは\r  いません…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES76:14996",
+   "off": 84374,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いにしえの知識とは\r  何なのか…\u0010\b  始まりの母が それを\r  残したといいます」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

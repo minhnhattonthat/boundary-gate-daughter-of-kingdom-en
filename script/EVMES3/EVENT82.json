@@ -1,0 +1,274 @@
+{
+ "source": "EVMES3/EVENT82.BIN",
+ "kind": "script",
+ "scr": [
+  133248,
+  1141
+ ],
+ "entries": [
+  {
+   "id": "EVENT82:20a45",
+   "off": 133701,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「これが\r  バウンダリーゲート…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20a71",
+   "off": 133745,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20a74",
+   "off": 133748,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  王国の魔力の源です…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20a92",
+   "off": 133778,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20a97",
+   "off": 133783,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ／キラル\r「いにしえの知識とは",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20ac0",
+   "off": 133824,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20ac3",
+   "off": 133827,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  『始まりの母』が残した\r  人工知能…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20aee",
+   "off": 133870,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20af1",
+   "off": 133873,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そして アクセスできる\r  のは正しい遺伝子コードを  受け継いだ『王国の娘』…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20b43",
+   "off": 133955,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20b46",
+   "off": 133958,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  それは高度な医療技術情報  を口移しに伝える\r  巫女なのです…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20b8b",
+   "off": 134027,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20b90",
+   "off": 134032,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ／キラル\r「キラルは人工の体をもつが\r  ゆえに…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20bca",
+   "off": 134090,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20bcd",
+   "off": 134093,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  神経系を人工知能と直接\r  接続できました",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20bfc",
+   "off": 134140,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20bff",
+   "off": 134143,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  しかし そのため人工知能\r  に寄生した者に\r  心を支配されてしまった…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20c4a",
+   "off": 134218,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20c4d",
+   "off": 134221,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  境界の門を越えて\r  悪しき者来たり…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20c78",
+   "off": 134264,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20c7b",
+   "off": 134267,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  デミウスによこしまな\r  野望を植えつけ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20caa",
+   "off": 134314,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20cad",
+   "off": 134317,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  人工知能を通して\r  キラルの心を支配して\r  いたのは…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT82:20ceb",
+   "off": 134379,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

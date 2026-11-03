@@ -1,0 +1,109 @@
+{
+ "source": "MAPMES1/MAPMES32.BIN",
+ "kind": "script",
+ "scr": [
+  486820,
+  989
+ ],
+ "entries": [
+  {
+   "id": "MAPMES32:76f65",
+   "off": 487269,
+   "op": "23",
+   "group": "location",
+   "jp": "アモーク要塞屋上",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:76fe4",
+   "off": 487396,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "部屋の隅に若い娘が\rうずくまっている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:7700d",
+   "off": 487437,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "その時 男が一人\r屋上にかけあがってきた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:77044",
+   "off": 487492,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:7706f",
+   "off": 487535,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bシルバーメイルを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:770a8",
+   "off": 487592,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rシルバーメイルを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:770d9",
+   "off": 487641,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:770f7",
+   "off": 487671,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES32:77122",
+   "off": 487714,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフィン達は\r８５０Ｇを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

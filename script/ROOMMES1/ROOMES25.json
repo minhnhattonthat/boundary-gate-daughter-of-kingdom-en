@@ -1,0 +1,76 @@
+{
+ "source": "ROOMMES1/ROOMES25.BIN",
+ "kind": "script",
+ "scr": [
+  84284,
+  583
+ ],
+ "entries": [
+  {
+   "id": "ROOMES25:14afd",
+   "off": 84733,
+   "op": "23",
+   "group": "location",
+   "jp": "鍛冶屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES25:14b06",
+   "off": 84742,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES25:14b10",
+   "off": 84752,
+   "op": "1c",
+   "group": "npc",
+   "jp": "見習い",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES25:14b1c",
+   "off": 84764,
+   "op": "28",
+   "group": "menu",
+   "jp": "鍛冶屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES25:14b31",
+   "off": 84785,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「相変らず 城から 大量の\r  注文がきてるんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES25:14b63",
+   "off": 84835,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「忙しくなるばっかりだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

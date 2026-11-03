@@ -1,0 +1,230 @@
+{
+ "source": "MAPMES1/MAPMES36.BIN",
+ "kind": "script",
+ "scr": [
+  591796,
+  1000
+ ],
+ "entries": [
+  {
+   "id": "MAPMES36:909ac",
+   "off": 592300,
+   "op": "25",
+   "group": "building",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:909b6",
+   "off": 592310,
+   "op": "25",
+   "group": "building",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:909c0",
+   "off": 592320,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:909e8",
+   "off": 592360,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:909f2",
+   "off": 592370,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:909fa",
+   "off": 592378,
+   "op": "25",
+   "group": "building",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a06",
+   "off": 592390,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ城西門",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a25",
+   "off": 592421,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a30",
+   "off": 592432,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ん？\r  …何か動いたような…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a56",
+   "off": 592470,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a5f",
+   "off": 592479,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「メリッサ､驚かすのは\r  やめてくれよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a8c",
+   "off": 592524,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90a97",
+   "off": 592535,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…冗談じゃないみたいよ」\u0017\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90ac8",
+   "off": 592584,
+   "op": "25",
+   "group": "building",
+   "jp": "軍の連絡所",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90ad6",
+   "off": 592598,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ南地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90af3",
+   "off": 592627,
+   "op": "21",
+   "group": "speaker",
+   "jp": "老婆\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90afa",
+   "off": 592634,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「突然 街のあちこちに\r  光の渦が現れて そこから\u0010\b  化け物どもが飛び出して\r  きたんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90b57",
+   "off": 592727,
+   "op": "21",
+   "group": "speaker",
+   "jp": "男\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90b5c",
+   "off": 592732,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「みんな街から逃げ出した\r  んだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES36:90b82",
+   "off": 592770,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

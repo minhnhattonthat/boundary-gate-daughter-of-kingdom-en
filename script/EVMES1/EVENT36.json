@@ -1,0 +1,263 @@
+{
+ "source": "EVMES1/EVENT36.BIN",
+ "kind": "script",
+ "scr": [
+  141512,
+  1088
+ ],
+ "entries": [
+  {
+   "id": "EVENT36:22a8d",
+   "off": 141965,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「ありがとう",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22aa8",
+   "off": 141992,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22aab",
+   "off": 141995,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  君たちの協力には お礼の\r  言葉もない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22ad7",
+   "off": 142039,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22ada",
+   "off": 142042,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  シーダを父の館に送り届け\r  たら私も仲間と共に\r  アンブローズに戻る」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22b27",
+   "off": 142119,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22b2e",
+   "off": 142126,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "シーダ\r「いや！あたしも\r  アンブローズに戻ります」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22b67",
+   "off": 142183,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22b6c",
+   "off": 142188,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「…アンブローズは\r  魔導聖堂の支配下だ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22ba2",
+   "off": 142242,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22ba5",
+   "off": 142245,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  たとえ新国王を開放できた\r  としても",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22bd0",
+   "off": 142288,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22bd3",
+   "off": 142291,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そんな危険の中に\r  戻りたがるとは思えん」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c05",
+   "off": 142341,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c0a",
+   "off": 142346,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "シーダ\r「そんなことないわ！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c2b",
+   "off": 142379,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c2e",
+   "off": 142382,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …あの人は…国王だもの\r  必ず アンブローズに\r  戻ってきます！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c76",
+   "off": 142454,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22c7f",
+   "off": 142463,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「メリッサ\r  君は彼らと共に…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22cae",
+   "off": 142510,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22cb5",
+   "off": 142517,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「わかっていますわ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22cd6",
+   "off": 142550,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT36:22cd9",
+   "off": 142553,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  この馬鹿力には\r  借りがありますから」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

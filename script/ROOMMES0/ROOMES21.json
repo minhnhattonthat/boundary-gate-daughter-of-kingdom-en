@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES0/ROOMES21.BIN",
+ "kind": "script",
+ "scr": [
+  74124,
+  708
+ ],
+ "entries": [
+  {
+   "id": "ROOMES21:12355",
+   "off": 74581,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:1235d",
+   "off": 74589,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:12367",
+   "off": 74599,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:1236f",
+   "off": 74607,
+   "op": "1c",
+   "group": "npc",
+   "jp": "酒場の娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:1237d",
+   "off": 74621,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:1238d",
+   "off": 74637,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "誰もいないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:123a3",
+   "off": 74659,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「一杯 飲んでくかい？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:123bf",
+   "off": 74687,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「南の医療聖堂では\r  バケモノの軍隊を\r  作っているって\u0010\b  もっぱらの噂だ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES21:1240e",
+   "off": 74766,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「地方領主の中には\r  魔導聖堂に従わない方も\r  いらっしゃる」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

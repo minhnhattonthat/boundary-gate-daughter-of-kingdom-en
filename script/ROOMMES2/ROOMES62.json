@@ -1,0 +1,153 @@
+{
+ "source": "ROOMMES2/ROOMES62.BIN",
+ "kind": "script",
+ "scr": [
+  325900,
+  770
+ ],
+ "entries": [
+  {
+   "id": "ROOMES62:4facd",
+   "off": 326349,
+   "op": "23",
+   "group": "location",
+   "jp": "紋章の迷宮の地図",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fae1",
+   "off": 326369,
+   "op": "4e",
+   "group": "menu",
+   "jp": "アンブローズ北地区大門",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fafc",
+   "off": 326396,
+   "op": "4e",
+   "group": "menu",
+   "jp": "心臓の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb11",
+   "off": 326417,
+   "op": "4e",
+   "group": "menu",
+   "jp": "牙の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb24",
+   "off": 326436,
+   "op": "4e",
+   "group": "menu",
+   "jp": "五芒星の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb3b",
+   "off": 326459,
+   "op": "4e",
+   "group": "menu",
+   "jp": "瞳の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb56",
+   "off": 326486,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "カギが かかっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb71",
+   "off": 326513,
+   "op": "23",
+   "group": "location",
+   "jp": "心臓の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fb8a",
+   "off": 326538,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fba7",
+   "off": 326567,
+   "op": "23",
+   "group": "location",
+   "jp": "心臓の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fbc2",
+   "off": 326594,
+   "op": "23",
+   "group": "location",
+   "jp": "牙の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fbdb",
+   "off": 326619,
+   "op": "23",
+   "group": "location",
+   "jp": "五芒星の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES62:4fbf8",
+   "off": 326648,
+   "op": "23",
+   "group": "location",
+   "jp": "瞳の紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

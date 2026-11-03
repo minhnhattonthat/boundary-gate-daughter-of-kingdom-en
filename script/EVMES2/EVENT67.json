@@ -1,0 +1,252 @@
+{
+ "source": "EVMES2/EVENT67.BIN",
+ "kind": "script",
+ "scr": [
+  137380,
+  990
+ ],
+ "entries": [
+  {
+   "id": "EVENT67:21a6d",
+   "off": 137837,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭長\r「私が知識聖堂の司祭長だ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21a92",
+   "off": 137874,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21a95",
+   "off": 137877,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  今回のリスプの行動は\r  すべてあの娘が独断で\r  おこなったこと…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21adb",
+   "off": 137947,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21ade",
+   "off": 137950,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …しかし こうなった\r  以上は",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b02",
+   "off": 137986,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b05",
+   "off": 137989,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  君たちにも 事情を説明\r  せねばなるまい…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b3d",
+   "off": 138045,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b40",
+   "off": 138048,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭長\r「…１８年前 リスプと\r  キラルは",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b6d",
+   "off": 138093,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b70",
+   "off": 138096,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  二重胎児として生まれて\r  きた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b95",
+   "off": 138133,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21b98",
+   "off": 138136,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  その時 全聖堂の司祭長\r  がワイズブルームに\r  集まった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21bd5",
+   "off": 138197,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21bd8",
+   "off": 138200,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  二人の…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21be8",
+   "off": 138216,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21beb",
+   "off": 138219,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いや どちらか一人でも\r  命を救うために…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21c1e",
+   "off": 138270,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21c23",
+   "off": 138275,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「それは私達が５０年ぶり\r  に生まれた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21c55",
+   "off": 138325,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21c58",
+   "off": 138328,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  『王国の娘』\r  だったから…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT67:21c7f",
+   "off": 138367,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source": "ROOMMES1/ROOMES32.BIN",
+ "kind": "script",
+ "scr": [
+  69536,
+  554
+ ],
+ "entries": [
+  {
+   "id": "ROOMES32:11161",
+   "off": 69985,
+   "op": "23",
+   "group": "location",
+   "jp": "坑夫の家Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES32:1116f",
+   "off": 69999,
+   "op": "1c",
+   "group": "npc",
+   "jp": "坑夫",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES32:11179",
+   "off": 70009,
+   "op": "28",
+   "group": "menu",
+   "jp": "家の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES32:11186",
+   "off": 70022,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「俺が生まれる ずっと前に\r  同じようなことがあった\r  らしい」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

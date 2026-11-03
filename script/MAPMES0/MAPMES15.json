@@ -1,0 +1,98 @@
+{
+ "source": "MAPMES0/MAPMES15.BIN",
+ "kind": "script",
+ "scr": [
+  338628,
+  768
+ ],
+ "entries": [
+  {
+   "id": "MAPMES15:52cd1",
+   "off": 339153,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "残ったモンスターも\r一掃できたらしい\u0010\bプレリアール公が\r家臣達を集めている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52d30",
+   "off": 339248,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52d37",
+   "off": 339255,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「突然…地下室から…\r  化け物どもが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52d65",
+   "off": 339301,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52d6c",
+   "off": 339308,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「たのむ…閣下を…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52d87",
+   "off": 339335,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "すでに事切れている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52da0",
+   "off": 339360,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES15:52da7",
+   "off": 339367,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「突然､魔物が…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "EVMES0/EVENT10.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  519
+ ],
+ "entries": [
+  {
+   "id": "EVENT10:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「とにかくこのクレーター\r  を脱出しよう…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT10:10e69",
+   "off": 69225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

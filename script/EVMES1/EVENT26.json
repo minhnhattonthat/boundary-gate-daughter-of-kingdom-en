@@ -1,0 +1,186 @@
+{
+ "source": "EVMES1/EVENT26.BIN",
+ "kind": "script",
+ "scr": [
+  133248,
+  843
+ ],
+ "entries": [
+  {
+   "id": "EVENT26:20a48",
+   "off": 133704,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "あちこち引き回されるのには\rいいかげん うんざりだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20a7e",
+   "off": 133758,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20a81",
+   "off": 133761,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "でもリスプは辛抱強く\r待つつもりらしい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20aac",
+   "off": 133804,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20aaf",
+   "off": 133807,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "まったく頑固なお嬢様だ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20acb",
+   "off": 133835,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20ace",
+   "off": 133838,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "館に向かう途中 彼女が\rこんなことを話してくれた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b02",
+   "off": 133890,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b0d",
+   "off": 133901,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「王国すべての魔法の源は",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b32",
+   "off": 133938,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b35",
+   "off": 133941,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  バウンダリーゲートと\r  呼ばれる 巨大な光の渦\r  なのです…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b76",
+   "off": 134006,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20b79",
+   "off": 134009,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ゲートは異世界との\r  間に開いた門…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20ba4",
+   "off": 134052,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20ba7",
+   "off": 134055,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ロードダールの様に…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT26:20bc7",
+   "off": 134087,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

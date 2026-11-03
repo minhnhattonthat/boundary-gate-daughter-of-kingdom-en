@@ -1,0 +1,285 @@
+{
+ "source": "ROOMMES0/ROOMES01.BIN",
+ "kind": "script",
+ "scr": [
+  79728,
+  1705
+ ],
+ "entries": [
+  {
+   "id": "ROOMES01:13931",
+   "off": 80177,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13939",
+   "off": 80185,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13943",
+   "off": 80195,
+   "op": "1c",
+   "group": "npc",
+   "jp": "酒場の娘Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13953",
+   "off": 80211,
+   "op": "1c",
+   "group": "npc",
+   "jp": "酒場の娘Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13963",
+   "off": 80227,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:1396d",
+   "off": 80237,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13977",
+   "off": 80247,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:1398b",
+   "off": 80267,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "店の中からは\r音楽と娘達の笑い声が\r聞こえてくる\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:139c6",
+   "off": 80326,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「知識聖堂は 魔導聖堂と\r  ならぶ権威をもって\r  いるが…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13a01",
+   "off": 80385,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  めったに一般の人々とは\r  接触しないんだよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13a34",
+   "off": 80436,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ここんとこ 若い娘が\r  何人も行方不明に\r  なってるんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13a6f",
+   "off": 80495,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  化け物の仕業だって\r  ウワサだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13a92",
+   "off": 80530,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  うちの女の子達も\r  さわいでるよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13ac2",
+   "off": 80578,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「知識聖堂の者だけが\r  瞳の紋章を身に付ける\r  ことを許されます」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13b08",
+   "off": 80648,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あたしの知ってる娘も\r  行方不明に\r  なっちゃったの」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13b43",
+   "off": 80707,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「怖いから お店に出る日は\r  朝まで帰らないわ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13b7e",
+   "off": 80766,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「東地区の境付近で\r  若い女性の死体が\r  発見されたんだってな\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13bbe",
+   "off": 80830,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  オレが思うに戒厳令が\r  しかれたのは\r  そのせいじゃないか？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13c0c",
+   "off": 80908,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「お嬢さん\r  ワイズブルームから来た\r  のかい？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13c3e",
+   "off": 80958,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂の司祭を\r  見るのは初めてだよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13c6e",
+   "off": 81006,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「貴族達たちはみんな田舎\r  に逃げ出して､東地区は\r  空き家だらけだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13cbe",
+   "off": 81086,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「どうせ寝るところが\r  ないんだったら\r  化け物を探しに行くって\u0010\b  いう手もあるな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13d1e",
+   "off": 81182,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「モーダルグロウには\r  魔導 知識 医療の\r  三聖堂がある\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13d58",
+   "off": 81240,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  それぞれの分野で権威を\r  持っているんだ\u0010\b  それらを統括するのが\r  国王と王国の娘なのさ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES01:13db9",
+   "off": 81337,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「代々の王国の娘が\r  もたらした いにしえの\r  知識は\u0010\b  すべて知識聖堂が\r  管理しています」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

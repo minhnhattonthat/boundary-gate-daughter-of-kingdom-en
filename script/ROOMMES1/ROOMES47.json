@@ -1,0 +1,87 @@
+{
+ "source": "ROOMMES1/ROOMES47.BIN",
+ "kind": "script",
+ "scr": [
+  69712,
+  701
+ ],
+ "entries": [
+  {
+   "id": "ROOMES47:11211",
+   "off": 70161,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:1121b",
+   "off": 70171,
+   "op": "1c",
+   "group": "npc",
+   "jp": "女主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:11227",
+   "off": 70183,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:11252",
+   "off": 70226,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港の倉庫に 行けないんで\r  品薄なんだよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:11286",
+   "off": 70278,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何か御用かい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:112b2",
+   "off": 70322,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「やっと 倉庫の新しい\r  商品をならべられたよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES47:112ea",
+   "off": 70378,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何か御用かい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

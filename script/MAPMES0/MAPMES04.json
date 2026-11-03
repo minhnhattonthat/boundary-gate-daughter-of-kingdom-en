@@ -1,0 +1,87 @@
+{
+ "source": "MAPMES0/MAPMES04.BIN",
+ "kind": "script",
+ "scr": [
+  551660,
+  674
+ ],
+ "entries": [
+  {
+   "id": "MAPMES04:86cd1",
+   "off": 552145,
+   "op": "25",
+   "group": "building",
+   "jp": "バラック",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86cdd",
+   "off": 552157,
+   "op": "25",
+   "group": "building",
+   "jp": "バラック",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86ce9",
+   "off": 552169,
+   "op": "25",
+   "group": "building",
+   "jp": "バラック",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86cf5",
+   "off": 552181,
+   "op": "25",
+   "group": "building",
+   "jp": "バラック",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86d03",
+   "off": 552195,
+   "op": "23",
+   "group": "location",
+   "jp": "地下街廃墟の入口",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86d25",
+   "off": 552229,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES04:86d2e",
+   "off": 552238,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「トールマンは怪我を\r  しているのよ\u0010\b  怪我人をアンブローズに\r  連れて行けないわ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

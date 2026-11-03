@@ -1,0 +1,252 @@
+{
+ "source": "EVMES1/EVENT35.BIN",
+ "kind": "script",
+ "scr": [
+  206048,
+  934
+ ],
+ "entries": [
+  {
+   "id": "EVENT35:326a8",
+   "off": 206504,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「静かね…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:326c2",
+   "off": 206530,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:326c7",
+   "off": 206535,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「…やっと笑顔が見れたな」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:326ef",
+   "off": 206575,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:326f4",
+   "off": 206580,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「え？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:3270a",
+   "off": 206602,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:3270f",
+   "off": 206607,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「トーナムでじいさんの\r  息子が見つかった時にさ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:3274e",
+   "off": 206670,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32753",
+   "off": 206675,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「それまで私\r  笑ってなかった？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32782",
+   "off": 206722,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32787",
+   "off": 206727,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「まあな」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:3279f",
+   "off": 206751,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:327aa",
+   "off": 206762,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「…フィン…あのね…\r  …私…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:327d7",
+   "off": 206807,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:327e2",
+   "off": 206818,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーン\r「フィン」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32802",
+   "off": 206850,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32807",
+   "off": 206855,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「な､なんだよ！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32826",
+   "off": 206886,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:3282b",
+   "off": 206891,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーン\r「上で音がする」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32851",
+   "off": 206929,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32856",
+   "off": 206934,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「わかったよ！\r  …ったく…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT35:32882",
+   "off": 206978,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

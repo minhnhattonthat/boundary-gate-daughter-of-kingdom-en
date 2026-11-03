@@ -1,0 +1,142 @@
+{
+ "source": "MAPMES1/MAPMES33.BIN",
+ "kind": "script",
+ "scr": [
+  487696,
+  919
+ ],
+ "entries": [
+  {
+   "id": "MAPMES33:77341",
+   "off": 488257,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉が壊れているらしく\r中に入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:77375",
+   "off": 488309,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオの家…\u0017のはずだが\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:7738d",
+   "off": 488333,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉が壊れていて\r中に入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:773b0",
+   "off": 488368,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ西地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:773cb",
+   "off": 488395,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉が壊れているらしく\r中に入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:773f7",
+   "off": 488439,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉が壊れているらしく\r中に入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:7741f",
+   "off": 488479,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:77426",
+   "off": 488486,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「突然､魔物があらわれて\r  門がすべて…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:77458",
+   "off": 488536,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:7745f",
+   "off": 488543,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「国王陛下が…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:77477",
+   "off": 488567,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "すでに死んでいる\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES33:77491",
+   "off": 488593,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "すでに死んでいる\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

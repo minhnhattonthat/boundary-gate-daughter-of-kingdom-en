@@ -1,0 +1,307 @@
+{
+ "source": "MAPMES1/MAPMES29.BIN",
+ "kind": "script",
+ "scr": [
+  599776,
+  1845
+ ],
+ "entries": [
+  {
+   "id": "MAPMES29:928a1",
+   "off": 600225,
+   "op": "23",
+   "group": "location",
+   "jp": "   アモーク要塞地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92909",
+   "off": 600329,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "地下水道の鉄格子に\rサビついた錠がおりている\rマイヨールは肩をすくめた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92953",
+   "off": 600403,
+   "op": "21",
+   "group": "speaker",
+   "jp": "マイヨール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92960",
+   "off": 600416,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「監視塔のどちらかにカギが\r  あるはずじゃ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:9299f",
+   "off": 600479,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "地下水道の鉄格子に\rサビついた錠がおりている\u0010\bリスプが死体の持っていた\rカギを差し込んでみた\u0010\b力を込めて回すと錠が開いた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92a18",
+   "off": 600600,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92a1d",
+   "off": 600605,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンはマイヨールに\rここで待つようたのんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92a4e",
+   "off": 600654,
+   "op": "21",
+   "group": "speaker",
+   "jp": "マイヨール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92a5b",
+   "off": 600667,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「どうか無事で…」\u0010\bマイヨールは頭を下げた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92aac",
+   "off": 600748,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュが皆の手を握った\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92aca",
+   "off": 600778,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92acd",
+   "off": 600781,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーンはぶ然と\rしている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92af0",
+   "off": 600816,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプが小さく笑った\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92b0a",
+   "off": 600842,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92b0f",
+   "off": 600847,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサが\r仲間になった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92b4d",
+   "off": 600909,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "鉄格子には山羊の印が\r描かれている\u0010\bリスプが山羊の印の鍵で\r鉄格子を開いた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92bab",
+   "off": 601003,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "鉄格子には山羊の印が\r描かれている\u0010\b鉄格子の向こうには\r地下水道が さらに\r広がっているようだ\u0010\bグレイストーンが\r鉄格子を揺さぶったが\r開きそうにない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92c43",
+   "off": 601155,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92c6e",
+   "off": 601198,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフィン達は\r５００Ｇを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92cb0",
+   "off": 601264,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92cdb",
+   "off": 601307,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bチャージロールを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92d14",
+   "off": 601364,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rチャージロールを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92d45",
+   "off": 601413,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92d63",
+   "off": 601443,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92d8e",
+   "off": 601486,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bサンダーロールを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92dc7",
+   "off": 601543,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rサンダーロールを\r手に入れた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES29:92dfa",
+   "off": 601594,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

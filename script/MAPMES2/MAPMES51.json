@@ -1,0 +1,43 @@
+{
+ "source": "MAPMES2/MAPMES51.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  611
+ ],
+ "entries": [
+  {
+   "id": "MAPMES51:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "牙の紋章の迷宮\r              地下４階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES51:51e9f",
+   "off": 335519,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "モンスターがあらわれた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES51:51ebe",
+   "off": 335550,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "紋章のアックスを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source": "MAPMES2/MAPMES68.BIN",
+ "kind": "script",
+ "scr": [
+  399524,
+  681
+ ],
+ "entries": [
+  {
+   "id": "MAPMES68:61aa7",
+   "off": 400039,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いつのまにか司祭長の\r後ろにリスプが立っていた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES68:61ad7",
+   "off": 400087,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES68:61aeb",
+   "off": 400107,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "もう ここには入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES68:61b10",
+   "off": 400144,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭長の部屋を出ると\r後ろからリスプが追ってきた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

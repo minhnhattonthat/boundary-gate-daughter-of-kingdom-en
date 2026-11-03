@@ -1,0 +1,142 @@
+{
+ "source": "EVMES3/EVENT80.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  810
+ ],
+ "entries": [
+  {
+   "id": "EVENT80:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「星々を渡る船…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01230",
+   "off": 4656,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01233",
+   "off": 4659,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  遠い昔､我々の祖先は\r  これでこの地に降り立ち\r  ました…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01272",
+   "off": 4722,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01275",
+   "off": 4725,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  カリフォスの地下にも\r  同じ船が存在し…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:012a4",
+   "off": 4772,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:012a7",
+   "off": 4775,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  キラルがいにしえの知識に\r  命じて再び動かそうと\r  したけれど…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:012ed",
+   "off": 4845,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:012f0",
+   "off": 4848,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  長い年月に船はたえきれず\r  爆発しました…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01321",
+   "off": 4897,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01324",
+   "off": 4900,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ４つの端末が停止した今…\r  もう､残る船を動かす事は\r  できません…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT80:01371",
+   "off": 4977,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

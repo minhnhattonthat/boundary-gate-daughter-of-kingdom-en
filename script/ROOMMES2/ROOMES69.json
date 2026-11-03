@@ -1,0 +1,98 @@
+{
+ "source": "ROOMMES2/ROOMES69.BIN",
+ "kind": "script",
+ "scr": [
+  68704,
+  617
+ ],
+ "entries": [
+  {
+   "id": "ROOMES69:10e22",
+   "off": 69154,
+   "op": "28",
+   "group": "menu",
+   "jp": "東の監視塔",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e30",
+   "off": 69168,
+   "op": "28",
+   "group": "menu",
+   "jp": "南の監視塔",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e3e",
+   "off": 69182,
+   "op": "28",
+   "group": "menu",
+   "jp": "アムール要塞",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e4e",
+   "off": 69198,
+   "op": "28",
+   "group": "menu",
+   "jp": "迷宮その１",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e5c",
+   "off": 69212,
+   "op": "28",
+   "group": "menu",
+   "jp": "迷宮その２",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e6a",
+   "off": 69226,
+   "op": "28",
+   "group": "menu",
+   "jp": "迷宮その３",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e79",
+   "off": 69241,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES69:10e82",
+   "off": 69250,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  次は どこに行こうか\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

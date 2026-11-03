@@ -1,0 +1,98 @@
+{
+ "source": "EVMES0/EVENT16.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  666
+ ],
+ "entries": [
+  {
+   "id": "EVENT16:10e2c",
+   "off": 69164,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "今､一人の男が野望に\r燃える目で\r王座を見つめていた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10e63",
+   "off": 69219,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10e6a",
+   "off": 69226,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "男\r「ホムンクリの実験は\r  成功した…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10e94",
+   "off": 69268,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10e97",
+   "off": 69271,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いずれ司祭長と国王の\r  始末をつけたら…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10ec6",
+   "off": 69318,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10ec9",
+   "off": 69321,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  この私がモーダルグロウ\r  を支配する…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT16:10ef8",
+   "off": 69368,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "source": "ROOMMES3/ROOMES77.BIN",
+ "kind": "script",
+ "scr": [
+  101084,
+  875
+ ],
+ "entries": [
+  {
+   "id": "ROOMES77:18c9d",
+   "off": 101533,
+   "op": "23",
+   "group": "location",
+   "jp": "賢者の部屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18cab",
+   "off": 101547,
+   "op": "1c",
+   "group": "npc",
+   "jp": "賢者Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18cb7",
+   "off": 101559,
+   "op": "1c",
+   "group": "npc",
+   "jp": "賢者Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18cc3",
+   "off": 101571,
+   "op": "1c",
+   "group": "npc",
+   "jp": "賢者Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18ccf",
+   "off": 101583,
+   "op": "1c",
+   "group": "npc",
+   "jp": "賢者Ｄ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18cdb",
+   "off": 101595,
+   "op": "28",
+   "group": "menu",
+   "jp": "部屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18cea",
+   "off": 101610,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ゲートは異形の者達の\r  力の源だ\u0010\b  ゲートを閉じることが\r  できれば その力を\r  封じられる」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18d4b",
+   "off": 101707,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「光の渦？\u0017しょせんゲート\r  の影にすぎん\u0010\b  バウンダリーゲートを\r  閉じることなど…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18da5",
+   "off": 101797,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ゲートを操る力を持つ者は\r  自由にゲートの影を\r  産み出すことができる」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES77:18df2",
+   "off": 101874,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「光の渦から現れる化け物\r  どもは\u0010\b  他の世界､他の次元から\r  やってくるのだ…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

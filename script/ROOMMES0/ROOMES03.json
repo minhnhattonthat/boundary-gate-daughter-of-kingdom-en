@@ -1,0 +1,98 @@
+{
+ "source": "ROOMMES0/ROOMES03.BIN",
+ "kind": "script",
+ "scr": [
+  69892,
+  712
+ ],
+ "entries": [
+  {
+   "id": "ROOMES03:112c5",
+   "off": 70341,
+   "op": "23",
+   "group": "location",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:112cf",
+   "off": 70351,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:112d9",
+   "off": 70361,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:112f6",
+   "off": 70390,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「困ったな\r  カリフォスからの荷物が\r  届かないんだよ\u0010\b  何かあったのかな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:11349",
+   "off": 70473,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:11357",
+   "off": 70487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ぶっそうな ご時世だ\u0010\r  武器や防具は ちゃんと\r  装備しとけよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:113a0",
+   "off": 70560,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES03:113a3",
+   "off": 70563,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "さて、どんな用だい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

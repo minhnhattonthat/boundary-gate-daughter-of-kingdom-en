@@ -1,0 +1,65 @@
+{
+ "source": "MAPMES3/MAPMES76.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  758
+ ],
+ "entries": [
+  {
+   "id": "MAPMES76:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城６階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES76:51e82",
+   "off": 335490,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES76:51ea0",
+   "off": 335520,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "王座にはやつれたデミウスが\r座っていた\u0010\bうつろな目でなにかつぶやい\rている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES76:51eeb",
+   "off": 335595,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES76:51ef9",
+   "off": 335609,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンは足下に醜く変形した\r死体をみおろした\u0010\b王国の娘を利用した男の\r最後だ\u0010\bフィンは王座から\r金色に光る大きな鍵を拾った\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

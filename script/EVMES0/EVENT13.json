@@ -1,0 +1,43 @@
+{
+ "source": "EVMES0/EVENT13.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  554
+ ],
+ "entries": [
+  {
+   "id": "EVENT13:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "トールマン\r「この手紙と金属片を\r  リオに渡してくれ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT13:0124b",
+   "off": 4683,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT13:0124e",
+   "off": 4686,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  私は当分､動けそう\r  にない…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

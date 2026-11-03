@@ -1,0 +1,153 @@
+{
+ "source": "MAPMES0/MAPMES13.BIN",
+ "kind": "script",
+ "scr": [
+  337492,
+  1119
+ ],
+ "entries": [
+  {
+   "id": "MAPMES13:52815",
+   "off": 337941,
+   "op": "23",
+   "group": "location",
+   "jp": "倉庫の地下通路",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52876",
+   "off": 338038,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:528a1",
+   "off": 338081,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ西地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:528dd",
+   "off": 338141,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52908",
+   "off": 338184,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフィン達は\r１２００Ｇを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:5294c",
+   "off": 338252,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52977",
+   "off": 338295,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフレイムロールを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:529b0",
+   "off": 338352,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rフレイムロールを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:529e1",
+   "off": 338401,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:529ff",
+   "off": 338431,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52a2a",
+   "off": 338474,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bホーリーストーンを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52a65",
+   "off": 338533,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rホーリーストーンを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES13:52a98",
+   "off": 338584,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

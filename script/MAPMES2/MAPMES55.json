@@ -1,0 +1,21 @@
+{
+ "source": "MAPMES2/MAPMES55.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  532
+ ],
+ "entries": [
+  {
+   "id": "MAPMES55:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "五芒星の紋章の迷宮\r                  地下２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

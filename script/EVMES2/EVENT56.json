@@ -1,0 +1,76 @@
+{
+ "source": "EVMES2/EVENT56.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  604
+ ],
+ "entries": [
+  {
+   "id": "EVENT56:11e51",
+   "off": 73297,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "新国王\r「アンブローズは危険\r  なのだろう？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT56:11e81",
+   "off": 73345,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT56:11e84",
+   "off": 73348,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  プレリアール公に\r  かくまってもらったほう\r  が…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT56:11ebf",
+   "off": 73407,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT56:11ec8",
+   "off": 73416,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT56:11ecd",
+   "off": 73421,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「この……",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

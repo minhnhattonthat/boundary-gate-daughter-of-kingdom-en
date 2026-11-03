@@ -1,0 +1,120 @@
+{
+ "source": "EVMES0/EVENT03.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  698
+ ],
+ "entries": [
+  {
+   "id": "EVENT03:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「知識聖堂が動き出したか…\r  なら 話は別だ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10e66",
+   "off": 69222,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10e69",
+   "off": 69225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だが ひとつこちらの\r  条件を聞いてもらおう",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10e9b",
+   "off": 69275,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10e9e",
+   "off": 69278,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あんたらには\r  カリフォスに使いに\r  行ってもらいたい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10eda",
+   "off": 69338,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10edd",
+   "off": 69341,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そこで何かが起こって\r  いるらしい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10f06",
+   "off": 69382,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10f09",
+   "off": 69385,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  これを使え」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT03:10f1f",
+   "off": 69407,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

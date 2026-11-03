@@ -1,0 +1,142 @@
+{
+ "source": "EVMES0/EVENT23.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  848
+ ],
+ "entries": [
+  {
+   "id": "EVENT23:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「私が 反魔導聖堂組織の\r  リーダー､アッシュだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:0124f",
+   "off": 4687,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01256",
+   "off": 4694,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  君達のことは リオから\r  報告を受けている…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01288",
+   "off": 4744,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:0128f",
+   "off": 4751,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂の権威を\r  軽んじるつもりはないが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:012c2",
+   "off": 4802,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:012c5",
+   "off": 4805,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  時期が 時期だけに\r  城に入るのは簡単なこと\r  ではない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01302",
+   "off": 4866,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01309",
+   "off": 4873,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  しばらくの間\r  プレリアール公の館に\r  世話になるといい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01347",
+   "off": 4935,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:0134e",
+   "off": 4942,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  彼は 先頭に立って\r  魔導聖堂のやり方に反対\r  している地方領主だ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT23:01399",
+   "off": 5017,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

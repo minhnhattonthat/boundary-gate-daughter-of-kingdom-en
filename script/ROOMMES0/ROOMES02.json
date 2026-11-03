@@ -1,0 +1,318 @@
+{
+ "source": "ROOMMES0/ROOMES02.BIN",
+ "kind": "script",
+ "scr": [
+  79592,
+  1990
+ ],
+ "entries": [
+  {
+   "id": "ROOMES02:138a9",
+   "off": 80041,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138b1",
+   "off": 80049,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138bb",
+   "off": 80059,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138c5",
+   "off": 80069,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138cf",
+   "off": 80079,
+   "op": "1c",
+   "group": "npc",
+   "jp": "酒場の女",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138dd",
+   "off": 80093,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:138ef",
+   "off": 80111,
+   "op": "1c",
+   "group": "npc",
+   "jp": "リオ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13903",
+   "off": 80131,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "あやしげな酒場に\rおりていった\u0010\b店の主人は陰気な顔で\r黙っている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:1394e",
+   "off": 80206,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「さっきの野郎､\r  東ゲートの当直\r  だっていうのに\u0010\b  あんなに酔っていて\r  だいじょうぶかな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:139b5",
+   "off": 80309,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「東ゲートの番兵は いつも\r  夜になると 酒を飲むんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:139ec",
+   "off": 80364,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  夜は 化け物がうろついて\r  いるっていうウワサを\r  怖がっているみたいだよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13a4a",
+   "off": 80458,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオ？そういえば\r  もう､出てったよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13a7e",
+   "off": 80510,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「東ゲートのそばで\r  白い髪の娘に出会ったよ\u0010\b  胸に瞳の紋章をつけて\r  いたけれど…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13ad4",
+   "off": 80596,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂の司祭はやっぱり\r  変わっているね」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13b07",
+   "off": 80647,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「城では 武器や食料を\r  買い込んでいるらしいが…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13b3b",
+   "off": 80699,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  肝心の兵士はどこから\r  調達するんだ？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13b69",
+   "off": 80745,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「まいったな\r  反逆者狩りとやらで\r  町から出られないよ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13ba3",
+   "off": 80803,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  酒でも飲むしかないか」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13bca",
+   "off": 80842,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「口は災いの元だ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13beb",
+   "off": 80875,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「何か用か？\u0010\b  大聖堂に行きたい？\r  ムチャいうな\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13c20",
+   "off": 80928,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  魔導聖堂が城の実権を\r  握って以来､\r  掘の内側には\u0010\b  ネコの仔一匹入れねえよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13c80",
+   "off": 81024,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ふと リオがリスプを見た\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13c9a",
+   "off": 81050,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "すると おどろいた顔をして\rリスプの首の瞳の紋章を\u0010\b見ながら こんなことを\r言い出した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13cf2",
+   "off": 81138,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオは二人に ニセの通行証\rを渡した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13d25",
+   "off": 81189,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「まず トールマンの話を\r  教えてもらおう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13d5d",
+   "off": 81245,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「昨夜､丘の上の家に\r  変な灯がついていたわ\u0010\b  おかしいわね\r  あそこは空き家の\r  はずなのに」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13dc8",
+   "off": 81352,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「東地区のゲートの番兵は\r  さっきまで､ここで\r  飲んでいたのよ\u0010\b  だいぶ酔ってたみたい\r  だから 門番にならない\r  かもね」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES02:13e47",
+   "off": 81479,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あたしらには\r  貴族達みたいに 逃げ出す\r  別荘なんかないわ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

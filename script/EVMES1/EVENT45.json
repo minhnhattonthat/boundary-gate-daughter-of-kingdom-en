@@ -1,0 +1,142 @@
+{
+ "source": "EVMES1/EVENT45.BIN",
+ "kind": "script",
+ "scr": [
+  76976,
+  813
+ ],
+ "entries": [
+  {
+   "id": "EVENT45:12e75",
+   "off": 77429,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "シーダ\r「お父さん！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12e91",
+   "off": 77457,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12e98",
+   "off": 77464,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「アッシュ！\r  無事だったんですね！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12ecd",
+   "off": 77517,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12ed6",
+   "off": 77526,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「私と他の仲間は\r  崖の上の牢に",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f04",
+   "off": 77572,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f07",
+   "off": 77575,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  閉じこめられていたんだが\r  騒ぎに乗じて看守を\r  倒すことができたよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f51",
+   "off": 77649,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f54",
+   "off": 77652,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だが おかしい…\r  何かがくるっている…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f82",
+   "off": 77698,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12f85",
+   "off": 77701,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  なぜ 化け物を操っている\r  はずの魔導聖堂自身が\r  攻撃をうけるんだ…？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT45:12fd6",
+   "off": 77782,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "source": "MAPMES2/MAPMES57.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  617
+ ],
+ "entries": [
+  {
+   "id": "MAPMES57:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "五芒星の紋章の迷宮\r                  地下４階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES57:51ea7",
+   "off": 335527,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "モンスターがあらわれた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES57:51ec6",
+   "off": 335558,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "紋章のワンドを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

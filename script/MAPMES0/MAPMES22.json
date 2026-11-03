@@ -1,0 +1,54 @@
+{
+ "source": "MAPMES0/MAPMES22.BIN",
+ "kind": "script",
+ "scr": [
+  340272,
+  661
+ ],
+ "entries": [
+  {
+   "id": "MAPMES22:532f1",
+   "off": 340721,
+   "op": "23",
+   "group": "location",
+   "jp": "東の監視塔２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES22:53332",
+   "off": 340786,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "兵士の死体が転がっている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES22:53350",
+   "off": 340816,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES22:53359",
+   "off": 340825,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「？これは…\u0017この塔の\r  当直の連絡証だ\u0010\b  これを使えば 他の\r  監視塔に入れるかも\r  しれないぞ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

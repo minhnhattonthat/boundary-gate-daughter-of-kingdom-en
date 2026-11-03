@@ -4,7 +4,8 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 tools/build.py` -> build/boundary-gate-en.bin (data track) + .cue (audio from `../rom/`); checks `rom.sha1`, unpacks to `work/disc` once, repacks with mkpsxiso. Identity test: `tests/test_build.py`
-- Check:    `python -X utf8 tools/check.py` (pytest over tests/ + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
+- Check:    `python -X utf8 tools/check.py` (pytest over tests/ + extraction lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
+- Extract:  `python -X utf8 tools/extract.py dump|check|scan` (`script/` JSON per file; `--force` re-dumps and keeps English)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/boundary-gate-en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the `rom/...cue` until a build exists). Title ~f1500; first dialogue ~f2500. Japanese game: confirm = circle.
 - Warp:     `python -X utf8 tools/debug/warp.py <scene>.. [--var BATTLE=n] [--hold N]` -> `work/qa/warp/<scene>/` (cold boot, no debugger; `--list`; `--all --state --jobs 6` regenerates `work/states/<scene>.sstate`; build if present else rom). Scenes: `tools/debug/scenes.tsv` (from `mkscenes.py`); design `docs/re/debug.md`. Never ask the user to play to a scene.
 - Release:  `python -X utf8 tools/release.py` (xdelta vs Track 01 .bin + verify; never publish without the user)

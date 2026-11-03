@@ -1,0 +1,65 @@
+{
+ "source": "ROOMMES1/ROOMES26.BIN",
+ "kind": "script",
+ "scr": [
+  77012,
+  606
+ ],
+ "entries": [
+  {
+   "id": "ROOMES26:12e95",
+   "off": 77461,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES26:12e9f",
+   "off": 77471,
+   "op": "1c",
+   "group": "npc",
+   "jp": "道具屋の娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES26:12eaf",
+   "off": 77487,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES26:12ec4",
+   "off": 77508,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いらっしゃいませ！\u0010\r  そなえあれば\r  憂いなしっていうでしょ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES26:12f0d",
+   "off": 77581,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何の御用かしら？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

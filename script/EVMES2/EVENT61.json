@@ -1,0 +1,186 @@
+{
+ "source": "EVMES2/EVENT61.BIN",
+ "kind": "script",
+ "scr": [
+  29864,
+  826
+ ],
+ "entries": [
+  {
+   "id": "EVENT61:07679",
+   "off": 30329,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「…どうしてもやるつもり\r  なのね？ …お姉さん」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:076b7",
+   "off": 30391,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:076bc",
+   "off": 30396,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「もう やめて キラル！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:076df",
+   "off": 30431,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:076e2",
+   "off": 30434,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  これ以上 ゲートを\r  ねじ曲げたら 取り返しの\r  つかないことに…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:07733",
+   "off": 30515,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:0773a",
+   "off": 30522,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル…？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:07750",
+   "off": 30544,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:07757",
+   "off": 30551,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル？！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:07775",
+   "off": 30581,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:0777e",
+   "off": 30590,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「…助けて…  …お姉さん…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:077a7",
+   "off": 30631,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:077aa",
+   "off": 30634,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …助けて…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:077be",
+   "off": 30654,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:077c1",
+   "off": 30657,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …ああっ！！…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT61:077de",
+   "off": 30686,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

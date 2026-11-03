@@ -1,0 +1,54 @@
+{
+ "source": "ROOMMES2/ROOMES72.BIN",
+ "kind": "script",
+ "scr": [
+  73144,
+  513
+ ],
+ "entries": [
+  {
+   "id": "ROOMES72:11f79",
+   "off": 73593,
+   "op": "23",
+   "group": "location",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES72:11f83",
+   "off": 73603,
+   "op": "1c",
+   "group": "npc",
+   "jp": "治療魔導士",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES72:11f93",
+   "off": 73619,
+   "op": "28",
+   "group": "menu",
+   "jp": "治療院の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES72:11fa4",
+   "off": 73636,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何か御用ですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

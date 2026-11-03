@@ -1,0 +1,142 @@
+{
+ "source": "ROOMMES1/ROOMES45.BIN",
+ "kind": "script",
+ "scr": [
+  104384,
+  864
+ ],
+ "entries": [
+  {
+   "id": "ROOMES45:19981",
+   "off": 104833,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19989",
+   "off": 104841,
+   "op": "1c",
+   "group": "npc",
+   "jp": "女主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19995",
+   "off": 104853,
+   "op": "1c",
+   "group": "npc",
+   "jp": "船員Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:199a1",
+   "off": 104865,
+   "op": "1c",
+   "group": "npc",
+   "jp": "船員Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:199ad",
+   "off": 104877,
+   "op": "1c",
+   "group": "npc",
+   "jp": "船員Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:199b9",
+   "off": 104889,
+   "op": "1c",
+   "group": "npc",
+   "jp": "漁師マイヨール",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:199cd",
+   "off": 104909,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:199da",
+   "off": 104922,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おととい 港の倉庫から\r  化け物がわんさか 出て\r  きてね\u0010\b  だれも港に近づけないん\r  だよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19a3a",
+   "off": 105018,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「マイヨールのひとり息子は\r  港のさわぎ以来､行方不明\r  なんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19a7e",
+   "off": 105086,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ずっと こうしてる訳に\r  もいかねえ\r  それは解ってるんだが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19ac2",
+   "off": 105154,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「向こう岸の監視塔から\r  煙があがってたなあ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES45:19af4",
+   "off": 105204,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「もう 生きていても\r  しょうがねえ…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "source": "ROOMMES0/ROOMES13.BIN",
+ "kind": "script",
+ "scr": [
+  326852,
+  1237
+ ],
+ "entries": [
+  {
+   "id": "ROOMES13:4fe86",
+   "off": 327302,
+   "op": "28",
+   "group": "menu",
+   "jp": "東の監視塔",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4fe94",
+   "off": 327316,
+   "op": "28",
+   "group": "menu",
+   "jp": "南の監視塔",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4fea2",
+   "off": 327330,
+   "op": "28",
+   "group": "menu",
+   "jp": "アモーク要塞",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4feb2",
+   "off": 327346,
+   "op": "28",
+   "group": "menu",
+   "jp": "堤防にもどる",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4fec2",
+   "off": 327362,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "マイヨールが小舟の前で\r待っていた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4fee9",
+   "off": 327401,
+   "op": "21",
+   "group": "speaker",
+   "jp": "マイヨール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4fef6",
+   "off": 327414,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「きなすったな\r  よし！出発じゃ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4ff25",
+   "off": 327461,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4ff56",
+   "off": 327510,
+   "op": "23",
+   "group": "location",
+   "jp": "東の監視塔外観",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4ff6e",
+   "off": 327534,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "監視塔は闇に包まれて\r静まり返っている\u0010\bフィン達は マイヨールに\r舟を任せると塔の中に入って\rいった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:4ffe6",
+   "off": 327654,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:50017",
+   "off": 327703,
+   "op": "23",
+   "group": "location",
+   "jp": "南の監視塔外観",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:5002f",
+   "off": 327727,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "監視塔の屋上には明々と\r松明が点されている\u0010\b忍び込むのは難しそうだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:50087",
+   "off": 327815,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "マイヨールは夜になるのを\r待って小舟を出した\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:500b8",
+   "off": 327864,
+   "op": "23",
+   "group": "location",
+   "jp": "アモーク要塞外観",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:500cc",
+   "off": 327884,
+   "op": "21",
+   "group": "speaker",
+   "jp": "マイヨール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:500d9",
+   "off": 327897,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「正面から行っても\r  入れてはくれまい\u0010\b  要塞に続く階段があった\r  はずじゃが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:50136",
+   "off": 327990,
+   "op": "21",
+   "group": "speaker",
+   "jp": "マイヨール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES13:50143",
+   "off": 328003,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「すっかり 明るくなって\r  しまったわい\u0010\b  舟が必要なら いつでも\r  きなさい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

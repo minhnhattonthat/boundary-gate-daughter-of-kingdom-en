@@ -1,0 +1,219 @@
+{
+ "source": "ROOMMES1/ROOMES39.BIN",
+ "kind": "script",
+ "scr": [
+  88508,
+  1246
+ ],
+ "entries": [
+  {
+   "id": "ROOMES39:15b7d",
+   "off": 88957,
+   "op": "23",
+   "group": "location",
+   "jp": "軍の連絡所",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15b8b",
+   "off": 88971,
+   "op": "1c",
+   "group": "npc",
+   "jp": "司令官",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15b97",
+   "off": 88983,
+   "op": "1c",
+   "group": "npc",
+   "jp": "兵士Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15ba3",
+   "off": 88995,
+   "op": "1c",
+   "group": "npc",
+   "jp": "兵士Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15baf",
+   "off": 89007,
+   "op": "28",
+   "group": "menu",
+   "jp": "連絡所の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15bc6",
+   "off": 89030,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "国王の姿を見て 兵士達は\r唖然としている\u0010\bしかし すぐに直立不動で\r敬礼した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15c12",
+   "off": 89106,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "奥の部屋からシーダが\r出てきて 国王に抱きついた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15c43",
+   "off": 89155,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15c48",
+   "off": 89160,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "国王は司令官から牙の印の鍵\rを受け取ると フィンに手渡\rした\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15c84",
+   "off": 89220,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15c89",
+   "off": 89225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "牙の印の鍵を手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15cb5",
+   "off": 89269,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いったい､国王は…\r\u0017  軍をあげて捜索している\r  んだが…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15cf6",
+   "off": 89334,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「我々に命令を下すことが\r  出来るのは 国王陛下\r  だけだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15d3c",
+   "off": 89404,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「アモーク要塞に兵士を\r  派遣しているのだが…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15d6d",
+   "off": 89453,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まだ､良い連絡は\r  届かない…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15d94",
+   "off": 89492,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「昨日まで 牙の紋章の\r  迷宮の警備にあたって\r  いたんだが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15dde",
+   "off": 89566,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「国王陛下は\r  牙の印の鍵を持ったまま\r  行方不明に…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15e16",
+   "off": 89622,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  もしや､あのデミウスに\r  連れ去られたのでは…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES39:15e4d",
+   "off": 89677,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「これからは国王とともに\r  アンブローズの復興に\r  励みたいと思います」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

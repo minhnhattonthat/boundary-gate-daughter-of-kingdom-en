@@ -1,0 +1,21 @@
+{
+ "source": "EVMES0/EVENT12.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  520
+ ],
+ "entries": [
+  {
+   "id": "EVENT12:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メルク\r「この傷では 当分ここから\r  動かす訳にはいかないよ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "source": "MAPMES0/MAPMES20.BIN",
+ "kind": "script",
+ "scr": [
+  534988,
+  1470
+ ],
+ "entries": [
+  {
+   "id": "MAPMES20:82bb6",
+   "off": 535478,
+   "op": "23",
+   "group": "location",
+   "jp": "港町トーナム",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82bcd",
+   "off": 535501,
+   "op": "21",
+   "group": "speaker",
+   "jp": "見張り\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82bde",
+   "off": 535518,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港が封鎖される直前に\r  小舟が要塞の方に\u0010\b  向かっていたよ\u0010\b  アモーク要塞に 船を\r  近づけることは禁じられて\r  いるんだがな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82c63",
+   "off": 535651,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港に魔物が近寄らない\r  ように見張っているんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82ca0",
+   "off": 535712,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "この扉は閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82cc6",
+   "off": 535750,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "突然､魔物が襲いかかって\rきた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82ce8",
+   "off": 535784,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82cf9",
+   "off": 535801,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「気を付けろ\r  館の時と同じだぞ！」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82d2a",
+   "off": 535850,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "化け物は断末魔の叫び声を\r上げた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82d4d",
+   "off": 535885,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプの唱える呪文と共に\r小さくなって消えて行く\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82d82",
+   "off": 535938,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82d93",
+   "off": 535955,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おや？倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82dc9",
+   "off": 536009,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82dd2",
+   "off": 536018,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おい！大丈夫か？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82deb",
+   "off": 536043,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "少年は気がついたようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82e09",
+   "off": 536073,
+   "op": "21",
+   "group": "speaker",
+   "jp": "少年\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82e10",
+   "off": 536080,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「化け物は！\r  どこ？！…\u0010\b  化け物を倒してくれた\r  んですか？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82e52",
+   "off": 536146,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ありがとうございました\r  このご恩は忘れません\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82e85",
+   "off": 536197,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いけない！\r  父さんが心配している\r  と思うので帰ります\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82ec1",
+   "off": 536257,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お礼がしたいので\r  後で 酒場にきて\r  くださいね」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82ef9",
+   "off": 536313,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "少年は走り去っていった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82f15",
+   "off": 536341,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82f1e",
+   "off": 536350,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「よかったな」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82f33",
+   "off": 536371,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82f3c",
+   "off": 536380,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あんな少年まで巻き込まれ\r  るなんて…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES20:82f6f",
+   "off": 536431,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

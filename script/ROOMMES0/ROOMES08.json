@@ -1,0 +1,65 @@
+{
+ "source": "ROOMMES0/ROOMES08.BIN",
+ "kind": "script",
+ "scr": [
+  161912,
+  649
+ ],
+ "entries": [
+  {
+   "id": "ROOMES08:27a43",
+   "off": 162371,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔物が若い娘を\r襲おうとしている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES08:27a66",
+   "off": 162406,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "こちらに向かってきた！\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES08:27a89",
+   "off": 162441,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプが\r仲間に加わった\u0017\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES08:27aa6",
+   "off": 162470,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "二人は身仕度を整える\rために､宿屋へ向かった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES08:27aee",
+   "off": 162542,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

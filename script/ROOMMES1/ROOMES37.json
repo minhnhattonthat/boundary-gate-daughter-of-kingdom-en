@@ -1,0 +1,208 @@
+{
+ "source": "ROOMMES1/ROOMES37.BIN",
+ "kind": "script",
+ "scr": [
+  106364,
+  1455
+ ],
+ "entries": [
+  {
+   "id": "ROOMES37:1a13d",
+   "off": 106813,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場アルフォース",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a151",
+   "off": 106833,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a15b",
+   "off": 106843,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a165",
+   "off": 106853,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a16f",
+   "off": 106863,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a184",
+   "off": 106884,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おれは最後までこの店を\r  離れんぞ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a1b8",
+   "off": 106936,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「みんな出ていったぜ\r  どこへだって？\u0010\r  知らんね」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a1fa",
+   "off": 107002,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンはリオから預かった\rプレートを見せた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a227",
+   "off": 107047,
+   "op": "21",
+   "group": "speaker",
+   "jp": "主人\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a22e",
+   "off": 107054,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ん？ プレートを持って\r  いるようだな？」\u0010\b主人は 黙ってプレートを\r確かめているようだ\u0010\b奥の部屋へ入って\r何か話していたが やがて\r中に入るよう告げた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a2ca",
+   "off": 107210,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いらっしゃい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a2e7",
+   "off": 107239,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオは今朝 街に出て\r  いったきりだぜ\u0010\b  城のことで調べることが\r  あると言っていたが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a34f",
+   "off": 107343,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「後からきた男が\r  ひとり残ってたみたい\r  だが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a388",
+   "off": 107400,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「なぜ 我々が 魔導聖堂の\r  指揮下に入らねば\r  ならない？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a3c4",
+   "off": 107460,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いくら 王国の娘の決定\r  とはいえ 納得できん！」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a402",
+   "off": 107522,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「逃げ出さないガンコ者が\r  街のあちこちにまだいるぜ\u0010\b  ここの主人もその一人\r  だがな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a465",
+   "off": 107621,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「トーナムは アモーク要塞\r  の入口みたいなもんだ\u0010\b  そこで騒ぎがおきている\r  らしい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES37:1a4c1",
+   "off": 107713,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「知識聖堂は 政治には関与\r  しないしきたりだったが…\u0010\b  ここまで魔導聖堂が\r  力を広げるとはなぁ…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

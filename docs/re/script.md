@@ -52,10 +52,15 @@ B = u8, W = 2 bytes, D = u32, J = s16 jump, S = zero-terminated string, Nn = n b
 | **27** | S S | two-way choice (e.g. 記録する / 記録しない) |
 | **28** | B S B | room menu item: slot, label, routine |
 | **4e** | B S B B | menu item variant |
-| **1c** | B S B B B | room NPC: slot, name (shown in talk list), sprite, routine... |
+| **1c** | B S B B B | room NPC: slot, name (shown in the talk list), sprite, routine... |
 | **25** | S B | go to building/room: name + index |
 
-Bold = carries a display string. In-text control codes are in `text.md`.
+Every S operand is displayed text, so all eight opcodes above are text (verified by reading the decoded
+strings: 0x1c carries the talk-menu names 店主 / 宿屋の主人 / 町長 / 衛兵A, and 0x25 the map location list
+武器屋 / 道具屋 / 宿屋 / 酒場 / 治療院). An S operand that is only printer control bytes (0x08 clear window,
+0x10 wait) is a script command: `tools/extract.py` files it as `kind: data`, not as a line to translate.
+In-text control codes are in `text.md`.
 
-Counts (reachable files): 0x22 x1784, 0x23 x160, 0x21 x148, 0x1c x118, 0x25 x64, 0x28 x59, 0x27 x12 (pairs),
-0x4e x12; 65,891 string bytes, 1,400 unique strings (MAPMES copies repeat a lot).
+Counts in the 203 reachable files (`tools/extract.py dump`, 2,349 entries): 0x22 x1781, 0x23 x159,
+0x21 x148, 0x1c x115, 0x25 x64, 0x28 x58, 0x27 x12 (pairs), 0x4e x12; 445 of them are control-only.
+37 k characters; MAPMES copies repeat a lot.

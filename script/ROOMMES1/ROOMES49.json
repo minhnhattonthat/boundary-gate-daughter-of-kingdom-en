@@ -1,0 +1,43 @@
+{
+ "source": "ROOMMES1/ROOMES49.BIN",
+ "kind": "script",
+ "scr": [
+  32844,
+  530
+ ],
+ "entries": [
+  {
+   "id": "ROOMES49:08217",
+   "off": 33303,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ん‥‥？\r何かある‥‥\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES49:08230",
+   "off": 33328,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "包みを見つけた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES49:0824b",
+   "off": 33355,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

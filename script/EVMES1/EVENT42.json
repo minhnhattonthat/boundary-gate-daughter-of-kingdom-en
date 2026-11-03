@@ -1,0 +1,21 @@
+{
+ "source": "EVMES1/EVENT42.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  482
+ ],
+ "entries": [
+  {
+   "id": "EVENT42:001e7",
+   "off": 487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「さあ 開きなさい！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

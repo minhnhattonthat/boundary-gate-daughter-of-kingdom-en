@@ -1,0 +1,76 @@
+{
+ "source": "ROOMMES2/ROOMES59.BIN",
+ "kind": "script",
+ "scr": [
+  81164,
+  653
+ ],
+ "entries": [
+  {
+   "id": "ROOMES59:13ecd",
+   "off": 81613,
+   "op": "23",
+   "group": "location",
+   "jp": "坑夫の家Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES59:13edb",
+   "off": 81627,
+   "op": "1c",
+   "group": "npc",
+   "jp": "坑夫",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES59:13ee5",
+   "off": 81637,
+   "op": "1c",
+   "group": "npc",
+   "jp": "女",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES59:13eed",
+   "off": 81645,
+   "op": "28",
+   "group": "menu",
+   "jp": "家の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES59:13efa",
+   "off": 81658,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「今じゃあ 何か知っている\r  のは 坑夫長のハンセン\r  じいさんぐらいだろう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES59:13f48",
+   "off": 81736,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「鉱山を このまま封鎖する\r  という噂もあるんだよ\r  とんだことになったねえ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

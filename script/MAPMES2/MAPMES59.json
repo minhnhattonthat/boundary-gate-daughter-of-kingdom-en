@@ -1,0 +1,98 @@
+{
+ "source": "MAPMES2/MAPMES59.BIN",
+ "kind": "script",
+ "scr": [
+  399524,
+  905
+ ],
+ "entries": [
+  {
+   "id": "MAPMES59:61a65",
+   "off": 399973,
+   "op": "23",
+   "group": "location",
+   "jp": "五芒星の紋章の迷宮\r                  地下５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61ac2",
+   "off": 400066,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "多重人格型人工知能システム\r     ［ペンタグラム］\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61af6",
+   "off": 400118,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ペンタグラム\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61b05",
+   "off": 400133,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「手をプレートにあてて\r  ください」\u0010\bリスプが手をあてると\r再び声がした\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61b4f",
+   "off": 400207,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ペンタグラム\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61b5e",
+   "off": 400222,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「遺伝子コード確認\r  パスワードは？」\u0010\bリスプが何か合言葉のよう\rなものを言っている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61bb4",
+   "off": 400308,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ペンタグラム\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES59:61bc3",
+   "off": 400323,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「コマンドアクセプト\u0010\b  端末［ペンタグラム］は\r  停止します」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

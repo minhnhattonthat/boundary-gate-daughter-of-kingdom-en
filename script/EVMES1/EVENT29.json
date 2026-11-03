@@ -1,0 +1,252 @@
+{
+ "source": "EVMES1/EVENT29.BIN",
+ "kind": "script",
+ "scr": [
+  197784,
+  1150
+ ],
+ "entries": [
+  {
+   "id": "EVENT29:30660",
+   "off": 198240,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "プレリアール公\r「お二人には\r  お礼の申しようもない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30698",
+   "off": 198296,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:3069f",
+   "off": 198303,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  それにしても 魔導聖堂が\r  これほどの力を\r  持ち始めたとは…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:306e2",
+   "off": 198370,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:306e9",
+   "off": 198377,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  息子のアッシュが\r  気になる情報を知らせて\r  きた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30721",
+   "off": 198433,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30724",
+   "off": 198436,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  魔導聖堂の実権を握って\r  いるのは\r  副司祭長デミウスらしい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30766",
+   "off": 198502,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30769",
+   "off": 198505,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  医療聖堂を取り込み\r  強力な軍隊を作り出そうと\r  していると…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:307af",
+   "off": 198575,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:307b8",
+   "off": 198584,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "プレリアール公\r「医療聖堂はともかく",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:307e1",
+   "off": 198625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:307e4",
+   "off": 198628,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  なぜ王国の娘が魔導聖堂に\r  味方するのか…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30815",
+   "off": 198677,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:3081c",
+   "off": 198684,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  王国の娘のもたらす力は\r  人々のためにこそ\r  あるはず…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:3085a",
+   "off": 198746,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30861",
+   "off": 198753,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お二人には なにとぞ\r  我々の力になってくださる\r  よう お願い申す」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:308ab",
+   "off": 198827,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:308b4",
+   "off": 198836,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "プレリアール公\r「グレイストーン､おまえは\r  この方達と共にゆくのだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:308fb",
+   "off": 198907,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:308fe",
+   "off": 198910,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  よいな」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT29:30913",
+   "off": 198931,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "source": "EVMES2/EVENT72.BIN",
+ "kind": "script",
+ "scr": [
+  137380,
+  754
+ ],
+ "entries": [
+  {
+   "id": "EVENT72:21a70",
+   "off": 137840,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「狭いわね…こんな汚い\r  ところ通らなきゃ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21aaa",
+   "off": 137898,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21aad",
+   "off": 137901,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ！グレイストーン",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21ac5",
+   "off": 137925,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21ac8",
+   "off": 137928,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  へんなところ触らない\r  でよ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21aed",
+   "off": 137965,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21af0",
+   "off": 137968,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …キャー！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b06",
+   "off": 137990,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b09",
+   "off": 137993,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「急に手を離すことない\r  でしょ！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b3c",
+   "off": 138044,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b41",
+   "off": 138049,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーン\r「…触るなといった」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b6b",
+   "off": 138091,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b70",
+   "off": 138096,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「も～ やぁだ～」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT72:21b92",
+   "off": 138130,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

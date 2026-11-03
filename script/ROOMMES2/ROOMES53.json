@@ -1,0 +1,208 @@
+{
+ "source": "ROOMMES2/ROOMES53.BIN",
+ "kind": "script",
+ "scr": [
+  97104,
+  1325
+ ],
+ "entries": [
+  {
+   "id": "ROOMES53:17d3e",
+   "off": 97598,
+   "op": "1c",
+   "group": "npc",
+   "jp": "リオ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17d4e",
+   "off": 97614,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17d58",
+   "off": 97624,
+   "op": "1c",
+   "group": "npc",
+   "jp": "魔導聖堂長",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17d68",
+   "off": 97640,
+   "op": "1c",
+   "group": "npc",
+   "jp": "アッシュ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17d76",
+   "off": 97654,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17d8b",
+   "off": 97675,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リスプ､\r  ワイズブルームへ\r  帰りなさい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17dbd",
+   "off": 97725,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「医療聖堂長が\r  言っておった\u0010\b  王国の娘に身体は\r  不要だと…\u0010\b  そのほうが いにしえの\r  知識とはなじむのだと」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17e32",
+   "off": 97842,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17e45",
+   "off": 97861,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「アンブローズにいるはず\r  のリオがまだ､帰らな\r  いんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17e80",
+   "off": 97920,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  この宿で落ち合う約束\r  なんだが」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17eb2",
+   "off": 97970,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオのことはまかせろ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17ed9",
+   "off": 98009,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオが意識を\r  取り戻したぞ！\u0010\b  城に入る地下水道の入口が\r  東地区にあるそうだ\u0010\b  これが入り口の鍵だ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17f45",
+   "off": 98117,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "銀の鍵を手にいれた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17f6c",
+   "off": 98156,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「城に入る地下水道の入口が\r  東地区にあるそうだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17fac",
+   "off": 98220,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「大聖堂の奥…？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17fc5",
+   "off": 98245,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「アンブローズは\r  もう､終わりなのか？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:17ffa",
+   "off": 98298,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「もう 宿を開いている状況\r  では ないんだけど…\u0010\b  私には ここしか いる\r  場所がないのよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES53:1805e",
+   "off": 98398,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "泊まっていくかい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

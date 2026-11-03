@@ -1,0 +1,164 @@
+{
+ "source": "ROOMMES1/ROOMES28.BIN",
+ "kind": "script",
+ "scr": [
+  91384,
+  950
+ ],
+ "entries": [
+  {
+   "id": "ROOMES28:166b9",
+   "off": 91833,
+   "op": "23",
+   "group": "location",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166c1",
+   "off": 91841,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166cb",
+   "off": 91851,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町長",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166d5",
+   "off": 91861,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166e1",
+   "off": 91873,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166ed",
+   "off": 91885,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:166f9",
+   "off": 91897,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:16716",
+   "off": 91926,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「町から 鉱山をとったら\r  何が残るというんだ…\r  困ったもんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:16757",
+   "off": 91991,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  おっと お客さんに\r  愚痴をこぼしちゃったよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:1678f",
+   "off": 92047,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何の用だい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:167a3",
+   "off": 92067,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「わしは 町長として\r  人々の安全に責任がある」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:167d6",
+   "off": 92118,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「よその人かね？\r  悪いが今､重要な話を\r  してるんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:16810",
+   "off": 92176,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「グリソムさんの家？\r  東の外れだと\r  思ったけど…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES28:16849",
+   "off": 92233,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「このまま､いつまた\r  化け物どもが出てくるか\r  わからんようでは､\u0010\b  町から逃げ出すしか\r  ない」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

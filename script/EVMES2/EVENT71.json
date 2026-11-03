@@ -1,0 +1,296 @@
+{
+ "source": "EVMES2/EVENT71.BIN",
+ "kind": "script",
+ "scr": [
+  76976,
+  1091
+ ],
+ "entries": [
+  {
+   "id": "EVENT71:12e75",
+   "off": 77429,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「私はキラルの双子の姉…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12e9a",
+   "off": 77466,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12e9d",
+   "off": 77469,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  王国の娘となる資格は\r  あります」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12ec7",
+   "off": 77511,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12ecc",
+   "off": 77516,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔導聖堂長\r「じゃが…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12eea",
+   "off": 77546,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12ef3",
+   "off": 77555,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「大丈夫です\r  司祭長様",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f17",
+   "off": 77591,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f1a",
+   "off": 77594,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ４つの迷宮の底で\r  いにしえの知識は私を\r  主人とみとめました」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f62",
+   "off": 77666,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f65",
+   "off": 77669,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「キラルが教えてくれました",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f8c",
+   "off": 77708,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12f8f",
+   "off": 77711,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  カリフォスの消失\r  アンブローズを襲った\r  異変",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12fc5",
+   "off": 77765,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12fc8",
+   "off": 77768,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いにしえの知識\r  そして､王国の娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12ff0",
+   "off": 77808,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:12ff3",
+   "off": 77811,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  すべての答えが大聖堂の\r  地下にあるということを」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:1302d",
+   "off": 77869,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:13032",
+   "off": 77874,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「大聖堂の地下…！？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:13053",
+   "off": 77907,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:13056",
+   "off": 77910,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そこが最後の紋章の迷宮\r  なのか？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:13082",
+   "off": 77954,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:13087",
+   "off": 77959,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「そして魔力の源\r  力の渦の中心…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:130b5",
+   "off": 78005,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:130b8",
+   "off": 78008,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  バウンダリーゲートの\r  存在する場所なのです」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT71:130ef",
+   "off": 78063,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

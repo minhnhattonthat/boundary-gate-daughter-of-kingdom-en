@@ -1,0 +1,186 @@
+{
+ "source": "EVMES0/EVENT18.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  868
+ ],
+ "entries": [
+  {
+   "id": "EVENT18:11e53",
+   "off": 73299,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン\r「救援隊か？ありがたい…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11e7c",
+   "off": 73340,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11e7f",
+   "off": 73343,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン\r「わしのじいさんが\r  若かったころ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11eaf",
+   "off": 73391,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11eb2",
+   "off": 73394,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  同じようなことが\r  あったそうじゃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11edb",
+   "off": 73435,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11ede",
+   "off": 73438,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  その時は知識聖堂の力で\r  化け物を封じ込めたと\r  言っておったが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f26",
+   "off": 73510,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f29",
+   "off": 73513,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  今度の地震で封印が\r  解けてしまったらしい…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f61",
+   "off": 73569,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f66",
+   "off": 73574,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「わたしが封印を直します」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f8e",
+   "off": 73614,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11f93",
+   "off": 73619,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン\r「ほっほっほ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11fb0",
+   "off": 73648,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11fb3",
+   "off": 73651,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂にも\r  こんなべっぴんが\r  おったとはな」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT18:11fed",
+   "off": 73709,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

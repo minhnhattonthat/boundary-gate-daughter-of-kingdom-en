@@ -1,0 +1,87 @@
+{
+ "source": "ROOMMES0/ROOMES06.BIN",
+ "kind": "script",
+ "scr": [
+  77012,
+  641
+ ],
+ "entries": [
+  {
+   "id": "ROOMES06:12e9d",
+   "off": 77469,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12ea7",
+   "off": 77479,
+   "op": "1c",
+   "group": "npc",
+   "jp": "道具屋の娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12eb7",
+   "off": 77495,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12ec7",
+   "off": 77511,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "誰もいない‥‥",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12ed7",
+   "off": 77527,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\u0010",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12ee5",
+   "off": 77541,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いらっしゃいませ\u0010\b  そなえあれば憂いなし\r  っていうでしょ？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES06:12f2e",
+   "off": 77614,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "どんな御用ですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

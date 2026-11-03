@@ -1,0 +1,43 @@
+{
+ "source": "EVMES1/EVENT40.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  558
+ ],
+ "entries": [
+  {
+   "id": "EVENT40:001e7",
+   "off": 487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「あきれた馬鹿力…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT40:00202",
+   "off": 514,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT40:00205",
+   "off": 517,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そうだ！急がなきゃ！\r  ほら！なにやってんの！\r  上よ！上だってば！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

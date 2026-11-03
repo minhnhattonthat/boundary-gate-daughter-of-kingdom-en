@@ -1,0 +1,54 @@
+{
+ "source": "ROOMMES2/ROOMES71.BIN",
+ "kind": "script",
+ "scr": [
+  73760,
+  515
+ ],
+ "entries": [
+  {
+   "id": "ROOMES71:121e1",
+   "off": 74209,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES71:121eb",
+   "off": 74219,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES71:121f5",
+   "off": 74229,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES71:12202",
+   "off": 74242,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いらっしゃい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+ "source": "MAPMES0/MAPMES05.BIN",
+ "kind": "script",
+ "scr": [
+  337492,
+  1215
+ ],
+ "entries": [
+  {
+   "id": "MAPMES05:52815",
+   "off": 337941,
+   "op": "23",
+   "group": "location",
+   "jp": "地下街廃墟",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:5284a",
+   "off": 337994,
+   "op": "23",
+   "group": "location",
+   "jp": "カリフォスの廃墟",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52869",
+   "off": 338025,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宿屋の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52880",
+   "off": 338048,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "…？\r道具屋の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:528a6",
+   "off": 338086,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ひどい荒れようだ\u0010\b以前は 立派な武具屋\rだったろうに…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:528de",
+   "off": 338142,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "？\u0017\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:528e6",
+   "off": 338150,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52911",
+   "off": 338193,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bレイピアを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52943",
+   "off": 338243,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52961",
+   "off": 338273,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "レイピアを\r手に入れた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52988",
+   "off": 338312,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "武具屋の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:529aa",
+   "off": 338346,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ここも道具屋の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:529c5",
+   "off": 338373,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "おや？\u0017何かが落ちている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:529df",
+   "off": 338399,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ラージポーションを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52a09",
+   "off": 338441,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52a28",
+   "off": 338472,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rラージポーションを\r手に入れた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52a63",
+   "off": 338531,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "道具屋の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52a7c",
+   "off": 338556,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ほのかに アルコールの\r臭いがする\u0010\bここは酒場だったのか？\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52abb",
+   "off": 338619,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "民家の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52ad2",
+   "off": 338642,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "…無残だな\rここも民家の跡地らしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES05:52afa",
+   "off": 338682,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ん？\r治療院の跡か…\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

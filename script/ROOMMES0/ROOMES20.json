@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES0/ROOMES20.BIN",
+ "kind": "script",
+ "scr": [
+  80144,
+  738
+ ],
+ "entries": [
+  {
+   "id": "ROOMES20:13ad9",
+   "off": 80601,
+   "op": "23",
+   "group": "location",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13ae1",
+   "off": 80609,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13aeb",
+   "off": 80619,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13af7",
+   "off": 80631,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13b03",
+   "off": 80643,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13b13",
+   "off": 80659,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "誰もいないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13b29",
+   "off": 80681,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いらっしゃい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13b3d",
+   "off": 80701,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「カリフォスが\r  消えちまったらしい\u0010\b  後には 大きな穴が\r  あるだけだったそうだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES20:13b93",
+   "off": 80787,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ずっと 新国王の姿が\r  見えないんだ\u0010\b  城では 魔導聖堂が\r  軍の指揮権まで\r  握っている」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

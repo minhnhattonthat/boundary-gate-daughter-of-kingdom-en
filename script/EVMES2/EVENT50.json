@@ -1,0 +1,43 @@
+{
+ "source": "EVMES2/EVENT50.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  553
+ ],
+ "entries": [
+  {
+   "id": "EVENT50:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「司祭長さま！\r  私です！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT50:10e55",
+   "off": 69205,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT50:10e58",
+   "off": 69208,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  妹と一緒にあなたの手術\r  を受けたリスプです！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

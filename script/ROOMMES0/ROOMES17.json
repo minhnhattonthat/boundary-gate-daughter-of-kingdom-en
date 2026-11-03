@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES0/ROOMES17.BIN",
+ "kind": "script",
+ "scr": [
+  150448,
+  818
+ ],
+ "entries": [
+  {
+   "id": "ROOMES17:24d71",
+   "off": 150897,
+   "op": "23",
+   "group": "location",
+   "jp": "メルクの家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24d7f",
+   "off": 150911,
+   "op": "1c",
+   "group": "npc",
+   "jp": "老婆メルク",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24d97",
+   "off": 150935,
+   "op": "1c",
+   "group": "npc",
+   "jp": "トールマン",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24da7",
+   "off": 150951,
+   "op": "28",
+   "group": "menu",
+   "jp": "小屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24dbe",
+   "off": 150974,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "バラックに入ると 怪我人の\r食事を作っていた老婆が\r顔をあげた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24e13",
+   "off": 151059,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「この傷では 当分\r  ここから 動かすわけには\r  いかないよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24e67",
+   "off": 151143,
+   "op": "1c",
+   "group": "npc",
+   "jp": "トールマン",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24e81",
+   "off": 151169,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「他にも 怪我人を\r  みつけたら\r  連れておいで」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES17:24eb8",
+   "off": 151224,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「わたしは\r  当分動けそうにない…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

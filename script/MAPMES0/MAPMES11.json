@@ -1,0 +1,131 @@
+{
+ "source": "MAPMES0/MAPMES11.BIN",
+ "kind": "script",
+ "scr": [
+  337492,
+  1027
+ ],
+ "entries": [
+  {
+   "id": "MAPMES11:52815",
+   "off": 337941,
+   "op": "23",
+   "group": "location",
+   "jp": "坑道地下２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:5287b",
+   "off": 338043,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:528a6",
+   "off": 338086,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフィン達は\r８００Ｇを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:528e8",
+   "off": 338152,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:52913",
+   "off": 338195,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bリバイブロールを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:5294c",
+   "off": 338252,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rリバイブロールを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:5297d",
+   "off": 338301,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:5299b",
+   "off": 338331,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\r宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:529c6",
+   "off": 338374,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bラージポーションを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:52a01",
+   "off": 338433,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rラージポーションを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES11:52a34",
+   "off": 338484,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "source": "EVMES1/EVENT31.BIN",
+ "kind": "script",
+ "scr": [
+  133248,
+  1022
+ ],
+ "entries": [
+  {
+   "id": "EVENT31:20a44",
+   "off": 133700,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "一方 アンブローズでは\r不安におののく人々の前に\r王国の娘が姿を現していた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20a91",
+   "off": 133777,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20a9c",
+   "off": 133788,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「王国の娘の名において",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20abf",
+   "off": 133823,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20ac2",
+   "off": 133826,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  モーダルグロウの\r  すべての民に告げます",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20af1",
+   "off": 133873,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20af4",
+   "off": 133876,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  これより\r  モーダルグロウ全土は\r  戒厳令下に置かれます",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20b32",
+   "off": 133938,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20b39",
+   "off": 133945,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  今後 全聖堂 および軍は\r  魔導聖堂の指揮下に\r  入り…ま…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20b79",
+   "off": 134009,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20b80",
+   "off": 134016,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …デ…デミウス･プリゴを\r  新しい魔導聖堂長に\r  命じます…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20bc4",
+   "off": 134084,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20bcd",
+   "off": 134093,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "医師\r「長時間 生命維持装置から\r  離れるのは無茶です」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c08",
+   "off": 134152,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c0d",
+   "off": 134157,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「…もう下がって\r  よろしい…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c37",
+   "off": 134199,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c3a",
+   "off": 134202,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  出ていきなさい！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c52",
+   "off": 134226,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c55",
+   "off": 134229,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お姉さん…\r  …たすけて…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT31:20c7a",
+   "off": 134266,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

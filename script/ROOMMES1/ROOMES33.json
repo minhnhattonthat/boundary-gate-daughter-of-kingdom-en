@@ -1,0 +1,296 @@
+{
+ "source": "ROOMMES1/ROOMES33.BIN",
+ "kind": "script",
+ "scr": [
+  298716,
+  1703
+ ],
+ "entries": [
+  {
+   "id": "ROOMES33:490af",
+   "off": 299183,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔導聖堂の司祭長と\rアッシュが待っていた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:490da",
+   "off": 299226,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュがフィンの肩を\rたたいた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:490ff",
+   "off": 299263,
+   "op": "21",
+   "group": "speaker",
+   "jp": "アッシュ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4910a",
+   "off": 299274,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオの手当ては我々に\r  まかせてくれ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49135",
+   "off": 299317,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4913a",
+   "off": 299322,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭長がリスプに言った\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49156",
+   "off": 299350,
+   "op": "21",
+   "group": "speaker",
+   "jp": "魔導聖堂長\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49163",
+   "off": 299363,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「４つの迷宮の底で真実と\r  向かい合うのじゃ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49198",
+   "off": 299416,
+   "op": "23",
+   "group": "location",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491a6",
+   "off": 299430,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491b8",
+   "off": 299448,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491c2",
+   "off": 299458,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491cc",
+   "off": 299468,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491d6",
+   "off": 299478,
+   "op": "1c",
+   "group": "npc",
+   "jp": "壁の絵",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:491e2",
+   "off": 299490,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4920d",
+   "off": 299533,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオは２階の部屋で\r  安静にしているよ\u0010\b  手当ては私に任せて\r  おくれ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49262",
+   "off": 299618,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いらっしゃい\r  部屋はひとつしか\r  空いてないからね」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4929f",
+   "off": 299679,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「もう 宿を開いている\r  状況ではないけど\u0010\b  私には ここしかいる\r  場所がないの」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:492f9",
+   "off": 299769,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何の用だい？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4930d",
+   "off": 299789,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「魔導 知識 そして\r  医療聖堂には\r  それぞれ 司祭長がいる\u0010\b  魔導聖堂の司祭長は\r  とても 人望の厚い人\r  なんだが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4938e",
+   "off": 299918,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「トーナムはアモーク要塞の\r  入口みたいなもんだ\u0010\b  そこで騒ぎが起きてる\r  らしい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:493e6",
+   "off": 300006,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「心臓の紋章は 医療聖堂の\r  シンボルだ\u0010\b  治療所を見ただろう？\u0010\r  不可思議な装置だらけだ\u0010\b  みんな代々の王国の娘が\r  もたらした技術なのさ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:49476",
+   "off": 300150,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「医療聖堂は魔導聖堂や\r  知識聖堂より､低く見られ\r  ている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:494b3",
+   "off": 300211,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いにしえの知識と魔法…\r  それがこの国を\r  支えている」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:494f2",
+   "off": 300274,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "壁には美しい少女の絵が\r掲げられている\u0010\b下に文字が書いてある\u0010\b『王国の娘 いにしえの\r言葉を聞き賜う…』\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES33:4955b",
+   "off": 300379,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプは 悲しげに絵を\r見つめている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

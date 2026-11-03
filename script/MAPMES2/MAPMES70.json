@@ -1,0 +1,21 @@
+{
+ "source": "MAPMES2/MAPMES70.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  517
+ ],
+ "entries": [
+  {
+   "id": "MAPMES70:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

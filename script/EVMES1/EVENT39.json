@@ -1,0 +1,32 @@
+{
+ "source": "EVMES1/EVENT39.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  499
+ ],
+ "entries": [
+  {
+   "id": "EVENT39:001e7",
+   "off": 487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT39:001ea",
+   "off": 490,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「薄情者！ボケ！\r  オタンコナス！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

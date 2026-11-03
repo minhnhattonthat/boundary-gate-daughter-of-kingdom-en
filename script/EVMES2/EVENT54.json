@@ -1,0 +1,43 @@
+{
+ "source": "EVMES2/EVENT54.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  530
+ ],
+ "entries": [
+  {
+   "id": "EVENT54:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔導聖堂長\r「デミウスめ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT54:01232",
+   "off": 4658,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT54:01235",
+   "off": 4661,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  己の器も知らぬ\r  哀れな男よ…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

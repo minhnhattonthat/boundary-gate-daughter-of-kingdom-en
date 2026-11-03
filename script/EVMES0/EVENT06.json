@@ -1,0 +1,252 @@
+{
+ "source": "EVMES0/EVENT06.BIN",
+ "kind": "script",
+ "scr": [
+  137380,
+  980
+ ],
+ "entries": [
+  {
+   "id": "EVENT06:21a6c",
+   "off": 137836,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「ところでよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21a85",
+   "off": 137861,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21a88",
+   "off": 137864,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あの晩 なんであんな\r  ところをうろついていた\r  んだ？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21ac5",
+   "off": 137925,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21ac8",
+   "off": 137928,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  恋人と 待ち合わせてた\r  わけでもないだろ？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21afd",
+   "off": 137981,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b02",
+   "off": 137986,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「あの…  あたし…\r  迷ってしまって…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b37",
+   "off": 138039,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b3c",
+   "off": 138044,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「迷ったぁ？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b5a",
+   "off": 138074,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b5f",
+   "off": 138079,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「あたし 一人で\r  ワイズブルームの外に",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b92",
+   "off": 138130,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21b95",
+   "off": 138133,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  出たの初めてなんです…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21bb6",
+   "off": 138166,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21bbb",
+   "off": 138171,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「とんだ世間知らずの\r  お嬢様でございましたか」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21bf8",
+   "off": 138232,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21bfd",
+   "off": 138237,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「ごめんなさい」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21c1b",
+   "off": 138267,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21c20",
+   "off": 138272,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「あやまることはないさ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21c43",
+   "off": 138307,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21c46",
+   "off": 138310,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だが 支払いの方は\r  しっかり頼むぜ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT06:21c74",
+   "off": 138356,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

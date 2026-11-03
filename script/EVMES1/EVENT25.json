@@ -1,0 +1,197 @@
+{
+ "source": "EVMES1/EVENT25.BIN",
+ "kind": "script",
+ "scr": [
+  201916,
+  909
+ ],
+ "entries": [
+  {
+   "id": "EVENT25:31688",
+   "off": 202376,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「ほらね…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:3169f",
+   "off": 202399,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:316a2",
+   "off": 202402,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  バウンダリーゲートを\r  少し歪ませるだけで",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:316d3",
+   "off": 202451,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:316d6",
+   "off": 202454,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  自由に異次元の生き物を\r  呼び出せるのよ…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:3170a",
+   "off": 202506,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:31713",
+   "off": 202515,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「キラル様…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:3172e",
+   "off": 202542,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:31733",
+   "off": 202547,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  プレリアール公の\r  処分についてですが…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:31765",
+   "off": 202597,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:3176a",
+   "off": 202602,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「…私がやっておきます\r  もうお下がりなさい」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:317a5",
+   "off": 202661,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:317ae",
+   "off": 202670,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「…は…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:317c7",
+   "off": 202695,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:317d0",
+   "off": 202704,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「…王国の娘だと？\r  ふん！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:317fa",
+   "off": 202746,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いずれ私が王国の支配を\r  固めたあかつきには\r  あんな小娘ひとり…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT25:31846",
+   "off": 202822,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

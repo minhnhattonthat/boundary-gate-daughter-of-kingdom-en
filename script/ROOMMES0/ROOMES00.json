@@ -1,0 +1,219 @@
+{
+ "source": "ROOMMES0/ROOMES00.BIN",
+ "kind": "script",
+ "scr": [
+  80144,
+  1371
+ ],
+ "entries": [
+  {
+   "id": "ROOMES00:13ad1",
+   "off": 80593,
+   "op": "23",
+   "group": "location",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13ad9",
+   "off": 80601,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13aeb",
+   "off": 80619,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13af7",
+   "off": 80631,
+   "op": "1c",
+   "group": "npc",
+   "jp": "町人Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13b03",
+   "off": 80643,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13b17",
+   "off": 80663,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "感じのいい宿だ\u0010\rホールは ずいぶん\rにぎわっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13b54",
+   "off": 80724,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「申し訳ないんだが\r  部屋がいっぱいなんだよ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13b83",
+   "off": 80771,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  冒険の記録なら\r  できるんだが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13ba6",
+   "off": 80806,
+   "op": "27",
+   "group": "choice",
+   "jp": "記録する",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13baf",
+   "off": 80815,
+   "op": "27",
+   "group": "choice",
+   "jp": "記録しない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13bc3",
+   "off": 80835,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  夜はぶっそうだから\r  気をつけるんだな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13bff",
+   "off": 80895,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「まだ､寝るには\r  早いから､そこいら辺\r  うろついてきたら？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13c53",
+   "off": 80979,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いらっしゃい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13c7d",
+   "off": 81021,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「悪い時期に来てしまった\r  ようだな\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13ca4",
+   "off": 81060,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  今日から戒厳令がしかれ\r  たから 通行証を持って\r  ないと\u0010\b  この北地区から\r  でられないんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13d08",
+   "off": 81160,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「今 このへんじゃ\r  反逆者狩りをやってんだ\u0010\b  あんたも気を付けたほうが\r  いいぜ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13d66",
+   "off": 81254,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あんた傭兵かい？\u0010\b  あんたと同じ様に\r  泊まれなくなった\r  傭兵達は\u0010\b  酒場で夜を明かす\r  らしいぜ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13dd1",
+   "off": 81361,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「近々､王国の娘より\r  重大な発表があるそうだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES00:13e01",
+   "off": 81409,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  モーダルグロウの繁栄は\r  大聖堂にいる王国の娘の\r  おかげだよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

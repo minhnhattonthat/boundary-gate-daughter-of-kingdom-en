@@ -1,0 +1,54 @@
+{
+ "source": "MAPMES1/MAPMES42.BIN",
+ "kind": "script",
+ "scr": [
+  339120,
+  610
+ ],
+ "entries": [
+  {
+   "id": "MAPMES42:52e71",
+   "off": 339569,
+   "op": "23",
+   "group": "location",
+   "jp": "心臓の紋章の迷宮\r                地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES42:52ecb",
+   "off": 339659,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES42:52ed4",
+   "off": 339668,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…声が聞こえる」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES42:52eeb",
+   "off": 339691,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "心臓の印の鍵を持たぬもの\r立ち去れ！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

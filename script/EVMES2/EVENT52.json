@@ -1,0 +1,109 @@
+{
+ "source": "EVMES2/EVENT52.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  662
+ ],
+ "entries": [
+  {
+   "id": "EVENT52:11e53",
+   "off": 73299,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「こっち来てなさいよ！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11e78",
+   "off": 73336,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11e7b",
+   "off": 73339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  大事な話してんだから！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11e99",
+   "off": 73369,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11e9c",
+   "off": 73372,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まったく男どもときたら…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11ebc",
+   "off": 73404,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11ebf",
+   "off": 73407,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そんなに見たきゃ\r  あたしが…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11ee7",
+   "off": 73447,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT52:11eec",
+   "off": 73452,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーン\r「いや  やめてくれ…\r  ウォッ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

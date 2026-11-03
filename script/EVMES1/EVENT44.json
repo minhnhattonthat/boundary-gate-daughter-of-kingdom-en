@@ -1,0 +1,54 @@
+{
+ "source": "EVMES1/EVENT44.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  514
+ ],
+ "entries": [
+  {
+   "id": "EVENT44:10e2e",
+   "off": 69166,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「シーダ！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT44:10e43",
+   "off": 69187,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT44:10e48",
+   "off": 69192,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "シーダ\r「メリッサ？！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT44:10e66",
+   "off": 69222,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

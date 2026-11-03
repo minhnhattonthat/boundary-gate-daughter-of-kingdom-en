@@ -1,0 +1,43 @@
+{
+ "source": "ROOMMES3/ROOMES79.BIN",
+ "kind": "script",
+ "scr": [
+  67220,
+  518
+ ],
+ "entries": [
+  {
+   "id": "ROOMES79:10856",
+   "off": 67670,
+   "op": "1c",
+   "group": "npc",
+   "jp": "司祭長",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES79:10862",
+   "off": 67682,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES79:1086c",
+   "off": 67692,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リスプ ワイズブルームへ\r  帰りなさい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

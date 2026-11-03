@@ -1,0 +1,54 @@
+{
+ "source": "EVMES0/EVENT02.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  548
+ ],
+ "entries": [
+  {
+   "id": "EVENT02:10e31",
+   "off": 69169,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「大聖堂に行きたいだあ？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT02:10e54",
+   "off": 69204,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT02:10e57",
+   "off": 69207,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  堀の内側にはネコの仔一匹\r  入れねえよ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT02:10e88",
+   "off": 69256,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "source": "ROOMMES1/ROOMES29.BIN",
+ "kind": "script",
+ "scr": [
+  68736,
+  1148
+ ],
+ "entries": [
+  {
+   "id": "ROOMES29:10e41",
+   "off": 69185,
+   "op": "23",
+   "group": "location",
+   "jp": "鉱山管理事務所",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10e53",
+   "off": 69203,
+   "op": "1c",
+   "group": "npc",
+   "jp": "鉱山長",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10e5f",
+   "off": 69215,
+   "op": "28",
+   "group": "menu",
+   "jp": "事務所の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10e77",
+   "off": 69239,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "事務所の中は\r雑然としてる\u0010\b一番奥の席にふとった男が\r一人座っている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10ed6",
+   "off": 69334,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「なんだ あんたらは？\u0010\b  緊急事態なのが\r  わからんのか？\u0010\b  出ていけ！！」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10f2f",
+   "off": 69423,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「何度言ったら\r  わかるんだ！\u0010\b  出ていけと言ってる\r  だろ！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10f80",
+   "off": 69504,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「そうか…\r  グリソムの家に\r  行ったのか…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10fae",
+   "off": 69550,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  彼が生きていてくれたら\r  どんなに嬉しいことか\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:10fe1",
+   "off": 69601,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だが､坑夫達をこれ以上\r  危険にさらす\r  わけにはいかん」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:1101f",
+   "off": 69663,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "男は 黙って書類に\rサインをすると\rフィンに差し出した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:11058",
+   "off": 69720,
+   "op": "21",
+   "group": "speaker",
+   "jp": "鉱山長\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:11061",
+   "off": 69729,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「これを持っていけば\r  坑道に入れてくれるだろう\u0010\b  あんたらの命だ\r  好きにすればいい」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES29:110d0",
+   "off": 69840,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「グリソムが生きていて\r  くれたら…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

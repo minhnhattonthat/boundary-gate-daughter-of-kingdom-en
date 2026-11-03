@@ -1,0 +1,120 @@
+{
+ "source": "EVMES3/EVENT79.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  779
+ ],
+ "entries": [
+  {
+   "id": "EVENT79:10e2b",
+   "off": 69163,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "突然 リスプが意識を\r失い､崩れ落ちた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10e51",
+   "off": 69201,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10e58",
+   "off": 69208,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メリッサ\r「リスプ！\r  早く宿に戻らなきゃ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10e88",
+   "off": 69256,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10e8b",
+   "off": 69259,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  グレイストーン！\r  なにぼさっとしてんの！\r  リスプを運ぶのよ！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10ed1",
+   "off": 69329,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10ed4",
+   "off": 69332,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  何言ってんのよ\r  どこ触ったっていいから\r  早く！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10f10",
+   "off": 69392,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10f16",
+   "off": 69398,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーンは\rリスプを 軽々と\r持ち上げた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT79:10f45",
+   "off": 69445,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は急ぎ足で\r西地区の宿へと\r向かった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

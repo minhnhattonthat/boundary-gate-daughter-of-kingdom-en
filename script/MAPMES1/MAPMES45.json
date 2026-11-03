@@ -1,0 +1,131 @@
+{
+ "source": "MAPMES1/MAPMES45.BIN",
+ "kind": "script",
+ "scr": [
+  337492,
+  999
+ ],
+ "entries": [
+  {
+   "id": "MAPMES45:52815",
+   "off": 337941,
+   "op": "23",
+   "group": "location",
+   "jp": "心臓の紋章の迷宮\r                地下４階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:52889",
+   "off": 338057,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "モンスターがあらわれた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:528a8",
+   "off": 338088,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "紋章のソードを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:528d6",
+   "off": 338134,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:52901",
+   "off": 338177,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bヒールリングⅠを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:5293a",
+   "off": 338234,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rヒールリングⅠを\r手に入れた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:5296c",
+   "off": 338284,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:5298a",
+   "off": 338314,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:529b5",
+   "off": 338357,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bマジックリングを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:529ee",
+   "off": 338414,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rマジックリングを\r手に入れた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES45:52a20",
+   "off": 338464,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

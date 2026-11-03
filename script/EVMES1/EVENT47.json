@@ -1,0 +1,230 @@
+{
+ "source": "EVMES1/EVENT47.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  878
+ ],
+ "entries": [
+  {
+   "id": "EVENT47:11e55",
+   "off": 73301,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「なんということだ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11e78",
+   "off": 73336,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11e7b",
+   "off": 73339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  なぜ我が軍の要塞を\r  襲わせる？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11ea2",
+   "off": 73378,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11ea5",
+   "off": 73381,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ！？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11eb1",
+   "off": 73393,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11eb4",
+   "off": 73396,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  始めからあの娘の目的は…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11ed4",
+   "off": 73428,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11ed7",
+   "off": 73431,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …すべてを破滅させること\r  だけだったのか？！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f0f",
+   "off": 73487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f1a",
+   "off": 73498,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「あなたに\r  もう用はないわ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f44",
+   "off": 73540,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f4b",
+   "off": 73547,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お戻りなさい\r  自分の王座に…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f70",
+   "off": 73584,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f77",
+   "off": 73591,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  船は後まわし…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f8d",
+   "off": 73613,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11f90",
+   "off": 73616,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  次はアンブローズよ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11fac",
+   "off": 73644,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11fb3",
+   "off": 73651,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  さあ､\r  バウンダリーゲート\r  混沌の扉を開きなさい！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT47:11ff0",
+   "off": 73712,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

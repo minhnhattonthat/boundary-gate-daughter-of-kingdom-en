@@ -1,0 +1,98 @@
+{
+ "source": "EVMES0/EVENT22.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  637
+ ],
+ "entries": [
+  {
+   "id": "EVENT22:10e2c",
+   "off": 69164,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "大聖堂の闇の中で\r一人の娘がつぶやいていた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10e5b",
+   "off": 69211,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10e66",
+   "off": 69222,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "娘\r「そう… 船を動かすのよ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10e88",
+   "off": 69256,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10e8f",
+   "off": 69263,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  カリフォスの船は\r  燃えてしまったけれど…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10ec0",
+   "off": 69312,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10ec3",
+   "off": 69315,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まだ船はあるわ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT22:10edb",
+   "off": 69339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

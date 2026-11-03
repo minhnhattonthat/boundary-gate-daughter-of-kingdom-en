@@ -1,0 +1,76 @@
+{
+ "source": "ROOMMES2/ROOMES61.BIN",
+ "kind": "script",
+ "scr": [
+  70924,
+  603
+ ],
+ "entries": [
+  {
+   "id": "ROOMES61:116cd",
+   "off": 71373,
+   "op": "23",
+   "group": "location",
+   "jp": "坑夫の家Ｄ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES61:116db",
+   "off": 71387,
+   "op": "1c",
+   "group": "npc",
+   "jp": "娘",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES61:116e3",
+   "off": 71395,
+   "op": "1c",
+   "group": "npc",
+   "jp": "子供",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES61:116ed",
+   "off": 71405,
+   "op": "28",
+   "group": "menu",
+   "jp": "家の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES61:116fa",
+   "off": 71418,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「私達も家族を失いました\r  これからどうすれば…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES61:11730",
+   "off": 71472,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「お姉ちゃん…\r  パパは いつ\r  帰ってくるの…？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

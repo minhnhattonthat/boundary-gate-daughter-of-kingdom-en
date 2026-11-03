@@ -1,0 +1,186 @@
+{
+ "source": "EVMES0/EVENT24.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  862
+ ],
+ "entries": [
+  {
+   "id": "EVENT24:10e2d",
+   "off": 69165,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「どうして 黙って\r  行かせるんです？！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10e5c",
+   "off": 69212,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10e5f",
+   "off": 69215,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂のスパイに\r  決まっています！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10e8e",
+   "off": 69262,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10e93",
+   "off": 69267,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「理由をつけて館に軟禁\r  するよう",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10ec3",
+   "off": 69315,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10ec6",
+   "off": 69318,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  父には伝えてある",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10ede",
+   "off": 69342,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10ee5",
+   "off": 69349,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂は いにしえの\r  知識を握っている",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f15",
+   "off": 69397,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f1c",
+   "off": 69404,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  魔導聖堂でも簡単に手の\r  出せる相手ではない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f4f",
+   "off": 69455,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f56",
+   "off": 69462,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂の考えが\r  つかめないうちは\r  下手に動くな",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f90",
+   "off": 69520,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10f97",
+   "off": 69527,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  とにかく\r  シーダの救出が先決だ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT24:10fc2",
+   "off": 69570,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

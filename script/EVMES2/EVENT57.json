@@ -1,0 +1,43 @@
+{
+ "source": "EVMES2/EVENT57.BIN",
+ "kind": "script",
+ "scr": [
+  13628,
+  524
+ ],
+ "entries": [
+  {
+   "id": "EVENT57:03709",
+   "off": 14089,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「お姉さん…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT57:03722",
+   "off": 14114,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT57:03725",
+   "off": 14117,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  私の邪魔はさせないわ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

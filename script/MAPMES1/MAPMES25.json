@@ -1,0 +1,65 @@
+{
+ "source": "MAPMES1/MAPMES25.BIN",
+ "kind": "script",
+ "scr": [
+  340272,
+  731
+ ],
+ "entries": [
+  {
+   "id": "MAPMES25:532f1",
+   "off": 340721,
+   "op": "23",
+   "group": "location",
+   "jp": "南の監視塔１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES25:5331b",
+   "off": 340763,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "監視塔の屋上には\r明々と松明が点されている\u0010\b忍び込むのは難しそうだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES25:53360",
+   "off": 340832,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "突然 異様な叫び声と悲鳴\rが塔の中から聞こえてきた\u0010\bフィンとグレイストーンは\r顔を見合わせ 小舟を着け\rさせた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES25:533e9",
+   "off": 340969,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES25:533f2",
+   "off": 340978,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「兵士の死体が…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

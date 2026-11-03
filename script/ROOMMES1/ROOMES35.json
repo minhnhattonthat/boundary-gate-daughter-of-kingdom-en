@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES1/ROOMES35.BIN",
+ "kind": "script",
+ "scr": [
+  80232,
+  915
+ ],
+ "entries": [
+  {
+   "id": "ROOMES35:13b29",
+   "off": 80681,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13b33",
+   "off": 80691,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13b3d",
+   "off": 80701,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13b45",
+   "off": 80709,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13b70",
+   "off": 80752,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「魔法のアイテムは\r  使うタイミングが大事」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13ba2",
+   "off": 80802,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「私も早く逃げなくちゃ\r  いけないんだけど…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13bd9",
+   "off": 80857,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "さて､どんな御用ですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13c0c",
+   "off": 80908,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「南地区の医療聖堂で\r  何か起きているらしい\u0010\b  外部の者を入れようと\r  しないんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES35:13c65",
+   "off": 80997,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ホムンクリって 知って\r  ます？ 人間が造り出した\r  生命ですよ\u0010\b  医療聖堂が造っているって\r  噂もあるけど…\u0010\b  本当なら恐ろしい\r  話ですよね…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

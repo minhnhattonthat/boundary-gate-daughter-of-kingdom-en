@@ -1,0 +1,109 @@
+{
+ "source": "ROOMMES1/ROOMES36.BIN",
+ "kind": "script",
+ "scr": [
+  96872,
+  919
+ ],
+ "entries": [
+  {
+   "id": "ROOMES36:17c29",
+   "off": 97321,
+   "op": "23",
+   "group": "location",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17c3b",
+   "off": 97339,
+   "op": "1c",
+   "group": "npc",
+   "jp": "治療魔導士Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17c4d",
+   "off": 97357,
+   "op": "1c",
+   "group": "npc",
+   "jp": "治療魔導士Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17c62",
+   "off": 97378,
+   "op": "1c",
+   "group": "npc",
+   "jp": "治療魔導士",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17c72",
+   "off": 97394,
+   "op": "28",
+   "group": "menu",
+   "jp": "治療院の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17ca1",
+   "off": 97441,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「我々の技術は いにしえの\r  知識と魔術の力の\r  組み合わせです\u0010\b  王国の娘のもたらす知識は\r  多くの人々を救って\r  きました」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17d31",
+   "off": 97585,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「街がどんなことになっても\r  私達は離れません」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17d6a",
+   "off": 97642,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "さて どんな御用ですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES36:17d85",
+   "off": 97669,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「世界のあちこちに 魔力が\r  沸き出す泉があるという\u0010\b  我々の 利用している\r  魔術の力も そこから\r  得られているのだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

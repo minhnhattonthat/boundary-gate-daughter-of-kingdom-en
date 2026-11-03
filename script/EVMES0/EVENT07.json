@@ -1,0 +1,164 @@
+{
+ "source": "EVMES0/EVENT07.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  847
+ ],
+ "entries": [
+  {
+   "id": "EVENT07:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メルク\r「やっと 都から人が\r  来たようだね",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:01242",
+   "off": 4674,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:01245",
+   "off": 4677,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  五日前 あたしが森から\r  町に帰ろうとした時だった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:0127d",
+   "off": 4733,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:01280",
+   "off": 4736,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  突然 物凄い音がして\r  あたりが真っ暗になって\r  ね",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:012b9",
+   "off": 4793,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:012bc",
+   "off": 4796,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  もどって見たら 町が\r  なくなっているじゃないか",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:012f2",
+   "off": 4850,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:012f5",
+   "off": 4853,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  それ以来 こうして\r  怪我人の看病をしてるの\r  さ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:0132c",
+   "off": 4908,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:01333",
+   "off": 4915,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あたしにゃ\r  身よりもないしねぇ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:0135a",
+   "off": 4954,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:0135d",
+   "off": 4957,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  他にも怪我人をみつけた\r  ら ここにつれておいで」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT07:01397",
+   "off": 5015,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

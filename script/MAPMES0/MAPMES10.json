@@ -1,0 +1,87 @@
+{
+ "source": "MAPMES0/MAPMES10.BIN",
+ "kind": "script",
+ "scr": [
+  339120,
+  729
+ ],
+ "entries": [
+  {
+   "id": "MAPMES10:52e71",
+   "off": 339569,
+   "op": "23",
+   "group": "location",
+   "jp": "坑道地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52eaa",
+   "off": 339626,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ハンセン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52eb5",
+   "off": 339637,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「もう だいじょうぶじゃ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52ed0",
+   "off": 339664,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  知識聖堂のお嬢さん\r  すまんかったのう\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52efb",
+   "off": 339707,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  グリソムは…\r  奥さんには気の毒\r  じゃが…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52f2b",
+   "off": 339755,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  何も言わないで\r  そっとしといて\r  やってくれ」\u0010\u0017\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES10:52f67",
+   "off": 339815,
+   "op": "23",
+   "group": "location",
+   "jp": "ロードダールの鉱山町",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

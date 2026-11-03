@@ -1,0 +1,219 @@
+{
+ "source": "MAPMES1/MAPMES34.BIN",
+ "kind": "script",
+ "scr": [
+  682976,
+  1150
+ ],
+ "entries": [
+  {
+   "id": "MAPMES34:a6dbf",
+   "off": 683455,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ東地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6dda",
+   "off": 683482,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ西地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6dff",
+   "off": 683519,
+   "op": "23",
+   "group": "location",
+   "jp": "医療聖堂",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6e09",
+   "off": 683529,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "一行の前に巨大な建物が\rそびえ立っている\u0010\b窓が無く まるで巨大な箱の\rようだ\u0010\b扉には心臓の紋章が描かれて\rいる\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6e82",
+   "off": 683650,
+   "op": "23",
+   "group": "location",
+   "jp": "医療聖堂",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6e96",
+   "off": 683670,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アンブローズ城だ\r暗雲がたちこめている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6ecf",
+   "off": 683727,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "壁の裏から いつかの乞食が\r顔を出した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6efb",
+   "off": 683771,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6f02",
+   "off": 683778,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「旦那のおかげで助かりま\r  した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6f25",
+   "off": 683813,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  実はそちらのお嬢さんを\r  捜してたんです」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6f54",
+   "off": 683860,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "乞食は リスプに\r『瞳の印の鍵』を手渡した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6f80",
+   "off": 683904,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6f87",
+   "off": 683911,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「司祭長からお預かりした\r  ものです」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6fb0",
+   "off": 683952,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "乞食のぼろぼろのマントの\r下に瞳の紋章が見えた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6fe1",
+   "off": 684001,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6fe8",
+   "off": 684008,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いずれ また…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a6ffd",
+   "off": 684029,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "驚くリスプを後に 乞食は\r笑いながら立ち去った\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a703c",
+   "off": 684092,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES34:a7043",
+   "off": 684099,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「役に立ちましたか？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source": "EVMES1/EVENT38.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  538
+ ],
+ "entries": [
+  {
+   "id": "EVENT38:001e7",
+   "off": 487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「…味方なら手伝ってよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT38:00206",
+   "off": 518,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT38:00209",
+   "off": 521,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  この鉄格子には魔法が\r  きかないんだから」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT38:0023b",
+   "off": 571,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

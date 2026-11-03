@@ -1,0 +1,76 @@
+{
+ "source": "ROOMMES2/ROOMES60.BIN",
+ "kind": "script",
+ "scr": [
+  83596,
+  579
+ ],
+ "entries": [
+  {
+   "id": "ROOMES60:1484d",
+   "off": 84045,
+   "op": "23",
+   "group": "location",
+   "jp": "坑夫の家Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES60:1485b",
+   "off": 84059,
+   "op": "1c",
+   "group": "npc",
+   "jp": "坑夫",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES60:14865",
+   "off": 84069,
+   "op": "1c",
+   "group": "npc",
+   "jp": "子供",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES60:1486f",
+   "off": 84079,
+   "op": "28",
+   "group": "menu",
+   "jp": "家の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES60:1487c",
+   "off": 84092,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「この鉱山町も\r  おしまいか…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES60:1489f",
+   "off": 84127,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「坑道の奥には きっと\r  何かがいるんだよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

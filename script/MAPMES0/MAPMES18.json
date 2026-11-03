@@ -1,0 +1,351 @@
+{
+ "source": "MAPMES0/MAPMES18.BIN",
+ "kind": "script",
+ "scr": [
+  490256,
+  1628
+ ],
+ "entries": [
+  {
+   "id": "MAPMES18:77d26",
+   "off": 490790,
+   "op": "21",
+   "group": "speaker",
+   "jp": "見張り\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77d2f",
+   "off": 490799,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「この向こうが港だ\u0010\b  幸い化け物どもは 街に\r  まで入ってきていない\r  が…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77d81",
+   "off": 490881,
+   "op": "23",
+   "group": "location",
+   "jp": "倉庫街",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77d98",
+   "off": 490904,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77da2",
+   "off": 490914,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77daa",
+   "off": 490922,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77db2",
+   "off": 490930,
+   "op": "25",
+   "group": "building",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77dbc",
+   "off": 490940,
+   "op": "25",
+   "group": "building",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77dc6",
+   "off": 490950,
+   "op": "25",
+   "group": "building",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77dda",
+   "off": 490970,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "人気のない袋小路で\r宿で会った男が待っていた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77e0b",
+   "off": 491019,
+   "op": "21",
+   "group": "speaker",
+   "jp": "男\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77e10",
+   "off": 491024,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港の倉庫に隠してある\r  包みを探して欲しいん\u0010\b  ですよ\u0010\b  私のふるい友達が 隠した\r  んですがね\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77e73",
+   "off": 491123,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  場所を教えずに 死んじま\r  って…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77e99",
+   "off": 491161,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まあ詳しい事情は 知らな\r  いほうが お互いのためで\r  しょう\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77ed9",
+   "off": 491225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  決して損はさせませんよ\r  いかがですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77f0d",
+   "off": 491277,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  また気が変わったら\r  ここにいらっしゃい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77f3e",
+   "off": 491326,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  交渉成立ですな\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77f52",
+   "off": 491346,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  これは倉庫街に入る鍵\r  です」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77f75",
+   "off": 491381,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "倉庫のカギを手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77fa8",
+   "off": 491432,
+   "op": "21",
+   "group": "speaker",
+   "jp": "男\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77fad",
+   "off": 491437,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港の倉庫に隠してある\r  包みを探して欲しいん\u0010\b  ですよ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:77fe8",
+   "off": 491496,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  期待してますよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:78009",
+   "off": 491529,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "男は皮袋を受け取ると\rちらりと中を確かめて\r笑った\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:7803f",
+   "off": 491583,
+   "op": "21",
+   "group": "speaker",
+   "jp": "男\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:78044",
+   "off": 491588,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「よろしいでしょう\r  これは約束のお礼です」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:7807f",
+   "off": 491647,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "男はフィンに\rホーリーストーンを渡した\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:780a8",
+   "off": 491688,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rホーリーストーンを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:780d6",
+   "off": 491734,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\r１０００Ｇを\r手に入れた！\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:7811b",
+   "off": 491803,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "港は閉鎖されているようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:78137",
+   "off": 491831,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "この扉は閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES18:78152",
+   "off": 491858,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "この扉は閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

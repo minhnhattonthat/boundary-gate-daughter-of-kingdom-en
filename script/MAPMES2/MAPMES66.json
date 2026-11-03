@@ -1,0 +1,142 @@
+{
+ "source": "MAPMES2/MAPMES66.BIN",
+ "kind": "script",
+ "scr": [
+  347384,
+  903
+ ],
+ "entries": [
+  {
+   "id": "MAPMES66:54ede",
+   "off": 347870,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ地下水道",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54efe",
+   "off": 347902,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ東地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54f23",
+   "off": 347939,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54f2e",
+   "off": 347950,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「きっとここよ！  ここ！\r  グレイストーン 早く！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54f67",
+   "off": 348007,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54f78",
+   "off": 348024,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…別に私でなくても…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54f95",
+   "off": 348053,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーンは制御室の\rスイッチを押してみた\u0010\b見る間に水が引いてゆく…\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:54fee",
+   "off": 348142,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "操作盤のようなものがある\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:5500d",
+   "off": 348173,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:55016",
+   "off": 348182,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「水がいっぱいで進めないわ\u0010\r  どこかに水門の制御室が」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:55058",
+   "off": 348248,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES66:55063",
+   "off": 348259,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「水が深くて進めないわ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

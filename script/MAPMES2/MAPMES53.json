@@ -1,0 +1,120 @@
+{
+ "source": "MAPMES2/MAPMES53.BIN",
+ "kind": "script",
+ "scr": [
+  399524,
+  921
+ ],
+ "entries": [
+  {
+   "id": "MAPMES53:61a65",
+   "off": 399973,
+   "op": "23",
+   "group": "location",
+   "jp": "牙の紋章の迷宮\r              地下５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61aba",
+   "off": 400058,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "多重人格型人工知能システム\r       ［ファング］\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61aec",
+   "off": 400108,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ファング\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61af7",
+   "off": 400119,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「手をプレートにあてて\r  ください」\u0010\bリスプが手をあてると\r再び声がした\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61b41",
+   "off": 400193,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ファング\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61b4c",
+   "off": 400204,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「遺伝子コード確認\r  パスワードは？」\u0010\bリスプが何か合言葉のような\rものを言っている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61ba2",
+   "off": 400290,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ファング\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61bad",
+   "off": 400301,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「コマンドアクセプト\u0010\b  端末［ファング］は\r  停止します」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61bf2",
+   "off": 400370,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES53:61bf7",
+   "off": 400375,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプは涙を浮かべて\r唇をかんでいる\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

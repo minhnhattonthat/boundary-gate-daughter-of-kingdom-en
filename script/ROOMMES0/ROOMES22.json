@@ -1,0 +1,120 @@
+{
+ "source": "ROOMMES0/ROOMES22.BIN",
+ "kind": "script",
+ "scr": [
+  72048,
+  775
+ ],
+ "entries": [
+  {
+   "id": "ROOMES22:11b39",
+   "off": 72505,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b41",
+   "off": 72513,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b4b",
+   "off": 72523,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b55",
+   "off": 72533,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b5f",
+   "off": 72543,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b6f",
+   "off": 72559,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "誰もいないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11b8d",
+   "off": 72589,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオ？ \u0017あの男なら\r  もう､出てったよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11bbb",
+   "off": 72635,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いらっしゃい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11bd0",
+   "off": 72656,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「魔導聖堂に反抗すると\r  たちまち 処刑されちまう\r  って」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES22:11c0e",
+   "off": 72718,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「五芒星の紋章は\r  魔導聖堂の印だ\u0010\b  魔導聖堂は､王国内の魔力\r  を研究､管理する役割を\r  持っている」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "MAPMES0/MAPMES06.BIN",
+ "kind": "script",
+ "scr": [
+  547524,
+  534
+ ],
+ "entries": [
+  {
+   "id": "MAPMES06:85c85",
+   "off": 547973,
+   "op": "23",
+   "group": "location",
+   "jp": "クレーターの地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES06:85cc5",
+   "off": 548037,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "行き止まりだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "source": "EVMES1/EVENT32.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  646
+ ],
+ "entries": [
+  {
+   "id": "EVENT32:10e30",
+   "off": 69168,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「戒厳令がしかれたんだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10e51",
+   "off": 69201,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10e54",
+   "off": 69204,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  頼む アッシュ達に\r  手を貸してくれ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10e7e",
+   "off": 69246,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10e81",
+   "off": 69249,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  捕われている 娘のシーダ\r  を助けるために",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10eb1",
+   "off": 69297,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10eb4",
+   "off": 69300,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  エルシノア湖の要塞に\r  向かっているんだ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT32:10ee7",
+   "off": 69351,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

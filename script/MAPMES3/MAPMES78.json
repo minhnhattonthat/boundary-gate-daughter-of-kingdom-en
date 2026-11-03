@@ -1,0 +1,32 @@
+{
+ "source": "MAPMES3/MAPMES78.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  632
+ ],
+ "entries": [
+  {
+   "id": "MAPMES78:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "失われた紋章の迷宮\r                  地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES78:51e97",
+   "off": 335511,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "迷宮の奥からは､微かな音が\r聞こえてくる\u0010\bリスプは静かに導かれるよう\rに前を歩いていく\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

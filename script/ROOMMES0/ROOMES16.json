@@ -1,0 +1,164 @@
+{
+ "source": "ROOMMES0/ROOMES16.BIN",
+ "kind": "script",
+ "scr": [
+  68652,
+  837
+ ],
+ "entries": [
+  {
+   "id": "ROOMES16:10ded",
+   "off": 69101,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ周辺地図",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e04",
+   "off": 69124,
+   "op": "4e",
+   "group": "menu",
+   "jp": "アンブローズ北地区大門",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e1f",
+   "off": 69151,
+   "op": "4e",
+   "group": "menu",
+   "jp": "カリフォス",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e36",
+   "off": 69174,
+   "op": "4e",
+   "group": "menu",
+   "jp": "ロードダール",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e4f",
+   "off": 69199,
+   "op": "4e",
+   "group": "menu",
+   "jp": "プレリアール公の館",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e6e",
+   "off": 69230,
+   "op": "4e",
+   "group": "menu",
+   "jp": "トーナム",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e83",
+   "off": 69251,
+   "op": "4e",
+   "group": "menu",
+   "jp": "ワイズブルーム",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10e9e",
+   "off": 69278,
+   "op": "4e",
+   "group": "menu",
+   "jp": "４つの紋章の迷宮",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10eb3",
+   "off": 69299,
+   "op": "23",
+   "group": "location",
+   "jp": "カリフォスの廃墟",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10ecc",
+   "off": 69324,
+   "op": "23",
+   "group": "location",
+   "jp": "ロードダールの鉱山町",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10ee9",
+   "off": 69353,
+   "op": "23",
+   "group": "location",
+   "jp": "プレリアール公の館１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10f08",
+   "off": 69384,
+   "op": "23",
+   "group": "location",
+   "jp": "港町トーナム",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10f1d",
+   "off": 69405,
+   "op": "23",
+   "group": "location",
+   "jp": "ワイズブルーム",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES16:10f34",
+   "off": 69428,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

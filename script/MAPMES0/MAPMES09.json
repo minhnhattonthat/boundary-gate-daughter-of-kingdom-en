@@ -1,0 +1,252 @@
+{
+ "source": "MAPMES0/MAPMES09.BIN",
+ "kind": "script",
+ "scr": [
+  551356,
+  1165
+ ],
+ "entries": [
+  {
+   "id": "MAPMES09:86bc0",
+   "off": 551872,
+   "op": "21",
+   "group": "speaker",
+   "jp": "見張り\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86bd1",
+   "off": 551889,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「坑道は立入禁止だ\u0010\b  穴から 化け物どもが\r  飛び出してきたんだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86c20",
+   "off": 551968,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「作業用の非常口を使え\u0010\b  せまいから化け物も\r  出てこれまい」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86c66",
+   "off": 552038,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「グリソムはどこに…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86c84",
+   "off": 552068,
+   "op": "21",
+   "group": "speaker",
+   "jp": "見張り\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86c95",
+   "off": 552085,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「このでかい扉も\r  いつまでもつか…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86cc8",
+   "off": 552136,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「鉱山長の許しがあるなら\r  かまわんが…\u0010\b  あんたら正気か？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d0b",
+   "off": 552203,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「人々を救ってくれて\r  ありがとう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d33",
+   "off": 552243,
+   "op": "25",
+   "group": "building",
+   "jp": "鉱山管理事務所",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d45",
+   "off": 552261,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d4d",
+   "off": 552269,
+   "op": "25",
+   "group": "building",
+   "jp": "グリソムの家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d5d",
+   "off": 552285,
+   "op": "25",
+   "group": "building",
+   "jp": "坑夫の家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d69",
+   "off": 552297,
+   "op": "25",
+   "group": "building",
+   "jp": "坑夫の家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d75",
+   "off": 552309,
+   "op": "25",
+   "group": "building",
+   "jp": "坑夫の家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d81",
+   "off": 552321,
+   "op": "25",
+   "group": "building",
+   "jp": "坑夫の家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d8d",
+   "off": 552333,
+   "op": "25",
+   "group": "building",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86d97",
+   "off": 552343,
+   "op": "25",
+   "group": "building",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86da1",
+   "off": 552353,
+   "op": "25",
+   "group": "building",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86dab",
+   "off": 552363,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86dd8",
+   "off": 552408,
+   "op": "21",
+   "group": "speaker",
+   "jp": "見張り\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86de1",
+   "off": 552417,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「坑道は立入禁止だと\r  いっているだろ！\u0010\b  命が惜しくないのか？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES09:86e32",
+   "off": 552498,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "住宅地が見える\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

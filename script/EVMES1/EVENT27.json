@@ -1,0 +1,54 @@
+{
+ "source": "EVMES1/EVENT27.BIN",
+ "kind": "script",
+ "scr": [
+  13628,
+  563
+ ],
+ "entries": [
+  {
+   "id": "EVENT27:0370c",
+   "off": 14092,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「いらっしゃい…\r  バウンダリーゲートに…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT27:03742",
+   "off": 14146,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT27:03745",
+   "off": 14149,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  魔力の渦の中心に…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT27:03762",
+   "off": 14178,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

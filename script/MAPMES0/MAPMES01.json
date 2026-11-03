@@ -1,0 +1,373 @@
+{
+ "source": "MAPMES0/MAPMES01.BIN",
+ "kind": "script",
+ "scr": [
+  620140,
+  1765
+ ],
+ "entries": [
+  {
+   "id": "MAPMES01:9787a",
+   "off": 620666,
+   "op": "21",
+   "group": "speaker",
+   "jp": "大門の番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97887",
+   "off": 620679,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「大門の通行は 日中に\r  制限されている\u0010\b  今日は もう閉鎖した\r  から 宿を探すことだな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:978e5",
+   "off": 620773,
+   "op": "21",
+   "group": "speaker",
+   "jp": "番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:978ec",
+   "off": 620780,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「この辺に怪物が現れた\r  という通報があった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:9791b",
+   "off": 620827,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  とりあえず､調査が\r  終わるまでここは封鎖だ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:9794b",
+   "off": 620875,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お前さんには\r  気の毒だが…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97972",
+   "off": 620914,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:9797b",
+   "off": 620923,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「まいったな…\u0010\b  こんな夜更けに\r  どうしろってんだ？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:979ba",
+   "off": 620986,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:979c9",
+   "off": 621001,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「貴族のおこぼれでも\r  頂戴しようと思って\u0010\b  さっき､東地区に行って\r  きたんですがね\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97a20",
+   "off": 621088,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  幸い番兵どもは例に\r  よって酔いつぶれて\r  眠っているし…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97a5e",
+   "off": 621150,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  丁度､門を通る時に\r  銀色の髪の娘に\r  ぶつかっちまってね\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97a9b",
+   "off": 621211,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  番兵が目を覚ます\r  んじゃないかって\r  ヒヤヒヤしたよ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97ad5",
+   "off": 621269,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  えらい勢いで東地区へ\r  すっとんでいったが\r  大丈夫かね？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97b1e",
+   "off": 621342,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「東地区はぶっそうだから\r  娘一人で大丈夫かね？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97b5f",
+   "off": 621407,
+   "op": "21",
+   "group": "speaker",
+   "jp": "番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97b66",
+   "off": 621414,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いま 反逆者の狩り出し\r  を行っている\u0010\b  この地区から移動しては\r  いかん！」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97bbf",
+   "off": 621503,
+   "op": "21",
+   "group": "speaker",
+   "jp": "番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97bc6",
+   "off": 621510,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「夜は宿へ帰って\r  出歩かないことだな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97bf8",
+   "off": 621560,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "この酒場は 閉まっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c14",
+   "off": 621588,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "武器屋は 閉まっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c2e",
+   "off": 621614,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "鍛冶屋は 閉まっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c48",
+   "off": 621640,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "道具屋は 閉まっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c62",
+   "off": 621666,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c6a",
+   "off": 621674,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c72",
+   "off": 621682,
+   "op": "25",
+   "group": "building",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c7c",
+   "off": 621692,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "大門は 閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97c96",
+   "off": 621718,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "西地区への門は\r閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97cbb",
+   "off": 621755,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アンブローズ城が見える\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97cdd",
+   "off": 621789,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "番兵が居眠りしている\rようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97cfc",
+   "off": 621820,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ東地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97d17",
+   "off": 621847,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "カギが かかっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES01:97d32",
+   "off": 621874,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "倉庫の床に蓋がしてある\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

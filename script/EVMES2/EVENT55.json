@@ -1,0 +1,54 @@
+{
+ "source": "EVMES2/EVENT55.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  523
+ ],
+ "entries": [
+  {
+   "id": "EVENT55:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "新国王\r「よかった…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT55:0122c",
+   "off": 4652,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT55:0122f",
+   "off": 4655,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  飢え死にする\r  かと思った」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT55:01254",
+   "off": 4692,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

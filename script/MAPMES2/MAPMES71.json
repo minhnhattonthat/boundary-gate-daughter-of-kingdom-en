@@ -1,0 +1,98 @@
+{
+ "source": "MAPMES2/MAPMES71.BIN",
+ "kind": "script",
+ "scr": [
+  399524,
+  772
+ ],
+ "entries": [
+  {
+   "id": "MAPMES71:61a65",
+   "off": 399973,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61ac8",
+   "off": 400072,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "カギが かかっている\u0010\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61adf",
+   "off": 400095,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "金色に光る大きな鍵穴だ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61b00",
+   "off": 400128,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61b28",
+   "off": 400168,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "４つの紋章の迷宮の\r地図を見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61b5c",
+   "off": 400220,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ここには もう入れない\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61b77",
+   "off": 400247,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "カギがかかっている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES71:61b8e",
+   "off": 400270,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ西地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

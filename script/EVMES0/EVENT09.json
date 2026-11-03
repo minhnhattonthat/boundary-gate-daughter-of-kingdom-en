@@ -1,0 +1,153 @@
+{
+ "source": "EVMES0/EVENT09.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  773
+ ],
+ "entries": [
+  {
+   "id": "EVENT09:11e53",
+   "off": 73299,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "男\r「す､すまない\r  私はトールマンだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11e7c",
+   "off": 73340,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11e7f",
+   "off": 73343,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  きみたちは…？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11e98",
+   "off": 73368,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11e9d",
+   "off": 73373,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「わたしたち リオの使い\r  なんです",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11ecc",
+   "off": 73420,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11ecf",
+   "off": 73423,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  カリフォスで あなたに\r  会うようにって…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f02",
+   "off": 73474,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f07",
+   "off": 73479,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "トールマン\r「そうか…ご覧の通りだよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f30",
+   "off": 73520,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f33",
+   "off": 73523,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  爆発の原因を調べていた\r  んだが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f5c",
+   "off": 73564,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT09:11f5f",
+   "off": 73567,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  妙な金属片が あちこち\r  に落ちてるんだ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

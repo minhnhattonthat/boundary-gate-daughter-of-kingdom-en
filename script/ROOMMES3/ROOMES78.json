@@ -1,0 +1,153 @@
+{
+ "source": "ROOMMES3/ROOMES78.BIN",
+ "kind": "script",
+ "scr": [
+  99480,
+  925
+ ],
+ "entries": [
+  {
+   "id": "ROOMES78:18659",
+   "off": 99929,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:18661",
+   "off": 99937,
+   "op": "1c",
+   "group": "npc",
+   "jp": "女主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:1866d",
+   "off": 99949,
+   "op": "1c",
+   "group": "npc",
+   "jp": "船員Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:18679",
+   "off": 99961,
+   "op": "1c",
+   "group": "npc",
+   "jp": "マイヨールの息子",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:18697",
+   "off": 99991,
+   "op": "1c",
+   "group": "npc",
+   "jp": "漁師マイヨール",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:186ab",
+   "off": 100011,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:186c0",
+   "off": 100032,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「化け物どもを追い払って\r  くれたんだって？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:186f4",
+   "off": 100084,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おかげで助かったよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:18717",
+   "off": 100119,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「明日から 再び船が出せる\r  ようになるだろう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:1874c",
+   "off": 100172,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あの時は世話になったな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:1876d",
+   "off": 100205,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「助けていただき\r  ありがとうございました」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:187a0",
+   "off": 100256,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あんたらだったのか\r  息子を助け出してくれた\r  のは…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES78:187da",
+   "off": 100314,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  よし  わしが要塞に\r  船を出してやろう\u0010\b  港のはずれの堤防で\r  待っとるぞ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

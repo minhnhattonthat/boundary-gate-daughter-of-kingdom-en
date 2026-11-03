@@ -1,0 +1,274 @@
+{
+ "source": "MAPMES0/MAPMES12.BIN",
+ "kind": "script",
+ "scr": [
+  597268,
+  1539
+ ],
+ "entries": [
+  {
+   "id": "MAPMES12:91ed5",
+   "off": 597717,
+   "op": "23",
+   "group": "location",
+   "jp": "坑道地下３階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91f1a",
+   "off": 597786,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ここには もう入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91f37",
+   "off": 597815,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "不思議な形をした\r石像が倒れている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91f63",
+   "off": 597859,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91f66",
+   "off": 597862,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アミュレットを\r使いますか？\u0019\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91f8d",
+   "off": 597901,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンが石像を立て直し\rリスプがアミュレットを\rのせ 何かをつぶやいた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:91fd4",
+   "off": 597972,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "鈍い振動が伝わり\r縦穴からの音が止んだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92023",
+   "off": 598051,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "岩陰に老人がうずくまって\rいた\u0010\b足をくじいているらしい\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:9205b",
+   "off": 598107,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92062",
+   "off": 598114,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン老人が リスプに\rアミュレットを手渡した\u0010\b黒く滑らかな石に\r五芒星が彫ってある\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:920bb",
+   "off": 598203,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:920be",
+   "off": 598206,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "五芒星のアミュレットを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:920fa",
+   "off": 598266,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ハンセン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92105",
+   "off": 598277,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「近くに不思議な石像が\r  あるはずじゃ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:9212e",
+   "off": 598318,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そのアミュレットを使って\r  どうか一刻も早く封印を\r  直してくだされ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92196",
+   "off": 598422,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ここには もう入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:921bd",
+   "off": 598461,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "目の前に 縦穴が 地底深く\r口を開けている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:921e8",
+   "off": 598504,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "穴の縁には 不可思議な模様\rの彫られた石が敷き詰めて\rある\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92223",
+   "off": 598563,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "地の底からは 笛のような\r不思議な音が響いてくる\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:92255",
+   "off": 598613,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "テケ・リ・リ…\rと繰り返しているようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:9227e",
+   "off": 598654,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "とても降りていくことは\rできそうにない\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:922a7",
+   "off": 598695,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「あきらめよう…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:922c4",
+   "off": 598724,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンの言葉にリスプは\r返事をしなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES12:922f8",
+   "off": 598776,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "不気味な縦穴だ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

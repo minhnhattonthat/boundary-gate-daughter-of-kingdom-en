@@ -1,0 +1,21 @@
+{
+ "source": "MAPMES0/MAPMES24.BIN",
+ "kind": "script",
+ "scr": [
+  482984,
+  529
+ ],
+ "entries": [
+  {
+   "id": "MAPMES24:76069",
+   "off": 483433,
+   "op": "23",
+   "group": "location",
+   "jp": "東の監視塔屋上",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

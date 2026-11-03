@@ -1,0 +1,21 @@
+{
+ "source": "ROOMMES1/ROOMES38.BIN",
+ "kind": "script",
+ "scr": [
+  64576,
+  483
+ ],
+ "entries": [
+  {
+   "id": "ROOMES38:0fe01",
+   "off": 65025,
+   "op": "23",
+   "group": "location",
+   "jp": "酒場の隠れ家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

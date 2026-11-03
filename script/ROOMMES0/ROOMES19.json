@@ -1,0 +1,54 @@
+{
+ "source": "ROOMMES0/ROOMES19.BIN",
+ "kind": "script",
+ "scr": [
+  67808,
+  584
+ ],
+ "entries": [
+  {
+   "id": "ROOMES19:10aa1",
+   "off": 68257,
+   "op": "23",
+   "group": "location",
+   "jp": "バラックＢ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES19:10aaf",
+   "off": 68271,
+   "op": "1c",
+   "group": "npc",
+   "jp": "怪我人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES19:10abb",
+   "off": 68283,
+   "op": "28",
+   "group": "menu",
+   "jp": "小屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES19:10aca",
+   "off": 68298,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「道を歩いていて 突然\r  吹っ飛ばされたんだ…\u0010\b  気がついたら ここに\r  寝かされていたよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

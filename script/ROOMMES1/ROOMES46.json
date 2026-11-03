@@ -1,0 +1,208 @@
+{
+ "source": "ROOMMES1/ROOMES46.BIN",
+ "kind": "script",
+ "scr": [
+  165608,
+  1185
+ ],
+ "entries": [
+  {
+   "id": "ROOMES46:288a9",
+   "off": 166057,
+   "op": "23",
+   "group": "location",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288b1",
+   "off": 166065,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288bb",
+   "off": 166075,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288c5",
+   "off": 166085,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288d7",
+   "off": 166103,
+   "op": "1c",
+   "group": "npc",
+   "jp": "客Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288e1",
+   "off": 166113,
+   "op": "1c",
+   "group": "npc",
+   "jp": "地図",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:288eb",
+   "off": 166123,
+   "op": "28",
+   "group": "menu",
+   "jp": "宿の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28916",
+   "off": 166166,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港が再開して､ひとまず\r  ホッとしたよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:2894d",
+   "off": 166221,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「３日前に アンブローズ\r  のお偉いさんが\u0010\b  アモーク要塞に渡った\r  んだよ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:289a2",
+   "off": 166306,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何か御用ですか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:289ba",
+   "off": 166330,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港から 逃げ出す前に\r  ちらっと見たんだが…\u0010\b  光の渦から 化け物が\r  出てきていたようだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28a19",
+   "off": 166425,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「港に御用がおありですか？\r\u0017  ご相談したいことが\r  あるのですが…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28a5e",
+   "off": 166494,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  西の袋小路まで\r  来ていただけませんか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28a92",
+   "off": 166546,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そうですか…\r  その気になったら\r  また来てください」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28acf",
+   "off": 166607,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  それでは 西の袋小路で\r  お待ちしています」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28b08",
+   "off": 166664,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「今度の騒ぎと魔導聖堂が\r  関係ある？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28b31",
+   "off": 166705,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  めったなことは\r  言わんことだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES46:28b59",
+   "off": 166745,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "壁には エルシノア湖周辺の\r地図がかけてある\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

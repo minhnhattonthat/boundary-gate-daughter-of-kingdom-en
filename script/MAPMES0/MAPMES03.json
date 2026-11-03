@@ -1,0 +1,76 @@
+{
+ "source": "MAPMES0/MAPMES03.BIN",
+ "kind": "script",
+ "scr": [
+  612060,
+  655
+ ],
+ "entries": [
+  {
+   "id": "MAPMES03:958ae",
+   "off": 612526,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES03:958c9",
+   "off": 612553,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "南地区への門は\r閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES03:958ed",
+   "off": 612589,
+   "op": "23",
+   "group": "location",
+   "jp": "貴族の邸宅",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES03:95901",
+   "off": 612609,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "おや？\u0017暗闇の中にぼんやりと\r文字が見える\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES03:9592d",
+   "off": 612653,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "『地下…水…道』？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES03:95943",
+   "off": 612675,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "この扉には\rカギが かかっている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

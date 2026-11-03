@@ -1,0 +1,32 @@
+{
+ "source": "EVMES1/EVENT48.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  510
+ ],
+ "entries": [
+  {
+   "id": "EVENT48:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "シーダ\r「やっぱり帰ってきてくれ\r  たのね！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT48:10e63",
+   "off": 69219,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

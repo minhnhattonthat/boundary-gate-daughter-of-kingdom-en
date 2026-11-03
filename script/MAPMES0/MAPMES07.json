@@ -1,0 +1,98 @@
+{
+ "source": "MAPMES0/MAPMES07.BIN",
+ "kind": "script",
+ "scr": [
+  515792,
+  749
+ ],
+ "entries": [
+  {
+   "id": "MAPMES07:7e091",
+   "off": 516241,
+   "op": "23",
+   "group": "location",
+   "jp": "クレーターの地下２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e0d5",
+   "off": 516309,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "物陰に男が倒れている\u0010\bどうやら､怪我を\r負っているようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e10f",
+   "off": 516367,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンは肩を貸し\r男の体を起こした\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e136",
+   "off": 516406,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e139",
+   "off": 516409,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "トールマンは手に持った\rねじれた金属片を リスプに\r見せた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e173",
+   "off": 516467,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e176",
+   "off": 516470,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "一瞬 リスプの顔が\rこわ張った\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES07:7e1a6",
+   "off": 516518,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

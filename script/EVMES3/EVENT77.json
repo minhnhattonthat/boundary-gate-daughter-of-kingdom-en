@@ -1,0 +1,120 @@
+{
+ "source": "EVMES3/EVENT77.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  674
+ ],
+ "entries": [
+  {
+   "id": "EVENT77:10e2d",
+   "off": 69165,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「ようこそ…お姉さん…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10e50",
+   "off": 69200,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10e53",
+   "off": 69203,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  われは王国の娘\r  ゲートの守護者！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10e7c",
+   "off": 69244,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10e7f",
+   "off": 69247,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  光と闇を越えて\r  支配するは混沌",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10ea6",
+   "off": 69286,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10ea9",
+   "off": 69289,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まこと混沌こそ\r  世のことわり！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10ed0",
+   "off": 69328,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10ed5",
+   "off": 69333,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  始まりの虚無より\r  いでよ混沌の子ら！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT77:10f06",
+   "off": 69382,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

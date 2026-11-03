@@ -1,0 +1,54 @@
+{
+ "source": "ROOMMES2/ROOMES70.BIN",
+ "kind": "script",
+ "scr": [
+  67716,
+  530
+ ],
+ "entries": [
+  {
+   "id": "ROOMES70:10a45",
+   "off": 68165,
+   "op": "23",
+   "group": "location",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES70:10a4f",
+   "off": 68175,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES70:10a59",
+   "off": 68185,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES70:10a66",
+   "off": 68198,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いらっしゃい\r何にしますか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

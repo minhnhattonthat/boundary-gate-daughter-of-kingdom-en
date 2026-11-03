@@ -1,0 +1,142 @@
+{
+ "source": "EVMES3/EVENT78.BIN",
+ "kind": "script",
+ "scr": [
+  137380,
+  725
+ ],
+ "entries": [
+  {
+   "id": "EVENT78:21a6b",
+   "off": 137835,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「キラル…\r  あなた､わざと…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21a97",
+   "off": 137879,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21a9c",
+   "off": 137884,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「ありがとう…\r  お姉さん…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21ac6",
+   "off": 137926,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21acb",
+   "off": 137931,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「もうあまり時間が無いの…  ゲートを早く…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b05",
+   "off": 137989,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b0a",
+   "off": 137994,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「キラル？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b23",
+   "off": 138019,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b26",
+   "off": 138022,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「キラル！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b40",
+   "off": 138048,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b45",
+   "off": 138053,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "キラル\r「お姉さん…\r  私達また一緒に…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT78:21b75",
+   "off": 138101,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

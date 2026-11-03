@@ -1,0 +1,109 @@
+{
+ "source": "MAPMES1/MAPMES49.BIN",
+ "kind": "script",
+ "scr": [
+  337492,
+  928
+ ],
+ "entries": [
+  {
+   "id": "MAPMES49:52815",
+   "off": 337941,
+   "op": "23",
+   "group": "location",
+   "jp": "牙の紋章の迷宮\r              地下２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:52885",
+   "off": 338053,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:528b0",
+   "off": 338096,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bライトシールドⅠを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:528eb",
+   "off": 338155,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rライトシールドⅠを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:5291e",
+   "off": 338206,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:5293c",
+   "off": 338236,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:52967",
+   "off": 338279,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bシルバーシールドⅠを\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:529a4",
+   "off": 338340,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rシルバーシールドⅠを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES49:529d9",
+   "off": 338393,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

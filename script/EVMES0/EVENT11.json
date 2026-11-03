@@ -1,0 +1,21 @@
+{
+ "source": "EVMES0/EVENT11.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  508
+ ],
+ "entries": [
+  {
+   "id": "EVENT11:01213",
+   "off": 4627,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "メルク\r「ああ よく無事で\r  かえってきたねえ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "source": "EVMES1/EVENT37.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  494
+ ],
+ "entries": [
+  {
+   "id": "EVENT37:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "アッシュ\r「アンブローズで会おう」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

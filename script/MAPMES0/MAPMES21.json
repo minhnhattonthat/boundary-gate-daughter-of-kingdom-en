@@ -1,0 +1,65 @@
+{
+ "source": "MAPMES0/MAPMES21.BIN",
+ "kind": "script",
+ "scr": [
+  345472,
+  575
+ ],
+ "entries": [
+  {
+   "id": "MAPMES21:54741",
+   "off": 345921,
+   "op": "23",
+   "group": "location",
+   "jp": "東の監視塔１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES21:5477b",
+   "off": 345979,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES21:54784",
+   "off": 345988,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…兵士の死体だ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES21:547a2",
+   "off": 346018,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES21:547ab",
+   "off": 346027,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「ひどいわ…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

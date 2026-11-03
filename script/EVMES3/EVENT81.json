@@ -1,0 +1,120 @@
+{
+ "source": "EVMES3/EVENT81.BIN",
+ "kind": "script",
+ "scr": [
+  64576,
+  786
+ ],
+ "entries": [
+  {
+   "id": "EVENT81:0fe05",
+   "off": 65029,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "始まりの母\r「…そして人工知能への\r  アクセス･キーを",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0fe3e",
+   "off": 65086,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0fe41",
+   "off": 65089,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  私のクローン達の\r  ＸＸ染色体に\r  埋め込みました",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0fe79",
+   "off": 65145,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0fe7c",
+   "off": 65148,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  子孫の娘達へと\r  時を越えて受け継がれて\r  行くように…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0feba",
+   "off": 65210,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0febd",
+   "off": 65213,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  人々のために､この世界の\r  ために､残された知識を\r  役立てなさい…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0ff05",
+   "off": 65285,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0ff08",
+   "off": 65288,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  星を継ぐ娘達…\r  再び 人々が新しい世界に\r  飛び立つ日まで…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT81:0ff4e",
+   "off": 65358,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

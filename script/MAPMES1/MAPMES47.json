@@ -1,0 +1,153 @@
+{
+ "source": "MAPMES1/MAPMES47.BIN",
+ "kind": "script",
+ "scr": [
+  403660,
+  1008
+ ],
+ "entries": [
+  {
+   "id": "MAPMES47:62a8d",
+   "off": 404109,
+   "op": "23",
+   "group": "location",
+   "jp": "心臓の紋章の迷宮\r                地下５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62ae6",
+   "off": 404198,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "多重人格型人工知能システム\r        ［ハート］\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62b17",
+   "off": 404247,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ハート\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62b20",
+   "off": 404256,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「手をプレートにあてて\r  ください」\u0010\bリスプが手をあてると\r再び声がした\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62b6a",
+   "off": 404330,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ハート\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62b73",
+   "off": 404339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「遺伝子コード確認\r  パスワードは？」\u0010\bリスプが何か合言葉のよう\rなものを言っている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62bc9",
+   "off": 404425,
+   "op": "21",
+   "group": "speaker",
+   "jp": "ハート\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62bd2",
+   "off": 404434,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「コマンドアクセプト\u0010\b  端末［ハート］は\r  停止します」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62c12",
+   "off": 404498,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "光の渦の上に黒髪の娘の姿\rが浮かんだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62c3c",
+   "off": 404540,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62c41",
+   "off": 404545,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62c4a",
+   "off": 404554,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…キラル…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES47:62c5f",
+   "off": 404575,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "茫然と立ち尽くすリスプの\r前で､娘の姿は光の渦と\r共に消えた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

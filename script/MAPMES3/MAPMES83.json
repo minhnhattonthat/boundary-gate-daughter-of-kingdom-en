@@ -1,0 +1,65 @@
+{
+ "source": "MAPMES3/MAPMES83.BIN",
+ "kind": "script",
+ "scr": [
+  367792,
+  659
+ ],
+ "entries": [
+  {
+   "id": "MAPMES83:59e71",
+   "off": 368241,
+   "op": "23",
+   "group": "location",
+   "jp": "失われた紋章の迷宮\r                  地下５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES83:59eba",
+   "off": 368314,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプが壁のパネルに\r手をあてた\u0010\b突然 扉の前にホログラムが\r浮かび上がる\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES83:59f04",
+   "off": 368388,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES83:59f0c",
+   "off": 368396,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "目の前には巨大な光の渦が\rゆらめいている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES83:59f36",
+   "off": 368438,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

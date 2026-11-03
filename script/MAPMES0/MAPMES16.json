@@ -1,0 +1,142 @@
+{
+ "source": "MAPMES0/MAPMES16.BIN",
+ "kind": "script",
+ "scr": [
+  588788,
+  956
+ ],
+ "entries": [
+  {
+   "id": "MAPMES16:8fdb5",
+   "off": 589237,
+   "op": "23",
+   "group": "location",
+   "jp": "プレリアール公の館２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fdee",
+   "off": 589294,
+   "op": "23",
+   "group": "location",
+   "jp": "プレリアール公の館１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fe18",
+   "off": 589336,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "主人をかばって\r大男がモンスターと\r戦っている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fe48",
+   "off": 589384,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "すぐれた戦士のようだが\rさすがに 苦戦している\rようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fe7f",
+   "off": 589439,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンとリスプは加勢した\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fe9a",
+   "off": 589466,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fea4",
+   "off": 589476,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンは傷ついた老人を\r助け起こした\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fecf",
+   "off": 589519,
+   "op": "21",
+   "group": "speaker",
+   "jp": "プレリアール\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fede",
+   "off": 589534,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「どなたか知らんが感謝する\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8fefc",
+   "off": 589564,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  突然､化け物どもが\r  地下室から…\u0010\b  グレイストーンと共に\r  地下室へいってくれ！\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8ff51",
+   "off": 589649,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  私は大丈夫だ\r  生き残った部下達を\r  集めて立て直す」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES16:8ff99",
+   "off": 589721,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

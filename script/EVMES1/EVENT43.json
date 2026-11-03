@@ -1,0 +1,21 @@
+{
+ "source": "EVMES1/EVENT43.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  477
+ ],
+ "entries": [
+  {
+   "id": "EVENT43:001e7",
+   "off": 487,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "女\r「なんでよぉ！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

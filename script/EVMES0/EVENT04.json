@@ -1,0 +1,98 @@
+{
+ "source": "EVMES0/EVENT04.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  624
+ ],
+ "entries": [
+  {
+   "id": "EVENT04:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「知識聖堂の娘と\r  その用心棒なら",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10e5b",
+   "off": 69211,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10e5e",
+   "off": 69214,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  大門を通れるだろう",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10e78",
+   "off": 69240,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10e7b",
+   "off": 69243,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  カリフォスに行って\r  トールマンという男に\r  会ってくれ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10eb9",
+   "off": 69305,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10ebc",
+   "off": 69308,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  話はその後だ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT04:10ed4",
+   "off": 69332,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

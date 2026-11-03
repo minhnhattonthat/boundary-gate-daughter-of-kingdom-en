@@ -1,0 +1,186 @@
+{
+ "source": "EVMES1/EVENT33.BIN",
+ "kind": "script",
+ "scr": [
+  64576,
+  911
+ ],
+ "entries": [
+  {
+   "id": "EVENT33:0fe06",
+   "off": 65030,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グレイストーンは 本当に\r無口だった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0fe2e",
+   "off": 65070,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0fe31",
+   "off": 65073,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "だが たよりになるやつだと\rいうことは 一緒に戦った\r俺にはすぐわかった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0fe7b",
+   "off": 65147,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0fe7e",
+   "off": 65150,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプは 相変らず一人で\r何か 悩んでいるようだ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0feb1",
+   "off": 65201,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0feb4",
+   "off": 65204,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "トーナムへ 行く途中では\r知識聖堂の生活を いろいろ\r俺に教えてくれた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0fefc",
+   "off": 65276,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0feff",
+   "off": 65279,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "古代の知識や技術を管理し\r研究する 静かな生活らしい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff37",
+   "off": 65335,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff3a",
+   "off": 65338,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "王国の娘の資格を持つ者\rだけが\rいにしえの知識をもたらす…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff78",
+   "off": 65400,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff7b",
+   "off": 65403,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "そう繰り返していたが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff97",
+   "off": 65431,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ff9a",
+   "off": 65434,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "正直いって なんのことやら\r俺にはわからん…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT33:0ffcb",
+   "off": 65483,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

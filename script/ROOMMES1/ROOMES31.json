@@ -1,0 +1,164 @@
+{
+ "source": "ROOMMES1/ROOMES31.BIN",
+ "kind": "script",
+ "scr": [
+  136424,
+  1203
+ ],
+ "entries": [
+  {
+   "id": "ROOMES31:216b7",
+   "off": 136887,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "迎えてくれたのは\r美しい中年女性だった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:216e0",
+   "off": 136928,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "さっきまで 泣いていた\rらしい\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21700",
+   "off": 136960,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "グリソムに会いに来たこと\rを告げると 泣き出して\rしまった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21744",
+   "off": 137028,
+   "op": "23",
+   "group": "location",
+   "jp": "グリソムの家",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21754",
+   "off": 137044,
+   "op": "1c",
+   "group": "npc",
+   "jp": "グリソムの妻",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21766",
+   "off": 137062,
+   "op": "28",
+   "group": "menu",
+   "jp": "家の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:2177b",
+   "off": 137083,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプは 黙って女性を\rソファーに 座らせ\rしばらく 肩を抱いていた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:217be",
+   "off": 137150,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "地震で見つかった 縦穴に\r入っていった 調査隊には\rグリソムも加わって\u0010\bいたらしい\u0010\bやがて\r彼女も落ち着いたらしく\r涙にぬれた顔をあげた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21846",
+   "off": 137286,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グリソムの妻\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21855",
+   "off": 137301,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「でも 私は信じています\u0010\b  地の底であろうと\r  あの人は きっと\r  生きています\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:218a5",
+   "off": 137381,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お願いです 鉱山長さん\r  に頼んで下さい\r  もう１度捜索隊を…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:218fc",
+   "off": 137468,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「そうですか…  あの人は\r  いなかったんですね\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:2192d",
+   "off": 137517,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  でも 私は信じています\r  あの人は生きていると…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES31:21969",
+   "off": 137577,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「地の底であろうと\r  あの人は生きています」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

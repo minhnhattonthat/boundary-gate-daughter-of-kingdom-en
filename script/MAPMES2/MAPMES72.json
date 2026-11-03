@@ -1,0 +1,76 @@
+{
+ "source": "MAPMES2/MAPMES72.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  709
+ ],
+ "entries": [
+  {
+   "id": "MAPMES72:51e78",
+   "off": 335480,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城３階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES72:51e9c",
+   "off": 335516,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城２階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES72:51ec0",
+   "off": 335552,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城４階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES72:51ee4",
+   "off": 335588,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城３階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES72:51f08",
+   "off": 335624,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城５階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES72:51f2c",
+   "off": 335660,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズの城４階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

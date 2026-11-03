@@ -1,0 +1,241 @@
+{
+ "source": "ROOMMES2/ROOMES50.BIN",
+ "kind": "script",
+ "scr": [
+  49376,
+  1165
+ ],
+ "entries": [
+  {
+   "id": "ROOMES50:0c2ab",
+   "off": 49835,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "モンスターが現れた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c2c3",
+   "off": 49859,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c2d4",
+   "off": 49876,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「気を付けろ\r  館の時と同じだぞ！」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c305",
+   "off": 49925,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "化け物は\r断末魔の叫び声を上げ\r光の渦に飛び込んだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c339",
+   "off": 49977,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプの唱える呪文と共に\r渦は 小さくなって消えた\u0017\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c36f",
+   "off": 50031,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c380",
+   "off": 50048,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「倉庫の隅に少年が\r  うずくまっているぞ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c3b0",
+   "off": 50096,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c3b9",
+   "off": 50105,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おい！大丈夫か？」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c3d2",
+   "off": 50130,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "少年は気がついたようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c3ee",
+   "off": 50158,
+   "op": "21",
+   "group": "speaker",
+   "jp": "少年\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c3f5",
+   "off": 50165,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「う‥‥ん？\r  ば、化け物は！？\u0010\b  化け物を倒してくれた\r  んですか？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c43d",
+   "off": 50237,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ありがとうございました\r  このご恩は忘れません\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c470",
+   "off": 50288,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あ、いけない！\r  父さんが心配している\r  と思うので先に帰ります\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c4b4",
+   "off": 50356,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お礼がしたいので\r  後で酒場に来て下さい」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c4e4",
+   "off": 50404,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "少年は走り去っていった\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c500",
+   "off": 50432,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c509",
+   "off": 50441,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「よかったな」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c51e",
+   "off": 50462,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c527",
+   "off": 50471,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「あんな子供まで巻き込まれ\r  るなんて‥‥」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES50:0c55a",
+   "off": 50522,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何もないようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

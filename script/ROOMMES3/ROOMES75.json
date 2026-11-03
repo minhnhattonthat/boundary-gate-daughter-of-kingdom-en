@@ -1,0 +1,98 @@
+{
+ "source": "ROOMMES3/ROOMES75.BIN",
+ "kind": "script",
+ "scr": [
+  82976,
+  743
+ ],
+ "entries": [
+  {
+   "id": "ROOMES75:145e1",
+   "off": 83425,
+   "op": "23",
+   "group": "location",
+   "jp": "図書室Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:145ed",
+   "off": 83437,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ａ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:145f9",
+   "off": 83449,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ｂ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:14605",
+   "off": 83461,
+   "op": "1c",
+   "group": "npc",
+   "jp": "学者Ｃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:14611",
+   "off": 83473,
+   "op": "28",
+   "group": "menu",
+   "jp": "部屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:14620",
+   "off": 83488,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いにしえの知識の分身\r  たちは 大聖堂を中心に\r  結ばれているといいます」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:1466e",
+   "off": 83566,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「なまじ魔法が使えるために\r  独自の技術が進歩しないの\r  では…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES75:146b3",
+   "off": 83635,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「一部の技術だけが極端に\r  進んでいる…\u0010\b  おかしな世界だと\r  思いませんか？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

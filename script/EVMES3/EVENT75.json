@@ -1,0 +1,252 @@
+{
+ "source": "EVMES3/EVENT75.BIN",
+ "kind": "script",
+ "scr": [
+  197784,
+  850
+ ],
+ "entries": [
+  {
+   "id": "EVENT75:3065f",
+   "off": 198239,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「王国…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30676",
+   "off": 198262,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30679",
+   "off": 198265,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  私の王国だ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3068d",
+   "off": 198285,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30694",
+   "off": 198292,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だまされたわけか…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306ae",
+   "off": 198318,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306b1",
+   "off": 198321,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あの娘に",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306c1",
+   "off": 198337,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306c4",
+   "off": 198340,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  …この俺が…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306da",
+   "off": 198362,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:306e1",
+   "off": 198369,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「残念だったな\r  王国の娘！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3070d",
+   "off": 198413,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30710",
+   "off": 198416,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ゲートの守護者！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30728",
+   "off": 198440,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3072b",
+   "off": 198443,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  サブシステムは\r  すべて停止したままだ！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3075a",
+   "off": 198490,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3075d",
+   "off": 198493,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  再び船を飛ばすことなど\r  できまい！",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:30788",
+   "off": 198536,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:3078b",
+   "off": 198539,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  おまえは始めから\r  破壊と混沌だけを…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:307ba",
+   "off": 198586,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:307bd",
+   "off": 198589,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ぐっ…げっ…\r  ぐぅぁーっ！！」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT75:307e6",
+   "off": 198630,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

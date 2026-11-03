@@ -1,0 +1,17 @@
+# Script bytes that decode as a full-width glyph but are data, not text.
+# <source>:<file offset> <reason>. tools/extract.py check fails on any new one,
+# because a new one is usually a string the extractor missed.
+MAPMES0/MAPMES00.BIN:0xaae1c data byte pair in map/script data
+MAPMES0/MAPMES00.BIN:0xab496 data byte pair in map/script data
+MAPMES0/MAPMES02.BIN:0x999e3 data byte pair in map/script data
+MAPMES0/MAPMES08.BIN:0x981e2 data byte pair in map/script data
+MAPMES0/MAPMES08.BIN:0x98255 data byte pair in map/script data
+MAPMES0/MAPMES08.BIN:0x982c8 data byte pair in map/script data
+MAPMES0/MAPMES08.BIN:0x9834d data byte pair in map/script data
+MAPMES0/MAPMES13.BIN:0x5293d data byte pair in map/script data
+MAPMES0/MAPMES18.BIN:0x780fd data byte pair in map/script data
+MAPMES1/MAPMES29.BIN:0x92ca1 data byte pair in map/script data
+MAPMES1/MAPMES30.BIN:0x54080 data byte pair in map/script data
+MAPMES1/MAPMES31.BIN:0x73fcd data byte pair in map/script data
+MAPMES1/MAPMES32.BIN:0x77155 data byte pair in map/script data
+MAPMES1/MAPMES41.BIN:0x83af8 data byte pair in map/script data

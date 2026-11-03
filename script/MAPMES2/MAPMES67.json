@@ -1,0 +1,32 @@
+{
+ "source": "MAPMES2/MAPMES67.BIN",
+ "kind": "script",
+ "scr": [
+  547524,
+  495
+ ],
+ "entries": [
+  {
+   "id": "MAPMES67:85c99",
+   "off": 547993,
+   "op": "23",
+   "group": "location",
+   "jp": "知識聖堂",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES67:85caa",
+   "off": 548010,
+   "op": "25",
+   "group": "building",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

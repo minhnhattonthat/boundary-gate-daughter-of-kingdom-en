@@ -1,0 +1,120 @@
+{
+ "source": "EVMES0/EVENT15.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  694
+ ],
+ "entries": [
+  {
+   "id": "EVENT15:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「…たのみがある",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:0122c",
+   "off": 4652,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:0122f",
+   "off": 4655,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いや これは取り引きとは\r  関係ない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:01259",
+   "off": 4697,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:0125c",
+   "off": 4700,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  この金属片を\r  ロードダールの\r  鉱山にいる",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:0128e",
+   "off": 4750,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:01291",
+   "off": 4753,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  グリソムに届けて\r  くれないか？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:012b8",
+   "off": 4792,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:012bb",
+   "off": 4795,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  あの男ならこの金属に\r  ついて何か知っているに\r  違いない」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT15:012ff",
+   "off": 4863,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

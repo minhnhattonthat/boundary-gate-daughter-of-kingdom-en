@@ -1,0 +1,142 @@
+{
+ "source": "EVMES3/EVENT83.BIN",
+ "kind": "script",
+ "scr": [
+  36,
+  718
+ ],
+ "entries": [
+  {
+   "id": "EVENT83:001e5",
+   "off": 485,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "精神寄生体が断末魔の悲鳴\rをあげた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:0020b",
+   "off": 523,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:0020e",
+   "off": 526,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "人の心に直接響いてくる\rおぞましい声だった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:0023c",
+   "off": 572,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:0023f",
+   "off": 575,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "精神寄生体の姿が\r溶けるように崩れ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:00265",
+   "off": 613,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:00268",
+   "off": 616,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "バウンダリーゲートに\r吸い込まれていく",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:00292",
+   "off": 658,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:00295",
+   "off": 661,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ゲートが一時輝きを増し\rやがて元に戻った…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:002c3",
+   "off": 707,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:002c8",
+   "off": 712,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「終わったわ…キラル…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT83:002ed",
+   "off": 749,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

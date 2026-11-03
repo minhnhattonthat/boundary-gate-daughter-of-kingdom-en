@@ -1,0 +1,142 @@
+{
+ "source": "EVMES2/EVENT66.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  731
+ ],
+ "entries": [
+  {
+   "id": "EVENT66:10e2f",
+   "off": 69167,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔導聖堂長\r「五つの紋章のうち\r  残るは失われた紋章…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10e69",
+   "off": 69225,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10e6c",
+   "off": 69228,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だがそれを知るのは\r  王国の娘のみ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10e97",
+   "off": 69271,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10e9a",
+   "off": 69274,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  一度 ワイズブルームに\r  帰りなさい",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10ec4",
+   "off": 69316,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10ec7",
+   "off": 69319,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ゲートの守護者よ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10ee3",
+   "off": 69347,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10ee6",
+   "off": 69350,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  リスプ キラル",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10efb",
+   "off": 69371,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10efe",
+   "off": 69374,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  おまえ達は 一人の娘\r  として生まれてくる\r  べきだった」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT66:10f3f",
+   "off": 69439,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

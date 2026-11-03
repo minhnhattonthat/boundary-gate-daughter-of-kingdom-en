@@ -1,0 +1,197 @@
+{
+ "source": "EVMES0/EVENT00.BIN",
+ "kind": "script",
+ "scr": [
+  322720,
+  1054
+ ],
+ "entries": [
+  {
+   "id": "EVENT00:4ee65",
+   "off": 323173,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "その国の噂を聞いたのは    \r港の汚い酒場だった        ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4eea0",
+   "off": 323232,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4eea3",
+   "off": 323235,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "王国の名はモーダルグロウ  \rまたの名を癒しの王国      ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4eee0",
+   "off": 323296,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4eee3",
+   "off": 323299,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "その国の医者と魔術師たちは\r失った腕や脚すら造り直して\rしまうというから          ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4ef39",
+   "off": 323385,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4ef3c",
+   "off": 323388,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "病人、けが人たちが押しかけるのも無理はない",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4ef6c",
+   "off": 323436,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4ef71",
+   "off": 323441,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "新しい国王が即位して以来  \r密かに軍備を増強している  \rとも聞いた                ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4efc7",
+   "off": 323527,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4efcc",
+   "off": 323532,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "確かに俺はまだ一介の傭兵  \rだが                      \r腕には自信がある          ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f022",
+   "off": 323618,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f025",
+   "off": 323621,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "大きな出世の手掛かりを    \rつかむために              ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f060",
+   "off": 323680,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f063",
+   "off": 323683,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "俺は王国の都              \rアンブローズの門をくぐった",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f09f",
+   "off": 323743,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT00:4f0a4",
+   "off": 323748,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ北地区大門",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

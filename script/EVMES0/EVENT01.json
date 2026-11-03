@@ -1,0 +1,252 @@
+{
+ "source": "EVMES0/EVENT01.BIN",
+ "kind": "script",
+ "scr": [
+  201916,
+  1126
+ ],
+ "entries": [
+  {
+   "id": "EVENT01:31683",
+   "off": 202371,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "娘                        \r「ありがとう…            \r  私の名前はリスプ        ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:316d9",
+   "off": 202457,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:316dc",
+   "off": 202460,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  城にいる妹に会いに…    \r  ワイズブルームから      \r  きました                ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31732",
+   "off": 202546,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31735",
+   "off": 202549,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  でも 城に近づくことも   \r  許されなくて…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31768",
+   "off": 202600,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3176d",
+   "off": 202605,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「どうしても妹に\r  会いたいんです",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3179b",
+   "off": 202651,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3179e",
+   "off": 202654,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お願いします\r  妹に会えるまで\r  私を助けてください",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:317d8",
+   "off": 202712,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:317db",
+   "off": 202715,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  お金は…\r  お金は 知識聖堂が\r  保証しますから」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31813",
+   "off": 202771,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31818",
+   "off": 202776,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "娘一人で夜道をうろつく\rような世間知らずでは",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31849",
+   "off": 202825,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3184c",
+   "off": 202828,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "いずれまた トラブルに\r巻き込まれるだろう…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3187c",
+   "off": 202876,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:31881",
+   "off": 202881,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「どうやら傭兵の仕事は\r  見つかりそうにないしな",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:318bd",
+   "off": 202941,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:318c0",
+   "off": 202944,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  懐もさみしいときてる…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:318de",
+   "off": 202974,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:318e1",
+   "off": 202977,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いいだろう\r  あんたのボディガードを\r  引き受けよう」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT01:3191f",
+   "off": 203039,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

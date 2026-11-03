@@ -1,0 +1,351 @@
+{
+ "source": "MAPMES0/MAPMES19.BIN",
+ "kind": "script",
+ "scr": [
+  578076,
+  1599
+ ],
+ "entries": [
+  {
+   "id": "MAPMES19:8d40e",
+   "off": 578574,
+   "op": "25",
+   "group": "building",
+   "jp": "武具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d418",
+   "off": 578584,
+   "op": "25",
+   "group": "building",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d422",
+   "off": 578594,
+   "op": "25",
+   "group": "building",
+   "jp": "酒場",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d42a",
+   "off": 578602,
+   "op": "25",
+   "group": "building",
+   "jp": "宿屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d432",
+   "off": 578610,
+   "op": "25",
+   "group": "building",
+   "jp": "治療院",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d43f",
+   "off": 578623,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ城西門",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d45b",
+   "off": 578651,
+   "op": "21",
+   "group": "speaker",
+   "jp": "番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d462",
+   "off": 578658,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「何をしている！\u0010\b  城への橋は 封鎖だ！\r  ちょっと､目を離した\r  スキにまったく…\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d4ba",
+   "off": 578746,
+   "op": "21",
+   "group": "speaker",
+   "jp": "兵士\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d4c1",
+   "off": 578753,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「帰った帰った！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d4d9",
+   "off": 578777,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "南地区への門は\r閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d4fd",
+   "off": 578813,
+   "op": "21",
+   "group": "speaker",
+   "jp": "乞食\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d504",
+   "off": 578820,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「…問題は 見かけより\r  ずっと深刻ですぜ\u0010\b  黒幕は 我々の想像を\r  越えたやつかも」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d55e",
+   "off": 578910,
+   "op": "21",
+   "group": "speaker",
+   "jp": "老婆\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d565",
+   "off": 578917,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「カリフォスの次は\r  アンブローズだって\u0010\b  本当かしら」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d5a3",
+   "off": 578979,
+   "op": "21",
+   "group": "speaker",
+   "jp": "男\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d5a8",
+   "off": 578984,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「知識聖堂は 相変らず\r  沈黙したままだ\u0010\b  密かに 工作員を送って\r  いるという噂もあるが…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d609",
+   "off": 579081,
+   "op": "21",
+   "group": "speaker",
+   "jp": "老婆\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d610",
+   "off": 579088,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「医療聖堂の力には感謝\r  しているけど…\u0010\b  治療所は 不気味な\r  雰囲気だよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d664",
+   "off": 579172,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "掲示板\r「本日の正午をもって\r  全軍の指揮権は\u0010\b  魔導聖堂に移される\r      －王国の娘－」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d6be",
+   "off": 579262,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d6c1",
+   "off": 579265,
+   "op": "21",
+   "group": "speaker",
+   "jp": "掲示板の前の人\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d6d2",
+   "off": 579282,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いったい\r  どうなってるんだ？」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d704",
+   "off": 579332,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「リオ！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d71c",
+   "off": 579356,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「約束を守ってくれた\r  のね！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d754",
+   "off": 579412,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リオ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d75b",
+   "off": 579419,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「頼む\u0010\b  エルシノア湖の要塞へ\r  行って アッシュ達を\r  助けてくれ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d7a6",
+   "off": 579494,
+   "op": "21",
+   "group": "speaker",
+   "jp": "若者\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d7ad",
+   "off": 579501,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「昨日､魔導聖堂の新しい\r  司祭長が エルシノア湖\u0010\b  へ向かったよ\u0010\b  おおぜい 引き連れて\r  まるで 国王きどり\r  だったな」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d82b",
+   "off": 579627,
+   "op": "21",
+   "group": "speaker",
+   "jp": "番兵\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES19:8d832",
+   "off": 579634,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「北地区への通行は\r  禁止されている」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "source": "EVMES2/EVENT70.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  795
+ ],
+ "entries": [
+  {
+   "id": "EVENT70:11e53",
+   "off": 73299,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "魔導聖堂長\r「そうか…\r  キラルが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11e7b",
+   "off": 73339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11e7e",
+   "off": 73342,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  ゲートを操る力を持って\r  生まれたばかりに…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11eb1",
+   "off": 73393,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11eb4",
+   "off": 73396,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  不憫な娘じゃ…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11eca",
+   "off": 73418,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11ecd",
+   "off": 73421,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  モーダルグロウを覆う\r  影はいまだ晴れてはおらん",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f04",
+   "off": 73476,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f07",
+   "off": 73479,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  だが 我々は王国の娘を\r  失い",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f2b",
+   "off": 73515,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f2e",
+   "off": 73518,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  その秘密を知る\r  医療聖堂の司祭長も\r  死んでしまった」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f6d",
+   "off": 73581,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f72",
+   "off": 73586,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「王国の娘は\r  ここにいます…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT70:11f9e",
+   "off": 73630,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

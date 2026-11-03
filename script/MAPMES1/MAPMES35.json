@@ -1,0 +1,197 @@
+{
+ "source": "MAPMES1/MAPMES35.BIN",
+ "kind": "script",
+ "scr": [
+  629564,
+  1227
+ ],
+ "entries": [
+  {
+   "id": "MAPMES35:99d1e",
+   "off": 630046,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉は閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99d3f",
+   "off": 630079,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99d4a",
+   "off": 630090,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「いくらグレイストーンが\r  力持ちだからって\u0010\b  いつまでもリオを抱えて\r  いられないわ\r  早く西地区の宿屋に…」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99dbb",
+   "off": 630203,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99dbe",
+   "off": 630206,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ南地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99dd9",
+   "off": 630233,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "扉が壊れてるらしく\r入れない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99dfd",
+   "off": 630269,
+   "op": "21",
+   "group": "speaker",
+   "jp": "メリッサ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99e08",
+   "off": 630280,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「？\r  誰かが倒れているわ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99e2a",
+   "off": 630314,
+   "op": "21",
+   "group": "speaker",
+   "jp": "フィン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99e33",
+   "off": 630323,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「リオだ！ おい！\r  だいじょうぶか！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99e60",
+   "off": 630368,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99e69",
+   "off": 630377,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「！\u0017 フィン！\r  近づいちゃだめよ！\u0010\b  魔物が！」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99ea7",
+   "off": 630439,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオは意識がないようだ\u0010\bグレイストーンが\rリオの身体を軽々と\r担ぎ上げた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99ef3",
+   "off": 630515,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99f04",
+   "off": 630532,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「早く宿に連れて帰ろう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99f49",
+   "off": 630601,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィンが銀の鍵を使って\r落とし蓋の錠をはずした\u0010\bグレイストーンが重い落し\r蓋を軽々と引き上げた\u0010\b真っ暗な口を開けている\r穴に入った\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES35:99fe3",
+   "off": 630755,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "カギが かかっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

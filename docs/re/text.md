@@ -58,6 +58,40 @@ monsters 0x80075B40, map names 0x80074E58), `lui/addiu` pairs (`最初から始�
 with no direct pointer (fragments in printf chains, or a pointer to a preceding field). Use `disasm.py xref` per
 string; also check `$gp`-relative loads.
 
+## Extraction (phase 4) — `tools/extract.py dump|check|scan`
+
+**Verified**: `check` exits 0 over the whole disc (204 files, 2,752 text entries) and `tests/test_extract.py`
+re-runs it, so every extracted string re-encodes to exactly the ROM bytes and the ranges are fully covered.
+
+- **Codec**: `tools/sjis.py`. `decode()`/`encode()` are byte-exact Shift-JIS: 0x01-0x7E one byte, 0xA1-0xDF
+  half-width one byte, lead+trail two bytes; unassigned and stray bytes raise instead of decoding to garbage.
+  Duplicate cp932 codes (0x8790 etc.) decode to private-use chars so they roundtrip. `encode_en()` applies the
+  printer rules (':' -> '::', no '@' or '\') and rejects anything that is not half-width ASCII.
+- **Layout**: `script/<DIR>/<FILE>.json` per *MES file (one entry per S operand, in script order) and
+  `script/exe.json` for `SLPS_009.07`. Entry fields: `id` (`FILE:<file offset hex>`, the translation-memory key),
+  `off`, `op`/`group`, `jp`, `en`, `kind`, `status`, `notes`; exe entries add `len`, `ram`, `refs` (file offsets of
+  the pointer-table words and code instructions that address the string).
+  `kind: text` = translate, `kind: data` (445 script entries) = control-only S operand (0x08 clear window,
+  0x10 wait), `kind: keep` (202 exe entries) = engine string (paths, malloc errors, ASCII credits, the English
+  END/CAST block). `dump` never overwrites an existing file (only `--force`, and even then it keeps every
+  non-empty `en`/`status`/`notes` by id), so a re-extract cannot wipe a translation batch.
+- **Script coverage**: every S operand of all eight text opcodes is an entry (2,349 = 1,904 text + 445 commands);
+  a linear `parse()` sweep accounts for every byte of section 7 from 0x1C0. `scan` additionally looks for
+  full-width glyphs in the section outside the entries: 14 remain, all data byte pairs in MAPMES (`e1 fb` as an
+  operand of a no-op, `e1 96` in map data), listed with a reason in `script/data_runs.txt`. `check` fails if a
+  new one appears, which is how a string the extractor missed would surface.
+- **Exe coverage**: `tools/exestr.py` segments file 0x800-0x5700 into 1,050 strings + 1,050 data gaps (3,775
+  bytes, reasons `nul`/`data`) that tile the region exactly; the test re-checks that tile. Rules: a run with a
+  full-width glyph is a string (random data rarely forms valid kanji pairs); an ASCII/half-width run is a string
+  when a reference reaches it or it is a >=3-byte word-like run; everything else is data. References come from
+  every 4-aligned word in the file and from `lui`+`addiu`/`lw` address loads (with `skipdata`, so a data island
+  between code does not desync the sweep).
+  Strings: 848 text + 202 keep, grouped by what they are (`party, boot, menu, map, items, spells, shop, save,
+  gameover, monsters, battle, ending, credits, prologue, engine`; ranges in `EXE_GROUPS`).
+- **Not translated on purpose**: the leftover debug menu (exe 0xE90-0xF7C: マップ構造/戦闘に入る/サウンドテスト...)
+  is flagged `notes: debug menu` in `script/exe.json`: the release build never opens it (docs/status.md).
+- The **title-logo katakana line** is graphics, not text: phase 8 (graphics.md G1).
+
 ## Free space (all guesses until tested)
 
 - **Scripts**: section 7 is last in each file, so text can grow in place. Files are loaded whole into a malloc heap

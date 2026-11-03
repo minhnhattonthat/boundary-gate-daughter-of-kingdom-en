@@ -1,0 +1,21 @@
+{
+ "source": "EVMES1/EVENT46.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  504
+ ],
+ "entries": [
+  {
+   "id": "EVENT46:10e30",
+   "off": 69168,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "デミウス\r「運がよかったな…\r  アッシュ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "source": "MAPMES1/MAPMES30.BIN",
+ "kind": "script",
+ "scr": [
+  343112,
+  1092
+ ],
+ "entries": [
+  {
+   "id": "MAPMES30:53e09",
+   "off": 343561,
+   "op": "23",
+   "group": "location",
+   "jp": "アモーク要塞１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53e67",
+   "off": 343655,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "入口だ\r扉は閉ざされている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53ea7",
+   "off": 343719,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "誰かいる？\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53eb5",
+   "off": 343733,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "痩せた長身の魔導司祭と\r数人の兵士が見えた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53ee2",
+   "off": 343778,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭はパーティの姿に\r一瞬驚いたようだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53f0d",
+   "off": 343821,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53f10",
+   "off": 343824,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "司祭と兵士達は出口に向か\rって消え 巨大な扉の\r閉じる音が聞こえた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53f67",
+   "off": 343911,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53f92",
+   "off": 343954,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bライトシールド+１を\r見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:53fce",
+   "off": 344014,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\rライトシールド+１を\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:54002",
+   "off": 344066,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "しかし､持ちきれなかった\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:54020",
+   "off": 344096,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱がある\u0010\b宝箱を開けますか？\u0019",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES30:5404b",
+   "off": 344139,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "宝箱を開けた！\u0010\bフィン達は\r１５００Ｇを\r手に入れた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

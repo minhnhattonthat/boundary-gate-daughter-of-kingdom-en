@@ -1,0 +1,186 @@
+{
+ "source": "EVMES0/EVENT17.BIN",
+ "kind": "script",
+ "scr": [
+  137380,
+  836
+ ],
+ "entries": [
+  {
+   "id": "EVENT17:21a6c",
+   "off": 137836,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「知識聖堂のお嬢さんよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21a8f",
+   "off": 137871,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21a92",
+   "off": 137874,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  何か隠してることが\r  あるんじゃないか？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21ac4",
+   "off": 137924,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21ac9",
+   "off": 137929,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「え？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21adf",
+   "off": 137951,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21ae4",
+   "off": 137956,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「あの金属片のことだよ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b0a",
+   "off": 137994,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b0f",
+   "off": 137999,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「……」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b25",
+   "off": 138021,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b2a",
+   "off": 138026,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「ま 俺には関係ないけどな\r  金さえもらえればね」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b68",
+   "off": 138088,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21b6d",
+   "off": 138093,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "二人が ロードダールに\r着いた時には\r雪が舞い始めていた",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21ba8",
+   "off": 138152,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21bab",
+   "off": 138155,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "町にはいると\r地の底からうなるような\r音が響いている",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT17:21be4",
+   "off": 138212,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

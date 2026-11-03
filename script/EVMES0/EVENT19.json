@@ -1,0 +1,65 @@
+{
+ "source": "EVMES0/EVENT19.BIN",
+ "kind": "script",
+ "scr": [
+  4172,
+  592
+ ],
+ "entries": [
+  {
+   "id": "EVENT19:01211",
+   "off": 4625,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン\r「これは昔､わしのじいさん\r  が 知識聖堂から",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT19:0124b",
+   "off": 4683,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT19:0124e",
+   "off": 4686,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  預かったものじゃ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT19:01266",
+   "off": 4710,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT19:01269",
+   "off": 4713,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  どうか一刻も早く\r  封印を直してくだされ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

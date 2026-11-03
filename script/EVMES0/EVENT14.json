@@ -1,0 +1,87 @@
+{
+ "source": "EVMES0/EVENT14.BIN",
+ "kind": "script",
+ "scr": [
+  68712,
+  671
+ ],
+ "entries": [
+  {
+   "id": "EVENT14:10e30",
+   "off": 69168,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リオ\r「…カリフォスが消えたって\r  ウワサは本当だったのか…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10e70",
+   "off": 69232,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10e73",
+   "off": 69235,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  トールマンを救ってくれて\r  礼を言うよ",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10ea0",
+   "off": 69280,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10ea3",
+   "off": 69283,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  約束通り大聖堂に入る\r  方法をあたってみるが…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10ed8",
+   "off": 69336,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT14:10edb",
+   "off": 69339,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  まだ はっきりしたこと\r  は言えん」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

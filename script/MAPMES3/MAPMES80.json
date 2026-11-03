@@ -1,0 +1,54 @@
+{
+ "source": "MAPMES3/MAPMES80.BIN",
+ "kind": "script",
+ "scr": [
+  399524,
+  631
+ ],
+ "entries": [
+  {
+   "id": "MAPMES80:61a65",
+   "off": 399973,
+   "op": "23",
+   "group": "location",
+   "jp": "失われた紋章の迷宮\r                  地下３階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES80:61abd",
+   "off": 400061,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "巨大な焼けた金属の壁が目の\r前に横たわっている\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES80:61aed",
+   "off": 400109,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES80:61af0",
+   "off": 400112,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "急にリスプが話しだした\r目が虚ろだ\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

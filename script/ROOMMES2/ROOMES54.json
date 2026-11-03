@@ -1,0 +1,65 @@
+{
+ "source": "ROOMMES2/ROOMES54.BIN",
+ "kind": "script",
+ "scr": [
+  68520,
+  591
+ ],
+ "entries": [
+  {
+   "id": "ROOMES54:10d69",
+   "off": 68969,
+   "op": "23",
+   "group": "location",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES54:10d73",
+   "off": 68979,
+   "op": "1c",
+   "group": "npc",
+   "jp": "道具屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES54:10d7f",
+   "off": 68991,
+   "op": "28",
+   "group": "menu",
+   "jp": "店の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES54:10d96",
+   "off": 69014,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「うちの品はすべて知識聖堂\r  のお墨付きだ」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES54:10dcb",
+   "off": 69067,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "さて､どんな御用でしょう？",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

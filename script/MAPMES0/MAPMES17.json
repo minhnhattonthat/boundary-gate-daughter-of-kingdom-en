@@ -1,0 +1,109 @@
+{
+ "source": "MAPMES0/MAPMES17.BIN",
+ "kind": "script",
+ "scr": [
+  339120,
+  812
+ ],
+ "entries": [
+  {
+   "id": "MAPMES17:52e71",
+   "off": 339569,
+   "op": "23",
+   "group": "location",
+   "jp": "プレリアール公の館地下１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52ebb",
+   "off": 339643,
+   "op": "23",
+   "group": "location",
+   "jp": "プレリアール公の館１階",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52ee8",
+   "off": 339688,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "近づくことができない\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52f0b",
+   "off": 339723,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "なぜ ゲートが？\u0010\rリスプが 声高に呪文を唱え\r始めた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52f40",
+   "off": 339776,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "光の渦が大きく揺らめく\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52f5c",
+   "off": 339804,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "やがて娘の笑い声を残して\r光の渦は消えた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52f87",
+   "off": 339847,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプがぼう然として\rつぶやいた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52fac",
+   "off": 339884,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「…キラル…」\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES17:52fc6",
+   "off": 339910,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

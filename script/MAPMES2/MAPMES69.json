@@ -1,0 +1,43 @@
+{
+ "source": "MAPMES2/MAPMES69.BIN",
+ "kind": "script",
+ "scr": [
+  334984,
+  560
+ ],
+ "entries": [
+  {
+   "id": "MAPMES69:51e49",
+   "off": 335433,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ地下水道",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES69:51e7a",
+   "off": 335482,
+   "op": "23",
+   "group": "location",
+   "jp": "アンブローズ東地区",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES69:51e9b",
+   "off": 335515,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "操作盤のようなものがある\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

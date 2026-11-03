@@ -1,0 +1,76 @@
+{
+ "source": "MAPMES1/MAPMES28.BIN",
+ "kind": "script",
+ "scr": [
+  491252,
+  693
+ ],
+ "entries": [
+  {
+   "id": "MAPMES28:780b5",
+   "off": 491701,
+   "op": "23",
+   "group": "location",
+   "jp": "南の監視塔屋上",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES28:7810a",
+   "off": 491786,
+   "op": "21",
+   "group": "speaker",
+   "jp": "グレイストーン\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES28:7811b",
+   "off": 491803,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「おや？ \u0017これは？！」\u0010\bサビたカギを見つけた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES28:7814e",
+   "off": 491854,
+   "op": "21",
+   "group": "speaker",
+   "jp": "リスプ\r",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES28:78157",
+   "off": 491863,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「このカギできっと要塞に\r  入れるわ！\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES28:78180",
+   "off": 491904,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  早く行きましょう」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

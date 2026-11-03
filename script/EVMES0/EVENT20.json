@@ -1,0 +1,76 @@
+{
+ "source": "EVMES0/EVENT20.BIN",
+ "kind": "script",
+ "scr": [
+  133248,
+  625
+ ],
+ "entries": [
+  {
+   "id": "EVENT20:20a49",
+   "off": 133705,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "ハンセン\r「封印を直して下さったか\r  すまんの…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT20:20a7f",
+   "off": 133759,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT20:20a82",
+   "off": 133762,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  足をくじいてしまった\r  ようじゃ\r  肩を貸して…",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT20:20ab8",
+   "off": 133816,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT20:20abb",
+   "off": 133819,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  いや わしはお嬢さんの\r  ほうがいいのぉ」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT20:20aed",
+   "off": 133869,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

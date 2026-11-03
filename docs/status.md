@@ -40,9 +40,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Build `build/boundary-gate-en.bin` sha1 f63989d3 (= original), smoke ok (prologue text at final frame).
   Phase 5 hook point: write changed files to a staging dir and point their `<file source=...>` in a copied layout,
   never edit `work/disc/tree` (the identity test repacks it).
-- **Next (phase 4):** extract the text to `script/` (JSON per file, `jp`/`en`/`id`), roundtrip test re-encoding every
-  string to the original bytes, coverage test over the script sections and exe 0x800-0x5700 (`docs/re/text.md`,
-  `docs/re/script.md`, `tools/evscript.py`).
+- **Done (phase 4)** — extraction lives in `script/` (details `docs/re/text.md` §Extraction):
+  - `python -X utf8 tools/extract.py dump` writes `script/<DIR>/<FILE>.json` for the 203 reachable *MES files
+    plus `script/exe.json`; `check` proves the roundtrip and the coverage; `scan` lists data byte pairs that
+    decode as a glyph outside the text (14, all MAPMES, in `script/data_runs.txt`). `tools/check.py` runs check.
+  - Codec `tools/sjis.py`: byte-exact Shift-JIS decode/encode + `encode_en()` for the printer (':' -> '::',
+    '@' and '\' banned). `tests/test_extract.py` (8 tests): roundtrip of all 2,752 text entries, exe tiling,
+    no text outside entries, dump never clobbers English.
+  - **All S operands are display text**: 0x1c (NPC name in the talk list: 店主/町長/衛兵A) and 0x25 (map
+    location list: 武器屋/道具屋/宿屋) were missing from phase 1's list. 2,349 script entries (1,904 text +
+    445 control-only 0x08/0x10 commands, `kind: data`), 848 exe text + 202 engine strings (`kind: keep`).
+  - Exe region 0x800-0x5700 is fully tiled by 1,050 strings + 1,050 data gaps (3,775 bytes, `nul`/`data`):
+    no unexplained gap. `exestr.refs()` finds pointer-table and `lui`+`addiu`/`lw` references per string.
+  - Debug-menu strings (exe 0xE90-0xF7C) are extracted but flagged `notes: debug menu` (keep Japanese, release
+    never opens it).
+- **Next (phase 5):** engine spike + marker build: width gate (measure every box variant in-game), grow
+  MAPMES00's script by 4 KB and tour town/battle/menu, decide VWF (half-width ASCII works, optional polish),
+  break the `[id] marker text` build hook where build.py stages changed files into a copied layout.
 - **Open questions for later phases (non-blocking):** heap headroom for grown scripts (test in phase 5: grow
   MAPMES00's script by 4 KB, then warp town/battle/menu); whether events are voiced (CDDA `EVnnX.WAV`, `XA/`);
   title katakana line plan (graphics.md G1). The DEB window strings (exe 0xE90-0xF7C) stay Japanese: debug-only,

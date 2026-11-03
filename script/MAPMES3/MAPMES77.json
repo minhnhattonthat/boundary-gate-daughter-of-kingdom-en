@@ -1,0 +1,76 @@
+{
+ "source": "MAPMES3/MAPMES77.BIN",
+ "kind": "script",
+ "scr": [
+  515792,
+  702
+ ],
+ "entries": [
+  {
+   "id": "MAPMES77:7e091",
+   "off": 516241,
+   "op": "23",
+   "group": "location",
+   "jp": "大聖堂",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES77:7e0d1",
+   "off": 516305,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "祭壇の紋章は削りとられた\rように欠けている\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES77:7e0fe",
+   "off": 516350,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "その前には美しい黒髪の娘が\r座っていた\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES77:7e126",
+   "off": 516390,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES77:7e149",
+   "off": 516425,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "何か不思議な世界がある\rようだ\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "MAPMES77:7e16d",
+   "off": 516461,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン達は\r光に包まれた\u0010\b",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

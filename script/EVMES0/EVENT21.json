@@ -1,0 +1,98 @@
+{
+ "source": "EVMES0/EVENT21.BIN",
+ "kind": "script",
+ "scr": [
+  72844,
+  685
+ ],
+ "entries": [
+  {
+   "id": "EVENT21:11e55",
+   "off": 73301,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「忘れられた古代の\r  小さなゲートだわ…」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11e8c",
+   "off": 73356,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11e91",
+   "off": 73361,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "フィン\r「ゲート？」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11eab",
+   "off": 73387,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11eb0",
+   "off": 73392,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "リスプ\r「ゲートはこの世界と異世界\r  を結ぶ 通路なのです",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11eed",
+   "off": 73453,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11ef0",
+   "off": 73456,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "  そして私には それを\r  コントロールできる力が\r  あるんです」",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "EVENT21:11f35",
+   "off": 73525,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "\b",
+   "en": "",
+   "kind": "data",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}

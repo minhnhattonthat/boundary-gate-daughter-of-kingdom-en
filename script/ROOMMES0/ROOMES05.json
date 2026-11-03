@@ -1,0 +1,98 @@
+{
+ "source": "ROOMMES0/ROOMES05.BIN",
+ "kind": "script",
+ "scr": [
+  84284,
+  831
+ ],
+ "entries": [
+  {
+   "id": "ROOMES05:14afd",
+   "off": 84733,
+   "op": "23",
+   "group": "location",
+   "jp": "鍛冶屋",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14b07",
+   "off": 84743,
+   "op": "1c",
+   "group": "npc",
+   "jp": "主人",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14b11",
+   "off": 84753,
+   "op": "1c",
+   "group": "npc",
+   "jp": "見習い",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14b1d",
+   "off": 84765,
+   "op": "28",
+   "group": "menu",
+   "jp": "鍛冶屋の外",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14b47",
+   "off": 84807,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「武器や防具が欲しけりゃ\r  店の方へいってくれ\u0010\b  城から 大量の注文が\r  きてるんで 大忙しだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14ba9",
+   "off": 84905,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「どんなことがあっても\r  私は ここで鍛冶を続ける\r  つもりだ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14bf3",
+   "off": 84979,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「こんなにでかいヨロイを\r  どうするんだろう\u0010\b  とても普通の人間用とは\r  思えないよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  },
+  {
+   "id": "ROOMES05:14c4e",
+   "off": 85070,
+   "op": "22",
+   "group": "dialogue",
+   "jp": "「私は師匠についていく\r  だけですよ」\u0010",
+   "en": "",
+   "kind": "text",
+   "status": "",
+   "notes": ""
+  }
+ ]
+}
