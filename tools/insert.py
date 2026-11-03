@@ -369,7 +369,7 @@ def rebuild_script(data, stem, texts, ascii_text=False, grow=0):
         struct.pack_into('<h', new, pos, rel)
     for k in range(E.NROUT):
         flags, f2, off, name = struct.unpack_from('<HHh8s', scr, k * E.RSIZE)
-        if flags == 0xff and off:
+        if flags and off:                            # 0x00ff = called by index; else x | y << 8 = a map tile's trigger
             if off not in new_off:
                 raise ValueError(f'{stem}: routine {k} offset {off:#x} is not an instruction boundary')
             rout.append((k, new_off[off]))

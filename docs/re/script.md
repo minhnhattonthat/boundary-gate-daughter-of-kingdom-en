@@ -9,9 +9,11 @@ under unicorn with a real RAM dump (`tools/re_ops.py`) plus disassembly of the h
 - Script pointer: global `0x800CF250`. Dispatcher `0x8002056C`: `op = *ptr++`, `call table[op]` (table at
   `0x8005224C`, 0x56 entries), loop while the handler returns 0.
 - Script base (start of section 7) in `0x80126468`.
-- Section 7 layout: 32 routine entries x 14 bytes (`u16 flags` 0x00FF = used, `u16`, `s16 offset` from script base,
+- Section 7 layout: 32 routine entries x 14 bytes (`u16 flags`, `u16`, `s16 offset` from script base,
   `char name[8]`, ASCII like `char00`, `move00`), then bytecode from 0x1C0. Ops 0x09/0x12 (call routine by index),
   0x1C, 0x28, 0x4E (bind an NPC/menu item to a routine index) refer to routines through this table.
+  `flags` 0x00FF = called by index; any other non-zero value = map tile trigger `x | y << 8` (doors, shops:
+  451 entries, e.g. MAPMES00 `YADOYA`). Both kinds point into bytecode and move with it; 0x00FF with offset 0 = unused.
 
 ## Pointers that must be fixed when text changes length
 

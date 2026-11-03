@@ -24,7 +24,7 @@ def _jump_ok(scr):
     bad = [(at, a[2]) for at, op, args in ins for a in args
            if a[0] == 'J' and (args[-1][1] + 2 + a[2]) not in bounds]
     for fl, _, off, name in E.routines(scr):
-        if fl == 0xff and off and off not in bounds:
+        if fl and off and off not in bounds:
             bad.append(('routine', off))
     return bad
 
@@ -118,6 +118,22 @@ def test_english_scripts_build_and_parse():
         if re.search(r'[぀-ヿ一-鿿]{2,}', scr.decode('cp932', 'replace')):
             bad.append((rel, 'japanese'))
     assert not bad, bad[:5]
+
+
+def test_tile_trigger_routines_follow_their_code():
+    """Routine entries whose flags are a map tile (x | y << 8: doors, shop entrances, MAPMES00 YADOYA) move with the
+    bytecode like the 0x00ff ones: the same instruction must sit at the new offset in the English script."""
+    moved = 0
+    for rel, path in insert.script_files():
+        data = path.read_bytes()
+        new = insert.write_script(rel, data, 'en', ascii_text=True)
+        a, b = (d[E.sections(d)[-1][0]:] for d in (data, new))
+        oa, ob = ({at: op for at, op, _ in E.parse(s)} for s in (a, b))
+        for ra, rb in zip(E.routines(a), E.routines(b)):
+            if ra[0] and ra[2]:
+                assert oa[ra[2]] == ob.get(rb[2]), (rel, ra)
+                moved += ra[0] != 0xff
+    assert moved > 400
 
 
 def test_voiced_event_extra_pages_are_timed_ops():

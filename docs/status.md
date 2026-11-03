@@ -10,8 +10,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Phase-9 steps: [x] tour covers the title attract (`tour.py --group attract`, sheet `title_attract_sheet*`);
   [x] `tools/story.py chapters|review` (codex story reviewer, `docs/story-reviewer-brief.md`) -> 12 chapter files
   `work/qa/story/`; [x] `tools/release.py` + `docs/release-readme.txt` + `tools/jp_known.txt`;
-  [ ] story verdicts, Important fixes, Minors to polish.md; [ ] polish pass (142+ lines); [ ] re-tour changed
-  scenes + vqa; [ ] final story re-review; [ ] `release.py` -> `release/v1.0/` zip; [ ] repo README status table.
+  [x] story verdicts, Important fixes, Minors to polish.md; [x] polish pass (all ticked); [x] final story re-review
+  (12/12 ok, last Minors deferred to v1.1); [x] repo README status table; [ ] re-tour + vqa; [ ] `release.py` ->
+  `release/v1.0/` zip.
+  **Bug found by the re-tour (map_32 froze after a one-byte text change):** `insert.py` only moved routines with
+  flags 0x00FF; the 451 tile-trigger routines (doors, shops; flags = `x | y << 8`, `docs/re/script.md`) kept stale
+  offsets in every English build, so walking onto them ran the wrong bytecode. Fixed in insert + gate + test;
+  doors checked in `work/qa/door/dirs.png`. Tour gap: it warps to scenes and never walks onto a trigger, so only
+  the static `gate.py` routine check and the door spot check cover these.
 - **Done (phase 1)** — details in `docs/re/` (index `docs/re/README.md`):
   - No earlier fan patch exists (web search).
   - Text = plain Shift-JIS, no compression. Script text lives in the last section (script) of every

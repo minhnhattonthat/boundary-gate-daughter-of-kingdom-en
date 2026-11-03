@@ -99,7 +99,7 @@ def check_mes(rel, orig, new):
             if ka == 'J' and where.get(ao + 2 + va) != bo + 2 + vb:
                 errs.append(f'{rel}: jump at {at:#x} no longer reaches its original target')
     for k, (r0, r1) in enumerate(zip(E.routines(a), E.routines(b))):
-        moved = r0[0] == 0xff and r0[2]
+        moved = r0[0] and r0[2]
         if r0[:2] != r1[:2] or r0[3] != r1[3] or (where.get(r0[2]) if moved else r0[2]) != r1[2]:
             errs.append(f'{rel}: routine {k} changed')
     return errs

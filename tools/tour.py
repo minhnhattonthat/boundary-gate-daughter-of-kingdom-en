@@ -76,6 +76,7 @@ def main(argv):
     a = p.parse_args(argv)
     rom = a.rom or (warp.ORIG if a.jp else warp.BUILT)
     out = a.out or os.path.join(ROOT, 'work', 'qa', 'tour_jp' if a.jp else 'tour')
+    os.makedirs(os.path.join(out, 'sheets'), exist_ok=True)
     names = list(warp.load_scenes())
     bad = 0
     if 'attract' in (a.group or ['attract']) and (not a.scenes or 'title_attract' in a.scenes):
