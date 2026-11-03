@@ -173,3 +173,26 @@ Minor review findings, deferred to one polish pass (phase 9). Each line gets tic
 - [ ] exe:03af4 - "its eyes flashed!" (check the %s prefix grammar)
 - [ ] exe:05110 - 協力 -> "Special Thanks"
 - [ ] credits - Hepburn apostrophe (Jun'ichi, Shin'ichiro): decide
+
+## Phase-7 review
+- [ ] lint/wrap - stub last rows (review #4, e.g. EVENT01:31683 ends on the row " Risp."): reword the line so its
+  last row is not a lone short word; a layout-level balancer is out of scope this release
+
+## Story pass (phase 9; IMPORTANT = must be fixed, not waived)
+- [ ] EVENT17:21b6d/21bab - IMPORTANT: 二人 narration became "we" (Finn); glossary rules external narration -> "By the time the two reached Rhodedahl, snow had begun to fall." / "As they entered the town, a low groaning sound echoed from deep underground."
+- [ ] EVENT52:11e7b - IMPORTANT: Melissa "We're having an important talk!" puts her in the conversation -> "They're having an important talk!"
+- [ ] EVENT82:20b46 - IMPORTANT: "mouth to mouth" reads as resuscitation (口伝: oral transmission) -> "...passes on advanced medical knowledge by word of mouth..."
+- [ ] ROOMES31:2177b - IMPORTANT: Risp "held her by the shoulders" -> "Without a word, Risp sat the woman down on the sofa and kept an arm around her shoulders for a while."
+- [ ] EVENT48:10e2f - IMPORTANT (story pass; also b002 above): Sheeda -> "I knew you'd come back!"
+- [ ] EVENT01:317db - Risp payment line -> "The money... The Temple of Knowledge will guarantee your payment."
+- [ ] EVENT18:11eb2 - Hansen "So they say, eh" -> "much the same thing happened, or so he told me."
+- [ ] EVENT61:076e2 - Risp urgent plea -> "If you twist the Gate any further, there will be no turning back..."
+- [ ] EVENT79:10ed4 - Melissa "Touch her wherever you like" -> "What are you on about? Never mind where you put your hands, just hurry!"
+- [ ] exe:04edc - "flashed black" too strong -> "Risp's silver hair seemed black for an instant..." (38-cell ending row)
+- [ ] MAPMES02:99769 - "the real deal" modern -> "Cost me a pretty penny, though. This country's Temple of Medicine lives up to its name, I'll tell ya."
+- [ ] MAPMES14:8962a/8966b - "Army liaison office" vs the established "Army Post" -> "...report to the army post." / "This is the army post."
+- [ ] MAPMES47:62b73, MAPMES53:61b4c, MAPMES59:61b5e, MAPMES65:61b4c - "Risp is saying" present tense -> "Risp said something that sounded like a passphrase."
+- [ ] ROOMES00:13b17, ROOMES01:1398b, ROOMES13:5002f, ROOMES29:10e77 - present-tense room descriptions among past-tense narration -> past tense ("The hall was bustling." etc.), only if the glossary's narration ruling says past tense
+- [ ] ROOMES04:10890 - "How hard for you" stiff -> "Out so late? You must have had a difficult night."
+- [ ] ROOMES53:17ffa - "the only place I have to be" -> "But this is the only place I have."
+- [ ] ROOMES62:4fb24 - "Pentagram Labyrinth" -> "Pentagram Crest Labyrinth" (destination-list row, 24 cells)

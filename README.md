@@ -13,12 +13,16 @@ helps most.
 
 | Part | Status |
 |---|---|
-| Dialogue / story | Not started (reverse engineering in progress) |
-| Menus, items, skills, system messages | Not started |
-| Title screen, graphics with text | Not started |
-| Credits | Not started |
+| Dialogue / story (events, rooms, maps) | Translated |
+| Menus, items, spells, monsters, battle, shop, save messages | Translated |
+| Title-screen lore, ending narration | Translated |
+| Title screen graphic | Katakana reading under the (already English) logo removed |
+| Credits | Translated (English staff and cast names) |
+| Spoken voices | Japanese audio (no subtitles beyond the original text boxes) |
+| Developer debug window | Left in Japanese (hidden, not reachable in normal play) |
 
-Known issues: work in progress; no patch released yet.
+Known issues: names with no official spelling were romanised by the translator (`glossary.md`); battle and item
+messages may take two rows where the Japanese took one (the window cuts words at its edge).
 
 ## What's here
 
