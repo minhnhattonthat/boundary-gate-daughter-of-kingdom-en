@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) done 2026-11-04: `release/v1.0/Boundary_Gate_Daughter_of_Kingdom_EN_v1.0.zip` (gitignored)
-  built and verified; publishing is the owner's call (`gh release create` not run). Patch sha1 d98f6b83, patched
+- **Phase:** 9 (release) done and **published 2026-11-04** (D17): repo public, GitHub release v1.0
+  (`release/v1.0/Boundary_Gate_Daughter_of_Kingdom_EN_v1.0.zip`, gitignored). Patch sha1 d98f6b83, patched
   Track 01 sha1 cded83f6 crc32 1C2DA008. Verified: `release.py` gates all green (245 tests, lint 0/0, smoke, exe
   jp_left only known debug runs, 486/486 sheets, 12/12 chapters, polish ticked, debug off), zip extracted, patch
   applied to a clean Track 01 = same sha1 as `build/`, and map_00, map_32, new_game warp ok from that patched disc.
@@ -163,8 +163,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
   build they were made on (the warp cold-boots, so this only matters for state reuse).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing blocking. Non-blocking: publish v1.0 when ready (`gh release create`, zip above);
-  a full playthrough has not been done, the tour warps to scenes (tile triggers: static gate + map_00 doors only).
+- **Waiting on the user:** nothing blocking. Non-blocking: a full playthrough has not been done, the tour warps to scenes (tile triggers: static gate + map_00 doors only).
   Name spellings chosen without an official source
   (D10: Risp, Kiral, Modalglow, Rhodedahl, Prairial, Sheeda...); swap any in `glossary.md` and the lint flags every
   line to change.
