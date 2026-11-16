@@ -7,7 +7,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Track 01 sha1 cded83f6 crc32 1C2DA008. Verified: `release.py` gates all green (245 tests, lint 0/0, smoke, exe
   jp_left only known debug runs, 486/486 sheets, 12/12 chapters, polish ticked, debug off), zip extracted, patch
   applied to a clean Track 01 = same sha1 as `build/`, and map_00, map_32, new_game warp ok from that patched disc.
-  v1.1 candidates: Minors at EVENT67:21bd8, EVENT69:23acf, MAPMES37:9425a, "Pentagram Crest Labyrinth" repeat at
+  **v1.1 published 2026-11-17** on the owner's request (issue #1 fix): `release/v1.1/...v1.1.zip`, patch sha1
+  54c2a897, patched Track 01 sha1 7c6a3e0b crc32 501CA425; `release.py` gates green (245 tests, lint 0/0, smoke,
+  jp_left, debug off, re-apply ok). v1.2 candidates: Minors at EVENT67:21bd8, EVENT69:23acf, MAPMES37:9425a, "Pentagram Crest Labyrinth" repeat at
   ROOMES62:4fb24 (25 cells, row limit 24). Phase-7 review (`../.harness/reviews/...-phase7.md`) fixed:
   per-entry empty-English lint (#1), measured hard exe budgets + worst-case `%s` rows (#2, `wrap.EXE_FIELD`,
   `msg_args`), independent write gate `tools/gate.py` in build + `tests/test_gate.py` (#3); Minor #4 (stub last
@@ -162,7 +164,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the katakana subtitle under the logo is the one known graphic. QA builds (`--marker`/`--ruler`/`--torture`/
   `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
   build they were made on (the warp cold-boots, so this only matters for state reuse).
-- **Open bugs:** none. Fixed for v1.1 (issue #1): inn/healer price and "G short" lines kept the JP padded
+- **Open bugs:** none. Fixed in v1.1 (issue #1, closed): inn/healer price and "G short" lines kept the JP padded
   `%-4d`/`%5d` widths (gap "50  G"); now plain `%d`/`%ld` (exe:032dc 03300 03804 03834). Shop columns keep `%6ld`.
   Warp scene `inn_stay` (room 46) shows the price prompt. Healer cost prompt not shot (party at full HP).
 - **Waiting on the user:** nothing blocking. Non-blocking: a full playthrough has not been done, the tour warps to scenes (tile triggers: static gate + map_00 doors only).
