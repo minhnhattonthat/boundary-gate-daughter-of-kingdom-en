@@ -53,6 +53,9 @@ EXTRA = [
      'healer (room 4) service window'),
     ('save', "KIND='loc';LOC=0x200;RET=0x100;X=12;Y=5;DIR=2", ';'.join(['6 circle;90 -'] * 8), 60, 0,
      'inn (room 0) > record: memory-card save slots'),
+    ('inn_stay', "KIND='loc';LOC=0x22e;RET=0x112;X=12;Y=6;DIR=2",
+     ';'.join(['6 circle;150 -'] * 10), 120, 0,
+     'inn (room 0) > Stay: price prompt (issue #1: price/G spacing)'),
     # width gate for the room lists (phase 7): Talk -> NPC list (op 0x1c), Move -> destinations (0x28)
     ('npcs_45', "KIND='loc';LOC=0x22d;RET=0x112;X=12;Y=6;DIR=2", '300 -;6 circle;90 -', 60, 0,
      'tavern (room 45) > Talk: NPC list with "Fisherman Maillol" (op 0x1c width)'),
