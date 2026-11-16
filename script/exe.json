@@ -7516,7 +7516,7 @@
    "ram": "0x80012adc",
    "group": "shop",
    "jp": "お金が%5ldＧ\n足りないようだが…\n",
-   "en": "You're %5ldG\nshort, it seems...\n",
+   "en": "You're %ldG\nshort, it seems...\n",
    "kind": "text",
    "refs": [
     "0x1e374"
@@ -7531,7 +7531,7 @@
    "ram": "0x80012b00",
    "group": "shop",
    "jp": "回復には%5dＧ\nかかるがよろしいか？",
-   "en": "Healing costs %5dG.\nIs that acceptable?",
+   "en": "Healing costs %dG.\nIs that acceptable?",
    "kind": "text",
    "refs": [
     "0x1e39c"
@@ -8164,7 +8164,7 @@
    "ram": "0x80013004",
    "group": "items",
    "jp": "残念ながらお金が %-4ldＧ\n",
-   "en": "You're %-4ldG short,\n",
+   "en": "You're %ldG short,\n",
    "kind": "text",
    "refs": [
     "0x1fe8c"
@@ -8194,7 +8194,7 @@
    "ram": "0x80013034",
    "group": "items",
    "jp": "お泊まりでしたら %-4dＧに\n",
-   "en": "A night's stay is %-4dG.\n",
+   "en": "A night's stay is %dG.\n",
    "kind": "text",
    "refs": [
     "0x1fed0"

@@ -162,7 +162,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the katakana subtitle under the logo is the one known graphic. QA builds (`--marker`/`--ruler`/`--torture`/
   `--grow`) change file sizes, so they shift LBAs: `work/states/*.sstate` from the phase-2 library only fit the
   build they were made on (the warp cold-boots, so this only matters for state reuse).
-- **Open bugs:** none.
+- **Open bugs:** none. Fixed for v1.1 (issue #1): inn/healer price and "G short" lines kept the JP padded
+  `%-4d`/`%5d` widths (gap "50  G"); now plain `%d`/`%ld` (exe:032dc 03300 03804 03834). Shop columns keep `%6ld`.
+  Warp scene `inn_stay` (room 46) shows the price prompt. Healer cost prompt not shot (party at full HP).
 - **Waiting on the user:** nothing blocking. Non-blocking: a full playthrough has not been done, the tour warps to scenes (tile triggers: static gate + map_00 doors only).
   Name spellings chosen without an official source
   (D10: Risp, Kiral, Modalglow, Rhodedahl, Prairial, Sheeda...); swap any in `glossary.md` and the lint flags every
